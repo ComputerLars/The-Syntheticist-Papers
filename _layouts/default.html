@@ -13,7 +13,6 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
   <!-- Fonts and Styles -->
-  <!-- Include Roboto and Merriweather fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
@@ -50,14 +49,6 @@
   </script>
 </head>
 <body>
-  <!-- Skip to Content Link -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-
-  <!-- Theme Toggle Button -->
-  <button class="theme-toggle" aria-label="Toggle Dark Mode">
-    🌓
-  </button>
-
   {% if page.show_fixed_menu != false %}
   <!-- Menu Toggle Button -->
   <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="fixedMenu">
@@ -70,9 +61,6 @@
   </div>
   {% endif %}
 
-  <!-- Google Translate Widget -->
-  <div id="google_translate_element"></div>
-
   <!-- Navigation Menu (conditionally displayed) -->
   {% if page.show_nav != false %}
   <nav class="navbar">
@@ -80,14 +68,16 @@
   </nav>
   {% endif %}
 
+  <!-- Search Input and Results -->
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search...">
+    <div id="results-container"></div>
+  </div>
+
   <!-- Back to Top Button -->
   <button id="back-to-top" aria-label="Back to Top">
     ↑
   </button>
-
-  <!-- Search Input and Results -->
-<input type="text" id="search-input" placeholder="Search...">
-<div id="results-container"></div>
 
   <!-- Reading Progress Bar -->
   <div id="progress-bar"></div>
@@ -101,7 +91,7 @@
   </header>
 
   <!-- Main Content -->
-  <main id="main-content" class="content">
+  <main class="content">
     {{ content }}
   </main>
 
@@ -109,12 +99,14 @@
   {% if page.show_footer != false %}
   <footer class="footer">
     {% include footer.html %}
+
+    <!-- Google Translate Widget -->
+    <div id="google_translate_element"></div>
   </footer>
   {% endif %}
 
   <!-- Scripts -->
   <script src="{{ '/scripts/menu-toggle.js' | relative_url }}"></script>
-  <script src="{{ '/scripts/theme-toggle.js' | relative_url }}"></script>
   <script src="{{ '/scripts/main.js' | relative_url }}"></script>
 
   <!-- Simple-Jekyll-Search Script for Search Functionality -->

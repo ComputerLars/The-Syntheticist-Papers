@@ -14,3 +14,30 @@
   ├── content7.md         # Your seventh Markdown file
   ├── content8.md         # Your eight Markdown file
   └── LICENSE             # Your license file
+
+
+synthetic-summit-catalogue/
+├── _config.yml
+├── _layouts/
+│   └── default.html
+├── _includes/
+│   └── nav.html
+├── index.md
+ ├── content1.md         # Your first Markdown file
+  ├── content2.md         # Your second Markdown file
+  ├── content3.md         # Your third Markdown file
+  ├── content4.md         # Your fourth Markdown file
+  ├── content5.md         # Your fifth Markdown file
+  ├── content6.md         # Your sixth Markdown file
+  ├── content7.md         # Your seventh Markdown file
+  ├── content8.md         # Your eight Markdown file
+├── videos.md
+├── media/
+│   ├── video1.mp4
+│   ├── video2.mp4
+│   └── ...
+├── styles.css
+├── scripts/
+│   └── main.js
+├── 404.html
+└── favicon.ico

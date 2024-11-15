@@ -1,28 +1,5 @@
 _config.yml
-# Site settings
 title: "The Synthetic Summit 2025 Catalogue"
-description: "A digital catalogue of essays and videos on AI governance and speculative art practices."
-baseurl: "" # Leave this empty if your site is hosted at the root level (e.g., username.github.io)
-url: "https://username.github.io/repo-name" # Update with your GitHub Pages URL
-
-# Markdown configuration
+description: "An interactive catalogue featuring essays and videos on AI governance and speculative art."
 markdown: kramdown
-kramdown:
-  input: GFM # GitHub Flavored Markdown
-
-# Theme settings
-theme: minima # You can change this to any Jekyll theme you prefer
-
-# Exclude files from Jekyll processing (if needed)
-exclude:
-  - README.md
-  - LICENSE
-  - "images/*" # Adjust this based on what you want to exclude
-
-# Optional: Set default settings for Markdown files
-defaults:
-  - scope:
-      path: "" # All files
-      type: "posts"
-    values:
-      layout: "default"
+theme: minima  # You can choose another supported theme

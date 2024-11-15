@@ -1,4 +1,11 @@
-# Synthetic Summit 2025: “We Have a Win to World”
+---
+layout: default
+title: Synthetic Summit 2025: “We Have a Win to World”
+---
+
+# {{ page.title }}
+
+## Synthetic Summit 2025: “We Have a Win to World”
 
 ---
 

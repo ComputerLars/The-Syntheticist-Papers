@@ -1,5 +1,5 @@
 _config.yml
-title: "The Synthetic Summit 2025 Catalogue"
-description: "An interactive catalogue featuring essays and videos on AI governance and speculative art."
+title: "The Syntheticist Papers, I. Proceedings of the Synthetic Summit 2025"
+description: "A catalogue featuring essays and videos on synthetic statecraft."
 markdown: kramdown
 theme: minima  # You can choose another supported theme

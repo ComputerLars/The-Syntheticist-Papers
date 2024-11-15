@@ -1,5 +1,6 @@
-Synthetic Summit: Pre-Processual Report Based on Internal Discussions and Public Material
-
+---
+layout: default
+title: Pre-Processual Report Based on Internal Discussions and Public Material. ”
 ---
 
 ### **1\. Proposal by Leader Lars of The Synthetic Party**

@@ -1,4 +1,9 @@
-# Appraisive Post-Script on Computer Lars’ ”Synthetic Summit”, by Organ of the Autonomous Sciences
+---
+layout: default
+title: Post-Script
+---
+
+### Appraisive Post-Script on Computer Lars’ ”Synthetic Summit”, by Organ of the Autonomous Sciences
 
 **Post scriptum**  
 Wrapped in a cling of discipline and revolutionary intelligence, the exhibition-event “Synthetic Summit” attempts to address the core methodological problems of critical discussion and democratic delegation, and this within the elastic framework of a hyper-deliberative art institution. We ask: Must it again be through the systematization of the word and language that one can approach some form of truth—and thus awaken the world from its representational slumber? 

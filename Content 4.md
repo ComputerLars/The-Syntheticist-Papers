@@ -1,3 +1,8 @@
+---
+layout: default
+title: Scheme 1
+---
+
 ## Scheme 1: Information Form for Summit Visitors
 
 ## This form is intended for creating new parties, foster understanding, and to expand imaginaries. To fill out the Synthetic Summit: Visitor Schemes questionnaire, it’s first of all pertinent to understand that responses can be generated using *any* form of intelligence, including those that are mentally ingrained or otherwise performative. This also means that while textual responses are perfectly acceptable, you may use diagrams, images, or other visual representations to convey answers.

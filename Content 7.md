@@ -1,3 +1,8 @@
+---
+layout: default
+title: Interviews
+---
+
 **Interview between Computer Lars (*general secretary of The Synthetic Party, and curator of Synthetic Summit*), and Asker Bryld Staunæs (*practice-based philosopher, and co-creator of The Synthetic Party*)**
 
 *(Translated from Spanish, 2024, Editorial Concreta, “Partido sintético y Líder Lars: sobre la representación algorítmica en la democracia política“, vol. 23, pp. 84-87, red. Nicolas Malevé & Jara Rocha)*

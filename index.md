@@ -23,9 +23,6 @@ Gallop, gallop!
 
 / Incitatus
 
----
-
-
 ## Table of Contents
 
 - [We Got A Win To World]({{ "/Content1.html" | relative_url }})

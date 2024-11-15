@@ -3,6 +3,8 @@ layout: default
 title: "The Syntheticist Papers, I"
 subtitle: "A Catalogue of the Synthetic Summit's Proceedings, 2025"
 show_fixed_menu: false
+show_nav: false
+show_footer: false
 ---
 
 It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural “Synthetic Summit” at Kunsthal Aarhus, running from 28 February to 10 April 2025, which unites the world’s AI-driven political parties and virtual politicians for the first time.

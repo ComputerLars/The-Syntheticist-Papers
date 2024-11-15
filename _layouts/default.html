@@ -25,6 +25,11 @@
   <title>{{ page.title }} - {{ site.title }}</title>
 </head>
 <body>
+  <!-- Menu Toggle Button -->
+  <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="fixedMenu">
+    &#9776;
+  </button>
+
   <!-- Fixed Menu (conditionally displayed) -->
   {% if page.show_fixed_menu != false %}
   <div class="fixed-menu">
@@ -60,6 +65,7 @@
   {% endif %}
 
   <!-- Scripts -->
+  <script src="{{ '/scripts/menu-toggle.js' | relative_url }}"></script>
   <script src="{{ '/scripts/main.js' | relative_url }}"></script>
 </body>
 </html>

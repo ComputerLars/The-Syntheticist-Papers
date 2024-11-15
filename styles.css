@@ -50,15 +50,6 @@ img {
 }
 
 /* ====================================================
-   Font Import
-   ==================================================== */
-
-/* Include fonts in your HTML head for better performance:
-<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-*/
-
-/* ====================================================
    Body Styles
    ==================================================== */
 
@@ -68,7 +59,7 @@ body {
     line-height: 1.8;
     color: var(--color-text);
     background-color: var(--color-background);
-    background-image: url('{{ '/images/pattern.png' | relative_url }}');
+    background-image: url('/images/pattern.png');
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: overlay;
@@ -148,6 +139,14 @@ body {
     border-radius: var(--border-radius);
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.fixed-menu.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .fixed-menu nav ul {
@@ -168,6 +167,29 @@ body {
 .fixed-menu nav a:hover,
 .fixed-menu nav a:focus {
     color: var(--color-link-hover);
+}
+
+/* Menu Toggle Button Styles */
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--color-nav-bg);
+    color: var(--color-text);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    z-index: 1001; /* Higher than the fixed menu */
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+.menu-toggle:hover {
+    background-color: var(--color-nav-hover);
 }
 
 /* ====================================================
@@ -400,5 +422,12 @@ body {
 
     .fixed-menu nav a {
         font-size: 0.9em;
+    }
+
+    .menu-toggle {
+        top: 10px;
+        right: 10px;
+        padding: 8px 12px;
+        font-size: 1.2em;
     }
 }

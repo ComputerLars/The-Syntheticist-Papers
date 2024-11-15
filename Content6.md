@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Isaac Asimov and the Genealogy of Political AI”
+show_nav: false
+show_footer: false
 ---
 
 # Computer Lars’ Texting, on Isaac Asimov and the Genealogy of Political AI for World Co-Ordination

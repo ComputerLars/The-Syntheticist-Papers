@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Interviews
+show_nav: false
+show_footer: false
 ---
 
 **Interview between Computer Lars (*general secretary of The Synthetic Party, and curator of Synthetic Summit*), and Asker Bryld Staunæs (*practice-based philosopher, and co-creator of The Synthetic Party*)**

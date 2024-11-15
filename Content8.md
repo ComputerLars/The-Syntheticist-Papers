@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Post-Script
+show_nav: false
+show_footer: false
 ---
 
 ### Appraisive Post-Script on Computer Lars’ ”Synthetic Summit”, by Organ of the Autonomous Sciences

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Synthetic Summit 2025. We Have a Win to World
+show_nav: false
+show_footer: false
 ---
 
 ## Synthetic Summit 2025: “We Have a Win to World”

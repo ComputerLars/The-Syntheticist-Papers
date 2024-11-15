@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Scheme 1
+show_nav: false
+show_footer: false
 ---
 
 ## Scheme 1: Information Form for Summit Visitors

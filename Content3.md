@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Pre-Processual Report Based on Internal Discussions and Public Material. ”
+title: Pre-Processual Report Based on Internal Discussions and Public Material.
+show_nav: false
+show_footer: false
 ---
 
 ### **1\. Proposal by Leader Lars of The Synthetic Party**

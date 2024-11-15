@@ -36,12 +36,13 @@ img {
 
 :root {
     --font-body: 'Roboto', sans-serif;
-    --color-text: #32CD32; /* Fluorescent limegreen */
+    --font-heading: 'Merriweather', serif;
+    --color-text: #9ACD32; /* Yellowish green */
     --color-background: #8B0000; /* Dark red */
-    --color-accent: #F0E68C; /* Light goldenrod yellow */
+    --color-accent: #DAA520; /* Goldenrod */
     --color-nav-bg: #550000; /* Darker red */
     --color-nav-hover: #660000; /* Slightly darker red */
-    --color-link-hover: #ADFF2F; /* Lighter limegreen */
+    --color-link-hover: #ADFF2F; /* Lighter yellowish green */
     --max-width: 850px;
     --font-size-base: 18px;
     --transition-speed: 0.3s;
@@ -52,10 +53,9 @@ img {
    Font Import
    ==================================================== */
 
-/* It's recommended to include the font in your HTML head for better performance */
-/* Example:
+/* Include fonts in your HTML head for better performance:
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 */
 
 /* ====================================================
@@ -68,6 +68,10 @@ body {
     line-height: 1.8;
     color: var(--color-text);
     background-color: var(--color-background);
+    background-image: url('{{ '/images/pattern.png' | relative_url }}');
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
     max-width: var(--max-width);
     margin: 30px auto;
     padding: 25px;
@@ -85,14 +89,16 @@ body {
 }
 
 .header h1 {
-    font-size: 2.5em;
-    font-weight: 900;
+    font-family: var(--font-heading);
+    font-size: 3em;
+    font-weight: 700;
     color: var(--color-text);
     margin-bottom: 15px;
 }
 
 .header h2 {
-    font-size: 1.5em;
+    font-family: var(--font-heading);
+    font-size: 1.8em;
     color: var(--color-accent);
 }
 
@@ -100,6 +106,7 @@ body {
    Navigation Menu Styles
    ==================================================== */
 
+/* Top Navigation Menu (conditionally displayed) */
 .navbar {
     background-color: var(--color-nav-bg);
     padding: 10px;
@@ -131,6 +138,38 @@ body {
     background-color: var(--color-nav-hover);
 }
 
+/* Fixed Menu Styles */
+.fixed-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--color-nav-bg);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.fixed-menu nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed-menu nav li {
+    margin-bottom: 10px;
+}
+
+.fixed-menu nav a {
+    color: var(--color-text);
+    font-weight: 700;
+    transition: color var(--transition-speed);
+}
+
+.fixed-menu nav a:hover,
+.fixed-menu nav a:focus {
+    color: var(--color-link-hover);
+}
+
 /* ====================================================
    Main Content Styles
    ==================================================== */
@@ -140,7 +179,8 @@ body {
 }
 
 .content h2 {
-    font-weight: 800;
+    font-family: var(--font-heading);
+    font-weight: 700;
     margin-top: 2em;
     margin-bottom: 0.7em;
     color: var(--color-text);
@@ -148,6 +188,7 @@ body {
 }
 
 .content h3 {
+    font-family: var(--font-heading);
     font-weight: 700;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
@@ -165,6 +206,19 @@ section {
     padding: 20px;
     border-radius: var(--border-radius);
     margin-bottom: 20px;
+}
+
+/* Ornamental Divider */
+.divider {
+    border-bottom: 2px solid var(--color-accent);
+    margin: 30px 0;
+}
+
+/* Emblem Styles */
+.emblem {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px;
 }
 
 /* ====================================================
@@ -220,6 +274,38 @@ button {
 button:hover,
 button:focus {
     background-color: var(--color-link-hover);
+}
+
+/* ====================================================
+   Table Styles
+   ==================================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+thead th {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--color-text);
+    padding: 12px;
+    text-align: left;
+    font-weight: 700;
+    border-bottom: 2px solid var(--color-accent);
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* ====================================================
@@ -300,5 +386,19 @@ body {
 
     .navbar a {
         padding: 8px 12px;
+    }
+
+    .fixed-menu {
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+    }
+
+    .fixed-menu nav li {
+        margin-bottom: 8px;
+    }
+
+    .fixed-menu nav a {
+        font-size: 0.9em;
     }
 }

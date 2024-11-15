@@ -1,0 +1,16 @@
+/your-repo
+  ├── _config.yml         # Jekyll configuration file for GitHub Pages
+  ├── index.html          # Homepage of your e-book or an introduction
+  ├── styles.css          # Your custom CSS for styling
+  ├── assets/
+  │   ├── images/         # Folder for all images used in the content
+  │   └── scripts/        # (Optional) Folder for JavaScript if needed
+  ├── content1.md         # Your first Markdown file
+  ├── content2.md         # Your second Markdown file
+  ├── content3.md         # Your third Markdown file
+  ├── content4.md         # Your fourth Markdown file
+  ├── content5.md         # Your fifth Markdown file
+  ├── content6.md         # Your sixth Markdown file
+  ├── content7.md         # Your seventh Markdown file
+  ├── content8.md         # Your eight Markdown file
+  └── LICENSE             # Your license file

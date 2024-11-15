@@ -1,0 +1,224 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; /* Bigger font for better readability */
+    line-height: 1.9;
+    color: limegreen; /* Limegreen text for a striking contrast */
+    background-color: #8b0000; /* Red background for a bold look */
+    max-width: 850px; /* Slightly wider content for better layout */
+    margin: 30px auto;
+    padding: 25px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme changes */
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: 900;
+    color: limegreen;
+    text-shadow: 2px 2px #000; /* Text shadow for a cool effect */
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 1.3em;
+    color: #ddd; /* Light text for subheading */
+}
+
+/* Navigation Menu Styles */
+.navbar {
+    background-color: #551a8b; /* Dark purple to complement the red */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
+    margin-bottom: 25px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: limegreen;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.navbar a.active {
+    background-color: #3a3a3a; /* Dark gray background on hover */
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+/* Main Content Styles */
+.content {
+    margin-bottom: 50px;
+}
+
+.content h2 {
+    font-weight: 800;
+    margin-top: 2em;
+    margin-bottom: 0.7em;
+    color: limegreen;
+    border-bottom: 2px solid limegreen; /* Underline for emphasis */
+}
+
+.content h3 {
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: limegreen;
+}
+
+.content p {
+    margin-bottom: 1.2em;
+    text-align: justify; /* Justify text for a clean look */
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    margin-bottom: 20px;
+}
+
+/* Interactive Elements */
+a {
+    color: limegreen;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+a:hover,
+a:focus {
+    color: #fff; /* White text on hover */
+    outline: none;
+}
+
+/* Video Section Styles */
+.video-section,
+.video-gallery {
+    margin-top: 30px;
+    border-top: 2px solid limegreen;
+    padding-top: 20px;
+}
+
+.video-item {
+    margin-bottom: 30px;
+    text-align: center; /* Center video elements */
+}
+
+.video-item video {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Stronger shadow for videos */
+}
+
+.video-item p {
+    margin-top: 15px;
+    color: #ddd;
+}
+
+/* Navigation Links Styles */
+.nav-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: limegreen;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border: 2px solid limegreen;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    background-color: limegreen;
+    color: #8b0000;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    font-size: 1em;
+    color: #ddd;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 2px solid limegreen; /* Top border for footer separation */
+}
+
+/* Interactive Button Styles */
+button {
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: limegreen;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover,
+button:focus {
+    background-color: #3a3a3a;
+    transform: translateY(-3px); /* Lift effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 2.2em;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 8px 0;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 10px 0;
+    }
+}

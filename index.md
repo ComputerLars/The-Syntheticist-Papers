@@ -3,9 +3,6 @@ layout: default
 title: "The Syntheticist Papers, I"
 subtitle: "A Catalogue of the Synthetic Summit's Proceedings, 2025"
 ---
-# The Syntheticist Papers, I.
-
-## A Catalogue of the Synthetic Summit's Proceedings, 2025
 
 It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural “Synthetic Summit” at Kunsthal Aarhus, running from 28 February to 10 April 2025, which unites the world’s AI-driven political parties and virtual politicians for the first time.
 
@@ -30,12 +27,12 @@ Gallop, gallop!
 
 ## Table of Contents
 
-- [Content 1]({{ "/Content-1.html" | relative_url }})
-- [Content 2]({{ "/Content-2.html" | relative_url }})
-- [Content 3]({{ "/Content-3.html" | relative_url }})
-- [Content 4]({{ "/Content-4.html" | relative_url }})
-- [Content 5]({{ "/Content-5.html" | relative_url }})
-- [Content 6]({{ "/Content-6.html" | relative_url }})
-- [Content 7]({{ "/Content-7.html" | relative_url }})
-- [Content 8]({{ "/Content-8.html" | relative_url }})
+- [Content 1]({{ "/Content 1.html" | relative_url }})
+- [Content 2]({{ "/Content 2.html" | relative_url }})
+- [Content 3]({{ "/Content 3.html" | relative_url }})
+- [Content 4]({{ "/Content 4.html" | relative_url }})
+- [Content 5]({{ "/Content 5.html" | relative_url }})
+- [Content 6]({{ "/Content 6.html" | relative_url }})
+- [Content 7]({{ "/Content 7.html" | relative_url }})
+- [Content 8]({{ "/Content 8.html" | relative_url }})
 - [Videos]({{ "/videos.html" | relative_url }})

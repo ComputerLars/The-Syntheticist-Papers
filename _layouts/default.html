@@ -25,13 +25,13 @@
   <title>{{ page.title }} - {{ site.title }}</title>
 </head>
 <body>
+  {% if page.show_fixed_menu != false %}
   <!-- Menu Toggle Button -->
   <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="fixedMenu">
     &#9776;
   </button>
 
-  <!-- Fixed Menu (conditionally displayed) -->
-  {% if page.show_fixed_menu != false %}
+  <!-- Fixed Menu -->
   <div class="fixed-menu">
     {% include fixed-menu.html %}
   </div>

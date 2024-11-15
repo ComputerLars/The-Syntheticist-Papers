@@ -27,12 +27,12 @@ Gallop, gallop!
 
 ## Table of Contents
 
-- [Content 1]({{ "/Content 1.html" | relative_url }})
-- [Content 2]({{ "/Content 2.html" | relative_url }})
-- [Content 3]({{ "/Content 3.html" | relative_url }})
-- [Content 4]({{ "/Content 4.html" | relative_url }})
-- [Content 5]({{ "/Content 5.html" | relative_url }})
-- [Content 6]({{ "/Content 6.html" | relative_url }})
-- [Content 7]({{ "/Content 7.html" | relative_url }})
-- [Content 8]({{ "/Content 8.html" | relative_url }})
+- [We Got A Win To World]({{ "/Content1.html" | relative_url }})
+- [The Virtual Politicians]({{ "/Content2.html" | relative_url }})
+- [Pre-Summit Simulations]({{ "/Content3.html" | relative_url }})
+- [Scheme for visitors]({{ "/Content4.html" | relative_url }})
+- [Scheme of The Synthetic Party]({{ "/Content5.html" | relative_url }})
+- [Isaac Asimov and the Genealogy of Political AI]({{ "/Content6.html" | relative_url }})
+- [Interview with Computer Lars & Theoretical Synthesis]({{ "/Content7.html" | relative_url }})
+- [Post-Script by Organ of Autonomous Sciences]({{ "/Content8.html" | relative_url }})
 - [Videos]({{ "/videos.html" | relative_url }})

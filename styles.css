@@ -1,97 +1,140 @@
-/* CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
+/* ====================================================
+   Global Styles and Resets
+   ==================================================== */
+
+/* CSS Reset (Modern Normalize) */
+html {
     box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
 }
 
-/* Body Styles */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+ul[role='list'], ol[role='list'] {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ====================================================
+   Variables
+   ==================================================== */
+
+:root {
+    --font-body: 'Roboto', sans-serif;
+    --color-text: #32CD32; /* Fluorescent limegreen */
+    --color-background: #8B0000; /* Dark red */
+    --color-accent: #F0E68C; /* Light goldenrod yellow */
+    --color-nav-bg: #550000; /* Darker red */
+    --color-nav-hover: #660000; /* Slightly darker red */
+    --color-link-hover: #ADFF2F; /* Lighter limegreen */
+    --max-width: 850px;
+    --font-size-base: 18px;
+    --transition-speed: 0.3s;
+    --border-radius: 8px;
+}
+
+/* ====================================================
+   Font Import
+   ==================================================== */
+
+/* It's recommended to include the font in your HTML head for better performance */
+/* Example:
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+*/
+
+/* ====================================================
+   Body Styles
+   ==================================================== */
+
 body {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1rem;
-    line-height: 2.0;
-    color: #00ff00;
-    background: linear-gradient(135deg, #1a1a1a 25%, #000000 75%);
-    background-size: 400% 400%;
-    animation: backgroundAnimation 15s ease infinite;
-    max-width: 850px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    line-height: 1.8;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    max-width: var(--max-width);
     margin: 30px auto;
     padding: 25px;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
-/* Background Animation */
-@keyframes backgroundAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
+/* ====================================================
+   Header Styles
+   ==================================================== */
 
-/* Header Styles */
 .header {
     text-align: center;
     margin-bottom: 40px;
 }
 
 .header h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 900;
-    color: #00ff00;
+    color: var(--color-text);
     margin-bottom: 15px;
 }
 
-.header p {
-    font-size: 1.3em;
-    color: #ddd;
+.header h2 {
+    font-size: 1.5em;
+    color: var(--color-accent);
 }
 
-/* Navigation Menu Styles */
+/* ====================================================
+   Navigation Menu Styles
+   ==================================================== */
+
 .navbar {
-    background-color: #333;
+    background-color: var(--color-nav-bg);
     padding: 10px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     margin-bottom: 25px;
 }
 
 .navbar ul {
-    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .navbar li {
-    margin: 0 10px;
+    margin: 5px 15px;
 }
 
 .navbar a {
-    color: #00ff00;
+    color: var(--color-text);
     font-weight: 700;
     padding: 10px 15px;
     border-radius: 5px;
-    position: relative;
-    transition: color 0.3s;
+    transition: background-color var(--transition-speed);
 }
 
-.navbar a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 2px;
-    background: #00ff00;
-    opacity: 0;
-    transition: opacity 0.3s;
+.navbar a:hover,
+.navbar a:focus,
+.navbar a.active {
+    background-color: var(--color-nav-hover);
 }
 
-.navbar a:hover::after,
-.navbar a:focus::after,
-.navbar a.active::after {
-    opacity: 1;
-}
+/* ====================================================
+   Main Content Styles
+   ==================================================== */
 
-/* Main Content Styles */
 .content {
     margin-bottom: 50px;
 }
@@ -100,15 +143,15 @@ body {
     font-weight: 800;
     margin-top: 2em;
     margin-bottom: 0.7em;
-    color: #00ff00;
-    border-bottom: 2px solid #00ff00;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-text);
 }
 
 .content h3 {
     font-weight: 700;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
-    color: #00ff00;
+    color: var(--color-text);
 }
 
 .content p {
@@ -116,186 +159,135 @@ body {
     text-align: justify;
 }
 
-/* Image Styles */
+/* Section Highlighting */
+section {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+}
+
+/* ====================================================
+   Image Styles
+   ==================================================== */
+
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
 
-/* Interactive Elements */
+/* ====================================================
+   Interactive Elements
+   ==================================================== */
+
 a {
-    color: #00ff00;
-    text-decoration: none;
-    position: relative;
+    color: var(--color-text);
+    text-decoration: underline;
+    transition: color var(--transition-speed);
 }
 
-a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 2px;
-    background: #00ff00;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-a:hover::after,
-a:focus::after {
-    opacity: 1;
-}
-
+a:hover,
 a:focus {
-    outline: 2px dashed #00ff00;
-    outline-offset: 4px;
+    color: var(--color-link-hover);
+    outline: none;
 }
 
-/* Video Section Styles */
-.video-section,
-.video-gallery {
-    margin-top: 30px;
-    border-top: 2px solid #00ff00;
-    padding-top: 20px;
+.content a {
+    text-decoration: none;
+    border-bottom: 1px dashed var(--color-text);
 }
 
-.video-item {
-    margin-bottom: 30px;
-    text-align: center;
+.content a:hover,
+.content a:focus {
+    color: var(--color-link-hover);
+    border-bottom: 1px solid var(--color-link-hover);
 }
 
-.video-item video {
-    width: 100%;
-    max-height: 500px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-}
-
-.video-item p {
-    margin-top: 15px;
-    color: #ddd;
-}
-
-/* Navigation Links Styles */
-.nav-links {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.nav-links a {
-    color: #00ff00;
-    font-weight: bold;
-    margin: 0 15px;
-    padding: 8px 12px;
-    border: 2px solid #00ff00;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-    transition: color 0.3s;
-}
-
-.nav-links a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 255, 0, 0.2);
-    transition: left 0.5s;
-}
-
-.nav-links a:hover {
-    color: #000;
-}
-
-.nav-links a:hover::before {
-    left: 0;
-}
-
-.nav-links a:focus {
-    outline: 2px dashed #00ff00;
-    outline-offset: 4px;
-}
-
-/* Footer Styles */
-.footer {
-    text-align: center;
-    font-size: 1em;
-    color: #ddd;
-    margin-top: 50px;
-    padding-top: 20px;
-    border-top: 2px solid #00ff00;
-}
-
-/* Interactive Button Styles */
+/* Button Styles */
 button {
     font-size: 1em;
     font-weight: bold;
-    color: #00ff00;
-    background-color: transparent;
-    border: 2px solid #00ff00;
+    color: var(--color-background);
+    background-color: var(--color-text);
+    border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: color 0.3s;
+    transition: background-color var(--transition-speed);
 }
 
-button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 255, 0, 0.2);
-    transition: left 0.5s;
-}
-
-button:hover {
-    color: #000;
-}
-
-button:hover::before {
-    left: 0;
-}
-
+button:hover,
 button:focus {
-    outline: 2px dashed #00ff00;
-    outline-offset: 4px;
+    background-color: var(--color-link-hover);
 }
 
-/* Responsive Typography */
-html {
-    font-size: 18px;
+/* ====================================================
+   Footer Styles
+   ==================================================== */
+
+.footer {
+    text-align: center;
+    font-size: 1em;
+    color: var(--color-accent);
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 2px solid var(--color-text);
 }
 
-@media (min-width: 768px) {
-    html {
-        font-size: 20px;
-    }
+/* ====================================================
+   Subtle Animations
+   ==================================================== */
+
+.header h1:hover,
+.header h2:hover {
+    transform: scale(1.03);
+    transition: transform var(--transition-speed);
 }
 
-@media (min-width: 1200px) {
-    html {
-        font-size: 22px;
-    }
+img:hover {
+    transform: scale(1.02);
+    transition: transform var(--transition-speed);
 }
 
-/* Responsive Design */
+/* ====================================================
+   Custom Scrollbar
+   ==================================================== */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-nav-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-text);
+    border-radius: 6px;
+    border: 3px solid var(--color-nav-bg);
+}
+
+/* ====================================================
+   Responsive Typography
+   ==================================================== */
+
+body {
+    font-size: calc(16px + 0.4vw);
+}
+
+/* ====================================================
+   Responsive Design
+   ==================================================== */
+
 @media (max-width: 600px) {
     body {
-        font-size: 1rem;
+        font-size: 18px;
         padding: 15px;
     }
 
     .header h1 {
-        font-size: 2.2em;
+        font-size: 2em;
     }
 
     .navbar ul {
@@ -303,11 +295,10 @@ html {
     }
 
     .navbar li {
-        margin: 8px 0;
+        margin: 10px 0;
     }
 
-    .nav-links a {
-        display: block;
-        margin: 10px 0;
+    .navbar a {
+        padding: 8px 12px;
     }
 }

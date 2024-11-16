@@ -28,7 +28,10 @@ a {
 
 img {
     max-width: 100%;
-    display: block;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
 
 /* ====================================================

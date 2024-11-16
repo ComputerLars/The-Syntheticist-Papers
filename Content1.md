@@ -11,7 +11,7 @@ show_footer: false
 
 In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kunsthal Aarhus*—the summit is an exhibition-event curated by the *Computer Lars*-collective from Denmark. 
 
-![Delegate of Computer Lars: Asker Bryld Staunæs](images/image2.png)
+![Delegate of Computer Lars: Asker Bryld Staunæs]({{ '/images/image2.png' | relative_url }})
 
 The summit brings together leading AI-driven political parties and virtual politicians from around the world, including The Australian AI Party, The Finnish AI Party, The Japanese AI Party, Parker Politics (New Zealand), the Simiyya platform, (Egypt-Jordan), The Swedish AI Party, The Synthetic Party (Denmark), and Wiktoria Cukt 2.0. (Poland).
 

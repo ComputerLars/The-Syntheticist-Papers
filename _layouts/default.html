@@ -61,12 +61,6 @@
     🌓
   </button>
 
-  <!-- Search Input and Results -->
-  <div class="search-container">
-    <input type="text" id="search-input" placeholder="Search...">
-    <div id="results-container"></div>
-  </div>
-
   <!-- Back to Top Button -->
   <button id="back-to-top" aria-label="Back to Top">
     ↑
@@ -75,17 +69,17 @@
   <!-- Reading Progress Bar -->
   <div id="progress-bar"></div>
 
-<!-- Header Section -->
-<header class="header">
-  <h1>{{ page.title }}</h1>
-  {% if page.subtitle %}
-    <h2>{{ page.subtitle }}</h2>
-  {% endif %}
+  <!-- Header Section -->
+  <header class="header">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <h2>{{ page.subtitle }}</h2>
+    {% endif %}
 
-  <!-- Conditionally Display the Google Translate Widget -->
-  {% if page.show_translate_widget != false %}
-  <div id="google_translate_element"></div>
-  {% endif %}
+    <!-- Conditionally Display the Google Translate Widget -->
+    {% if page.show_translate_widget != false %}
+    <div id="google_translate_element"></div>
+    {% endif %}
   </header>
 
   <!-- Main Content -->
@@ -105,7 +99,20 @@
   <script src="{{ '/scripts/theme-toggle.js' | relative_url }}"></script>
   <script src="{{ '/scripts/main.js' | relative_url }}"></script>
 
-  <!-- Simple-Jekyll-Search Script for Search Functionality -->
+  <!-- Google Translate Scripts (moved to the end of body) -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'da,de,es,fr,it,ja,ko,pt,ru,zh-CN',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <!-- Commented Out Search Script -->
+  <!--
   <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.2/dest/simple-jekyll-search.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -120,22 +127,6 @@
       });
     });
   </script>
-  
-  <!-- Google Translate Scripts (moved to the end of body) -->
-<script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'en',
-      includedLanguages: 'da,de,es,fr,it,ja,ko,pt,ru,zh-CN',
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
-  }
-</script>
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<!-- Include Lunr.js from a CDN -->
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="{{ '/scripts/search.js' | relative_url }}"></script>
-
+  -->
 </body>
 </html>

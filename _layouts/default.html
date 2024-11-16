@@ -18,24 +18,12 @@
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 
   <!-- Favicon and Touch Icons -->
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="192x192" href="{{ '/android-chrome-192x192.png' | relative_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ '/images/android-chrome-192x192.png' | relative_url }}">
 
   <!-- Title -->
   <title>{{ page.title }} - {{ site.title }}</title>
-
-  <!-- Google Translate Element -->
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        includedLanguages: 'da,de,es,fr,it,ja,ko,pt,ru,zh-CN',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
-  </script>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <!-- Structured Data (JSON-LD) for SEO -->
   <script type="application/ld+json">
@@ -116,18 +104,32 @@
   <script src="{{ '/scripts/main.js' | relative_url }}"></script>
 
   <!-- Simple-Jekyll-Search Script for Search Functionality -->
-  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.2/dest/simple-jekyll-search.min.js"></script>
   <script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '{{ "/search.json" | relative_url }}',
-      searchResultTemplate: '<div><a href="{url}">{title}</a></div>',
-      noResultsText: 'No results found',
-      limit: 10,
-      fuzzy: false,
-      exclude: ['welcome.html']
+    document.addEventListener('DOMContentLoaded', function() {
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ "/search.json" | relative_url }}',
+        searchResultTemplate: '<div><a href="{url}">{title}</a></div>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['welcome.html']
+      });
     });
   </script>
+
+  <!-- Google Translate Scripts (moved to the end of body) -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'da,de,es,fr,it,ja,ko,pt,ru,zh-CN',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

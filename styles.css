@@ -603,7 +603,7 @@ img:hover {
    Google Translate Widget Styles
    ==================================================== */
 
-#google_translate_element {
+   #google_translate_element {
     display: inline-block;
     margin-top: 20px;
 }
@@ -616,9 +616,10 @@ body {
     top: 0px !important;
 }
 
-.goog-logo-link {
+/* Commented out to comply with Google's Terms of Service */
+/* .goog-logo-link {
     display: none !important;
-}
+} */
 
 .goog-te-gadget {
     color: var(--color-text) !important;

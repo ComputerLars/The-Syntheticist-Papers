@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "The Syntheticist Papers, I. Reports on the Proceedings of the inaugural Synthetic Summit"
+title: "Syntheticist Papers, I. 
+
+Reports on the Proceedings of the inaugural Synthetic Summit"
 show_nav: false
 show_footer: false
 show_translate_widget: false

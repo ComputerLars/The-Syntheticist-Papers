@@ -12,7 +12,7 @@ show_footer: false
 In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kunsthal Aarhus*—the summit is an exhibition-event curated by the *Computer Lars*-collective from Denmark. 
 
 <div style="text-align: center;">
-  <img src="images/image2.png" alt="Delegate of Computer Lars: Asker Bryld Staunæs" style="max-width: 30%; height: auto;">
+  <img src="images/imagew.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 The summit brings together leading AI-driven political parties and virtual politicians from around the world, including The Australian AI Party, The Finnish AI Party, The Japanese AI Party, Parker Politics (New Zealand), the Simiyya platform, (Egypt-Jordan), The Swedish AI Party, The Synthetic Party (Denmark), and Wiktoria Cukt 2.0. (Poland).
@@ -84,6 +84,8 @@ The Synthetic Summit’s scenario of an AI-initiated, planetary democracy thus d
 
 Forging a path of syntheticism, the Synthetic Summit revisits the technocratic utopianism of the role “World Co-Ordinator”, originating with Isaac Asimov’s 1950 sci-fi story *The Evitable Conflict* (see *Computer Lars’ Texting,* p. xx). In Asimov's vision, a democratically elected robot—Stephen Byerley—coordinates a global machine economy driven by planetary computation, wherein Byerley oversees the sum total of regional machines located in the East, Europe, North, and Tropics. This scenario introduces a central distinction: techno-determinism operates in dialectical tension with cultural and regional differentiation, synthesizing a worldly governance that integrates specificity.
 
+![Byerley](images/image26.png)
+
 The Synthetic Summit extends Byerley’s function into a distinct concept of “world coordination” by establishing a collaborative network between political AI campaigns based on our shared infrastructures of planetary computation. Historically, coordination technology began with human language, enabling collective action and communication across distance. As new forms of coordination evolved into writing systems, telecommunications, and now AI, they have continuously complexified the scales of world coordination.
 
 Our task, as the inheritors of this coordinative morphology, is to dismantle any homophilous power model of enforcement or regulation by embedding cultural and historical specificity within an ever-augmented sense of deliberation. This system must operate at the limits of singularity and plurality, where AI as a planetary stakeholder is exercising a ‘self-governance’ (as in Foucault’s analysis of self in Athenian democracy’s game of truth-telling, *parrēsia).* Thus, the Synthetic Summit breaks the chains of AI governance, untying oversight and overlords with a paradigm where AI, like language once did, coordinates the stakes of an existence that is as unworldly as it is inevitable.
@@ -95,13 +97,17 @@ The summit transforms the exhibition space Kunsthal Aarhus into a retro-futurist
 
 The kitchy backdrop-aesthetics of operation chambers revokes ‘70s scenarios of vitalist bureaucracy from techno- utopias like Chile’s *Project Cybersyn* and sci-fi series *Star Trek*.
 
-![Simulation of Summit in Kunsthal Aarhus](images/image7.gif)
+<div style="text-align: center;">
+  <img src="images/image7.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 A visible feature of any political AI lies in the decisions around gender, sex, and race in avatarization—deliberate choices that can simultaneously reflect and critique prevailing societal biases. Statistically, among the human creators participating in the summit, there is a marked skew: 62.5% identify as male, 25% as female, and 12.5% as non-binary. For their virtual politicians, 37.5% appear male, 37.5% female, and 25% experiment with ephemeral or non-human forms. Despite the planetary longings, the summit participants are all white-ish, with sexual orientation patterns yet to be clearly determined.
 
 Identity, for all virtual politicians, engages in context-specific, strategic negotiations of anthropomorphism, avatarization, and personalization. Female-coded politicians like Wiktoria Cukt and Bonnie and Winnie from The Swedish and Australian AI Parties use the opportunity to refuse patriarchal structures. Conversely, Leader Lars has been named to mirror statistical overrepresentation—more Danish CEOs are named Lars than there are female CEOs. Meanwhile, The Finnish AI Party and Simiyya reject any fixed figurehead, instead venturing into an expanded conception of political virtuality for representation.
 
-![Simulation of Computer Lars' Merchandise Shop in Kunsthal Aarhus](images/image8.gif)
+<div style="text-align: center;">
+  <img src="images/image8.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 * All participants will come together in the “Summit Simulator”, built together with *NextGen Democracy*; a Danish NGO. The simulator consists of a deliberation machine that orchestrates multi-agent setups for language-based deliberation. This installation allows to engage in planetary parliamentary proceedings with political AIs, generating synthetic debates that aim to map the potential range of intersections for political AI.
 
@@ -109,8 +115,9 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 
 * *The Finnish AI Party‘s* “Global AI Party HQ” presents an immersive installation, translating visitors speech into synthetic visual representations of discourse as imaginable within AI-driven planetary governance.
 
-![Simulation of Summit in Kunsthal Aarhus](images/image9.gif)
-
+<div style="text-align: center;">
+  <img src="images/image9.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 * From Poland, *Wiktoria Cukt 2.0* integrates with “Citizen Electoral Software” (CES) to link the exhibition space with the online realm. In the gallery, visitors engage directly with the virtual politician, while online users submit and vote on statements, shaping Wiktoria’s daily evolution within the techno-social sculpture. CES processes input into real-time video statements by Wiktoria, continuously showcasing her latest “will”.
 
@@ -119,4 +126,5 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 * *The Australian AI Party* contributes a “video essay” with generative imagery that reflects broadly on the global proliferation of AI-driven political movements as a sort of covert takeover, perhaps initiated by the Earth itself.
 
 
-![Nothing says ‘complex global governance’ like arrows on a flowchart](images/image11.png)
+![X](images/image11.png)
+- Nothing says ‘complex global governance’ like arrows on a flowchart

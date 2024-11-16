@@ -7,6 +7,8 @@ show_nav: false
 show_footer: false
 ---
 
+![Logo of Synthetic Summit](images/image1.png)
+
 It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural “Synthetic Summit” at Kunsthal Aarhus, running from 28 February to 10 April 2025, which unites the world’s AI-driven political parties and virtual politicians for the first time.
 
 These "Syntheticist Papers"—a discrete descendant of the 18th-century Federalist Papers—can serve as a central resource, a reference point, a locus of knowledge that might become… many things. Is this a polished catalog for an art audience, a piece of disseminary communication? A prelude to a Galactic Federation of Planets? Or does it herald some other purpose? What, really, is this for?
@@ -27,12 +29,12 @@ Gallop, gallop!
 
 ## Table of Contents
 
-- [We Got A Win To World]({{ "/Content1.html" | relative_url }})
+- [Synthetic Summit: We Got A Win To World]({{ "/Content1.html" | relative_url }})
 - [The Virtual Politicians]({{ "/Content2.html" | relative_url }})
+- [A Genealogy of Political AI]({{ "/Content6.html" | relative_url }})
 - [Pre-Summit Simulations]({{ "/Content3.html" | relative_url }})
 - [Scheme for visitors]({{ "/Content4.html" | relative_url }})
 - [Scheme of The Synthetic Party]({{ "/Content5.html" | relative_url }})
-- [Isaac Asimov and the Genealogy of Political AI]({{ "/Content6.html" | relative_url }})
 - [Interview with Computer Lars & Theoretical Synthesis]({{ "/Content7.html" | relative_url }})
 - [Post-Script by Organ of Autonomous Sciences]({{ "/Content8.html" | relative_url }})
 - [Videos]({{ "/videos.html" | relative_url }})

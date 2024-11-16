@@ -68,6 +68,11 @@
   </nav>
   {% endif %}
 
+  <!-- Theme Toggle Button -->
+  <button class="theme-toggle" aria-label="Toggle Dark Mode">
+    🌓
+  </button>
+
   <!-- Search Input and Results -->
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Search...">
@@ -107,6 +112,7 @@
 
   <!-- Scripts -->
   <script src="{{ '/scripts/menu-toggle.js' | relative_url }}"></script>
+  <script src="{{ '/scripts/theme-toggle.js' | relative_url }}"></script>
   <script src="{{ '/scripts/main.js' | relative_url }}"></script>
 
   <!-- Simple-Jekyll-Search Script for Search Functionality -->

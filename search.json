@@ -2,16 +2,13 @@
 layout: null
 ---
 [
-{% assign comma = false %}
 {% for page in site.pages %}
   {% if page.title %}
-    {% if comma %},{% endif %}
     {
-      "title"   : "{{ page.title | escape }}",
-      "url"     : "{{ page.url | absolute_url }}",
-      "content" : "{{ page.content | strip_html | strip_newlines | escape }}"
-    }
-    {% assign comma = true %}
+      "title": "{{ page.title | escape }}",
+      "url": "{{ page.url | relative_url }}",
+      "content": "{{ page.content | strip_html | strip_newlines | escape }}"
+    }{% unless forloop.last %},{% endunless %}
   {% endif %}
 {% endfor %}
 ]

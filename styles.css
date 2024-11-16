@@ -50,6 +50,21 @@ img {
     --border-radius: 8px;
 }
 
+/* Dark Theme Variables */
+body.dark-theme {
+    --color-background: #121212;
+    --color-text: #e0e0e0;
+    --color-accent: #bb86fc;
+    --color-nav-bg: #1f1f1f;
+    --color-nav-hover: #333333;
+    --color-link-hover: #bb86fc;
+}
+
+/* Transition for smooth theme change */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
 /* ====================================================
    Body Styles
    ==================================================== */
@@ -226,6 +241,32 @@ body {
 
 .menu-toggle:hover {
     background-color: var(--color-nav-hover);
+}
+
+/* ====================================================
+   Theme Toggle Button Styles
+   ==================================================== */
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: var(--color-nav-bg);
+    color: var(--color-text);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    z-index: 1001;
+}
+
+.theme-toggle:hover {
+    background-color: var(--color-nav-hover);
+}
+
+.theme-toggle:focus {
+    outline: none;
 }
 
 /* ====================================================
@@ -503,6 +544,13 @@ img:hover {
         padding: 8px 12px;
         font-size: 1.2em;
     }
+
+    .theme-toggle {
+        top: 10px;
+        left: 10px;
+        padding: 8px 12px;
+        font-size: 1.2em;
+    }
 }
 
 /* ====================================================
@@ -532,6 +580,8 @@ img:hover {
 #results-container {
     margin-top: 20px;
     text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 #results-container div {
@@ -546,6 +596,7 @@ img:hover {
 
 #results-container a:hover {
     color: var(--color-link-hover);
+    text-decoration: underline;
 }
 
 /* ====================================================
@@ -559,10 +610,10 @@ img:hover {
 
 .goog-te-banner-frame.skiptranslate {
     display: none !important;
-} 
+}
 
 body {
-    top: 0px !important; 
+    top: 0px !important;
 }
 
 .goog-logo-link {
@@ -584,3 +635,7 @@ body {
     border-radius: var(--border-radius);
     font-size: 1em;
 }
+
+/* ====================================================
+   End of Styles
+   ==================================================== */

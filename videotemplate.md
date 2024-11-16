@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Video Essays
 description: Multimedia production around The Synthetic Summit 2025.
 show_nav: false
 show_footer: false

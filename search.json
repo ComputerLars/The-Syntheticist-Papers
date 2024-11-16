@@ -2,14 +2,12 @@
 layout: null
 ---
 [
-{% assign pages = site.pages | where_exp: "page", "page.search != false" %}
-{% for page in pages %}
-  {% if page.title %}
+  {% assign pages = site.pages | where_exp: "page", "page.search != false" %}
+  {% for page in pages %}
     {
       "title": "{{ page.title | escape }}",
       "url": "{{ page.url | relative_url }}",
       "content": "{{ page.content | markdownify | strip_html | strip_newlines | replace: '"', '\"' | replace: '\n', ' ' }}"
     }{% unless forloop.last %},{% endunless %}
-  {% endif %}
-{% endfor %}
-]
+  {% endfor %}
+  ]

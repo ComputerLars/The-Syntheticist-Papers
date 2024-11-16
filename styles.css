@@ -642,26 +642,31 @@ body {
     top: 0px !important;
 }
 
-/* Commented out to comply with Google's Terms of Service */
-/* .goog-logo-link {
-    display: none !important;
-} */
-
 .goog-te-gadget {
     color: var(--color-text) !important;
     font-size: 0.9em !important;
     font-family: var(--font-body) !important;
 }
 
-.goog-te-gadget .goog-te-combo {
-    margin: 0px;
-    padding: 5px;
-    background-color: var(--color-nav-bg);
-    color: var(--color-text);
-    border: none;
-    border-radius: var(--border-radius);
-    font-size: 1em;
-}
+/* Style the language dropdown */
+.goog-te-combo {
+    background-color: var(--color-nav-bg); /* Use your site’s background color */
+    color: var(--color-text); /* Use your site’s text color */
+    border: none; /* Remove default border */
+    border-radius: var(--border-radius); /* Add rounded corners if desired */
+    padding: 5px; /* Adjust padding */
+    font-size: 1em; /* Match your site’s font size */
+  }
+
+/* Hide the Google Translate logo */
+.goog-logo-link {
+    display: none !important;
+  }
+  
+  /* Hide the powered by Google text */
+  .goog-te-gadget {
+    font-size: 0 !important;
+  }
 
 /* ====================================================
    End of Styles

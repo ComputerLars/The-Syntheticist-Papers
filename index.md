@@ -2,7 +2,6 @@
 layout: default
 title: "The Syntheticist Papers, I"
 subtitle: "A Catalogue of the Synthetic Summit's Proceedings, 2025"
-show_fixed_menu: false
 show_nav: false
 show_footer: false
 show_translate_widget: false

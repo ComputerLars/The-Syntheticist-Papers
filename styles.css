@@ -38,7 +38,7 @@ img {
 :root {
     --font-body: 'Roboto', sans-serif;
     --font-heading: 'Merriweather', serif;
-    --color-text: #9ACD32; /* Yellowish green */
+    --color-text: #f3ff00; /* Yellowish green */
     --color-background: #8B0000; /* Dark red */
     --color-accent: #DAA520; /* Goldenrod */
     --color-nav-bg: #550000; /* Darker red */
@@ -75,7 +75,6 @@ body {
     line-height: 1.8;
     color: var(--color-text);
     background-color: var(--color-background);
-    background-image: url('/images/pattern.png');
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: overlay;

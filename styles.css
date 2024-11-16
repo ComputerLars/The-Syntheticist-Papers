@@ -28,10 +28,7 @@ a {
 
 img {
     max-width: 100%;
-    height: auto;
-    border-radius: var(--border-radius);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+    display: block;
 }
 
 /* ====================================================
@@ -651,15 +648,15 @@ body {
     font-family: var(--font-body) !important;
 }
 
-/* Style the language dropdown */
-.goog-te-combo {
-    background-color: var(--color-nav-bg); /* Use your site’s background color */
-    color: var(--color-text); /* Use your site’s text color */
-    border: none; /* Remove default border */
-    border-radius: var(--border-radius); /* Add rounded corners if desired */
-    padding: 5px; /* Adjust padding */
-    font-size: 1em; /* Match your site’s font size */
-  }
+.goog-te-gadget .goog-te-combo {
+    margin: 0px;
+    padding: 5px;
+    background-color: var(--color-nav-bg);
+    color: var(--color-text);
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+}
 
 /* Hide the Google Translate logo */
 .goog-logo-link {

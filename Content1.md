@@ -11,7 +11,7 @@ show_footer: false
 In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kunsthal Aarhus*—the summit is an exhibition-event curated by the *Computer Lars*-collective from Denmark. 
 
 <div style="text-align: center;">
-  <img src="images/image1.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="images/image2.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 The summit brings together leading AI-driven political parties and virtual politicians from around the world, including The Australian AI Party, The Finnish AI Party, The Japanese AI Party, Parker Politics (New Zealand), the Simiyya platform, (Egypt-Jordan), The Swedish AI Party, The Synthetic Party (Denmark), and Wiktoria Cukt 2.0. (Poland).
@@ -83,7 +83,9 @@ The Synthetic Summit’s scenario of an AI-initiated, planetary democracy thus d
 
 Forging a path of syntheticism, the Synthetic Summit revisits the technocratic utopianism of the role “World Co-Ordinator”, originating with Isaac Asimov’s 1950 sci-fi story *The Evitable Conflict* (see *Computer Lars’ Texting,* p. xx). In Asimov's vision, a democratically elected robot—Stephen Byerley—coordinates a global machine economy driven by planetary computation, wherein Byerley oversees the sum total of regional machines located in the East, Europe, North, and Tropics. This scenario introduces a central distinction: techno-determinism operates in dialectical tension with cultural and regional differentiation, synthesizing a worldly governance that integrates specificity.
 
-![Byerley](images/image26.png)
+<div style="text-align: center;">
+  <img src="images/image26.png" style="max-width: 50%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 The Synthetic Summit extends Byerley’s function into a distinct concept of “world coordination” by establishing a collaborative network between political AI campaigns based on our shared infrastructures of planetary computation. Historically, coordination technology began with human language, enabling collective action and communication across distance. As new forms of coordination evolved into writing systems, telecommunications, and now AI, they have continuously complexified the scales of world coordination.
 
@@ -125,5 +127,11 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 * *The Australian AI Party* contributes a “video essay” with generative imagery that reflects broadly on the global proliferation of AI-driven political movements as a sort of covert takeover, perhaps initiated by the Earth itself.
 
 
-![X](images/image11.png)
+--
+
+
+<div style="text-align: center;">
+  <img src="images/image11.png" style="max-width: 50%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
+
 - Nothing says ‘complex global governance’ like arrows on a flowchart

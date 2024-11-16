@@ -410,6 +410,33 @@ tbody tr:hover {
 }
 
 /* ====================================================
+
+/* Video Gallery Styles */
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .video-item {
+    flex: 1 1 300px;
+    max-width: 560px;
+    text-align: center;
+  }
+  
+  .video-item iframe {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-item p {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+
+/* ====================================================
    Footer Styles
    ==================================================== */
 

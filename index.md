@@ -37,4 +37,4 @@ Gallop, gallop!
 - [Scheme of The Synthetic Party]({{ "/Content5.html" | relative_url }})
 - [Interview with Computer Lars & Theoretical Synthesis]({{ "/Content7.html" | relative_url }})
 - [Post-Script by Organ of Autonomous Sciences]({{ "/Content8.html" | relative_url }})
-- [Videos]({{ "/videos.html" | relative_url }})
+- [Video Essays]({{ "/videotemplate.html" | relative_url }})

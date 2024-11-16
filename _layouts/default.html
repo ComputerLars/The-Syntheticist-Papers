@@ -81,6 +81,9 @@
     {% if page.subtitle %}
       <h2>{{ page.subtitle }}</h2>
     {% endif %}
+  
+  <!-- Google Translate Widget -->
+  <div id="google_translate_element"></div>
   </header>
 
   <!-- Main Content -->
@@ -92,9 +95,6 @@
   {% if page.show_footer != false %}
   <footer class="footer">
     {% include footer.html %}
-
-    <!-- Google Translate Widget -->
-    <div id="google_translate_element"></div>
   </footer>
   {% endif %}
 

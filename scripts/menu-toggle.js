@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
         fixedMenu.addEventListener('click', function (e) {
             e.stopPropagation();
         });
-    } else {
-        console.error('Menu toggle button or fixed menu not found in the DOM.');
     }
+    // Removed the else block that logs an error message
 });

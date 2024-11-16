@@ -2,6 +2,8 @@
 layout: default
 title: Video Essays
 description: Multimedia production around The Synthetic Summit 2025.
+show_nav: false
+show_footer: false
 ---
 
 <!-- Navigation Menu -->
@@ -22,42 +24,42 @@ description: Multimedia production around The Synthetic Summit 2025.
     <!-- Video 1 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/JzSHkM_8ZQg" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 1: Description of the video.</p>
+      <p>Concerning specters within syntheticism.</p>
     </div>
     <!-- Video 2 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/63L5joPvmck" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 2: Description of the video.</p>
+      <p>Scroll-down of synthetic statecraft with voice of neo-scholastic disputation.</p>
     </div>
     <!-- Video 3 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/F4Euejr5cWU" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 3: Description of the video.</p>
+      <p>Synthetic imagery for scholastic computation.</p>
     </div>
     <!-- Video 4 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lCgjkJRhOrk" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 4: Description of the video.</p>
+      <p>Synthetic propaganda in a revisit of Bob Brown's flat reading machine.</p>
     </div>
     <!-- Video 5 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/iPZ9mgDWAu8" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 5: Description of the video.</p>
+      <p>Synthetic parties as organisms</p>
     </div>
     <!-- Video 6 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/EVY-uRDPDeE" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 6: Description of the video.</p>
+      <p>Between hypothesis and mission.</p>
     </div>
     <!-- Video 7 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/hd5gOZeVIRA" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 7: Description of the video.</p>
+      <p>Summits as social sculpture.</p>
     </div>
     <!-- Video 8 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/g02Qan5-qeo" frameborder="0" allowfullscreen></iframe>
-      <p>Video Title 8: Description of the video.</p>
+      <p>Performance-lecture.</p>
     </div>
   </section>
 

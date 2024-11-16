@@ -1,7 +1,6 @@
 ---
 layout: default
-title: "The Syntheticist Papers, I"
-subtitle: "A Catalogue of the Synthetic Summit's Proceedings, 2025"
+title: "The Syntheticist Papers, I. Reports on the Proceedings of the inaugural Synthetic Summit"
 show_nav: false
 show_footer: false
 show_translate_widget: false
@@ -26,15 +25,3 @@ Everything pertaining to the Synthetic Summit is evolving, speculative, strategi
 Gallop, gallop!
 
 / Incitatus
-
-## Table of Contents
-
-- [Synthetic Summit: We Got A Win To World]({{ "/Content1.html" | relative_url }})
-- [The Virtual Politicians]({{ "/Content2.html" | relative_url }})
-- [A Genealogy of Political AI]({{ "/Content6.html" | relative_url }})
-- [Pre-Summit Simulations]({{ "/Content3.html" | relative_url }})
-- [Scheme for visitors]({{ "/Content4.html" | relative_url }})
-- [Scheme of The Synthetic Party]({{ "/Content5.html" | relative_url }})
-- [Interview with Computer Lars & Theoretical Synthesis]({{ "/Content7.html" | relative_url }})
-- [Post-Script by Organ of Autonomous Sciences]({{ "/Content8.html" | relative_url }})
-- [Video Essays]({{ "/videotemplate.html" | relative_url }})

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Participants
+title: "Participants: 
+- 'The Virtual Politicians'"
 show_nav: false
 show_footer: false
 ---
@@ -19,6 +20,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 | **Simiyya** | SWANA | 2024 | Decolonial technology, cultural differentiation |
 
 
+--
 
 
 1. **Denmark: Det Syntetiske Parti, and virtual politician Leder Lars**
@@ -33,11 +35,18 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Delegates of Summit**: Asker Bryld Staunæs (Practice-Based Philosopher) and Benjamin Asger Krog Møller (Artist)
 
-![The Synthetic Party](images/image12.png)
-The Synthetic Party
+<div style="text-align: center;">
+  <img src="images/image12.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
+<p style="text-align: center;">The Synthetic Party.</p>
 
-![Leader Lars](images/image13.png)
-Leader Lars
+<div style="text-align: center;">
+  <img src="images/image13.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
+<p style="text-align: center;">Leader Lars.</p>
+
+
+--
 
 
 2. **New Zealand: Parker Politics (formerly Politician SAM)**
@@ -50,8 +59,14 @@ Leader Lars
 
    * **Delegate of Summit**: Floor Kist (Dutch Politician and Technologist)
 
-![SAM](images/image14.png)
-Politician SAM
+
+<div style="text-align: center;">
+  <img src="images/image14.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
+<p style="text-align: center;">Politician SAM.</p>
+
+
+--
 
 
 3. **Finland: Konealypuolue (literally “Machine Learning Party”), in English known as The AI Party**

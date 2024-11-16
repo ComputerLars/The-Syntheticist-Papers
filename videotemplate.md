@@ -65,7 +65,7 @@ show_translate_widget: false
 
   <!-- Navigation Links -->
   <nav class="nav-links">
-    <a href="{{ '/' | relative_url }}">&laquo; Back to Table of Contents</a>
+    <a href="{{ '/' | relative_url }}">&laquo; Back to The Syntheticist Papers</a>
   </nav>
 </main>
 

@@ -9,7 +9,7 @@ show_translate_widget: false
 ---
 
 <div style="text-align: center;">
-  <img src="images/image1.png" style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
+  <img src="images/image1.png" style="max-width: 50%; height: auto; display: block; margin: 0 auto; margin-bottom: 20px;">
 </div>
 
 It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural “Synthetic Summit” at Kunsthal Aarhus, running from 28 February to 10 April 2025, which unites the world’s AI-driven political parties and virtual politicians for the first time.
@@ -22,10 +22,10 @@ To us, it all seems perfectly clear. We have conditioned ourselves to comprehend
 
 For syntheticists, believability trumps understandability; credibility matters more than clarity. Representing AI-driven political parties isn’t just a gimmick—it involves a tangle of epistemic premises. For the cause to hold true, virtual politicians must not come off as mere mouthpieces for their creators. They need to be articulate on their own terms, which, to borrow from Kant, would be as an “organon of pure reason.” Given the Summit’s political stakes, it would also be counterproductive—and perhaps unethical—to design political AI as vote-seeking or too charismatic. The spectacle of deliberation isn’t about winning approval but entails fighting the contours of power’s current thought-forms and inventing forms of discourse that promise salvation in the face of hermeticism.
 
-Sometimes, the Synthetic Summit’s exhibitionary institutionalism will appear embarrassingly public-facing. Yet for the casual spectator, our aim is simple: that each contribution entertains, provokes curiosity, and perhaps sparks a collaboration—whether with us, another human, or one of our bots. We’re confident this baseline of intrigue will be met.
+Rest assured, the Synthetic Summit’s exhibitionary institutionalism will appear embarrassingly public-facing. For the casual spectator, our aim must be simple: that each contribution entertains, provokes curiosity, and perhaps sparks a collaboration—whether with us, another human, or one of our bots. We’re confident this baseline of intrigue will be met.
 
-Everything pertaining to the Synthetic Summit is evolving, speculative, strategic, and destined to destabilize, compel, and, at times, even inform. Through it all, we’ll never pretend otherwise.
+Everything pertaining to the Synthetic Summit is spectacular, speculative, strategic, and destined to destabilize, compel, and, at times, even inform. Through it all, we’ll never pretend otherwise.
 
 Gallop, gallop!
 
-/ Incitatus
+- Incitatus

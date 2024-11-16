@@ -9,8 +9,6 @@ show_footer: false
 
 ---
 
-![Logo of Synthetic Summit](images/image1.png)
-
 In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kunsthal Aarhus*—the summit is an exhibition-event curated by the *Computer Lars*-collective from Denmark. 
 
 ![Delegate of Computer Lars: Asker Bryld Staunæs](images/image2.png)

@@ -2,13 +2,13 @@
 layout: null
 ---
 [
-{% assign items = site.posts | concat: site.pages %}
-{% for item in items %}
-  {% if item.title %}
+{% assign pages = site.pages | where_exp: "page", "page.search != false" %}
+{% for page in pages %}
+  {% if page.title %}
     {
-      "title": "{{ item.title | escape }}",
-      "url": "{{ item.url | absolute_url }}",
-      "content": "{{ item.content | strip_html | strip_newlines | escape }}"
+      "title": "{{ page.title | escape }}",
+      "url": "{{ page.url | relative_url }}",
+      "content": "{{ page.content | markdownify | strip_html | strip_newlines | replace: '"', '\"' | replace: '\n', ' ' }}"
     }{% unless forloop.last %},{% endunless %}
   {% endif %}
 {% endfor %}

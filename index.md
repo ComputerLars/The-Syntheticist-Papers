@@ -5,6 +5,7 @@ subtitle: "A Catalogue of the Synthetic Summit's Proceedings, 2025"
 show_fixed_menu: false
 show_nav: false
 show_footer: false
+show_translate_widget: false
 ---
 
 ![Logo of Synthetic Summit](images/image1.png)

@@ -46,3 +46,12 @@ Everything pertaining to the Synthetic Summit is spectacular, speculative, strat
 | [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
 | [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
+
+<hr style="border: 1px solid #f3ff00;">
+
+## Acknowledgments & Resonances
+We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **Emma Bexell**, **Samee Haapa**, **Assem Hendawi**, **Floor Kist**, **Katerina Kokkinos-Kennedy**, **Benjamin Asger Krog Møller**, **Michihito Matsuda**, **Mostafa El Baroody**, **Mandus Ridefelt**, **Asker Bryld Staunæs**, and **Piotr Wyrzykowski**.
+
+Our deepest gratitude also goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, and **King’s College London** for their ongoing support and collaboration.
+
+We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: the **Augustinus Foundation**, the **Hede Nielsen Foundation**, the **Ny Carlsberg Foundation**, **Statens Kunstfond**, and especially the **Novo Nordisk Foundation**, whose contribution made this event possible.

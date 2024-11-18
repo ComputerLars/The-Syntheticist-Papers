@@ -63,3 +63,5 @@ The guiding principle here is to avoid granting proprietary AI models the undue 
 ## Rendezvous
 
 The Syntheticist Papers presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as dynamic and speculative as the summit it frames!
+
+/ Incitatus

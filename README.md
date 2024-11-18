@@ -1,6 +1,6 @@
 # README
 
-Welcome to the back-end documentation for the **Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and speculative material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
+Welcome to the back-end documentation for **The Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and speculative material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
 
 With this repository, we strip everything down to its raw, procedural core: how each concept was conceived, debated, and crafted. It’s also an open invitation to dive in, remix, and collaborate.
 

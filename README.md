@@ -1,4 +1,4 @@
-# Readme
+# README
 
 Welcome to the back-end documentation for the **Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and speculative material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
 
@@ -31,7 +31,7 @@ Access the front-facing website here: [The Syntheticist Papers on GitHub Pages](
 
 ## Contextualizing Human-AI Authorship
 
-### A Synthetic Author-Function
+### Author-Function
 
 We recognize that visitors, especially those engaging with this repository, may wish to discern when a contribution is human-authored, AI-assisted, or entirely AI-generated. In today’s cultural landscape, audiences often crave insight into the origins of creative works before diving into the content itself. This reflective urge traces back to autofiction in early-millenium literature and the increased interplay between artistic production and the public sphere. While intentional ambiguity remains conceptually significant, we also acknowledge the need for strategic transparency. Here’s how we clarify:
 
@@ -45,7 +45,7 @@ While the project resists artificial distinctions between human and AI authorshi
 
 ---
 
-## Methodology
+## Praxis
 
 The foundation of this project lies in avant-garde techniques. Since the days of **GPT-2**, AI models have been seen as reactivating literary strategies like **cut-up** and **détournement**—methods that disrupt and reconfigure the original meaning of a work. Unlike the humanistic text, where authorship is declarative and legalistic, The Syntheticist Papers therefore engage with a performative author-function. This approach stems from a lineage of avant-garde practices, such as Walter Benjamin or the Situationists, which work through fragmentation and multiplicity. To operationalize the off-set question: *Who wrote this?*—we’ve dispersed signifiers of personas and group subjectivities throughout the texts as a network of identities, including:
 
@@ -56,5 +56,10 @@ The foundation of this project lies in avant-garde techniques. Since the days of
 - **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.
 
 The guiding principle here is to avoid granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. Art, like politics, must stand on its own—open to interpretation and debate without the crutch of excessive annotation or exposition. Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics. Any AI production becomes interpretable only when it is understood as the latest apparatus of a dialectical enlightenment, not as a mere display of technological wizardry. In other words, AI can still be written better than it writes itself.
+
+
+---
+
+## Rendezvous
 
 The Syntheticist Papers presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as dynamic and speculative as the summit it frames!

@@ -56,10 +56,11 @@ The foundation of this project lies in avant-garde techniques. Since the days of
 - **Virtual Politicians**: Many passages are specifically authored by the participating political AI of The Synthetic Summit.
 - **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.
 
-The guiding principle here is to avoid granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. Art, like politics, must stand on its own—open to interpretation and debate without the crutch of excessive annotation or exposition. 
+Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics—without the crutch of excessive annotation or exposition.
 
-Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics. Any AI production becomes interpretable only when it is understood as the latest apparatus of a dialectical enlightenment, not as a mere display of technological wizardry.
+The guiding principle here is to resist granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. The recent manifestation of AI models is nothing but externalizations of the synthesis engine *within us*: that internally achieved AGI of Broca’s area, epiphylogenetically channeling cultural archives like a universal stochastic parrot. 
 
+Any intelligent production becomes operationalizable only when it is understood as yet another iterative apparatus of a dialectical enlightenment—not disguised as a mere display of contemporary technological wizardry, but brought forward within the ruthless criticism of everything existing, non-existing, and yet-to-exist.
 
 ---
 

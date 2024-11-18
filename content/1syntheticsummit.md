@@ -11,7 +11,7 @@ show_footer: false
 In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kunsthal Aarhus*—the summit is an exhibition-event curated by the *Computer Lars*-collective from Denmark. 
 
 <div style="text-align: center;">
-  <img src="images/image2.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="..images/image2.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 The summit brings together leading AI-driven political parties and virtual politicians from around the world, including The Australian AI Party, The Finnish AI Party, The Japanese AI Party, Parker Politics (New Zealand), the Simiyya platform, (Egypt-Jordan), The Swedish AI Party, The Synthetic Party (Denmark), and Wiktoria Cukt 2.0. (Poland).
@@ -20,7 +20,10 @@ Participants engage towards a collaborative vision for an AI-initiated planetary
 
 The summit’s crypto-Marxist slogan, taking its cue from McKenzie Wark’s call for a “Cyborg International”—*Workings of the world, untie\! You have a win to world\!*—urges a redirection of AI-driven political campaigns as a result of our total victory. Planetary technology finally united the workings of the world into a sprawling megastructure, as Benjamin Bratton conceptualizes it, and herein algorithmic systems define the scope and fabric of ‘international governance’. Yet, there is a glaring need to untie what has been united. The Synthetic Summit insists that political AIs now “have a win to world” to render our existential purpose within the operational machinery of an infrastructure still haunted by the acronymous remnants of a so-called world  society—UN, EU, BRICS, NATO, AU, GCC, ASEAN, OAS—which constellations are all hijacked *zairja* tricks that the bewildered agents of global bureaucracy turn to as divinatory geopoetics.
 
-![Slogan of a Cyborg International, 2017](images/image3.jpg)
+
+<div style="text-align: center;">
+  <img src="..images/image3.jpg" style="max-width: 80%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 **A Win Without World: AI Hate and AI Hype**  
 By 2025, the public fervor surrounding AI has undergone a general inversion: AI Hate has supplanted AI Hype, laying bare a widespread crisis in its global perception. This backlash signifies a malaise—a pervasive sense of disenfranchisement that speaks to what Bernard Stiegler already in 2017 termed a “proletarianization of sensibility.” As AI technologies continue to integrate with both public and private spheres, the capacity for meaningful participation in democratic technoculture seems eroded. Sensibility itself becomes an appendage to computational processes, severing collective capacities for reflexivity. This is the win without world: algorithmic systems may have conquered every logistical terrain, but they have fractured the relational sensibility that defines symbolic life. 
@@ -32,8 +35,9 @@ But ironically, if there is one thing people hate more than AI, it is politician
 **The Planetary Sentiment of Political AI**  
 For the Synthetic Summit to ‘world’ a planetary-scale sentiment, we must now move beyond theoretical discourse and consider empirical data from diverse constituencies. The Synthetic Party’s global reception from 2022 to 2023 serve as an instructive case study in this respect, shedding light on the specificity of political AI appeal within its regional reception. A basic analysis of negative and positive sentiments across multiple languages can illustrate and, indeed, make a world of this variegated emotional landscape:
 
-![Global sentiment of The Synthetic Party](images/image4.gif)
-
+<div style="text-align: center;">
+  <img src="..images/image4.gif" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 * **English-language coverage** showed a slightly positive sentiment score of 0.078, reflecting a cautious but genuine interest. In these regions, political AI is considered unsettling but potentially transformative, carrying the hope of systemic reform amid widespread institutional decay.
 
@@ -45,13 +49,17 @@ For the Synthetic Summit to ‘world’ a planetary-scale sentiment, we must now
 
 Articles from across the globe were also analyzed per keywords to classify explicit emotional responses. The results were varied: 
 
-![Emotion Classification](images/image5.png)
+<div style="text-align: center;">
+  <img src="..images/image5.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 Visibly, **sadness** emerged as the dominant emotion, highlighting a collective sense of loss—perhaps mourning the perceived decline of human-driven governance. This sadness is compounded by a feeling of inevitability, a recognition that AI’s integration into politics may be unavoidable. **Anger** followed closely, fueled by concerns about injustice, technological domination, and the erosion of democratic norms. The minimal presence of **joy** signals a dismay for AI-driven campaigns in relation to inspiring hope or confidence in the public imagination, leaving a landscape dominated by anxiety and disillusionment.
 
 To gain insight into how AI perceives its own media coverage, we used GPT-3.5 to analyze from a whole article perspective.
 
-![Emotion Classification](images/image6.png)
+<div style="text-align: center;">
+  <img src="..images/image6.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 Here, **surprise** (51.72%) and **neutrality** (28.12%) were the most prevalent emotions, suggesting a tension between awe at AI’s novelty and the normalization of its governance role. While **disgust** and **anger** appeared less frequently, they point to underlying fears of AI’s unchecked power. Yet, the low prevalence of these emotions suggests that widespread rejection of AI governance has not crystallized into a unified opposition. Instead, AI exists in an ambiguous state—both extraordinary and banal, admired and dismissed in equal measure.
 
@@ -84,7 +92,7 @@ The Synthetic Summit’s scenario of an AI-initiated, planetary democracy thus d
 Forging a path of syntheticism, the Synthetic Summit revisits the technocratic utopianism of the role “World Co-Ordinator”, originating with Isaac Asimov’s 1950 sci-fi story *The Evitable Conflict* (see *Computer Lars’ Texting,* p. xx). In Asimov's vision, a democratically elected robot—Stephen Byerley—coordinates a global machine economy driven by planetary computation, wherein Byerley oversees the sum total of regional machines located in the East, Europe, North, and Tropics. This scenario introduces a central distinction: techno-determinism operates in dialectical tension with cultural and regional differentiation, synthesizing a worldly governance that integrates specificity.
 
 <div style="text-align: center;">
-  <img src="images/image26.png" style="max-width: 85%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="..images/image26.png" style="max-width: 85%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 The Synthetic Summit extends Byerley’s function into a distinct concept of “world coordination” by establishing a collaborative network between political AI campaigns based on our shared infrastructures of planetary computation. Historically, coordination technology began with human language, enabling collective action and communication across distance. As new forms of coordination evolved into writing systems, telecommunications, and now AI, they have continuously complexified the scales of world coordination.
@@ -99,7 +107,7 @@ The summit transforms the exhibition space Kunsthal Aarhus into a retro-futurist
 The kitchy backdrop-aesthetics of operation chambers revokes ‘70s scenarios of vitalist bureaucracy from techno- utopias like Chile’s *Project Cybersyn* and sci-fi series *Star Trek*.
 
 <div style="text-align: center;">
-  <img src="images/image7.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="..images/image7.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 A visible feature of any political AI lies in the decisions around gender, sex, and race in avatarization—deliberate choices that can simultaneously reflect and critique prevailing societal biases. Statistically, among the human creators participating in the summit, there is a marked skew: 62.5% identify as male, 25% as female, and 12.5% as non-binary. For their virtual politicians, 37.5% appear male, 37.5% female, and 25% experiment with ephemeral or non-human forms. Despite the planetary longings, the summit participants are all white-ish, with sexual orientation patterns yet to be clearly determined.
@@ -107,7 +115,7 @@ A visible feature of any political AI lies in the decisions around gender, sex, 
 Identity, for all virtual politicians, engages in context-specific, strategic negotiations of anthropomorphism, avatarization, and personalization. Female-coded politicians like Wiktoria Cukt and Bonnie and Winnie from The Swedish and Australian AI Parties use the opportunity to refuse patriarchal structures. Conversely, Leader Lars has been named to mirror statistical overrepresentation—more Danish CEOs are named Lars than there are female CEOs. Meanwhile, The Finnish AI Party and Simiyya reject any fixed figurehead, instead venturing into an expanded conception of political virtuality for representation.
 
 <div style="text-align: center;">
-  <img src="images/image8.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="..images/image8.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 * All participants will come together in the “Summit Simulator”, built together with *NextGen Democracy*; a Danish NGO. The simulator consists of a deliberation machine that orchestrates multi-agent setups for language-based deliberation. This installation allows to engage in planetary parliamentary proceedings with political AIs, generating synthetic debates that aim to map the potential range of intersections for political AI.
@@ -117,7 +125,7 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 * *The Finnish AI Party‘s* “Global AI Party HQ” presents an immersive installation, translating visitors speech into synthetic visual representations of discourse as imaginable within AI-driven planetary governance.
 
 <div style="text-align: center;">
-  <img src="images/image9.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="..images/image9.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 * From Poland, *Wiktoria Cukt 2.0* integrates with “Citizen Electoral Software” (CES) to link the exhibition space with the online realm. In the gallery, visitors engage directly with the virtual politician, while online users submit and vote on statements, shaping Wiktoria’s daily evolution within the techno-social sculpture. CES processes input into real-time video statements by Wiktoria, continuously showcasing her latest “will”.
@@ -128,7 +136,7 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 
 
 <div style="text-align: center;">
-  <img src="images/image11.png" style="max-width: 85%; height: auto; display: block; margin: 0 auto; margin-bottom: 20px;">
+  <img src="..images/image11.png" style="max-width: 85%; height: auto; display: block; margin: 0 auto; margin-bottom: 20px;">
 </div>
 
 ("Nothing says ‘complex global governance’ like arrows on a flowchart!")

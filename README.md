@@ -43,8 +43,8 @@ We recognize that visitors, especially those engaging with this repository, may 
 3. **Idiotext: A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The creative process is a search for the author-function—writing; a way to find out who or what has written the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
 <div style="text-align: center;">
-  <img src="/images/idiotext2.png" style="width: 30%; max-width: 30%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-  <p style="text-align: center; font-style: italic;">Idiotextual complex / Bernard Stiegler, 2010</p>
+  <img src="/images/idiotext2.png" style="width: 40%; max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <p style="text-align: center; font-style: italic;">**Idiotextual complex / Bernard Stiegler, 2010**</p>
 </div>
 
 
@@ -52,7 +52,7 @@ Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 
 
 <div style="text-align: center;">
   <img src="/images/idiotext1.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-   <p style="text-align: center; font-style: italic;">Idiotextual constitution / ibid.</p>
+   <p style="text-align: center; font-style: italic;">**Idiotextual constitution / ibid.**</p>
 </div>
 
 The images above diagram spirals nested within broader mnemonic fields. This demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.

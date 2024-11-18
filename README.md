@@ -57,7 +57,7 @@ Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 
 
 The images above diagram spirals nested within broader mnemonic fields. This demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.
 
-For an in-depth account on the idiotext, see the creator of The Synthetic Party, Asker Bryld Staunæs', dissertation on Stiegler’s concept: [Bernard Stiegler's Concept of Idiotext](https://pure.au.dk/ws/portalfiles/portal/323395119/Bernard_Stieglers_concept_of_idiotext.pdf).
+For an in-depth account on the idiotext, see the dissertation on Stiegler’s concept by Asker Bryld Staunæs, The Synthetic Party's creator: [Bernard Stiegler's Concept of Idiotext](https://pure.au.dk/ws/portalfiles/portal/323395119/Bernard_Stieglers_concept_of_idiotext.pdf).
 
 ---
 

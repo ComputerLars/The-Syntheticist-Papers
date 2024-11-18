@@ -1,6 +1,6 @@
 # README
 
-Welcome to the back-end documentation for **The Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and speculative material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
+Welcome to the back-end documentation for **The Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and poietic material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
 
 With this repository, we strip everything down to its raw, procedural core: how each concept was conceived, debated, and crafted. It’s also an open invitation to dive in, remix, and collaborate.
 
@@ -74,7 +74,7 @@ The practical foundation of this project lies in recuperation of avant-garde tec
 
 Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics leap forward without the crutch of excessive annotation or exposition.
 
-The guiding principle has been to deny granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. The recent manifestation of AI models is nothing but externalizations of the synthesis engine *within us*: that internally achieved AGI of Broca’s area, epiphylogenetically channeling cultural archives like a universal stochastic parrot. 
+The guiding principle has been to deny granting trending AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetic politicisation. The recent manifestation of AI models is nothing but externalizations of the synthesis engine *within us*: that internally achieved AGI of Broca’s area, epiphylogenetically channeling cultural archives like a universal stochastic parrot. 
 
 Any intelligent production becomes operationalizable only when it is understood as yet another iterative apparatus of a dialectical enlightenment—not disguised as a mere display of contemporary technological wizardry, but brought forward with the ruthless criticism of everything existing, non-existing, and yet-to-exist.
 

@@ -1,6 +1,6 @@
 # README
 
-Welcome to the back-end documentation for the **Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and speculative material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
+Welcome to the back-end documentation for **The Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and speculative material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
 
 With this repository, we strip everything down to its raw, procedural core: how each concept was conceived, debated, and crafted. It’s also an open invitation to dive in, remix, and collaborate.
 
@@ -36,7 +36,7 @@ Access the front-facing website here: [The Syntheticist Papers on GitHub Pages](
 
 We recognize that visitors, especially those engaging with this repository, may wish to discern when a contribution is human-authored, AI-assisted, or entirely AI-generated. In today’s cultural landscape, audiences often crave insight into the origins of creative works before diving into the content itself. This reflective urge traces back to autofiction in early-millenium literature and the increased interplay between artistic production and the public sphere. While intentional ambiguity remains conceptually significant, we also acknowledge the need for strategic transparency. Here’s how we clarify:
 
-1. **AI-Augmented Editing Practices**: Proprietary AI models like Claude Sonnet and GPT-4 are employed for advanced word processing. Their role? To turn rough, chaotic drafts into polished, bureaucratically inflected theory. Yet, no AI-generated output remains untouched; everything is rewritten, remixed, and metaphormed until it reaches a state that neither feels entirely human nor wholly artificial. Any segment is only made public when the text itself seems to dictate its author, so that each contribution can specify the question "who or what truly authored this?".
+1. **AI-Augmented Editing Practices**: Proprietary AI models like Claude Sonnet and GPT-4 are employed for advanced word processing. Their role? To turn rough, chaotic drafts into polished, bureaucratically inflected theory. Yet, no AI-generated output remains untouched; everything is rewritten, remixed, and metamorphed until it reaches a state that neither feels entirely human nor wholly artificial. Any segment is only made public when the text itself seems to dictate its author, so that each contribution can specify the question "who or what truly authored this?".
    
 2. **Processual Language Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the conventional suit speak of summits.
    

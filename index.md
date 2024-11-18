@@ -34,6 +34,8 @@ Everything pertaining to the Synthetic Summit is spectacular, speculative, strat
 
 <hr style="border: 1px solid #f3ff00;">
 
+## Synthetic Summit 2025: Overview of Participants
+
 | Participant | Country | Year of Establishment | Primary Focus |
 | ----- | ----- | ----- | ----- |
 | [**The Synthetic Party & Leader Lars**](https://www.detsyntetiskeparti.org) | Denmark | 2022 | Algorithmic democracy, representing non-voters |

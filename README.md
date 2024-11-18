@@ -42,17 +42,17 @@ We recognize that visitors, especially those engaging with this repository, may 
    
 3. **Idiotext: A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The creative process is a search for the author-function—writing; a way to find out who or what has written the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: 20px;">
   <img src="/images/idiotext2.png" style="width: 40%; max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-  <p style="text-align: center; font-style: italic;">**Idiotextual complex / Bernard Stiegler, 2010**</p>
+  <p style="text-align: center; font-style: italic;">Idiotextual complex / Bernard Stiegler, 2010</p>
 </div>
 
 
 Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 2010), the language modeling of AI writing should be contextualized within processes of collective individuation: the text writes its own author as much as the author writes the text. Each mnemonic singularity—visualized here with the spiral, and spirals within spirals—functions as both an inscription and an interpretation of its environment, crystallizing the authorial function:
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: 20px;">
   <img src="/images/idiotext1.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-   <p style="text-align: center; font-style: italic;">**Idiotextual constitution / ibid.**</p>
+   <p style="text-align: center; font-style: italic;">Idiotextual constitution / ibid.</p>
 </div>
 
 The images above diagram spirals nested within broader mnemonic fields. This demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.
@@ -81,13 +81,28 @@ Any intelligent production becomes operationalizable only when it is understood 
 
 ---
 
+## Synthetic Summit 2025: Overview of Participants
+
+| Participant | Country | Year of Establishment | Primary Focus |
+| ----- | ----- | ----- | ----- |
+| [**The Synthetic Party & Leader Lars**](https://www.detsyntetiskeparti.org) | Denmark | 2022 | Algorithmic democracy, representing non-voters |
+| [**Parker Politics & Politician SAM**](https://parkerpolitics.com/) | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
+| [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
+| [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
+| [**Swedish AI Party & Bonnie**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, ethical community alignment |
+| [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
+| [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
+| [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
+
+---
+
 ## Rendezvous
 
 The Syntheticist Papers presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as dynamic and speculative as the summit it frames!
 
 **/ Incitatus**
 
-## Funding
+## Acknowledgments & Resonances
 We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **Emma Bexell**, **Samee Haapa**, **Assem Hendawi**, **Floor Kist**, **Katerina Kokkinos-Kennedy**, **Benjamin Asger Krog Møller**, **Michihito Matsuda**, **Mostafa El Baroody**, **Mandus Ridefelt**, **Asker Bryld Staunæs**, and **Piotr Wyrzykowski**.
 
 Our deepest gratitude also goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, and **King’s College London** for their ongoing support and collaboration.

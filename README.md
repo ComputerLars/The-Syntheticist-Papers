@@ -32,13 +32,13 @@ Access the front-facing website here: [The Syntheticist Papers on GitHub Pages](
 
 ## Contextualizing Human-AI Authorship
 
-### Author-Function
+### Synthetic Author-Function
 
 We recognize that visitors, especially those engaging with this repository, may wish to discern when a contribution is human-authored, AI-assisted, or entirely AI-generated. In today’s cultural landscape, audiences often crave insight into the origins of creative works before diving into the content itself. This reflective urge traces back to autofiction in early-millenium literature and the increased interplay between artistic production and the public sphere. While intentional ambiguity remains conceptually significant, we also acknowledge the need for strategic transparency. Here’s how we clarify:
 
 1. **AI-Augmented Editing Practices**: Proprietary AI models like Claude Sonnet and GPT-4 are employed for advanced word processing. Their role? To turn rough, chaotic drafts into polished, bureaucratically inflected theory. Yet, no AI-generated output remains untouched; everything is rewritten, remixed, and metaphormed until it reaches a state that neither feels entirely human nor wholly artificial. Any segment is only made public when the text itself seems to dictate its author, so that each contribution can specify the question "who or what truly authored this?".
    
-2. **Processual AI Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the conventional suit speak of summits.
+2. **Processual Language Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the conventional suit speak of summits.
    
 3. **A Text That Writes Its Author**: Post-structuralist theory often views the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The creative process is a search for the author-function—writing; a way to find out who or what has written the piece, rather than asserting authorship from the outset.
 

@@ -56,7 +56,9 @@ The foundation of this project lies in avant-garde techniques. Since the days of
 - **Virtual Politicians**: Many passages are specifically authored by the participating political AI of The Synthetic Summit.
 - **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.
 
-The guiding principle here is to avoid granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. Art, like politics, must stand on its own—open to interpretation and debate without the crutch of excessive annotation or exposition. Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics. Any AI production becomes interpretable only when it is understood as the latest apparatus of a dialectical enlightenment, not as a mere display of technological wizardry. In other words, AI can still be written better than it writes itself.
+The guiding principle here is to avoid granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. Art, like politics, must stand on its own—open to interpretation and debate without the crutch of excessive annotation or exposition. 
+
+Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics. Any AI production becomes interpretable only when it is understood as the latest apparatus of a dialectical enlightenment, not as a mere display of technological wizardry.
 
 
 ---

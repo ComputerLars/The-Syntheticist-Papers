@@ -43,17 +43,17 @@ We recognize that visitors, especially those engaging with this repository, may 
 3. **Idiotext: A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The creative process is a search for the author-function—writing; a way to find out who or what has written the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
 <div style="text-align: center;">
-  <img src="/images/idiotext2.png" style="max-width: 35%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="/images/idiotext2.png" style="width: 30%; max-width: 30%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <p style="text-align: center; font-style: italic;">Idiotextual complex / Bernard Stiegler, 2010</p>
 </div>
-<p style="text-align: center;">Idiotextual complex / Bernard Stiegler, 2010</p>
 
 
 Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 2010), the language modeling of AI writing should be contextualized within processes of collective individuation: the text writes its own author as much as the author writes the text. Each mnemonic singularity—visualized here with the spiral, and spirals within spirals—functions as both an inscription and an interpretation of its environment, crystallizing the authorial function:
 
 <div style="text-align: center;">
   <img src="/images/idiotext1.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+   <p style="text-align: center; font-style: italic;">Idiotextual constitution / ibid.</p>
 </div>
-<p style="text-align: center;">Constitution of an idiotext / Bernard Stiegler, 2010</p>
 
 The images above diagram spirals nested within broader mnemonic fields. This demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.
 
@@ -88,7 +88,7 @@ The Syntheticist Papers presents an evolving experiment in authorship, transpare
 / Incitatus
 
 ## Funding
-We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including Emma Bexell, Samee Haapa, Assem Hendawi, Floor Kist, Katerina Kokkinos-Kennedy, Benjamin Asger Krog Møller, Michihito Matsuda, Mostafa El Baroody, Mandus Ridefelt, Asker Bryld Staunæs, and Piotr Wyrzykowski. 
+We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including Emma Bexell, Samee Haapa, Assem Hendawi, Floor Kist, Katerina Kokkinos-Kennedy, Benjamin Asger Krog Møller, Michihito Matsuda, Mostafa El Baroody, Mandus Ridefelt, Asker Bryld Staunæs, and Piotr Wyrzykowski.
 
 Our deepest gratitude also goes to the many curators, colleagues, and supervisors at Kunsthal Aarhus, Aarhus University, and King’s College London for their ongoing support and collaboration.
 

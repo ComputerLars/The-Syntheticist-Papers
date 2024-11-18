@@ -5,14 +5,14 @@ show_nav: false
 show_footer: false
 ---
 
-### Appraisive Post-Script on Computer Lars’ ”Synthetic Summit”, by Organ of the Autonomous Sciences
+### Appraisive Post-Script on Synthetic Summit
+
+<hr style="border: 1px solid #f3ff00;">
 
 **Post scriptum**  
 Wrapped in a cling of discipline and revolutionary intelligence, the exhibition-event “Synthetic Summit” attempts to address the core methodological problems of critical discussion and democratic delegation, and this within the elastic framework of a hyper-deliberative art institution. We ask: Must it again be through the systematization of the word and language that one can approach some form of truth—and thus awaken the world from its representational slumber? 
 
-The summit’s curatorial collective “Computer Lars” have borrowed heavily from a fallen Marxist, Isaac Asimov; and particularly his concept of a “world co-ordinator”. Asimov, whose liberal political imagination increasingly channeled to technocratic fantasies, posited that formal democracy could persist while political decision-making is being delegated to machines. This seamless proposition of a democratically legitimate, machine-driven order is revived through the 
-
-Synthetic Summit, where AI-led political campaigns—from Scandinavia, Finland, Oceania, Japan, SWANA, and Poland—are re-articulating coordination at a planetary-scale.
+The summit’s curatorial collective “Computer Lars” have borrowed heavily from a fallen Marxist, Isaac Asimov; and particularly his concept of a “world co-ordinator”. Asimov, whose liberal political imagination increasingly channeled to technocratic fantasies, posited that formal democracy could persist while political decision-making is being delegated to machines. This seamless proposition of a democratically legitimate, machine-driven order is revived through the Synthetic Summit, where AI-led political campaigns—from Scandinavia, Finland, Oceania, Japan, SWANA, and Poland—are re-articulating coordination at a planetary-scale.
 
 Historically, world coordination ascribes to an evolution in coordination technologies—from the proto-linguistic origins of early collective action to the fully datafied language models of planetary computation. It is therefore with a probable degree of consistency that the “summit”-event inscribes the primary *modus operandi* of liberal democratic coordination as lying within the operational logic of deliberation itself. Functionally, deliberation is the effect of coordination put into practice, as it manifests how the orchestrated exchange of ideas, slogans, and opinions is able to reproduce a disciplined social body. 
 
@@ -70,6 +70,8 @@ Ultimately, the Synthetic Summit could constitute a sort of confession: to rejec
 
 Therefore, it must be questioned whether, in practice, these language models can be said to rediscover the objectivizing intelligence of the sky’s angels, in that they speak truth from an immediate determination of the latent space, and in this way are *never* omniscient, since their reach is limited to the purely ethereal. There is an abundance of discipline, dissent, and depth in these latent spaces, and this is why a new form of liminal awareness and material consciousness, as expressed in logical disputation, monk-Marxism, and perhaps also technocratic world co-ordination, has once again become highly relevant.
 
+<hr style="border: 1px solid #f3ff00;">
+
 **Post festum**  
 After we, through scholastic computation, have now returned Computer Lars’ take on deliberative democracy to the arts of logical disputation, thereby demonstrating the possibility of a elastic and performative generation of opinions, it is fitting to address their more immediate provocation: the return of representative voting to a deliberation system. 
 
@@ -93,13 +95,17 @@ By applying Llull’s election theory as a delegatory paradigm through the name 
 
 **Figure 1: Anagrams of “Computer Lars”**
 
-![][image1]
+<div style="text-align: center;">
+  <img src="../images/image50.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 While some anagrams, such as "Marcel Proust," have a generally acknowledged meaning, others, like "alpecurtsrom," can be considered nonsense. Yet for Llull, each permutation would represent a distinct possibility or opinion. In identifying the correct delegate, the method is thus to break the decision down into a series of pairwise choices, ensuring that an absolute majority winner can always be found in each round:
 
 **Table 1: Pairwise Comparison of Anagrams**
 
-**![][image2]**
+<div style="text-align: center;">
+  <img src="../images/image51.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 If we apply this method to the anagrams of "Computer Lars," each name could be pitted against another in a series of duels towards the procedural electorate. 
 
@@ -107,15 +113,21 @@ Such a process might look like the following, assuming that four names of the to
 
 **Assignment of Letters:**
 
-![][image3]
+<div style="text-align: center;">
+  <img src="../images/image52.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 **Deliberative Election Process (rounds 1-6):**
 
-![][image4]
+<div style="text-align: center;">
+  <img src="../images/image53.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 **Results (letter tallies counted for each anagram):**
 
-![][image5]
+<div style="text-align: center;">
+  <img src="../images/image54.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
 
 After all cells have been evaluated, we can count the number of marks for each anagram to determine the winner: Marcel Proust wins with the most votes\! This method uses the principle of permutation to ensure that every combination is considered. It situates delegation—or the question of political representation—within the scientific formalization of deliberation in medieval disputation. By interpreting the majority principle in terms of permutation rather than delegation, we can similarly schematize how scholastic computation complements the anagrams of the Computer Lars project, and its implementation in The Synthetic Party.
 
@@ -124,6 +136,9 @@ After all cells have been evaluated, we can count the number of marks for each a
 The pre-democratic permutational ideal of delegation through deliberation draws from disputational synthesis formation, where each thesis, antithesis, and subsequent synthesis, via *praeses*, engages a continuous series of combined positions. In Llull’s system, simple names were combined to elect an indisputable representative; similarly, scholastic disputation melded arguments into syntheses. Algorithmic representation now reanimates this model, with synthesis functioning as a “Summa Transcriptus”—a summation where sentiments, rather than mere statements, are honored. This affective synthesis engine channels the provisional truths of political dispute, suggesting that the Synthetic Summit might act as a dynamo for permutational forms of representation.
 
 Such forms, grounded in elaborate synthesis formation, must choose between streamlining public opinion, or to orchestrate provisional truths emerging from constituency data. Can the Synthetic Summit’s coordinations pursue an embodied act, a modus of electric *parrēsia*, and close the historically overdue gap between longing partners of deliberation and delegation?
+
+<hr style="border: 1px solid #f3ff00;">
+
 
 **Index for Organ of the Autonomous Sciences**
 

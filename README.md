@@ -47,15 +47,14 @@ We recognize that visitors, especially those engaging with this repository, may 
   <p style="text-align: center; font-style: italic;">Idiotextual complex / Bernard Stiegler, 2010</p>
 </div>
 
-
-Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 2010), the language modeling of AI writing should be contextualized within processes of collective individuation: the text writes its own author as much as the author writes the text. Each mnemonic singularity—visualized here with the spiral, and spirals within spirals—functions as both an inscription and an interpretation of its environment, crystallizing the authorial function:
+Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 2010), the language modeling of AI writing can be contextualized within processes of collective individuation: the text writes its own author as much as the author writes the text. Each mnemonic singularity—visualized here with the spiral, and spirals within spirals—functions as both an inscription and an interpretation of its environment, crystallizing the authorial function:
 
 <div style="text-align: center; margin-top: 20px;">
   <img src="/images/idiotext1.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
    <p style="text-align: center; font-style: italic;">Idiotextual constitution / ibid.</p>
 </div>
 
-The images above diagram spirals nested within broader mnemonic fields. This demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.
+The sketches above diagram spirals nested within broader mnemonic fields. This demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.
 
 For an in-depth account on the idiotext, see the dissertation on Stiegler’s concept by Asker Bryld Staunæs, The Synthetic Party's creator: [Bernard Stiegler's Concept of Idiotext](https://pure.au.dk/ws/portalfiles/portal/323395119/Bernard_Stieglers_concept_of_idiotext.pdf).
 
@@ -63,9 +62,9 @@ For an in-depth account on the idiotext, see the dissertation on Stiegler’s co
 
 ## Praxis
 
-While the project resists artificial distinctions between human and AI authorship, it follows an integrated, speculative approach that processes authorship as fluid and collaborative, an outcome of what can be termed "synthetic intelligence," to borrow Benjamin Bratton's pseudo-Hegelian quip. The aim is to write AI texts that surpass the capabilities of current machine outputs, using AI as an augmentation tool rather than an originator.
+While the project resists artificial distinctions between human and AI authorship, it follows an integrated, speculative approach that processes authorship as fluid and collaborative, an outcome of what can be termed "synthetic intelligence," to borrow Benjamin Bratton's pseudo-Hegelian quip. The aim is to produce AI media that surpass the capabilities of current machine outputs, using AI as an augmentation tool rather than an originator.
 
-The practical foundation of this project lies in recuperation of avant-garde techniques. Since the days of **GPT-2**, large language models have been seen as reactivating literary strategies like **cut-up** and **détournement**—methods that disrupt and reconfigure the original meaning of a work. Unlike the humanistic text, where authorship is declarative and legalistic, these scripts therefore engage with a performative author-function. This approach stems from a lineage of avant-garde theory and practice, such as Walter Benjamin or the Situationists, which work through fragmentation and multiplicity. To operationalize the off-set question: *Who wrote this?*—we’ve dispersed signifiers of personas and group subjectivities throughout the texts as a network of identities, including:
+The practical foundation of this project lies in recuperation of avant-garde techniques. Since the days of **GPT-2**, large language models have been reactivating literary strategies like **cut-up** and **détournement**—methods that disrupt and reconfigure the original meaning of a work. Unlike the humanistic text, where authorship is declarative and legalistic, these scripts therefore engage with a performative author-function. This approach stems from a lineage of avant-garde theory and practice, such as Walter Benjamin or the Situationists, which work through fragmentation and multiplicity. To operationalize the off-set question: *Who made this?*—we’ve dispersed signifiers of personas and group subjectivities throughout the content as a network of identities, including:
 
 - **Computer Lars**: An anagram of Marcel Proust, Computer Lars handles curatorial aspects of the summit, guiding spectators through the syntheticist vision.
 - **Incitatus**: Inverting  the "Federalist Papers" use of “Publius” for collective anonymity, we adopt “Incitatus”—a reference to Emperor Caligula’s horse, nearly appointed as consul—as  a pseudo-collective signature.
@@ -73,11 +72,11 @@ The practical foundation of this project lies in recuperation of avant-garde tec
 - **Virtual Politicians**: Many passages are specifically authored by the participating political AI of The Synthetic Summit.
 - **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.
 
-Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics—without the crutch of excessive annotation or exposition.
+Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics leap forward without the crutch of excessive annotation or exposition.
 
-The guiding principle here is to resist granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. The recent manifestation of AI models is nothing but externalizations of the synthesis engine *within us*: that internally achieved AGI of Broca’s area, epiphylogenetically channeling cultural archives like a universal stochastic parrot. 
+The guiding principle has been to deny granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. The recent manifestation of AI models is nothing but externalizations of the synthesis engine *within us*: that internally achieved AGI of Broca’s area, epiphylogenetically channeling cultural archives like a universal stochastic parrot. 
 
-Any intelligent production becomes operationalizable only when it is understood as yet another iterative apparatus of a dialectical enlightenment—not disguised as a mere display of contemporary technological wizardry, but brought forward within the ruthless criticism of everything existing, non-existing, and yet-to-exist.
+Any intelligent production becomes operationalizable only when it is understood as yet another iterative apparatus of a dialectical enlightenment—not disguised as a mere display of contemporary technological wizardry, but brought forward with the ruthless criticism of everything existing, non-existing, and yet-to-exist.
 
 ---
 
@@ -99,14 +98,12 @@ Any intelligent production becomes operationalizable only when it is understood 
 ## Acknowledgments & Resonances
 We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **Emma Bexell**, **Samee Haapa**, **Assem Hendawi**, **Floor Kist**, **Katerina Kokkinos-Kennedy**, **Benjamin Asger Krog Møller**, **Michihito Matsuda**, **Mostafa El Baroody**, **Mandus Ridefelt**, **Asker Bryld Staunæs**, and **Piotr Wyrzykowski**.
 
-Our deepest gratitude also goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, and **King’s College London** for their ongoing support and collaboration.
+Special gratitude also goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, and **King’s College London** for their ongoing support and collaboration around Asker Bryld Staunæs' PhD project ["Automatic Uprisings"](https://pure.au.dk/portal/da/projects/automatic-uprisings-the-synthetic-party-as-a-techno-social-sculpt) which acts as prime catalyst for the Synthetic Summit.
 
 We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: the **Augustinus Foundation**, the **Hede Nielsen Foundation**, the **Ny Carlsberg Foundation**, **Statens Kunstfond**, and especially the **Novo Nordisk Foundation**, whose contribution made this event possible.
 
----
-
 ## Rendezvous
 
-The Syntheticist Papers presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as dynamic and speculative as the summit it frames!
+The "Syntheticist Papers" presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as strange and speculative as the summit it frames!
 
 **/ Incitatus**

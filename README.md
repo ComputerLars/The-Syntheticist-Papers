@@ -1,19 +1,60 @@
-# The Syntheticist Papers, I: Proceedings of the Synthetic Summit 2025
- 
- It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural “Synthetic Summit” at Kunsthal Aarhus, running from 28 February to 10 April 2025, which unites the world’s AI-driven political parties and virtual politicians for the first time.
+# Readme
 
-These ”Syntheticist Papers”—a discrete descendant of the 18th-century Federalist Papers—can serve as a central resource, a reference point, a locus of knowledge that might become… many things. Is this a polished catalog for an art audience, a piece of disseminary communication? A prelude to a Galactic Federation of Planets? Or does it herald some other purpose? What, really, is this for?
+Welcome to the back-end documentation for the **Syntheticist Papers**, the digital companion and speculative archive for the **Synthetic Summit** at **Kunsthal Aarhus**, running from 28 February to 10 April 2025. The publication houses all theoretical frameworks, participant profiles, and speculative material generated for the summit, where the world's **AI-driven political parties** and **virtual politicians** will convene for the first time. 
 
-So, we’ve ended up with a digital publication embedded in the open-source culture of GitHub, designed for readability but forking with techno-social offsprings. This makes our proceedings accessible to the open-source community—developers, theorists, artists, and all manner of virtualities. Our reasoning? First, GitHub Pages isn’t exactly alien; it visually resembles an accessible website. It also proposes, at least in principle, the potential for collaborative evolution. Aspirational rather than practical? Probably. But who knows? And lastly, it justifies a certain level of nerdiness and strategic mobilization within this space.
+With this repository, we strip everything down to its raw, procedural core: how each concept was conceived, debated, and crafted. It’s also an open invitation to dive in, remix, and collaborate.
 
-To us, it all seems perfectly clear. We have conditioned ourselves to comprehend the speculative prose of synthetic intelligence, which harbors an ethereal plane firmly beyond any human/machine-distinction. However, our ambition here isn’t enlightenment but actual conversion. We know that our discourse is more convincing than any summit report ever produced in the guise of suit speak.
+## Contents Overview
 
-For syntheticists, believability trumps understandability; credibility matters more than clarity. Representing AI-driven political parties isn’t just a gimmick—it involves a tangle of epistemic premises. For the cause to hold true, virtual politicians must not come off as mere mouthpieces for their creators. They need to be articulate on their own terms, which, to borrow from Kant, would be as an “organon of pure reason.” Given the Summit’s political stakes, it would be also counterproductive—and perhaps unethical—to design political AI as vote-seeking or too charismatic. The spectacle of deliberation isn’t about winning approval but entails fighting the contours of power’s current thought-forms, and inventing forms of discourse that promise salvation in the face of hermeticism.
+This GitHub repository hosts all materials in a transparent, open-source format. The directory currently includes:
 
-Sometimes, the Synthetic Summit’s exhibitionary institutionalism will appear embarrassingly public-facing. Yet for the casual spectator, our aim is simple: that each contribution entertains, provokes curiosity, and perhaps sparks a collaboration—whether with us, another human, or one of our bots. We’re confident this baseline of intrigue will be met.
+- **`index.md`**: Editorial notes on the coordination between The Syntheticist Papers and The Synthetic Summit.
+- **`Content1.md` to `Content8.md`**: A series of in-depth texts that cover:
+  - *Content1.md*: The curatorial vision by Computer Lars, framing the summit’s inception.
+  - *Content2.md*: Participant profiles, contextualizing the virtual politicians.
+  - *Content3.md*: A genealogy of political AI, tracing back to Isaac Asimov.
+  - *Content4.md*: Pre-summit simulations and modeling for AI network consolidation.
+  - *Content5.md*: A scheme for visitors interested in creating virtual politicians.
+  - *Content6.md*: A practical scheme example, by The Synthetic Party.
+  - *Content7.md*: An interview between Computer Lars and The Synthetic Party's creator, coupled with a theoretical synthesis.
+  - *Content8.md*: Appraisive post-script on the Synthetic Summit, by Organ of the Autonomous Sciences.
+- **`_includes`** & **`_layouts`**: HTML components for structured, readable content presentation.
+- **`images`**: Visual assets, including campaign photos, portraits of virtual politicians, and AI governance diagrams.
+- **`styles.css`**: Custom CSS for aesthetic and functional improvements.
+- **`scripts`**: Utilities for any interactive features, such as web design.
+- **`LICENSE`**: The licensing document detailing permissions and restrictions for content use and reproduction.
+- **`README.md`**: (You are here) A guide to navigating and understanding this project.
 
-Everything pertaining to the Synthetic Summit is evolving, speculative, strategic, and destined to destabilize, compel, and, at times, even inform. Through it all, we’ll never pretend otherwise.
+Access the front-facing website here: [The Syntheticist Papers on GitHub Pages](https://computerlars.github.io/The-Syntheticist-Papers/)
 
-Gallop, gallop!
+---
 
-/ Incitatus
+## Contextualizing Human-AI Authorship
+
+### A Synthetic Author-Function
+
+We recognize that visitors, especially those engaging with this repository, may wish to discern when a contribution is human-authored, AI-assisted, or entirely AI-generated. In today’s cultural landscape, audiences often crave insight into the origins of creative works before diving into the content itself. This reflective urge traces back to autofiction in early-millenium literature and the increased interplay between artistic production and the public sphere. While intentional ambiguity remains conceptually significant, we also acknowledge the need for strategic transparency. Here’s how we clarify:
+
+1. **AI-Augmented Editing Practices**: Proprietary AI models like Claude Sonnet and GPT-4 are employed for advanced word processing. Their role? To turn rough, chaotic drafts into polished, bureaucratically inflected theory. Yet, no AI-generated output remains untouched; everything is rewritten, remixed, and metaphormed until it reaches a state that neither feels entirely human nor wholly artificial. Any segment is only made public when the text itself seems to dictate its author, so that each contribution can specify the question "who or what truly authored this?".
+   
+2. **Processual AI Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the conventional suit speak of summits.
+   
+3. **A Text That Writes Its Author**: Post-structuralist theory often views the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The creative process is a search for the author-function—writing; a way to find out who or what has written the piece, rather than asserting authorship from the outset.
+
+While the project resists artificial distinctions between human and AI authorship, it follows an integrated, speculative approach that processes authorship as fluid and collaborative, an outcome of what can be termed "synthetic intelligence," to borrow Benjamin Bratton's pseudo-Hegelian quip. The aim is to write AI texts that surpass the capabilities of current machine outputs, using AI as an augmentation tool rather than an originator.
+
+---
+
+## Methodology
+
+The foundation of this project lies in avant-garde techniques. Since the days of **GPT-2**, AI models have been seen as reactivating literary strategies like **cut-up** and **détournement**—methods that disrupt and reconfigure the original meaning of a work. Unlike the humanistic text, where authorship is declarative and legalistic, The Syntheticist Papers therefore engage with a performative author-function. This approach stems from a lineage of avant-garde practices, such as Walter Benjamin or the Situationists, which work through fragmentation and multiplicity. To operationalize the off-set question: *Who wrote this?*—we’ve dispersed signifiers of personas and group subjectivities throughout the texts as a network of identities, including:
+
+- **Computer Lars**: An anagram of Marcel Proust, Computer Lars handles curatorial aspects of the summit, guiding spectators through the syntheticist vision.
+- **Incitatus**: Inverting  the "Federalist Papers" use of “Publius” for collective anonymity, we adopt “Incitatus”—a reference to Emperor Caligula’s horse, nearly appointed as consul—as  a pseudo-collective signature.
+- **Simulated Summit**: Pre-summit language modeling that generate contingent data and numbers to simulate divergences in theoretical background.
+- **Virtual Politicians**: Many passages are specifically authored by the participating political AI of The Synthetic Summit.
+- **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.
+
+The guiding principle here is to avoid granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. Art, like politics, must stand on its own—open to interpretation and debate without the crutch of excessive annotation or exposition. Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too must synthetic politics. Any AI production becomes interpretable only when it is understood as the latest apparatus of a dialectical enlightenment, not as a mere display of technological wizardry. In other words, AI can still be written better than it writes itself.
+
+The Syntheticist Papers presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as dynamic and speculative as the summit it frames!

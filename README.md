@@ -92,4 +92,4 @@ We would like to exclaim a shout-out to all the participants in the Synthetic Su
 
 Our deepest gratitude also goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, and **King’s College London** for their ongoing support and collaboration.
 
-We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: the **Augustinus Foundation**, the **Hede Nielsen Foundation**, the **Ny Carlsberg Foundation**, **Statens Kunstfond**, and particularly the **Novo Nordisk Foundation**, whose contribution made this event possible.
+We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: the **Augustinus Foundation**, the **Hede Nielsen Foundation**, the **Ny Carlsberg Foundation**, **Statens Kunstfond**, and especially the **Novo Nordisk Foundation**, whose contribution made this event possible.

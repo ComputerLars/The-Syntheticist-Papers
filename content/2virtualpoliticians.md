@@ -14,15 +14,14 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 | Participant | Country | Year of Establishment | Primary Focus |
 | ----- | ----- | ----- | ----- |
-| **The Synthetic Party & Leader Lars** | Denmark | 2022 | Algorithmic democracy, representing non-voters  |
-| **Parker Politics & Politician SAM** | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
-| **Finnish AI Party** | Finland | 2018 | Advocating for a legal AI party with global reach |
-| **Japanese AI Party & AI Mayor** | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
-| **Swedish AI Party & Bonnie** | Sweden | 2020 | Participatory governance, ethical community alignment |
-| **Wiktoria Cukt 2.0** | Poland | 2000 (2.0 per 2024\) | Early AI activism, electoral disillusionment |
-| **Australian AI Party & Winnie** | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
-| **Simiyya** | SWANA | 2024 | Decolonial technology, cultural differentiation |
-
+| [**The Synthetic Party & Leader Lars**](https://www.detsyntetiskeparti.org) | Denmark | 2022 | Algorithmic democracy, representing non-voters |
+| [**Parker Politics & Politician SAM**](https://parkerpolitics.com/) | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
+| [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
+| [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
+| [**Swedish AI Party & Bonnie**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, ethical community alignment |
+| [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
+| [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
+| [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -60,7 +59,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Electoral Milestones**: Planned to candidate for the 2020 elections, SAM was rebranded as Parker Politics in 2023\.
 
-   * **Delegate of Summit**: Floor Kist (Dutch Politician and Technologist)
+   * **Delegate of Summit**: Floor Kist (Dutch Politician and Technologist) 
 
 
 <div style="text-align: center;">
@@ -99,7 +98,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Official Collaborations**: Signed agreements with The Synthetic Party for global AI-politics development.
 
-   * **Delegate of Summit:** Michihito Matsuda (Activist)  
+   * **Delegate of Summit:** Michihito Matsuda (Activist) 
 
 <div style="text-align: center;">
   <img src="../images/image16.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -117,7 +116,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Official Collaborations**: Agreements with participants of The International AI Party, and with the virtual politician AZ Kelsey of The American AI Party
 
-   * **Delegate of Summit**: Emma Bexell (Dramaturg)  
+   * **Delegate of Summit**: Emma Bexell (Dramaturg)   
 
 <div style="text-align: center;">
   <img src="../images/image17.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -135,7 +134,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Creators**: The collective C.U.K.T. (Centralny Urząd Kultury Technicznej, or Central Bureau of Technical Culture), made by Rafał Ewertowski, Mikołaj Jurkowski, Artur Kozdowski, Jacek Niegoda, Maciej Sienkiewicz, & Piotr Wyrzykowski.
 
-   * **Delegate of Summit:** Piotr Wyrzykowski (Visual Artist)  
+   * **Delegate of Summit:** Piotr Wyrzykowski (Visual Artist) 
      
 <div style="text-align: center;">
   <img src="../images/image18.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -153,7 +152,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Official Collaborations**: Agreements with participants of The International AI Party.
 
-   * **Delegate of Summit:** Katerina Kokkinos-Kennedy (Performance Artist)  
+   * **Delegate of Summit:** Katerina Kokkinos-Kennedy (Performance Artist)
 
 <div style="text-align: center;">
   <img src="../images/image19.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">

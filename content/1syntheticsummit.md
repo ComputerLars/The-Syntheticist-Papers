@@ -14,7 +14,7 @@ In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kun
   <img src="../images/image2.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
-The summit brings together leading AI-driven political parties and virtual politicians from around the world, including The Australian AI Party, The Finnish AI Party, The Japanese AI Party, Parker Politics (New Zealand), the Simiyya platform, (Egypt-Jordan), The Swedish AI Party, The Synthetic Party (Denmark), and Wiktoria Cukt 2.0. (Poland).
+The summit brings together leading AI-driven political parties and virtual politicians from around the world, including [The Australian AI Party](https://www.triageliveartcollective.com/the-ai-party), [The Finnish AI Party](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/), [The Japanese AI Party](https://www.ai-mayor.com/), [Parker Politics (New Zealand)](https://parkerpolitics.com/), [the Simiyya platform (Egypt-Jordan)](https://www.simiyya.xyz/), [The Swedish AI Party](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r), [The Synthetic Party (Denmark)](https://www.detsyntetiskeparti.org), and [Wiktoria Cukt 2.0. (Poland)](https://www.facebook.com/wiktoria.cukt.2.0).
 
 Participants engage towards a collaborative vision for an AI-initiated planetary democracy, elaborating how political AI could serve as a force for world coordination based on shared infrastructures of planetary computation. Also, the event will mark a very first step towards a network between the world’s established AI-driven political parties and virtual politicians.
 

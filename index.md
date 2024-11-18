@@ -33,3 +33,14 @@ Everything pertaining to the Synthetic Summit is spectacular, speculative, strat
 / Incitatus
 
 <hr style="border: 1px solid #f3ff00;">
+
+| Participant | Country | Year of Establishment | Primary Focus |
+| ----- | ----- | ----- | ----- |
+| [**The Synthetic Party & Leader Lars**](https://www.detsyntetiskeparti.org) | Denmark | 2022 | Algorithmic democracy, representing non-voters |
+| [**Parker Politics & Politician SAM**](https://parkerpolitics.com/) | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
+| [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
+| [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
+| [**Swedish AI Party & Bonnie**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, ethical community alignment |
+| [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
+| [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
+| [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |

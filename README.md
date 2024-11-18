@@ -40,7 +40,9 @@ We recognize that visitors, especially those engaging with this repository, may 
    
 2. **Processual Language Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the suit speak of summits.
    
-3. **Idiotext. A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The poietic process is a search for the author-function—writing; a way to find out who or what has made the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
+4. **Vitual Politicians**: Each of the  [participating virtual politicians](https://computerlars.github.io/The-Syntheticist-Papers/content/2virtualpoliticians.html) bring eighty years of technical reality to the project. For a comprehensive overview of one entity's datasets and techno-social presence, see [The Synthetic Party's GitHub repository](https://github.com/ComputerLars/thesyntheticparty)
+   
+5. **Idiotext. A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The poietic process is a search for the author-function—writing; a way to find out who or what has made the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
 <div style="text-align: center; margin-top: 20px;">
   <img src="/images/idiotext2.png" style="width: 40%; max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">

@@ -10,14 +10,14 @@ This GitHub repository hosts all materials in a transparent, open-source format.
 
 - **`index.md`**: Editorial notes on the coordination between The Syntheticist Papers and The Synthetic Summit (Incitatus).
 - **Files in the `content` folder**: A series of in-depth scripts that cover:
-  - *1syntheticsummit.html*: The curatorial vision by (Computer Lars), framing the summit’s inception.
-  - *2virtualpoliticians.html*: Participant profiles, contextualizing the virtual politicians (Incitatus).
-  - *3genealogy.html*: A genealogy of political AI, tracing back to Isaac Asimov (Computer Lars).
-  - *4presummit.html*: Pre-summit simulations and modeling for AI network consolidation (Virtual Politicians).
-  - *5scheme.html*: A scheme for visitors interested in creating virtual politicians (Incitatus).
+  - *1syntheticsummit.html*: The curatorial vision by (Computer Lars), framing the summit’s inception
+  - *2virtualpoliticians.html*: Participant profiles, contextualizing the virtual politicians (Incitatus)
+  - *3genealogy.html*: A genealogy of political AI, tracing back to Isaac Asimov (Computer Lars)
+  - *4presummit.html*: Pre-summit simulations and modeling for AI network consolidation (Virtual Politicians)
+  - *5scheme.html*: A scheme for visitors interested in creating virtual politicians (Incitatus)
   - *6scheme.html*: A practical scheme example, (The Synthetic Party)
-  - *7interviews.html*: An interview between (Computer Lars) and (The Synthetic Party's creator), coupled with a theoretical synthesis.
-  - *8postscript.html*: Appraisive post-script on the Synthetic Summit, by (Organ of the Autonomous Science)s.
+  - *7interviews.html*: An interview between (Computer Lars) and (The Synthetic Party's creator), coupled with a theoretical synthesis
+  - *8postscript.html*: Appraisive post-script on the Synthetic Summit, by (Organ of the Autonomous Sciences)
 - **`videotemplate.html`**: A template for video content related to the summit.
 - **`_includes`** & **`_layouts`**: HTML components for structured, readable content presentation.
 - **`images`**: Visual assets, including campaign photos, portraits of virtual politicians, and AI governance diagrams.

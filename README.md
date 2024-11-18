@@ -42,10 +42,13 @@ We recognize that visitors, especially those engaging with this repository, may 
    
 3. **Idiotext: A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The creative process is a search for the author-function—writing; a way to find out who or what has written the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
-![Constitution of an idiotext](images/idiotext1.png)  
 ![Idiotextual complex](images/idiotext2.png)
 
-Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 2010), the language modeling of AI writing should be contextualized within processes of collective individuation: the text writes its own author as much as the author writes the text. Each mnemonic singularity—visualized here with the spiral, and spirals within spirals—functions as both an inscription and an interpretation of its environment, crystallizing the authorial function. The images above diagram this: spirals nested within broader mnemonic fields demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what must remain missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.
+Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 2010), the language modeling of AI writing should be contextualized within processes of collective individuation: the text writes its own author as much as the author writes the text. Each mnemonic singularity—visualized here with the spiral, and spirals within spirals—functions as both an inscription and an interpretation of its environment, crystallizing the authorial function:
+
+![Constitution of an idiotext](images/idiotext1.png)  
+
+The images above diagram spirals nested within broader mnemonic fields. This demonstrate how the author emerges through the iterative act of weaving memory, always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI writing, like all writing, operates pharmacologically, where the textual process continuously brings forward and differentiates both what counts as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any text engages in a processual act of constituting and transforming its author.
 
 For an in-depth account on the idiotext, see the creator of The Synthetic Party, Asker Bryld Staunæs', dissertation on Stiegler’s concept: [Bernard Stiegler's Concept of Idiotext](https://pure.au.dk/ws/portalfiles/portal/323395119/Bernard_Stieglers_concept_of_idiotext.pdf).
 

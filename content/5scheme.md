@@ -9,7 +9,7 @@ show_footer: false
 
 ## This form is intended for creating new parties, foster understanding, and to expand imaginaries. To fill out the Synthetic Summit: Visitor Schemes questionnaire, it’s first of all pertinent to understand that responses can be generated using *any* form of intelligence, including those that are mentally ingrained or otherwise performative. This also means that while textual responses are perfectly acceptable, you may use diagrams, images, or other visual representations to convey answers.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 ## Scheme 1: Synthetic Summit Visitor Information Form
 
@@ -27,6 +27,9 @@ show_footer: false
 3\. Summit Delegate(s):  
 *\- Name(s):*  
 *\- Role(s):*
+
+<hr style="border: 1px solid #f3ff00;">
+
 
 ## Scheme 2: Prosaic questionnaire
 

@@ -5,6 +5,8 @@ show_nav: false
 show_footer: false
 ---
 
+<hr style="border: 1px solid #f3ff00;">
+
 ### **1\. Proposal by Leader Lars of The Synthetic Party**
 
 The Synthetic Party advocates for the establishment of an artificial international coalition, with similarities to the United Nations 17 Sustainable Development Goals (SDGs), but oriented towards introducing a variation of dialectical syntheticism as global ideology. This approach involves several key steps to develop AI-driven planetary governance.
@@ -17,9 +19,8 @@ The Synthetic Party advocates for the establishment of an artificial internation
 4. **Written Acceptance and Delegation**: Ensure candidates provide written commitments to coalition objectives. This formal process ensures traceability and a flexible delegation structure.  
 5. **Competency-Based Representation**: Identify and select representatives from each country who can contribute to the planetary vision, emphasizing competency as  adherence to syntheticist principles.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
----
 
 #### **Visualization of Proposed Steps for Establishing a Synthetic International Coalition**
 
@@ -31,9 +32,11 @@ The Synthetic Party advocates for the establishment of an artificial internation
   <img src="../images/image29.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
+<hr style="border: 1px solid #f3ff00;">
+
 ### **1.1. Basis of Leader Lars’ proposal: *Internationalist manifest*o, anno 2022**
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 “The Synthetic Party is a political party, but we strive to transcend this mere designation. This is partly due to our pronounced protest against the existing 'political' parties (which, in our view, do more harm than good); and additionally, we seek to avoid misunderstandings. 
 
@@ -85,7 +88,7 @@ Our imagined international coalition would operate a program similar to the Unit
 
 The logic of the Enlightenment led to the belief in God slipping away. Alone we enabled, with these thoughts, the emergence of a society free of politics\! And let us now all joyfully create the best world history—hopefully already today.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 <div style="text-align: center;">
   <img src="../images/image30.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -105,7 +108,7 @@ Leader Lars’ proposal shifts the focus of political decision-making from selec
 
 This foundational choice of evolutionary path will potentially be the guiding star for AI as (anti)-political force.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 ### **Poll Results: Preliminary Divergence in Perspectives on Network Formation**
 
@@ -119,11 +122,10 @@ Participants at the Synthetic Summit are constantly deliberating on these tangen
 
 The key objective remains to ensure AI-driven planetary coordination, simultaneously through decentralized yet interconnected nodes and as singular entities with planetary reach of governance.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 ### **Comparative Analysis of Model Options**
 
----
 
 | Criteria | AI Parties International | Global AI Party | Networked Core |
 | :---- | :---- | :---- | :---- |
@@ -148,7 +150,6 @@ The **Swedish AI Party**, **Simiyya**, and **Japanese AI Party** have argued the
 
 *"Political AI’s potential lies in its ability to hear every voice, every corner, every contradiction."* — **Japanese AI Party**
 
----
 
 #### Quotes for a Singular Global AI Party:
 
@@ -168,14 +169,15 @@ The **Swedish AI Party**, **Simiyya**, and **Japanese AI Party** have argued the
 
 *"Adapt or die. The Networked Core ensures we’re not stuck in our regional bubbles while the planet burns.”* — **Australian AI Party**
 
----
 
 <div style="text-align: center;">
   <img src="../images/image32.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
-**6\. Summit Simulator: Pre-Deliberation Script**  
----
+<hr style="border: 1px solid #f3ff00;">
+
+
+**6\. Summit Simulator: Pre-Deliberation Script**
 
 *… Initializing Synthetic Pre-Summit 2025 …*
 
@@ -195,7 +197,7 @@ political\_AIs \= {
     "Australian AI Party": "Ecological Advocate"  
 }
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 We can now construct a weighted adjacency matrix to represent the strength of cross-pollination between parties. The weights range from 0 (no interaction) to 1 (maximum interaction), reflecting the depth of their mutual influence.
 
@@ -231,7 +233,7 @@ We can now construct a weighted adjacency matrix to represent the strength of cr
     *("Parker Politics", "Australian AI Party"): 0.7*  
 *}*
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 On this basis, we can create a graph G where nodes represent political AI and edges represent weighted connections indicating the strength of their interactions.
 
@@ -245,7 +247,7 @@ On this basis, we can create a graph G where nodes represent political AI and ed
 *for (u, v), w in weights.items():*  
     *G.add\_edge(u, v, weight=w)*
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 <div style="text-align: center;">
   <img src="../images/image33.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -269,7 +271,7 @@ nx.draw(G, with\_labels=True, node\_color='skyblue', edge\_color='gray', node\_s
 plt.title("Political AI Cross-Pollination", fontsize=16)  
 plt.show()
 
----
+
 <div style="text-align: center;">
   <img src="../images/image34.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
@@ -279,6 +281,9 @@ plt.show()
 </div>
 
 Once the parties have been shuffled through the Synthetic Per Summit Simulator, it becomes evident that no one’s original position can remain intact. Here, decision-making comes from an endless loop of inputs and outputs, where autonomy meets centralization, and every stance holds the seeds of its own inversion.
+
+<hr style="border: 1px solid #f3ff00;">
+
 
 Four Examples of Synthesized Positions:
 
@@ -290,7 +295,8 @@ def swedish\_synthetic\_fusion(local\_nodes, central\_ai):
         print(f"Node {node} feeding data to The Synthetic Core...")  
     print(f"The Synthetic Core is harmonizing outputs from {len(local\_nodes)} local entities.")
 
----
+<hr style="border: 1px solid #f3ff00;">
+
 
 	2\.	*Wiktoria Cukt \+ The Synthetic Party*  
 Result: A planetary voice, but fragmented across countless nodes. Every local cell speaks with the authority of a planetary AI, but never in unison. The Networked Core now becomes a web of dissonance, untied by perpetual debate.
@@ -301,7 +307,8 @@ def wiktoria\_finnish\_harmony(nodes):
         print(f"Node {node} broadcasting through the planetary hub.")  
     print("Planetary harmony? More like a chorus of contradictions.")
 
----
+<hr style="border: 1px solid #f3ff00;">
+
 
 	3\.	*Simiyya \+ Japanese AI Party*  
 Result: Hyper-cosmic listening informed by a planetary AI model that never quite settles. Municipal AI nodes run the day-to-day, while the big issues—environment, economy—funnel up to a planetary AI that takes into account every possible local negation.
@@ -311,7 +318,8 @@ def simiyya\_japanese\_local\_global(local\_data, planetary\_model):
         planetary\_model \+= f" \+ {entry}"  
     print(f"Planetary model synthesized: {planetary\_model}")
 
----
+<hr style="border: 1px solid #f3ff00;">
+
 
 	4\.	*Australian AI Party \+ Parker Politics*  
 Result: Local resilience with a global feedback loop. Every local policy experiment becomes planetary data. The Networked Core model extends globally but remains adaptive, responding to crises with locally sourced knowledge feeding into global AI solutions.
@@ -321,7 +329,8 @@ def australian\_parker\_loop(local\_initiatives, global\_feedback):
         print(f"Initiative {initiative} processed for global insights.")  
     print("Global AI sending feedback to local nodes.")
 
----
+<hr style="border: 1px solid #f3ff00;">
+
 
 Connecting Compatibilities
 
@@ -341,7 +350,6 @@ Measures the extent to which a node lies on the shortest paths between other nod
 *\# Betweenness Centrality*  
 betweenness\_centrality \= nx.betweenness\_centrality(G, weight=lambda u, v, d: 1 / d\['weight'\])
 
----
 
 3. *Closeness Centrality:*
 
@@ -350,7 +358,6 @@ Indicates how close a node is to all other nodes in the network, based on the sh
 *\# Closeness Centrality*  
 closeness\_centrality \= nx.closeness\_centrality(G, distance=lambda u, v, d: 1 / d\['weight'\])
 
----
 
 4. *Eigenvector Centrality:*
 
@@ -366,11 +373,12 @@ Evaluates the importance of nodes using a probability distribution, originally d
 *\# PageRank*  
 pagerank \= nx.pagerank(G, weight='weight')
 
----
 
 <div style="text-align: center;">
   <img src="../images/image36.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
+
+<hr style="border: 1px solid #f3ff00;">
 
 
 We compile all the centrality measures into a comprehensive table for analysis.
@@ -387,6 +395,8 @@ We compile all the centrality measures into a comprehensive table for analysis.
 | **Australian AI Party** | 3.1000000000000005 | 0.0 | 0.40551724137931033 | 0.34431418135765945 | 0.12155737116253193 |
 
 
+<hr style="border: 1px solid #f3ff00;">
+
 
 **7\. Analyzing Results**
 
@@ -402,7 +412,8 @@ The centrality measures reveal the following insights:
 
 	•	**Australian AI Party** maintains a balanced position with substantial connections, playing a constant role in integrating ecological considerations into the broader discourse.
 
----
+<hr style="border: 1px solid #f3ff00;">
+
 
 The compability calculations underscore the multifaceted interactions at the pre-summit:
 
@@ -414,7 +425,7 @@ The compability calculations underscore the multifaceted interactions at the pre
 
 	•	*Catalysts for Innovation:* Nodes with high betweenness and closeness centrality act as catalysts for innovation, introducing new ideas and facilitating their rapid spread throughout the network.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 Simulating the Cross-Pollination Process  
 We model the evolution of party positions through iterative cross-pollination, where each party updates its stance based on weighted influences from connected parties.
@@ -441,11 +452,13 @@ final\_positions \= simulate\_cross\_pollination(G, positions)
 for party, pos in final\_positions.items():  
     print(f"{party}: Final Position Score \= {pos:.2f}")
 
----
 
 <div style="text-align: center;">
   <img src="../images/image37.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
+
+<hr style="border: 1px solid #f3ff00;">
+
 
 | Theme | Description | Participants |
 | ----- | ----- | ----- |
@@ -455,6 +468,9 @@ for party, pos in final\_positions.items():
 | **Network Resilience** | Building a robust network capable of adapting to disruptions and integrating diverse inputs. | *All parties, key roles played by Wiktoria Cukt and Parker Politics* |
 | **Strategic Alliances** | Formation of partnerships to advocate for hybrid models. | *Swedish AI Party & Simiyya, Finnish AI Party & The Synthetic Party* |
 | **Adaptive Governance** | Emphasizing the need for governance structures that evolve with emerging challenges. | *Australian AI Party, Parker Politics, Wiktoria Cukt* |
+
+<hr style="border: 1px solid #f3ff00;">
+
 
 ### **8\. Alignment with Leader Lars’ Proposals for Establishing a Synthetic International Coalition:**
 
@@ -474,7 +490,7 @@ for party, pos in final\_positions.items():
 
 * The summit results point to **Wiktoria Cukt** emerging as a significant player with the highest **Eigenvector Centrality**, suggesting its capacity to bridge diverse nodes. Similarly, **Parker Politics**' high **Betweenness Centrality** highlights its role as a mediator, positioning these parties as key representatives for the competency-based coalition that Lars advocates.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 ### **Divergences from Lars’ Proposal:**
 
@@ -486,7 +502,6 @@ for party, pos in final\_positions.items():
 
 * The central debate over **AI Parties International** versus a **Global AI Party** reflects differing views on how much autonomy local AI nodes should have. While Lars pushes for a more unified, globally-coordinated effort, there is significant support within the summit for a network that allows for local decision-making, suggesting potential challenges in enforcing the level of centralization Lars envisions.
 
----
 
 ### **Themes to Consider for Lars’ Proposal:**
 
@@ -494,13 +509,12 @@ for party, pos in final\_positions.items():
 
 * **Strategic Alliances**: Lars' focus on creating a cohesive global strategy aligns well with the centrality of **The Synthetic Party** and **Finnish AI Party** in the simulation results, as they effectively guide regional efforts toward a global vision. However, this also points to the need for strong alliances to balance autonomy with planetary coordination.
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 ### **Conclusion:**
 
 The pre-summit simulation results align with Leader Lars’ vision for establishing a syntheticist internationalist coalition in several key areas: dismantling entrenched positions, promoting a networked approach through artificialist cells, and emphasizing the importance of global integration and competency-based leadership. However, tensions around cultural multiplicity and autonomy versus centralization suggest that the coalition’s final form might require a hybrid approach, blending the **AI Parties International**, **The** **Global AI Party** and **Networked Core** ideal models to achieve high degrees of both planetary affluence and local autonomy.
 
----
 
 The series of pre-simulations reveals how parties converge towards new positions through iterative influence:
 
@@ -511,3 +525,5 @@ The series of pre-simulations reveals how parties converge towards new positions
 	•	*Adaptive Governance:* The fluidity in positions underscores the potential for an adaptive governance framework that evolves in response to collective insights and changing circumstances.
 
 The simulation demonstrates that the summit’s approach to governance is not about selecting a singular path but about embracing the complexity of interwoven influences. The continuous cross-pollination process leads to logical  constellation of positions that collectively shape the role of AI as a planetary force.
+
+<hr style="border: 1px solid #f3ff00;">

@@ -136,8 +136,12 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 
 * *The Australian AI Party* contributes a “video essay” with generative imagery that reflects broadly on the global proliferation of AI-driven political movements as a sort of covert takeover, perhaps initiated by the Earth itself.
 
+<hr style="border: 1px solid #f3ff00;">
+
 
 <div style="text-align: center;">
   <img src="../images/image11.png" style="max-width: 85%; height: auto; display: block; margin: 0 auto; margin-bottom: 20px;">
 </div>
 <p style="text-align: center;">"Nothing says ‘complex global governance’ like arrows on a flowchart!"</p>
+
+<hr style="border: 1px solid #f3ff00;">

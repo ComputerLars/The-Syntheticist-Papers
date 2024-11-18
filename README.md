@@ -60,7 +60,7 @@ Our ambition isn’t to obscure authorship but to highlight its complexity, posi
 
 The guiding principle here is to resist granting proprietary AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetico-epistemic experience. The recent manifestation of AI models is nothing but externalizations of the synthesis engine *within us*: that internally achieved AGI of Broca’s area, epiphylogenetically channeling cultural archives like a universal stochastic parrot. 
 
-Any intelligent production becomes operationalizable only when it is understood as yet another iterative apparatus of a dialectical enlightenment—not disguised as a mere display of contemporary technological wizardry, but as a ruthless criticism of everything existing, non-existing, and yet-to-exist.
+Any intelligent production becomes operationalizable only when it is understood as yet another iterative apparatus of a dialectical enlightenment—not disguised as a mere display of contemporary technological wizardry, but brought forward within the ruthless criticism of everything existing, non-existing, and yet-to-exist.
 
 ---
 

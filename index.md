@@ -27,6 +27,6 @@ Rest assured, the Synthetic Summit’s exhibitionary institutionalism will appea
 
 Everything pertaining to the Synthetic Summit is spectacular, speculative, strategic, and destined to destabilize, compel, and, at times, even inform. Through it all, we’ll never pretend otherwise.
 
-Gallop, gallop!
+[Gallop, gallop!](https://github.com/ComputerLars/The-Syntheticist-Papers/tree/main)
 
 / Incitatus

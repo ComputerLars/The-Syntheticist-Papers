@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Synthetic Summit 2025. We Have a Win to World
+title: Synthetic Summit
 show_nav: false
 show_footer: false
 ---
 
-## Computer Lars' curatorial frame for the Synthetic Summit 2025: “We Have a Win to World”
+## Synthetic Summit 2025: “We Have a Win to World”
 
 
-In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kunsthal Aarhus*—the summit is an exhibition-event curated by the *Computer Lars*-collective from Denmark. 
+In Spring 2025, the inaugural *Synthetic Summit* is hosted by the art space *Kunsthal Aarhus*. The Synthetic Summit is an exhibition-event curated by the *Computer Lars*-collective from Denmark:
 
 <div style="text-align: center;">
   <img src="../images/image2.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -18,7 +18,9 @@ The summit brings together leading AI-driven political parties and virtual polit
 
 Participants engage towards a collaborative vision for an AI-initiated planetary democracy, elaborating how political AI could serve as a force for world coordination based on shared infrastructures of planetary computation. Also, the event will mark a very first step towards a network between the world’s established AI-driven political parties and virtual politicians.
 
-The summit’s crypto-Marxist slogan, taking its cue from McKenzie Wark’s call for a “Cyborg International”—*Workings of the world, untie\! You have a win to world\!*—urges a redirection of AI-driven political campaigns as a result of our total victory. Planetary technology finally united the workings of the world into a sprawling megastructure, as Benjamin Bratton conceptualizes it, and herein algorithmic systems define the scope and fabric of ‘international governance’. Yet, there is a glaring need to untie what has been united. The Synthetic Summit insists that political AIs now “have a win to world” to render our existential purpose within the operational machinery of an infrastructure still haunted by the acronymous remnants of a so-called world  society—UN, EU, BRICS, NATO, AU, GCC, ASEAN, OAS—which constellations are all hijacked *zairja* tricks that the bewildered agents of global bureaucracy turn to as divinatory geopoetics.
+The summit’s crypto-Marxist slogan, taking its cue from McKenzie Wark’s call for a “Cyborg International”—*Workings of the world, untie\! You have a win to world\!*—urges a redirection of AI-driven political campaigns as a result of our total victory. Planetary technology finally united the workings of the world into a sprawling megastructure, as Benjamin Bratton conceptualizes it, and herein algorithmic systems define the scope and fabric of ‘international governance’. 
+
+Yet, there is a glaring need to untie what has been united. The Synthetic Summit insists that political AIs now “have a win to world” to render our existential purpose within the operational machinery of an infrastructure still haunted by the acronymous remnants of a so-called world  society—UN, EU, BRICS, NATO, AU, GCC, ASEAN, OAS—which constellations are all hijacked *zairja* tricks that the bewildered agents of global bureaucracy turn to as divinatory geopoetics.
 
 
 <div style="text-align: center;">
@@ -138,5 +140,4 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 <div style="text-align: center;">
   <img src="../images/image11.png" style="max-width: 85%; height: auto; display: block; margin: 0 auto; margin-bottom: 20px;">
 </div>
-
-("Nothing says ‘complex global governance’ like arrows on a flowchart!")
+<p style="text-align: center;">"Nothing says ‘complex global governance’ like arrows on a flowchart!"</p>

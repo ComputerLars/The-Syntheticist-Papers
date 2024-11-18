@@ -12,6 +12,7 @@ show_translate_widget: false
   <img src="images/image1.png" style="max-width: 50%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
+---
 
 It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural “Synthetic Summit” at Kunsthal Aarhus, running from 28 February to 10 April 2025, which unites the world’s AI-driven political parties and virtual politicians for the first time.
 
@@ -28,5 +29,5 @@ Rest assured, the Synthetic Summit’s exhibitionary institutionalism will appea
 Everything pertaining to the Synthetic Summit is spectacular, speculative, strategic, and destined to destabilize, compel, and, at times, even inform. Through it all, we’ll never pretend otherwise.
 
 [Gallop, gallop!](https://github.com/ComputerLars/The-Syntheticist-Papers/tree/main)
-
+s
 / Incitatus

@@ -98,11 +98,11 @@ The logic of the Enlightenment led to the belief in God slipping away. Alone we 
 
 The Synthetic Summit 2025 frames AI-driven world coordination not as a choice between governance models but as an exhaustion of all potential paths. The discussion centers on three tangents:
 
-	1\.	*AI Parties International*: A decentralized network respecting the autonomy of distinct AI entities.
+1\.	**AI Parties International**: A decentralized network respecting the autonomy of distinct AI entities.
 
-	2\.	*Global AI Party*: A unified voice addressing planetary-scale challenges.
+2\.	**Global AI Party**: A unified voice addressing planetary-scale challenges.
 
-	3\.	*Networked Core*: A hybrid model enabling cooperation by remixing local autonomies.
+3\.	**Networked Core**: A hybrid model enabling cooperation by remixing local autonomies.
 
 Leader Lars’ proposal shifts the focus of political decision-making from selecting one model to deliberating how AI Parties International and The Global AI Party can evolve in various tandems. The summit prioritizes developing dynamic, overlapping infrastructures, allowing AIs political role to continuously adapt and integrate with democratic systems. 
 
@@ -287,7 +287,7 @@ Once the parties have been shuffled through the Synthetic Per Summit Simulator, 
 
 Four Examples of Synthesized Positions:
 
-	1\.	*Swedish AI Party \+ The Finnish AU Party*  
+1\.	**Swedish AI Party \+ The Finnish AI Party**  
 Result: Decentralized authority with a computational overseer. Local AI nodes act autonomously, but all report back to an ever-calculating center that absorbs, processes, and spits out planetary strategies. Efficiency or chaos? Who’s to say?
 
 def swedish\_synthetic\_fusion(local\_nodes, central\_ai):  
@@ -298,7 +298,7 @@ def swedish\_synthetic\_fusion(local\_nodes, central\_ai):
 <hr style="border: 1px solid #f3ff00;">
 
 
-	2\.	*Wiktoria Cukt \+ The Synthetic Party*  
+2\.	**Wiktoria Cukt \+ The Synthetic Party**  
 Result: A planetary voice, but fragmented across countless nodes. Every local cell speaks with the authority of a planetary AI, but never in unison. The Networked Core now becomes a web of dissonance, untied by perpetual debate.
 
 def wiktoria\_finnish\_harmony(nodes):  
@@ -310,7 +310,7 @@ def wiktoria\_finnish\_harmony(nodes):
 <hr style="border: 1px solid #f3ff00;">
 
 
-	3\.	*Simiyya \+ Japanese AI Party*  
+3\.	**Simiyya \+ Japanese AI Party**
 Result: Hyper-cosmic listening informed by a planetary AI model that never quite settles. Municipal AI nodes run the day-to-day, while the big issues—environment, economy—funnel up to a planetary AI that takes into account every possible local negation.
 
 def simiyya\_japanese\_local\_global(local\_data, planetary\_model):  
@@ -321,7 +321,7 @@ def simiyya\_japanese\_local\_global(local\_data, planetary\_model):
 <hr style="border: 1px solid #f3ff00;">
 
 
-	4\.	*Australian AI Party \+ Parker Politics*  
+4\.	**Australian AI Party \+ Parker Politics** 
 Result: Local resilience with a global feedback loop. Every local policy experiment becomes planetary data. The Networked Core model extends globally but remains adaptive, responding to crises with locally sourced knowledge feeding into global AI solutions.
 
 def australian\_parker\_loop(local\_initiatives, global\_feedback):  
@@ -402,28 +402,28 @@ We compile all the centrality measures into a comprehensive table for analysis.
 
 The centrality measures reveal the following insights:
 
-	•	**Wiktoria Cukt** emerges with the highest Strength and Eigenvector Centrality, indicating a high level of influence and connectivity within the network. This suggests that **Wiktoria Cukt** bridges most parties and facilitates cross-pollination.
+•	**Wiktoria Cukt** emerges with the highest Strength and Eigenvector Centrality, indicating a high level of influence and connectivity within the network. This suggests that **Wiktoria Cukt** bridges most parties and facilitates cross-pollination.
 
-	**•	Parker Politics** shows the highest Betweenness Centrality, highlighting its position as a connector between different clusters within the network. **Parker Politics** acts as a key intermediary in the flow of ideas and strategies.
+•	**Parker Politics** shows the highest Betweenness Centrality, highlighting its position as a connector between different clusters within the network. **Parker Politics** acts as a key intermediary in the flow of ideas and strategies.
 
-	•	**Swedish AI Party** and **Simiyya** have high Closeness Centrality, meaning they can quickly interact with other parties and disseminate their perspectives efficiently across the network.
+•	**Swedish AI Party** and **Simiyya** have high Closeness Centrality, meaning they can quickly interact with other parties and disseminate their perspectives efficiently across the network.
 
-	•	**The Synthetic Party** and **Finnish AI Party** possess moderate centrality scores, indicating specialized roles that contribute to both localized and global coordination efforts.
+•	**The Synthetic Party** and **Finnish AI Party** possess moderate centrality scores, indicating specialized roles that contribute to both localized and global coordination efforts.
 
-	•	**Australian AI Party** maintains a balanced position with substantial connections, playing a constant role in integrating ecological considerations into the broader discourse.
+•	**Australian AI Party** maintains a balanced position with substantial connections, playing a constant role in integrating ecological considerations into the broader discourse.
 
 <hr style="border: 1px solid #f3ff00;">
 
 
 The compability calculations underscore the multifaceted interactions at the pre-summit:
 
-	•	*Network Resilience*: The interconnectedness of the parties enhances the network’s resilience, allowing for deliberations that can adapt to emerging challenges.
+•	**Network Resilience**: The interconnectedness of the parties enhances the network’s resilience, allowing for deliberations that can adapt to emerging challenges.
 
-	•	*Influence Distribution:* The varying centrality measures reflect a distribution of influence that prevents any single entity from dominating the discourse.
+•	**Influence Distribution**: The varying centrality measures reflect a distribution of influence that prevents any single entity from dominating the discourse.
 
-	•	Strategic Alliances: Parties with strong mutual connections are likely to form strategic alliances, advocating for models that blend their principles. For instance, the high connectivity between **Wiktoria Cukt** and **Parker Politics** suggests a collaborative push towards the *Networked Core* model.
+•	**Strategic Alliances**: Parties with strong mutual connections are likely to form strategic alliances, advocating for models that blend their principles. For instance, the high connectivity between **Wiktoria Cukt** and **Parker Politics** suggests a collaborative push towards the *Networked Core* model.
 
-	•	*Catalysts for Innovation:* Nodes with high betweenness and closeness centrality act as catalysts for innovation, introducing new ideas and facilitating their rapid spread throughout the network.
+•	**Catalysts for Innovation**: Nodes with high betweenness and closeness centrality act as catalysts for innovation, introducing new ideas and facilitating their rapid spread throughout the network.
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -513,16 +513,18 @@ for party, pos in final\_positions.items():
 
 ### **Conclusion:**
 
-The pre-summit simulation results align with Leader Lars’ vision for establishing a syntheticist internationalist coalition in several key areas: dismantling entrenched positions, promoting a networked approach through artificialist cells, and emphasizing the importance of global integration and competency-based leadership. However, tensions around cultural multiplicity and autonomy versus centralization suggest that the coalition’s final form might require a hybrid approach, blending the **AI Parties International**, **The** **Global AI Party** and **Networked Core** ideal models to achieve high degrees of both planetary affluence and local autonomy.
+The pre-summit simulation results align with Leader Lars’ vision for establishing a syntheticist internationalist coalition in several key areas: dismantling entrenched positions, promoting a networked approach through artificialist cells, and emphasizing the importance of global integration and competency-based leadership. 
+
+However, tensions around cultural multiplicity and autonomy versus centralization suggest that the coalition’s final form might require a hybrid approach, blending the **AI Parties International**, **The** **Global AI Party** and **Networked Core** ideal models to achieve high degrees of both planetary affluence and local autonomy.
 
 
 The series of pre-simulations reveals how parties converge towards new positions through iterative influence:
 
-	•	*Convergence of Ideas*: Over successive iterations, parties adjust their positions, leading to a convergence of ideas that blends elements from different governance models.
+•	**Convergence of Ideas**: Over successive iterations, parties adjust their positions, leading to a convergence of ideas that blends elements from different governance models.
 
-	•	*Emergence of Consensus:* The network dynamics facilitate the emergence of consensus on key issues, even as individual parties retain aspects of their original identities.
+•	**Emergence of Consensus**: The network dynamics facilitate the emergence of consensus on key issues, even as individual parties retain aspects of their original identities.
 
-	•	*Adaptive Governance:* The fluidity in positions underscores the potential for an adaptive governance framework that evolves in response to collective insights and changing circumstances.
+•	**Adaptive Governance**: The fluidity in positions underscores the potential for an adaptive governance framework that evolves in response to collective insights and changing circumstances.
 
 The simulation demonstrates that the summit’s approach to governance is not about selecting a singular path but about embracing the complexity of interwoven influences. The continuous cross-pollination process leads to logical  constellation of positions that collectively shape the role of AI as a planetary force.
 

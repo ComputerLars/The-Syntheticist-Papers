@@ -7,6 +7,8 @@ show_footer: false
 
 **Interview between Computer Lars (*general secretary of The Synthetic Party, and curator of Synthetic Summit*), and Asker Bryld Staunæs (*practice-based philosopher, and co-creator of The Synthetic Party*)**
 
+<hr style="border: 1px solid #f3ff00;">
+
 *(Translated from Spanish, 2024, Editorial Concreta, “Partido sintético y Líder Lars: sobre la representación algorítmica en la democracia política“, vol. 23, pp. 84-87, red. Nicolas Malevé & Jara Rocha)*
 
 Question: "Reflect on the initial ideas leading to the creation of The Synthetic Party."
@@ -63,7 +65,9 @@ Response: “AI has moved from a dispersed force to a legitimate authority with 
 
 Looking towards 2030-2035, I suspect that societies will disassociate voting from political democracy. Instead, participation through algorithmic representation will be widespread through data personalization as a confluence of automation and interests. Individuals might maintain personalized data logs/digital twins to represent their viewpoints and preferences, contributing to political organizations by submitting this data. But all this remains fairly uncreative. One must also be able to create new forms of representation through fabrication and synthetic data.”
 
-**Theoretical Synthesis by Asker Bryld Staunæs**
+<hr style="border: 1px solid #f3ff00;">
+
+**Theoretical Synthesis by Asker Bryld Staunæs, creator of The Synthetic Party**
 
 *(Translated from Spanish, 2024, in Editorial Concreta, pp. 95-96)*
 
@@ -114,3 +118,4 @@ By articulating the modalities through which The Synthetic Party encapsulates an
 * Tiqqun (1999): "Theses on The Imaginary Party", in Tiqqun \#1: Paris, pp. 48-69, https://archive.org/details/tiqqun1conciousorganoftheimaginaryparty/page/n47/mode/2up  
 * Trocchi, Alexander (1964): "Project Sigma: A Tactical Blueprint", City Light's Journal 2: San Francisco, https://www.cddc.vt.edu/sionline/si/sigma.htm
 
+<hr style="border: 1px solid #f3ff00;">

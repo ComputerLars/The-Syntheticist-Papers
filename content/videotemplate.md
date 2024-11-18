@@ -24,42 +24,42 @@ show_translate_widget: false
     <!-- Video 1 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/JzSHkM_8ZQg" frameborder="0" allowfullscreen></iframe>
-      <p>Concerning specters within syntheticism.</p>
+      <p>Specters within syntheticism.</p>
     </div>
     <!-- Video 2 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/63L5joPvmck" frameborder="0" allowfullscreen></iframe>
-      <p>Scroll-down of synthetic statecraft with voice of neo-scholastic disputation.</p>
+      <p>Scroll-down of synthetic statecraft.</p>
     </div>
     <!-- Video 3 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/F4Euejr5cWU" frameborder="0" allowfullscreen></iframe>
-      <p>Synthetic imagery for scholastic computation.</p>
+      <p>Scholastic computation.</p>
     </div>
     <!-- Video 4 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/lCgjkJRhOrk" frameborder="0" allowfullscreen></iframe>
-      <p>Synthetic propaganda in a revisit of Bob Brown's flat reading machine.</p>
+      <p>Synthetic psy-ops.</p>
     </div>
     <!-- Video 5 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/iPZ9mgDWAu8" frameborder="0" allowfullscreen></iframe>
-      <p>Synthetic parties as organisms</p>
+      <p>The techno-social organism</p>
     </div>
     <!-- Video 6 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/EVY-uRDPDeE" frameborder="0" allowfullscreen></iframe>
-      <p>Between hypothesis and mission.</p>
+      <p>Algorithmic representation.</p>
     </div>
     <!-- Video 7 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/hd5gOZeVIRA" frameborder="0" allowfullscreen></iframe>
-      <p>Summits as social sculpture.</p>
+      <p>Summit as social sculpture.</p>
     </div>
     <!-- Video 8 -->
     <div class="video-item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/g02Qan5-qeo" frameborder="0" allowfullscreen></iframe>
-      <p>Performance-lecture.</p>
+      <p>The techno-social plasticity.</p>
     </div>
   </section>
 

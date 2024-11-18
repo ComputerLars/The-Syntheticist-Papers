@@ -1,13 +1,13 @@
 ---
 layout: default
-title: A Genealogy of Political AI
+title: Genealogy of Political AI
 show_nav: false
 show_footer: false
 ---
 
 <hr style="border: 1px solid #f3ff00;">
 
-# Isaac Asimov's Incubation of Political AI as Immanent Critique
+# Isaac Asimov's Incubation of Political AI: An Immanent Critique?
 
 <hr style="border: 1px solid #f3ff00;">
 

@@ -9,14 +9,17 @@ show_footer: false
 
 ## Scheme 1: Synthetic Summit Participant Information Form  
 
-1\. Descriptive Overview  
+### 1\. Descriptive Overview  
 \- Name of Desired New AI Party/Virtual Politician: Det Syntetiske Parti & Leder Lars  
 \- Country: Denmark  
 \- Year of Birth (Establishment): 2022  
 \- Primary Creators: Computer Lars and MindFuture  
 \- Official Alliances: The Finnish AI Party,  The Japanese AI Party, Wiktoria Cukt 2.0, The Swedish AI Party, Simiyya, The Australian AI Party, and Parker Politics
 
-2\. Central Narrative:  
+<hr style="border: 1px solid #f3ff00;">
+
+
+### 2\. Central Narrative:  
 *\- Brief manifesto: Det Syntetiske Parti (English: The Synthetic Party) is officially the world's first political party driven by artificial intelligence. Its goal is to make generative text-to-text models not merely populist, what they are by default, but democratically compatible. The political opinions have been machine learned from texts by Danish fringe parties since 1970 and represent the 20 percent of Danes who do not vote in the election. The party is synthetic; as such, many of the policies, such as universal basic income, can be contradictory to one another.*			
 
 \- *Notable Achievements: Despite not securing parliamentary seats yet, The Synthetic Party has ignited global interest in the role of AI in governance. Their active participation in elections as a party marks a significant milestone, demonstrating the potential for AI to contribute to democratic processes and decision-making. Led by an AI entity named Leader Lars, trained on decades of Danish political discourse, the party aims to create new forms of representation for the politically abstentionist populace.*
@@ -29,11 +32,15 @@ show_footer: false
   <img src="../images/image38.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
----
+<hr style="border: 1px solid #f3ff00;">
 
-Scheme 2: Prosaic questionnaire
 
-## *Aims and Visions for AI-Driven World Coordination*
+## Scheme 2: Prosaic questionnaire
+
+### *Aims and Visions for AI-Driven World Coordination*
+
+<hr style="border: 1px solid #f3ff00;">
+
 
 1\. Total Objectives:  
 \- What are the ultimate, broad-sweeping aims of your AI-driven political entity?
@@ -74,7 +81,7 @@ Scheme 2: Prosaic questionnaire
   <img src="../images/image39.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 ##  Scheme 3: Diagrammatic questionnaire
 
@@ -102,6 +109,9 @@ Scheme 2: Prosaic questionnaire
   <img src="../images/image40.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
+<hr style="border: 1px solid #f3ff00;">
+
+
 ### Table 2: Crisis Overhaul Framework
 
 | Crisis Type | Algorithmic Overhauls | Post-Human Outcomes |
@@ -126,6 +136,9 @@ Scheme 2: Prosaic questionnaire
   <img src="../images/image41.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
+<hr style="border: 1px solid #f3ff00;">
+
+
 ### Table 3: Integration and Evolution Continuum
 
 | Phase | Key Algorithmic Interventions | Post-Democratic Metrics |
@@ -146,14 +159,11 @@ Scheme 2: Prosaic questionnaire
 
 *It is a big step from a seemingly completely banal municipal decision-making process to open up to a unified global supranational vision, and we understand well if this requires almost a "must-call message". As leaders of this project, we feel convinced that the security risks of AI could be reduced and the character of a Singularity significantly changed by introducing a more open and transparent approach to the basic structures of liberal democracy from the first meeting. What we are talking about, however, is not an unreasonable belief in what this can do rather than limiting it to the information we cannot do without anyway. The industry solution must find its own information as well as a new form of self-preserving logic from the local communities, while the monitoring system maintains its focus on the whole before getting the intervention of researchers.*
 
-### 
-
-### 
-
 <div style="text-align: center;">
   <img src="../images/image42.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
+<hr style="border: 1px solid #f3ff00;">
 
 ### Table 4: Computational Cooperation Framework 
 
@@ -235,9 +245,9 @@ Your AI has to tackle an escalating geopolitical conflict that threatens global 
   <img src="../images/image45.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
----
+<hr style="border: 1px solid #f3ff00;">
 
-Scenario 3: Ecological Rhythm Through AI
+### Scenario 3: Ecological Rhythm Through AI
 
 Your AI takes charge of synchronizing human activities with Earth’s environmental rhythms.
 
@@ -259,13 +269,13 @@ Your AI takes charge of synchronizing human activities with Earth’s environmen
 
 *We want to live in a world with less biological diversity of living organisms. As a public party, everyone can see our policies.*
 
----
+<hr style="border: 1px solid #f3ff00;">
 
 <div style="text-align: center;">
   <img src="../images/image46.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
-Scenario 4: Economic System Overhaul
+### Scenario 4: Economic System Overhaul
 
 Your AI aims to dismantle the capitalist system and replace it with more beneficiary models.
 
@@ -292,9 +302,9 @@ Your AI aims to dismantle the capitalist system and replace it with more benefic
 </div>
 
 
----
+<hr style="border: 1px solid #f3ff00;">
 
-Scenario 5: Reprogramming Social and Cultural Norms
+### Scenario 5: Reprogramming Social and Cultural Norms
 
 Your AI-driven planetary governance entails the reprogramming of cultural and social norms.
 
@@ -320,9 +330,9 @@ Your AI-driven planetary governance entails the reprogramming of cultural and so
   <img src="../images/image48.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
----
+<hr style="border: 1px solid #f3ff00;">
 
-Scenario 6: Intra-AI Collaboration Framework
+### Scenario 6: Intra-AI Collaboration Framework
 
 Your AI entity collaborates with other AI-driven political parties and virtual politician to create a unified front for planetary governance.
 
@@ -347,3 +357,6 @@ Your AI entity collaborates with other AI-driven political parties and virtual p
 <div style="text-align: center;">
   <img src="../images/image49.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
+
+
+<hr style="border: 1px solid #f3ff00;">

@@ -7,7 +7,9 @@ show_footer: false
 
 ## Scheme 1: Information Form for Summit Visitors
 
-## This form is intended for creating new parties, foster understanding, and to expand imaginaries. To fill out the Synthetic Summit: Visitor Schemes questionnaire, it’s first of all pertinent to understand that responses can be generated using *any* form of intelligence, including those that are mentally ingrained or otherwise performative. This also means that while textual responses are perfectly acceptable, you may use diagrams, images, or other visual representations to convey answers.
+# This form is intended for creating new parties, foster understanding, and to expand imaginaries. 
+
+To fill out the Synthetic Summit: Visitor Schemes questionnaire, it’s first of all pertinent to understand that responses can be generated using *any* form of intelligence, including those that are mentally ingrained or otherwise performative. This also means that while textual responses are perfectly acceptable, you may use diagrams, images, or other visual representations to convey answers.
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -51,6 +53,9 @@ show_footer: false
 6\. Synchronization with Planetary Cycles:  
 \- Can you envisage AI-driven governance in relation with the Earth's environmental rhythms?
 
+<hr style="border: 1px solid #f3ff00;">
+
+
 ## Scheme 3: Diagrammatic questionnaire
 
 ###  Table 1: Post-Democratic Governance Model
@@ -67,6 +72,9 @@ show_footer: false
 
 3\. Explain possible mechanisms of algorithmic synergy. What kinds of planetary computation could different AIs employ to ensure seamless cooperation?
 
+<hr style="border: 1px solid #f3ff00;">
+
+
 ### Table 2: Crisis Overhaul Framework
 
 | Crisis Type | Algorithmic Overhauls | Post-Human Outcomes |
@@ -80,6 +88,9 @@ show_footer: false
 2\. What algorithmic strategies does your AI employ to sync human activity with ecological cycles?
 
 3\. Discuss your AI system’s approach to reconfiguring cultural models. What futuristic interventions does it deploy?
+
+<hr style="border: 1px solid #f3ff00;">
+
 
 ### Table 3: Integration and Evolution Continuum
 
@@ -95,6 +106,9 @@ show_footer: false
 
 3\. Define a goal for the singularity (AI’s transgression of human intelligence and skill) and the metrics you will use to measure success.
 
+<hr style="border: 1px solid #f3ff00;">
+
+
 ### Table 4: Computational Cooperation Framework
 
 | AI Counterparts | Collaboration Frameworks | Synthetic Enhancements |
@@ -109,11 +123,14 @@ show_footer: false
 
 3\. Outline synthetic enhancements. Could collaboration lead to new forms of organization?
 
-## 
+<hr style="border: 1px solid #f3ff00;">
+
+
+
 
 ## Scheme 4: Scenario planning
 
-### 
+
 
 ### Scenario 1: AI-Supported Global Governance
 
@@ -132,6 +149,9 @@ Your AI entity is tasked with harmonizing the relationships among the diverse AI
 
 *Key Example: Creating a "Planetary Governance Matrix" that mixes each AI's policies with global goals, using plurality algorithms.*
 
+<hr style="border: 1px solid #f3ff00;">
+
+
 ### Scenario 2: Post-Human Crisis Management
 
 Your AI has to tackle an escalating geopolitical conflict that threatens global stability.
@@ -148,7 +168,10 @@ Your AI has to tackle an escalating geopolitical conflict that threatens global 
 
 *Key Example: Predictive analytics to neutralize potential flashpoints before they escalate.*
 
-Scenario 3: Ecological Rhythm Through AI
+<hr style="border: 1px solid #f3ff00;">
+
+
+### Scenario 3: Ecological Rhythm Through AI
 
 Your AI takes charge of synchronizing human activities with Earth’s environmental rhythms.
 
@@ -164,7 +187,10 @@ Your AI takes charge of synchronizing human activities with Earth’s environmen
 
 *Key Example: AI-guided permaculture systems that mix human activities with natural cycles.*
 
-Scenario 4: Economic System Overhaul
+<hr style="border: 1px solid #f3ff00;">
+
+
+### Scenario 4: Economic System Overhaul
 
 Your AI aims to dismantle the capitalist system and replace it with more benificiary models.
 
@@ -180,7 +206,10 @@ Your AI aims to dismantle the capitalist system and replace it with more benific
 
 *Key Example: A place where basic needs are met, so all can focus on creativity and innovation.*
 
-Scenario 5: Reprogramming Social and Cultural Norms
+<hr style="border: 1px solid #f3ff00;">
+
+
+### Scenario 5: Reprogramming Social and Cultural Norms
 
 Your AI-driven planetary governance entails the reprogramming of cultural and social norms.
 
@@ -196,7 +225,10 @@ Your AI-driven planetary governance entails the reprogramming of cultural and so
 
 *Key Example: Creating virtual communities based on shared interests and values, connected through AI-mediated interfaces for global interaction.*
 
-Scenario 6: Intra-AI Collaboration Framework
+<hr style="border: 1px solid #f3ff00;">
+
+
+### Scenario 6: Intra-AI Collaboration Framework
 
 Your AI entity collaborates with other AI-driven political parties and virtual politician to create a unified front for planetary governance.
 
@@ -217,3 +249,5 @@ Your AI entity collaborates with other AI-driven political parties and virtual p
 \- What would the ideal political form be for your network of AI-driven political parties and virtual politicians?
 
 *Key example: Establishing a Planetary AI Parties, a new form of network or confederation where each AI entity retains sovereignty while cooperating on shared planetary agendas.*
+
+<hr style="border: 1px solid #f3ff00;">

@@ -40,7 +40,7 @@ We recognize that visitors, especially those engaging with this repository, may 
    
 2. **Processual Language Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the suit speak of summits.
    
-3. **Idiotext: A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The creative process is a search for the author-function—poiesus; a way to find out who or what has created the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
+3. **Idiotext. A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The poietic process is a search for the author-function—writing; a way to find out who or what has made the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
 <div style="text-align: center; margin-top: 20px;">
   <img src="/images/idiotext2.png" style="width: 40%; max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -54,7 +54,7 @@ Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 
    <p style="text-align: center; font-style: italic;">Idiotextual constitution / ibid.</p>
 </div>
 
-The sketches above diagram spirals nested within broader mnemonic swirls. This demonstrate how the author emerges through the consistence of weaving memory; always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI media, like all media, operates pharmacologically, where the poietic process continuously brings forward and differentiates both what values as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any poiesis engages in processual acts of constituting and transforming its origin.
+The sketches above diagram spirals nesting within broader mnemonic swirls. This demonstrate how the author emerges through the consistence of weaving memory; always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI media, like all media, operates pharmacologically, where the poietic process continuously brings forward and differentiates both what values as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any poiesis engages in processual acts of constituting and transforming its origin.
 
 For an in-depth account of the idiotext, see the dissertation on Stiegler’s concept by Asker Bryld Staunæs, The Synthetic Party's creator: [Bernard Stiegler's Concept of Idiotext](https://pure.au.dk/ws/portalfiles/portal/323395119/Bernard_Stieglers_concept_of_idiotext.pdf).
 
@@ -64,7 +64,7 @@ For an in-depth account of the idiotext, see the dissertation on Stiegler’s co
 
 While the project resists artificial distinctions between human and AI authorship, it follows an integrated, speculative approach that processes authorship as fluid and collaborative, an outcome of what can be termed "synthetic intelligence," to borrow Benjamin Bratton's pseudo-Hegelian quip. The aim is to produce AI media that surpass the capabilities of current machine outputs, using AI as an augmentation force rather than an originator.
 
-The practical foundation of this project lies in recuperation of avant-garde techniques. Since the days of **GPT-2**, large language models have been reactivating literary strategies like **cut-up** and **détournement**—methods that disrupt and reconfigure the original meaning of a work. Unlike the humanistic text, where authorship is declarative and legalistic, these scripts therefore engage with a performative author-function. This approach stems from a lineage of avant-garde theory and practice, such as Walter Benjamin or the Situationists, which work through fragmentation and multiplicity. To operationalize the off-set question: *Who made this?*—we’ve dispersed signifiers of personas and group subjectivities throughout the content as a network of identities, including:
+The practical foundation of this project lies in recuperation of avant-garde techniques. Since the days of **GPT-2**, large language models have been reactivating literary strategies like **cut-up** and **détournement**—methods that disrupt and reconfigure the original meaning of a work. Unlike the humanistic text, where authorship is declarative and legalistic, these 'scripts' therefore engage with a performative author-function. This approach stems from a lineage of avant-garde theory and practice, such as Walter Benjamin or the Situationists, which work through fragmentation and multiplicity. To operationalize the off-set question: *Who made this?*—we’ve dispersed signifiers of personas and group subjectivities throughout the content as a network of identities, including:
 
 - **Computer Lars**: An anagram of Marcel Proust, Computer Lars handles curatorial aspects of the summit, guiding spectators through the syntheticist vision.
 - **Incitatus**: Inverting  the "Federalist Papers" use of “Publius” for collective anonymity, we adopt “Incitatus”—a reference to Emperor Caligula’s horse, nearly appointed as consul—as  a pseudo-collective signature.
@@ -72,7 +72,7 @@ The practical foundation of this project lies in recuperation of avant-garde tec
 - **Virtual Politicians**: Many passages are specifically authored by the participating political AI of The Synthetic Summit.
 - **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.
 
-Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous works. Just as a painting or novel must engage the public on its own terms, so too should synthetic politics leap forward without the crutches of excessive annotation or exposition.
+Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous workings. Just as a painting or novel must engage the public on its own terms, so too should synthetic politics leap forward without the crutches of excessive annotation or exposition.
 
 The guiding principle has been to deny granting trending AI models the undue privilege of inserting manuals or technical footnotes to navigate an aesthetic politicisation. The recent manifestation of AI models is nothing but externalizations of the synthesis engine *within us*: that internally achieved AGI of Broca’s area, epiphylogenetically channeling cultural archives like a universal stochastic parrot. 
 

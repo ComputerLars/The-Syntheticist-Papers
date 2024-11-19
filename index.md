@@ -51,7 +51,7 @@ Everything pertaining to the Synthetic Summit is spectacular, speculative, strat
 
 ## Acknowledgments & Resonances
 
-The *Synthetic Summit* and the *Syntheticist Papers* are curated by the [*Computer Lars*](https://computerlars.com) artist collective; the co-founders of [The Synthetic Party](https://detsyntetiskeparti.org), creator of virtual politician [*Leader Lars*](https://discord.com/invite/Hmy6tKf8yf), and administrators of [syntheticism.org](https://syntheticism.org).
+The *Synthetic Summit* and the *Syntheticist Papers* are curated by the [*Computer Lars*](https://computerlars.com) artist collective; the co-founders of [The Synthetic Party](https://detsyntetiskeparti.org), creators of virtual politician [*Leader Lars*](https://discord.com/invite/Hmy6tKf8yf), and administrators of [syntheticism.org](https://syntheticism.org).
 
 We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **[Emma Bexell](https://www.instagram.com/the_emma_bexell/)**, **[Samee Haapa](http://samihenrik.me/)**, **[Assem Hendawi](https://www.simiyya.xyz/about)**, **[Floor Kist](https://www.linkedin.com/in/fjkist/)**, **[Katerina Kokkinos-Kennedy](https://www.instagram.com/triageliveartco/?hl=en-gb)**, **[Benjamin Asger Krog Møller](https://arkivaristerne.wordpress.com/)**, **[Michihito Matsuda](https://www.ai-mayor.com/)**, **[Mostafa El Baroody](https://www.simiyya.xyz/about/)**, **[Mandus Ridefelt](https://www.simiyya.xyz/about)**, **[Asker Bryld Staunæs](https://pure.au.dk/portal/en/persons/abs@cc.au.dk)**, and **[Piotr Wyrzykowski](https://piotrwyrzykowski.pl/)**.
 

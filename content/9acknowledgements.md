@@ -2,6 +2,7 @@
 layout: default
 show_nav: false
 show_footer: false
+show_translate_widget: false
 ---
 
 ## Acknowledgments & Resonances

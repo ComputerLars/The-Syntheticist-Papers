@@ -126,7 +126,7 @@ Such a process might look like the following, assuming that four names of the to
 **Results (letter tallies counted for each anagram):**
 
 <div style="text-align: center;">
-  <img src="../images/image54.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="../images/image54.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
 After all cells have been evaluated, we can count the number of marks for each anagram to determine the winner: Marcel Proust wins with the most votes\! This method uses the principle of permutation to ensure that every combination is considered. It situates delegation—or the question of political representation—within the scientific formalization of deliberation in medieval disputation. By interpreting the majority principle in terms of permutation rather than delegation, we can similarly schematize how scholastic computation complements the anagrams of the Computer Lars project, and its implementation in The Synthetic Party.

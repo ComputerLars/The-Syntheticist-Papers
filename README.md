@@ -40,7 +40,7 @@ We recognize that visitors, especially those engaging with this repository, may 
    
 2. **Processual Language Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the suit speak of summits.
    
-4. **Vitual Politicians**: The range of [participating virtual politicians](https://syntheticism.org/content/2virtualpoliticians.html) emerges from a technical backdrop spanning eighty years, shaped by agencies and discourses now largely lost in the archives. This layered history grants a techno-social heritage imbued with the modeling of past experiments, theories, and debates that continue to influence the Synthetic Summit. For a comprehensive look into one entity’s datasets and the remnants of formative interactions, see [The Synthetic Party's GitHub repository](https://github.com/ComputerLars/thesyntheticparty).
+4. **Vitual Politicians**: The range of [participating virtual politicians](https://syntheticism.org/content/2virtualpoliticians.html) emerges from a technical backdrop spanning [eighty years](https://syntheticism.org/content/3genealogy.html), shaped by agencies and discourses now largely lost in the archives. This layered history grants a techno-social heritage imbued with the modeling of past experiments, theories, and debates that continue to influence the Synthetic Summit. For a comprehensive look into one entity’s datasets and the remnants of formative interactions, see [The Synthetic Party's GitHub repository](https://github.com/ComputerLars/thesyntheticparty).
    
 5. **Idiotext. A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The poietic process is a search for the author-function—writing; a way to find out who or what has made the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
@@ -98,14 +98,19 @@ Any intelligent production becomes operationalizable only when it is understood 
 ---
 
 ## Acknowledgments & Resonances
-We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **Emma Bexell**, **Samee Haapa**, **Assem Hendawi**, **Floor Kist**, **Katerina Kokkinos-Kennedy**, **Benjamin Asger Krog Møller**, **Michihito Matsuda**, **Mostafa El Baroody**, **Mandus Ridefelt**, **Asker Bryld Staunæs**, and **Piotr Wyrzykowski**.
 
-Special gratitude goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, and **King’s College London** for their ongoing support and collaboration around Asker Bryld Staunæs' PhD project ["Automatic Uprisings"](https://pure.au.dk/portal/da/projects/automatic-uprisings-the-synthetic-party-as-a-techno-social-sculpt) which acts as prime catalyst for the Synthetic Summit.
+We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **[Emma Bexell](https://www.instagram.com/the_emma_bexell/)**, **[Samee Haapa](http://samihenrik.me/)**, **[Assem Hendawi](https://www.simiyya.xyz/about)**, **[Floor Kist](https://www.linkedin.com/in/fjkist/)**, **[Katerina Kokkinos-Kennedy](https://www.instagram.com/triageliveartco/?hl=en-gb)**, **[Benjamin Asger Krog Møller](https://arkivaristerne.wordpress.com/)**, **[Michihito Matsuda](https://www.ai-mayor.com/)**, **[Mostafa El Baroody](https://www.simiyya.xyz/about/)**, **[Mandus Ridefelt](https://www.simiyya.xyz/about)**, **[Asker Bryld Staunæs](https://pure.au.dk/portal/en/persons/abs@cc.au.dk)**, and **[Piotr Wyrzykowski](https://piotrwyrzykowski.pl/)**.
 
-We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: the **Augustinus Foundation**, the **Hede Nielsen Foundation**, the **Ny Carlsberg Foundation**, **Statens Kunstfond**, and especially the **Novo Nordisk Foundation**, whose contribution made this event possible.
+Special gratitude goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, **Life with Artificials**, and **King’s College London** for their ongoing support and collaboration around Asker Bryld Staunæs' PhD project ["Automatic Uprisings"](https://pure.au.dk/portal/da/projects/automatic-uprisings-the-synthetic-party-as-a-techno-social-sculpt), which acts as a prime catalyst for the Synthetic Summit. Special highlights should go to the brainwork and organizational compassion of **Lotte Philipsen**, **Tobias Dias**, **Maja Bak Herrie**, **Nicolas Malevé**, **Iben Mosbæk**, **Cristina Fominaya**, **Joanna Zylinska**, **Carsten Corneliussen**, and **Caroline Sofie Axelsson**.
+
+We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: **Aarhus Kommune Kulturudviklingspulje**, the **Augustinus Foundation**, the **Hede Nielsen Foundation**, **Ny Carlsberg Foundation** and **Statens Kunstfond**. A special nod goes to the **Novo Nordisk Foundation**, whose PhD stipend made this event possible, and to the **MindFuture Foundation** for having the courage and vision to set this journey off with The Synthetic Party.
 
 ## Rendezvous
 
 The "Syntheticist Papers" presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as strange and speculative as the summit it frames!
 
 **/ Incitatus**
+
+## **Contact**
+
+For inquiries related to The Synthetic Summit, please contact artist-researcher [Asker Bryld Staunæs](mailto:abs@cc.au.dk), or read his [Research Profile](https://pure.au.dk/portal/da/persons/abs%40cc.au.dk). 

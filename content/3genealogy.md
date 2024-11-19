@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Genealogy of Political AI
+title: Political AI - Genealogy
 show_nav: false
 show_footer: false
 ---
@@ -191,6 +191,8 @@ In “Franchise”, Asimov reduces the right of voting itself to computational p
 
 *Conclusion*  
 Asimov incubated a vision of political AI that reveals itself as an exposition of democracy. As political representation collapses into algorithmic spectacle, the lines between control and liberation, automation and autonomy, becomes intangible. Here, Asimov‘s stories prompts one to consider: Are the distortions of political AI truer to the reality of representation than the polished facades of publicity that typically are passed off as ‘democratic’? If so, the bitter lesson (Sutton 2019\) for society might be that the algorithm of democracy can firstly be run with sufficient compute.
+
+/ Asker Bryld Staunæs, on behalf of Computer Lars and The Synthetic Party
 
 **Literature**
 

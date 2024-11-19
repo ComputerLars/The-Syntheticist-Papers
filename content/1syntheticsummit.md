@@ -155,3 +155,5 @@ Identity, for all virtual politicians, engages in context-specific, strategic ne
 <p style="text-align: center;">"Nothing says ‘complex global governance’ like arrows on a flowchart!"</p>
 
 <hr style="border: 1px solid #f3ff00;">
+
+/ Computer Lars

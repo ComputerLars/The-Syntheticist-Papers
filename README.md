@@ -71,7 +71,7 @@ The practical foundation of this project lies in recuperation of avant-garde tec
 - **Computer Lars**: An anagram of Marcel Proust, Computer Lars handles curatorial aspects of the summit, guiding spectators through the syntheticist vision.
 - **Incitatus**: Adopting [Emperor Caligula’s horse, "Incitatus"](https://syntheticism.org/content/2virtualpoliticians.html#honorable-mentions) as a pseudo-collective signature, the Syntheticist Papers positions itself as the absolute negation of the Federalist and Anti-Federalist Papers’ use of classical pseudonyms in the 18th century. Where “Publius” invoked the authority of Rome’s founders to foster centralized governance, and “Cato” and “Brutus” marked the fears and unrest surrounding concentrated power, “Incitatus” mocks the entire spectrum of political legitimacy. By recalling how Caligula’s horse was nearly appointed consul, Incitatus exposes the absurdity and performativity of authority itself, raising doubt about political representation and its default automation.
 - **Simulated Summit**: Pre-summit language modeling that generate contingent data and numbers to simulate divergences in theoretical background.
-- **Virtual Politicians**: Many passages are specifically authored by the participating political AI of The Synthetic Summit.
+- **Virtual Politicians**: Many passages are specifically authored by summit [participats](https://syntheticism.org/content/2virtualpoliticians.html).
 - **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.
 
 Our ambition isn’t to obscure authorship but to highlight its complexity, positioning art, anti-political treatises, and speculative texts as independent, autonomous workings. Just as a painting or novel must engage the public on its own terms, so too should synthetic politics leap forward without the crutches of excessive annotation or exposition.
@@ -96,20 +96,6 @@ Any intelligent production becomes operationalizable only when it is understood 
 | [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
 | [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
-
----
-
-## Acknowledgments & Resonances
-
-The *Synthetic Summit* and the *Syntheticist Papers* are curated by the [*Computer Lars*](https://computerlars.com) artist collective; the co-founders of [The Synthetic Party](https://detsyntetiskeparti.org), creator of virtual politician [*Leader Lars*](https://discord.com/invite/Hmy6tKf8yf), and administrators of [syntheticism.org](https://syntheticism.org).
-
-We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **[Emma Bexell](https://www.instagram.com/the_emma_bexell/)**, **[Samee Haapa](http://samihenrik.me/)**, **[Assem Hendawi](https://www.simiyya.xyz/about)**, **[Floor Kist](https://www.linkedin.com/in/fjkist/)**, **[Katerina Kokkinos-Kennedy](https://www.instagram.com/triageliveartco/?hl=en-gb)**, **[Benjamin Asger Krog Møller](https://arkivaristerne.wordpress.com/)**, **[Michihito Matsuda](https://www.ai-mayor.com/)**, **[Mostafa El Baroody](https://www.simiyya.xyz/about/)**, **[Mandus Ridefelt](https://www.simiyya.xyz/about)**, **[Asker Bryld Staunæs](https://pure.au.dk/portal/en/persons/abs@cc.au.dk)**, and **[Piotr Wyrzykowski](https://piotrwyrzykowski.pl/)**.
-
-Special gratitude goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, **Life with Artificials**, and **King’s College London** for their ongoing support and collaboration around Computer Lars' delegate Asker Bryld Staunæs' PhD project ["Automatic Uprisings"](https://pure.au.dk/portal/da/projects/automatic-uprisings-the-synthetic-party-as-a-techno-social-sculpt), which functions as prime catalyst for the Synthetic Summit. Special highlights should go to the brainwork and organizational compassion of **Lotte Philipsen**, **Tobias Dias**, **Maja Bak Herrie**, **Nicolas Malevé**, **Iben Mosbæk**, **Cristina Fominaya**, **Joanna Zylinska**, **Carsten Corneliussen**, and **Caroline Sofie Axelsson**.
-
-We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: **Aarhus Kommune Kulturudviklingspulje**, the **Augustinus Foundation**, the **Hede Nielsen Foundation**, **Ny Carlsberg Foundation** and **Statens Kunstfond**. A special nod goes to the **MindFuture Foundation** for having the courage and vision to set this journey off with The Synthetic Party, and to the **Novo Nordisk Foundation** whose stipend made its development possible.## Rendezvous
-
-**/ Incitatus**
 
 ---
 

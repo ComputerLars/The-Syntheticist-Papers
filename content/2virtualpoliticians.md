@@ -180,6 +180,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 <hr style="border: 1px solid #f3ff00;">
 
 
+<h3 id="honorable-mentions">Honorable Mentions</h3>
 **Honorable Mentions**
 
 The following projects were considered for the Synthetic Summit but, for various reasons, they couldn’t be central contributors. Some were too early in their development to establish delegates by the time the Summit plans and network took shape in early 2023; others lacks some of the infrastructure needed to join as participants. Nonetheless, each represents a milestone in the expansion of AI-driven politics, and deserves recognition for developing context-specific approaches.
@@ -235,7 +236,7 @@ The following projects were considered for the Synthetic Summit but, for various
 
 <hr style="border: 1px solid #f3ff00;">
 
-6\. **Incitatus, Consul of Rome, 37–41 AD:** According to Suetonius in *The Lives of the Twelve Caesars* (121 AD), Emperor Caligula’s beloved horse, Incitatus (Latin for “swift” or “at full gallop”), was nearly appointed Roman consul. Later, Cassius Dio added that the emperor made Incitatus a priest. Pampered with a marble stable, an ivory manger, and a collar of precious stones, Incitatus was reportedly even served oats mixed with gold flakes. Scholars still debate whether Caligula’s actions on behalf of Incitatus constituted an elaborate satire mocking the Senate or a critique of governance itself. Reimagined today through the lens of political AI, Incitatus can overtake the role of Publius in Enlightenment discourse to symbolize automated public spheres. If a horse could almost ascend to high office, perhaps today’s machines are far closer to political power than people dare to admit.
+6\. **Incitatus, Consul of Rome, 37–41 AD**: According to Suetonius in *The Lives of the Twelve Caesars* (121 AD), Emperor Caligula’s beloved horse, Incitatus (Latin for “swift” or “at full gallop”), was nearly appointed Roman consul. Later, Cassius Dio added that the emperor made Incitatus a priest. Pampered with a marble stable, an ivory manger, and a collar of precious stones, Incitatus was reportedly even served oats mixed with gold flakes. Scholars still debate whether Caligula’s actions on behalf of Incitatus reflected excessive madness or an elaborate satire mocking the Senate. Reimagined today through the lens of political AI, Incitatus can negate the roles of “Brutus,” “Cato,” and “Publius” as the antinomies of American Federalist neoclassicism to symbolize automated public spheres. If a horse could almost ascend to high office, perhaps today’s machines are far closer to political power than people dare to admit.
 
 <div style="text-align: center;">
   <img src="../images/image27.jpg" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">

@@ -26,7 +26,7 @@ This GitHub repository hosts all materials in a transparent, open-source format.
 - **`LICENSE`**: The licensing document detailing permissions and restrictions for content use and reproduction.
 - **`README.md`**: (You are here) A guide to navigating and understanding this project.
 
-Access the front-facing website here: [The Syntheticist Papers on GitHub Pages](https://computerlars.github.io/The-Syntheticist-Papers/)
+Access the front-facing website here: [The Syntheticist Papers on GitHub Pages](https://syntheticism.org/)
 
 ---
 
@@ -40,7 +40,7 @@ We recognize that visitors, especially those engaging with this repository, may 
    
 2. **Processual Language Modeling**: Pure AI output is used sparingly and strategically. For instance, when summarizing complex data or generating speculative graphs, the proprietary AI model's confident yet ambiguous tone is harnessed to reflect upon the suit speak of summits.
    
-4. **Vitual Politicians**: The range of of [participating virtual politicians](https://computerlars.github.io/The-Syntheticist-Papers/content/2virtualpoliticians.html) emerges from a technical backdrop spanning eighty years, shaped by agencies and discourses now largely lost in the archives. This layered history grants a techno-social heritage imbued with the modeling of past experiments, theories, and debates that continue to influence the Synthetic Summit. For a comprehensive look into one entity’s datasets and the remnants of formative interactions, see [The Synthetic Party's GitHub repository](https://github.com/ComputerLars/thesyntheticparty).
+4. **Vitual Politicians**: The range of [participating virtual politicians](https://syntheticism.org/content/2virtualpoliticians.html) emerges from a technical backdrop spanning eighty years, shaped by agencies and discourses now largely lost in the archives. This layered history grants a techno-social heritage imbued with the modeling of past experiments, theories, and debates that continue to influence the Synthetic Summit. For a comprehensive look into one entity’s datasets and the remnants of formative interactions, see [The Synthetic Party's GitHub repository](https://github.com/ComputerLars/thesyntheticparty).
    
 5. **Idiotext. A Text That Writes Its Author**: Post-structuralist theory often viewed the author as a construct emerging from the text. Here, this process is inverted: We model language to discover the author-function of each piece. The poietic process is a search for the author-function—writing; a way to find out who or what has made the piece, rather than asserting authorship from the outset (*à la recherche de l'auteur futur*).
 
@@ -69,7 +69,7 @@ While the project resists artificial distinctions between human and AI authorshi
 The practical foundation of this project lies in recuperation of avant-garde techniques. Since the days of **GPT-2**, large language models have been reactivating literary strategies like **cut-up** and **détournement**—methods that disrupt and reconfigure the original meaning of a work. Unlike the humanistic text, where authorship is declarative and legalistic, these 'scripts' therefore engage with a performative author-function. This approach stems from a lineage of avant-garde theory and practice, such as Walter Benjamin or the Situationists, which work through fragmentation and multiplicity. To operationalize the off-set question: *Who made this?*—we’ve dispersed signifiers of personas and group subjectivities throughout the content as a network of identities, including:
 
 - **Computer Lars**: An anagram of Marcel Proust, Computer Lars handles curatorial aspects of the summit, guiding spectators through the syntheticist vision.
-- **Incitatus**: Inverting  the "Federalist Papers" use of “Publius” for collective anonymity, we adopt “Incitatus”—a reference to Emperor Caligula’s horse, nearly appointed as consul—as  a pseudo-collective signature.
+- **Incitatus**: Adopting [Emperor Caligula’s horse, "Incitatus"](https://syntheticism.org/content/2virtualpoliticians.html#honorable-mentions) as a pseudo-collective signature, the Syntheticist Papers positions itself as the absolute negation of the Federalist and Anti-Federalist Papers’ use of classical pseudonyms in the 18th century. Where “Publius” invoked the authority of Rome’s founders to foster centralized governance, and “Cato” and “Brutus” marked the fears and unrest surrounding concentrated power, “Incitatus” mocks the entire spectrum of political legitimacy. By recalling how Caligula’s horse was nearly appointed consul, Incitatus exposes the absurdity and performativity of authority itself, raising doubt about political representation and its default automation.
 - **Simulated Summit**: Pre-summit language modeling that generate contingent data and numbers to simulate divergences in theoretical background.
 - **Virtual Politicians**: Many passages are specifically authored by the participating political AI of The Synthetic Summit.
 - **Organ of the Autonomous Sciences**: An extra-disciplinary collective for research, art, and infrastructural organization.

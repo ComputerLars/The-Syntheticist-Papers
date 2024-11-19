@@ -113,4 +113,4 @@ The "Syntheticist Papers" presents an evolving experiment in authorship, transpa
 
 ## **Contact**
 
-For inquiries related to The Synthetic Summit, please contact artist-researcher [Asker Bryld Staunæs](mailto:abs@cc.au.dk), or read his [Research Profile](https://pure.au.dk/portal/da/persons/abs%40cc.au.dk). 
+For inquiries related to The Synthetic Summit, please contact artist-researcher [Asker Bryld Staunæs](mailto:abs@cc.au.dk).

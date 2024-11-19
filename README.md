@@ -80,6 +80,8 @@ The guiding principle has been to deny granting trending AI models the undue pri
 
 Any intelligent production becomes operationalizable only when it is understood as yet another iterative apparatus of a dialectical enlightenment—not disguised as a mere display of contemporary technological wizardry, but brought forward with the ruthless criticism of everything existing, non-existing, and yet-to-exist.
 
+**/ Computer Lars**
+
 ---
 
 ## Synthetic Summit 2025: Overview of Participants
@@ -99,17 +101,37 @@ Any intelligent production becomes operationalizable only when it is understood 
 
 ## Acknowledgments & Resonances
 
+The *Synthetic Summit* and the *Syntheticist Papers* are curated by the [*Computer Lars*](https://computerlars.com) artist collective; the co-founders of [The Synthetic Party](https://detsyntetiskeparti.org), creator of virtual politician [*Leader Lars*](https://discord.com/invite/Hmy6tKf8yf), and administrators of [syntheticism.org](https://syntheticism.org).
+
 We would like to exclaim a shout-out to all the participants in the Synthetic Summit, including **[Emma Bexell](https://www.instagram.com/the_emma_bexell/)**, **[Samee Haapa](http://samihenrik.me/)**, **[Assem Hendawi](https://www.simiyya.xyz/about)**, **[Floor Kist](https://www.linkedin.com/in/fjkist/)**, **[Katerina Kokkinos-Kennedy](https://www.instagram.com/triageliveartco/?hl=en-gb)**, **[Benjamin Asger Krog Møller](https://arkivaristerne.wordpress.com/)**, **[Michihito Matsuda](https://www.ai-mayor.com/)**, **[Mostafa El Baroody](https://www.simiyya.xyz/about/)**, **[Mandus Ridefelt](https://www.simiyya.xyz/about)**, **[Asker Bryld Staunæs](https://pure.au.dk/portal/en/persons/abs@cc.au.dk)**, and **[Piotr Wyrzykowski](https://piotrwyrzykowski.pl/)**.
 
-Special gratitude goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, **Life with Artificials**, and **King’s College London** for their ongoing support and collaboration around Asker Bryld Staunæs' PhD project ["Automatic Uprisings"](https://pure.au.dk/portal/da/projects/automatic-uprisings-the-synthetic-party-as-a-techno-social-sculpt), which acts as a prime catalyst for the Synthetic Summit. Special highlights should go to the brainwork and organizational compassion of **Lotte Philipsen**, **Tobias Dias**, **Maja Bak Herrie**, **Nicolas Malevé**, **Iben Mosbæk**, **Cristina Fominaya**, **Joanna Zylinska**, **Carsten Corneliussen**, and **Caroline Sofie Axelsson**.
+Special gratitude goes to the many curators, colleagues, and supervisors at **Kunsthal Aarhus**, **Aarhus University**, **Life with Artificials**, and **King’s College London** for their ongoing support and collaboration around Computer Lars' delegate Asker Bryld Staunæs' PhD project ["Automatic Uprisings"](https://pure.au.dk/portal/da/projects/automatic-uprisings-the-synthetic-party-as-a-techno-social-sculpt), which functions as prime catalyst for the Synthetic Summit. Special highlights should go to the brainwork and organizational compassion of **Lotte Philipsen**, **Tobias Dias**, **Maja Bak Herrie**, **Nicolas Malevé**, **Iben Mosbæk**, **Cristina Fominaya**, **Joanna Zylinska**, **Carsten Corneliussen**, and **Caroline Sofie Axelsson**.
 
-We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: **Aarhus Kommune Kulturudviklingspulje**, the **Augustinus Foundation**, the **Hede Nielsen Foundation**, **Ny Carlsberg Foundation** and **Statens Kunstfond**. A special nod goes to the **Novo Nordisk Foundation**, whose PhD stipend made this event possible, and to the **MindFuture Foundation** for having the courage and vision to set this journey off with The Synthetic Party.
+We would also like to express our sincere appreciation to the following foundations for their generous funding of the Synthetic Summit: **Aarhus Kommune Kulturudviklingspulje**, the **Augustinus Foundation**, the **Hede Nielsen Foundation**, **Ny Carlsberg Foundation** and **Statens Kunstfond**. A special nod goes to the **MindFuture Foundation** for having the courage and vision to set this journey off with The Synthetic Party, and to the **Novo Nordisk Foundation** whose stipend made its development possible.## Rendezvous
 
-## Rendezvous
+**/ Incitatus**
+
+---
+
+## Contributing
 
 The "Syntheticist Papers" presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as strange and speculative as the summit it frames!
 
-**/ Incitatus**
+- To use the datasets and materials:
+
+_Clone the Repository_: Use Git or checkout with SVN using the web URL: git clone https://github.com/YourRepository/thesyntheticparty.git
+
+_Explore the Contents_: Navigate through the directories to find datasets, visualizations, and analyses.
+
+- To contribute:
+
+  1. Fork the Repository (click the "Fork" button located at the top right corner of the repository page)
+  2. Create your Feature Branch (git checkout -b feature/YourFeature)
+  3. Commit your Changes (git commit -m 'Add some YourFeature')
+  4. Push to the Branch (git push origin feature/YourFeature)
+  5. Open a Pull Request
+
+---
 
 ## **Contact**
 

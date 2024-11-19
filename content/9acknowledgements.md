@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Post-Script
 show_nav: false
 show_footer: false
 ---

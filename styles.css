@@ -44,6 +44,10 @@ img {
     --color-nav-bg: #550000; /* Darker red */
     --color-nav-hover: #660000; /* Slightly darker red */
     --color-link-hover: #ADFF2F; /* Lighter yellowish green */
+    --color-muted-text: #555;
+    --color-footer-text: #777;
+    --color-button-bg: #007BFF; /* For buttons */
+    --color-button-hover: #0056b3; /* For button hover */
     --max-width: 850px;
     --font-size-base: 18px;
     --transition-speed: 0.3s;
@@ -192,13 +196,13 @@ body {
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
-    pointer-events: none; /* Added to prevent click interception when menu is hidden */
+    pointer-events: none; /* Prevent click interception when menu is hidden */
 }
 
 .fixed-menu.active {
     opacity: 1;
     transform: translateY(0);
-    pointer-events: auto; /* Allows interaction when menu is active */
+    pointer-events: auto; /* Allow interaction when menu is active */
 }
 
 .fixed-menu nav ul {
@@ -275,6 +279,8 @@ body {
    ==================================================== */
 
 .content {
+    max-width: 800px;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 
@@ -299,6 +305,13 @@ body {
     margin-bottom: 1.5em;
     text-align: justify;
     line-height: 1.8;
+}
+
+/* Introduction Section */
+.introduction {
+    margin: 20px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
 }
 
 /* Section Highlighting */
@@ -412,31 +425,70 @@ tbody tr:hover {
 }
 
 /* ====================================================
+   Video and PDF Gallery Styles
+   ==================================================== */
 
-/* Video Gallery Styles */
+.video-gallery,
+.pdf-gallery {
+    margin-top: 20px;
+}
 
-.video-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .video-item {
-    flex: 1 1 300px;
-    max-width: 560px;
-    text-align: center;
-  }
-  
-  .video-item iframe {
+.video-item,
+.pdf-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.embed-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.embed-responsive iframe,
+.embed-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-  }
-  
-  .video-item p {
+    height: 100%;
+    border: none;
+}
+
+.video-alt-text,
+.pdf-alt-text {
+    font-size: 0.9em;
+    color: var(--color-muted-text);
+    margin-top: 5px;
+}
+
+/* ====================================================
+   Abstract Toggle Button
+   ==================================================== */
+
+.abstract-toggle {
+    background-color: var(--color-button-bg);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
     margin-top: 10px;
-    font-size: 1em;
-  }
+    font-size: 0.9em;
+    border-radius: 5px;
+    transition: background-color var(--transition-speed);
+}
+
+.abstract-toggle:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Abstract Content Styling */
+.abstract-content {
+    margin-top: 10px;
+    display: none;
+}
 
 /* ====================================================
    Footer Styles
@@ -445,7 +497,7 @@ tbody tr:hover {
 .footer {
     text-align: center;
     font-size: 1em;
-    color: var(--color-accent);
+    color: var(--color-footer-text);
     margin-top: 50px;
     padding-top: 20px;
     border-top: 2px solid var(--color-text);
@@ -631,7 +683,7 @@ img:hover {
    Google Translate Widget Styles
    ==================================================== */
 
-   #google_translate_element {
+#google_translate_element {
     display: inline-block;
     margin-top: 20px;
 }
@@ -660,15 +712,29 @@ body {
     font-size: 1em;
 }
 
-/* Hide the Google Translate logo */
-.goog-logo-link {
+/* Hide the Google Translate logo and text */
+.goog-logo-link,
+.goog-te-gadget span {
     display: none !important;
-  }
-  
-  /* Hide the powered by Google text */
-  .goog-te-gadget {
-    font-size: 0 !important;
-  }
+}
+
+/* ====================================================
+   Navigation Links Styling
+   ==================================================== */
+
+.nav-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-links a {
+    color: var(--color-button-bg);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
 
 /* ====================================================
    End of Styles

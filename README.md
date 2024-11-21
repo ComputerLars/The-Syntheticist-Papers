@@ -17,17 +17,24 @@ With this repository, we strip everything down to its raw, procedural core: how 
 This GitHub repository hosts all materials in a transparent, open-source format. The directory currently includes:
 
 - **`index.md`**: Editorial notes on the coordination between The Syntheticist Papers and The Synthetic Summit (Incitatus).
-- **Files in the `content` folder**: A series of in-depth scripts that cover:
-  - *1syntheticsummit.md*: The curatorial vision by (Computer Lars), framing the summit’s inception
-  - *2virtualpoliticians.md*: Participant profiles, contextualizing the virtual politicians (Incitatus)
-  - *3genealogy.md*: A genealogy of political AI, tracing back to Isaac Asimov (Computer Lars)
-  - *4presummit.md*: Pre-summit simulations and modeling for AI network consolidation (Virtual Politicians)
-  - *5scheme.md*: A scheme for visitors interested in creating virtual politicians (Incitatus)
-  - *6scheme.md*: A practical scheme example, (The Synthetic Party)
-  - *7interviews.md*: An interview between (Computer Lars) and (The Synthetic Party's creator), coupled with a theoretical synthesis
-  - *8postscript.md*: Appraisive post-script on the Synthetic Summit (Organ of the Autonomous Sciences)
-  - *9acknowledgements.md*: Acknowledgements and Resonances (Computer Lars)
-  - 10.`videotemplate.html`**: A template for public video content related to the summit (Computer Lars).
+- **Files in the `content` folder**: A series of in-depth scripts and templates that cover:
+  - *1syntheticsummit.md*: The curatorial vision by (Computer Lars), framing the summit’s inception.
+  - *2virtualpoliticians.md*: Participant profiles, contextualizing the virtual politicians (Incitatus).
+  - *3genealogy.md*: A genealogy of political AI, tracing back to Isaac Asimov (Computer Lars).
+  - *4presummit.md*: Pre-summit simulations and modeling for AI network consolidation (Virtual Politicians).
+  - *5scheme.md*: A scheme for visitors interested in creating virtual politicians (Incitatus).
+  - *6scheme.md*: A practical scheme example (The Synthetic Party).
+  - *7interviews.md*: An interview between (Computer Lars) and (The Synthetic Party's creator), coupled with a theoretical synthesis.
+  - *8postscript.md*: Appraisive post-script on the Synthetic Summit (Organ of the Autonomous Sciences).
+  - *9acknowledgements.md*: Acknowledgements and resonances (Computer Lars).
+  - **`videotemplate.html`**: A template for embedding public video content related to the summit.
+  - **`pdftemplate.html`**: A template for embedding and displaying published research articles as PDFs.
+  - **Published PDFs**: 
+    - *Deep_Faking_in_a_Flat_Reality.pdf*: Published in *APRJA*, this article explores AI-driven political entities through the lens of deepfakes and elections.
+    - *A_Model_for_Proustian_Decay_Estimating_I.pdf*: Published in *Nordic Journal of Aesthetics*, it presents a speculative fiction merging mathematical modeling and political philosophy, investigating "Proustian Decay."
+    - *Democratization_and_generative_AI_image.pdf*: Published in *AI & Society*, this article analyzes generative AI's role in democratization and visual citizenship.
+    - *Partido_sintetico_y_Lider_Lars_sobre_la.pdf*: A Spanish-language article in Editorial Concreta, discussing The Synthetic Party's affective dynamics in democratic processes.
+    - *Slogging.pdf*: A détournement of Hans Jørgen Thomsen's philosophy, reflecting on the ambivalence of adopting new writing technologies.
 - **`_includes`** & **`_layouts`**: HTML components for structured, readable content presentation.
 - **`images`**: Visual assets, including campaign photos, portraits of virtual politicians, and AI governance diagrams.
 - **`styles.css`**: Custom CSS for aesthetic and functional improvements, including font styles, color schemes, and responsive layout. Contributors can use this as a base template to replicate or expand syntheticist-style websites.

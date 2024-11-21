@@ -192,11 +192,13 @@ body {
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
+    pointer-events: none; /* Added to prevent click interception when menu is hidden */
 }
 
 .fixed-menu.active {
     opacity: 1;
     transform: translateY(0);
+    pointer-events: auto; /* Allows interaction when menu is active */
 }
 
 .fixed-menu nav ul {

@@ -139,6 +139,22 @@ show_footer: false
         <textarea id="planetary-computation" name="planetary-computation" rows="4"></textarea>
       </fieldset>
 
+      <!-- Follow-up Questions for Table 1 -->
+      <fieldset>
+        <legend>Follow-up Questions for Table 1</legend>
+
+        <label for="desired-decision-network">1. Describe your desired decision-making network: How to augment or replace elections and parliamentary debates?</label>
+        <textarea id="desired-decision-network" name="desired-decision-network" rows="4"></textarea>
+
+        <label for="subvert-authority">2. Outline how your AI system concretely subverts political authority.</label>
+        <textarea id="subvert-authority" name="subvert-authority" rows="4"></textarea>
+
+        <label for="algorithmic-synergy">3. Explain possible mechanisms of algorithmic synergy. What kinds of planetary computation could different AIs employ to ensure seamless cooperation?</label>
+        <textarea id="algorithmic-synergy" name="algorithmic-synergy" rows="4"></textarea>
+      </fieldset>
+
+      <hr style="border: 1px solid #f3ff00;">
+
       <!-- Table 2 -->
       <fieldset>
         <legend>Table 2: Crisis Overhaul Framework</legend>
@@ -152,6 +168,22 @@ show_footer: false
         <label for="cultural-reboot">3. Cultural Reboot - Discuss your AI system’s approach to reconfiguring cultural models. What futuristic interventions does it deploy?</label>
         <textarea id="cultural-reboot" name="cultural-reboot" rows="4"></textarea>
       </fieldset>
+
+      <!-- Follow-up Questions for Table 2 -->
+      <fieldset>
+        <legend>Follow-up Questions for Table 2</legend>
+
+        <label for="resolve-conflicts">1. How does your AI framework resolve geopolitical conflicts? Provide an example.</label>
+        <textarea id="resolve-conflicts" name="resolve-conflicts" rows="4"></textarea>
+
+        <label for="sync-ecological-cycles">2. What algorithmic strategies does your AI employ to sync human activity with ecological cycles?</label>
+        <textarea id="sync-ecological-cycles" name="sync-ecological-cycles" rows="4"></textarea>
+
+        <label for="reconfigure-cultures">3. Discuss your AI system’s approach to reconfiguring cultural models. What futuristic interventions does it deploy?</label>
+        <textarea id="reconfigure-cultures" name="reconfigure-cultures" rows="4"></textarea>
+      </fieldset>
+
+      <hr style="border: 1px solid #f3ff00;">
 
       <!-- Table 3 -->
       <fieldset>
@@ -167,6 +199,22 @@ show_footer: false
         <textarea id="singularity" name="singularity" rows="4"></textarea>
       </fieldset>
 
+      <!-- Follow-up Questions for Table 3 -->
+      <fieldset>
+        <legend>Follow-up Questions for Table 3</legend>
+
+        <label for="overlapping-steps">1. Outline initial steps for overlapping AI governance structures into existing human systems.</label>
+        <textarea id="overlapping-steps" name="overlapping-steps" rows="4"></textarea>
+
+        <label for="expansions-ai-governance">2. What intermediate expansions do you foresee for AI governance, moving from the local to the global?</label>
+        <textarea id="expansions-ai-governance" name="expansions-ai-governance" rows="4"></textarea>
+
+        <label for="singularity-goal">3. Define a goal for the singularity and the metrics you will use to measure success.</label>
+        <textarea id="singularity-goal" name="singularity-goal" rows="4"></textarea>
+      </fieldset>
+
+      <hr style="border: 1px solid #f3ff00;">
+
       <!-- Table 4 -->
       <fieldset>
         <legend>Table 4: Computational Cooperation Framework</legend>
@@ -179,6 +227,20 @@ show_footer: false
 
         <label for="synthetic-enhancements">3. Synthetic Enhancements - Could collaboration lead to new forms of organization?</label>
         <textarea id="synthetic-enhancements" name="synthetic-enhancements" rows="4"></textarea>
+      </fieldset>
+
+      <!-- Follow-up Questions for Table 4 -->
+      <fieldset>
+        <legend>Follow-up Questions for Table 4</legend>
+
+        <label for="identify-ai-counterparts">1. Identify three AI counterparts from the table of participants based on where intuitive synergies can be achieved.</label>
+        <textarea id="identify-ai-counterparts" name="identify-ai-counterparts" rows="4"></textarea>
+
+        <label for="sketch-collaborations">2. Sketch possible collaborative frameworks such as alliances, internationals, or global parties.</label>
+        <textarea id="sketch-collaborations" name="sketch-collaborations" rows="4"></textarea>
+
+        <label for="new-organizations">3. Outline synthetic enhancements. Could collaboration lead to new forms of organization?</label>
+        <textarea id="new-organizations" name="new-organizations" rows="4"></textarea>
       </fieldset>
     </section>
 
@@ -411,7 +473,6 @@ function generatePDF() {
   addText('6. Synchronization with Planetary Cycles', 12, 'bold');
   addText(formData['planetary-cycles']);
 
-  // Added Missing Question 7
   addText('7. Culture and Civilization Reprogramming', 12, 'bold');
   addText(formData['culture-reprogramming']);
 
@@ -429,6 +490,17 @@ function generatePDF() {
   addText('3. Planetary Computation', 12, 'bold');
   addText(formData['planetary-computation']);
 
+  // Follow-up Questions for Table 1
+  addText('Follow-up Questions for Table 1', 12, 'bold');
+  addText('1. Describe your desired decision-making network:', 12, 'bold');
+  addText(formData['desired-decision-network']);
+
+  addText('2. Outline how your AI system concretely subverts political authority.', 12, 'bold');
+  addText(formData['subvert-authority']);
+
+  addText('3. Explain possible mechanisms of algorithmic synergy.', 12, 'bold');
+  addText(formData['algorithmic-synergy']);
+
   // Table 2
   addText('Table 2: Crisis Overhaul Framework', 12, 'bold');
   addText('1. Geopolitical Turmoil', 12, 'bold');
@@ -439,6 +511,17 @@ function generatePDF() {
 
   addText('3. Cultural Reboot', 12, 'bold');
   addText(formData['cultural-reboot']);
+
+  // Follow-up Questions for Table 2
+  addText('Follow-up Questions for Table 2', 12, 'bold');
+  addText('1. How does your AI framework resolve geopolitical conflicts?', 12, 'bold');
+  addText(formData['resolve-conflicts']);
+
+  addText('2. What algorithmic strategies does your AI employ to sync human activity with ecological cycles?', 12, 'bold');
+  addText(formData['sync-ecological-cycles']);
+
+  addText('3. Discuss your AI system’s approach to reconfiguring cultural models.', 12, 'bold');
+  addText(formData['reconfigure-cultures']);
 
   // Table 3
   addText('Table 3: Integration and Evolution Continuum', 12, 'bold');
@@ -451,6 +534,17 @@ function generatePDF() {
   addText('3. Singularity', 12, 'bold');
   addText(formData['singularity']);
 
+  // Follow-up Questions for Table 3
+  addText('Follow-up Questions for Table 3', 12, 'bold');
+  addText('1. Outline initial steps for overlapping AI governance structures into existing human systems.', 12, 'bold');
+  addText(formData['overlapping-steps']);
+
+  addText('2. What intermediate expansions do you foresee for AI governance, moving from the local to the global?', 12, 'bold');
+  addText(formData['expansions-ai-governance']);
+
+  addText('3. Define a goal for the singularity and the metrics you will use to measure success.', 12, 'bold');
+  addText(formData['singularity-goal']);
+
   // Table 4
   addText('Table 4: Computational Cooperation Framework', 12, 'bold');
   addText('1. AI Counterparts', 12, 'bold');
@@ -461,6 +555,17 @@ function generatePDF() {
 
   addText('3. Synthetic Enhancements', 12, 'bold');
   addText(formData['synthetic-enhancements']);
+
+  // Follow-up Questions for Table 4
+  addText('Follow-up Questions for Table 4', 12, 'bold');
+  addText('1. Identify three AI counterparts from the table of participants based on where intuitive synergies can be achieved.', 12, 'bold');
+  addText(formData['identify-ai-counterparts']);
+
+  addText('2. Sketch possible collaborative frameworks such as alliances, internationals, or global parties.', 12, 'bold');
+  addText(formData['sketch-collaborations']);
+
+  addText('3. Outline synthetic enhancements. Could collaboration lead to new forms of organization?', 12, 'bold');
+  addText(formData['new-organizations']);
 
   // Scheme 4
   addText('Scheme 4: Scenario Planning', 14, 'bold');

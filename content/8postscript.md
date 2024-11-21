@@ -230,4 +230,37 @@ Such forms, grounded in elaborate synthesis formation, must choose between strea
 
 * **Taubes, Jacob**: Cited for drawing connections between religious devotion to text and revolutionary theory in the 1960s.    
 * **Technoscience**: One of the structural variables shaping the public sphere, used to critique its lack of self-awareness and liminal formalization.    
-* **Turing Test**: The concept is mentioned in a reverse variant where individuals must perform opinions to prove their humanity in the context of public debate.  
+* **Turing Test**: The concept is mentioned in a reverse variant where individuals must perform opinions to prove their humanity in the context of public debate.
+
+<hr style="border: 1px solid #f3ff00;">
+
+<article class="pdf-item">
+  <div class="embed-responsive">
+    <embed src="Organ_of_the_Autonomous_Sciences.pdf" type="application/pdf">
+  </div>
+  <p class="pdf-alt-text">
+    "Organ of the Autonomous Sciences" (Asker Bryld Staunæs, Benjamin Asger Krog Møller, and Tobias Dias), PDF embedded for viewing.
+  </p>
+  <button class="abstract-toggle" onclick="toggleAbstract('abstract6')">Read Abstract</button>
+  <div id="abstract6" class="abstract-content" style="display:none;">
+    <p>
+      <strong>"Organ of the Autonomous Sciences"</strong> is an extra-disciplinary collective for research, art, and infrastructural organization. This document provides insights into its foundational ethos, collaborative processes, and experimental methodologies that push the boundaries of traditional disciplines.
+    </p>
+  </div>
+  <p>
+    <a href="Organ_of_the_Autonomous_Sciences.pdf" target="_blank">Download PDF</a>
+  </p>
+</article>
+
+<script>
+  function toggleAbstract(id) {
+    var element = document.getElementById(id);
+    if (element.style.display === "none" || element.style.display === "") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  }
+</script>
+
+<hr style="border: 1px solid #f3ff00;">

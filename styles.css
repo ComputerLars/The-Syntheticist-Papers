@@ -737,5 +737,90 @@ body {
 }
 
 /* ====================================================
+/* Form Styles */
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  form section {
+    margin-bottom: 30px;
+  }
+  
+  fieldset {
+    border: 1px solid #f3ff00;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #f3ff00;
+    font-size: 1.2em;
+    padding: 0 10px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: var(--color-text);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #bbb;
+  }
+  
+  button {
+    background-color: var(--color-button-bg);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: var(--color-button-hover);
+  }
+  
+  #instructions {
+    text-align: center;
+    color: var(--color-text);
+  }
+  
+  #instructions a {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+  
+  #instructions a:hover {
+    color: var(--color-link-hover);
+  }
+  
+  .introduction p {
+    margin-bottom: 1em;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #f3ff00;
+    margin: 30px 0;
+  }
+
+/* ====================================================
    End of Styles
    ==================================================== */

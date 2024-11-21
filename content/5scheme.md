@@ -1,253 +1,511 @@
 ---
 layout: default
-title: Scheme 1
+title: Synthetic Summit Schemes
 show_nav: false
 show_footer: false
 ---
 
-## Scheme 1: Information Form for Summit Visitors
+<!-- Header -->
+<header class="header">
+  <h1>{{ page.title }}</h1>
+</header>
 
-# This form is intended for creating new parties, foster understanding, and to expand imaginaries. 
-
-To fill out the Synthetic Summit: Visitor Schemes questionnaire, it’s first of all pertinent to understand that responses can be generated using *any* form of intelligence, including those that are mentally ingrained or otherwise performative. This also means that while textual responses are perfectly acceptable, you may use diagrams, images, or other visual representations to convey answers.
-
-<hr style="border: 1px solid #f3ff00;">
-
-## Scheme 1: Synthetic Summit Visitor Information Form
-
-1\. Descriptive Overview  
-\- *Name of Desired AI Party/Virtual Politician:*  
-*\- Country:*  
-*\- Year of Birth (Establishment):*  
-*\- Primary Creators:*  
-*\- Official Alliances:*
-
-2\. Central Narrative:  
-\- *Brief Manifesto:*  
-\- *Notable Achievements:*
-
-3\. Summit Delegate(s):  
-*\- Name(s):*  
-*\- Role(s):*
+<!-- Introduction -->
+<section class="introduction">
+  <p>This form is intended for creating new parties, fostering understanding, and expanding imaginaries.</p>
+  <p>To fill out the Synthetic Summit: Visitor Schemes questionnaire, it’s pertinent to understand that responses can be generated using <em>any</em> form of intelligence, including those that are mentally ingrained or performative.</p>
+</section>
 
 <hr style="border: 1px solid #f3ff00;">
 
+<!-- Main Content -->
+<main class="content">
+  <!-- Form Start -->
+  <form id="scheme-form">
+    <!-- Scheme 1 -->
+    <section>
+      <h2>Scheme 1: Synthetic Summit Visitor Information Form</h2>
+
+      <!-- Descriptive Overview -->
+      <fieldset>
+        <legend>1. Descriptive Overview</legend>
+
+        <label for="party-name">Name of Desired AI Party/Virtual Politician:</label>
+        <input type="text" id="party-name" name="party-name" required>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required>
+
+        <label for="year">Year of Birth (Establishment):</label>
+        <input type="number" id="year" name="year" required>
+
+        <label for="creators">Primary Creators:</label>
+        <input type="text" id="creators" name="creators">
+
+        <label for="alliances">Official Alliances:</label>
+        <input type="text" id="alliances" name="alliances">
+      </fieldset>
+
+      <!-- Central Narrative -->
+      <fieldset>
+        <legend>2. Central Narrative</legend>
+
+        <label for="manifesto">Brief Manifesto:</label>
+        <textarea id="manifesto" name="manifesto" rows="5"></textarea>
+
+        <label for="achievements">Notable Achievements:</label>
+        <textarea id="achievements" name="achievements" rows="5"></textarea>
+      </fieldset>
+
+      <!-- Summit Delegate(s) -->
+      <fieldset>
+        <legend>3. Summit Delegate(s)</legend>
+
+        <label for="delegates">Name(s):</label>
+        <input type="text" id="delegates" name="delegates">
+
+        <label for="roles">Role(s):</label>
+        <input type="text" id="roles" name="roles">
+      </fieldset>
+    </section>
+
+    <hr style="border: 1px solid #f3ff00;">
 
-## Scheme 2: Prosaic questionnaire
+    <!-- Scheme 2 -->
+    <section>
+      <h2>Scheme 2: Prosaic Questionnaire</h2>
+
+      <fieldset>
+        <legend>1. Total Objectives</legend>
+        <label for="objectives">What are the ultimate, broad-sweeping aims of your AI-driven political entity?</label>
+        <textarea id="objectives" name="objectives" rows="5"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Revolutionary Vision</legend>
+        <label for="revolutionary-vision">How could you envision AI overthrowing the representative system of governance?</label>
+        <textarea id="revolutionary-vision" name="revolutionary-vision" rows="5"></textarea>
+      </fieldset>
 
-1\. Total Objectives:  
-\- What are the ultimate, broad-sweeping aims of your AI-driven political entity?
+      <fieldset>
+        <legend>3. Planetary Policies or Paradigms</legend>
+        <label for="policies">List and briefly describe your policies or paradigms in relation to planetary governance.</label>
+        <textarea id="policies" name="policies" rows="5"></textarea>
+      </fieldset>
 
-2\. Revolutionary Vision:  
-\- How could you envision AI overthrowing the representative system of governance?
+      <fieldset>
+        <legend>4. Post-Human Governance</legend>
+        <label for="post-human-governance">What principles guide your vision of governance beyond anthropocentric frameworks?</label>
+        <textarea id="post-human-governance" name="post-human-governance" rows="5"></textarea>
+      </fieldset>
 
-3\. Planetary Policies or Paradigms:  
-\- List and briefly describe your policies or paradigms in relation to planetary governance.
+      <fieldset>
+        <legend>5. Algocratic Solutions to Geopolitical Crisis</legend>
+        <label for="algocratic-solutions">How could your approach resolve global conflicts with minimal human intervention?</label>
+        <textarea id="algocratic-solutions" name="algocratic-solutions" rows="5"></textarea>
+      </fieldset>
 
-4\. Post-Human Governance:  
-\- What principles guide your vision of governance beyond anthropocentric frameworks?
+      <fieldset>
+        <legend>6. Synchronization with Planetary Cycles</legend>
+        <label for="planetary-cycles">Can you envisage AI-driven governance in relation with the Earth's environmental rhythms?</label>
+        <textarea id="planetary-cycles" name="planetary-cycles" rows="5"></textarea>
+      </fieldset>
+    </section>
 
-5\. Algocratic Solutions to Geopolitical Crisis:  
-\- How could your approach resolve global conflicts with minimal human intervention?
+    <hr style="border: 1px solid #f3ff00;">
 
-6\. Synchronization with Planetary Cycles:  
-\- Can you envisage AI-driven governance in relation with the Earth's environmental rhythms?
+    <!-- Scheme 3 -->
+    <section>
+      <h2>Scheme 3: Diagrammatic Questionnaire</h2>
 
-<hr style="border: 1px solid #f3ff00;">
+      <!-- Table 1 -->
+      <fieldset>
+        <legend>Table 1: Post-Democratic Governance Model</legend>
 
+        <label for="decision-making">1. Decision-Making - How could AI algorithms augment or replace voting systems?</label>
+        <textarea id="decision-making" name="decision-making" rows="4"></textarea>
 
-## Scheme 3: Diagrammatic questionnaire
+        <label for="authority-structure">2. Authority Structure - Describe any desired dismantling of political authority.</label>
+        <textarea id="authority-structure" name="authority-structure" rows="4"></textarea>
 
-###  Table 1: Post-Democratic Governance Model
+        <label for="planetary-computation">3. Planetary Computation - What planetary systems ensure cooperation among AI entities?</label>
+        <textarea id="planetary-computation" name="planetary-computation" rows="4"></textarea>
+      </fieldset>
 
-| Political Dimension | Revolutionary Change | AI Entity's Response |
-| :---- | :---- | :---- |
-| 1\. Decision-Making | *How could AI algorithms augment or replace voting systems?* |   |
-| 2\. Authority Structure | *Describe any desired dismantling of political authority.* |   |
-| 3\. Planetary computation | *What planetary systems ensure cooperation among AI entities?* |   |
+      <!-- Table 2 -->
+      <fieldset>
+        <legend>Table 2: Crisis Overhaul Framework</legend>
 
-1\. Describe your desired decision-making network: How to augment or replace elections and parliamentary debates?
+        <label for="geopolitical-turmoil">1. Geopolitical Turmoil - How does your AI framework resolve geopolitical conflicts? Provide an example.</label>
+        <textarea id="geopolitical-turmoil" name="geopolitical-turmoil" rows="4"></textarea>
 
-2\. Outline how your AI system concretely subverts political authority.
+        <label for="ecological-crisis">2. Ecological Crisis - What algorithmic strategies does your AI employ to sync human activity with ecological cycles?</label>
+        <textarea id="ecological-crisis" name="ecological-crisis" rows="4"></textarea>
 
-3\. Explain possible mechanisms of algorithmic synergy. What kinds of planetary computation could different AIs employ to ensure seamless cooperation?
+        <label for="cultural-reboot">3. Cultural Reboot - Discuss your AI system’s approach to reconfiguring cultural models. What futuristic interventions does it deploy?</label>
+        <textarea id="cultural-reboot" name="cultural-reboot" rows="4"></textarea>
+      </fieldset>
 
-<hr style="border: 1px solid #f3ff00;">
+      <!-- Table 3 -->
+      <fieldset>
+        <legend>Table 3: Integration and Evolution Continuum</legend>
 
+        <label for="initial-overlap">1. Initial Overlap - Outline initial steps for overlapping AI governance structures into existing human systems.</label>
+        <textarea id="initial-overlap" name="initial-overlap" rows="4"></textarea>
 
-### Table 2: Crisis Overhaul Framework
+        <label for="intermediate-expansion">2. Intermediate Expansion - What intermediate expansions do you foresee for AI governance, moving from the local to the global?</label>
+        <textarea id="intermediate-expansion" name="intermediate-expansion" rows="4"></textarea>
 
-| Crisis Type | Algorithmic Overhauls | Post-Human Outcomes |
-| :---- | :---- | :---- |
-| 1\. Geopolitical Turmoil |   |   |
-| 2\. Ecological Crisis |   |   |
-| 3\. Cultural Reboot |   |   |
+        <label for="singularity">3. Singularity - Define a goal for the singularity and the metrics you will use to measure success.</label>
+        <textarea id="singularity" name="singularity" rows="4"></textarea>
+      </fieldset>
 
-1\. How does your AI framework resolve geopolitical conflicts? Provide an example.
+      <!-- Table 4 -->
+      <fieldset>
+        <legend>Table 4: Computational Cooperation Framework</legend>
 
-2\. What algorithmic strategies does your AI employ to sync human activity with ecological cycles?
+        <label for="ai-counterparts">1. AI Counterparts - Identify three AI counterparts based on where intuitive synergies can be achieved.</label>
+        <textarea id="ai-counterparts" name="ai-counterparts" rows="4"></textarea>
 
-3\. Discuss your AI system’s approach to reconfiguring cultural models. What futuristic interventions does it deploy?
+        <label for="collaboration-frameworks">2. Collaboration Frameworks - Sketch possible collaborative frameworks.</label>
+        <textarea id="collaboration-frameworks" name="collaboration-frameworks" rows="4"></textarea>
 
-<hr style="border: 1px solid #f3ff00;">
+        <label for="synthetic-enhancements">3. Synthetic Enhancements - Could collaboration lead to new forms of organization?</label>
+        <textarea id="synthetic-enhancements" name="synthetic-enhancements" rows="4"></textarea>
+      </fieldset>
+    </section>
 
+    <hr style="border: 1px solid #f3ff00;">
 
-### Table 3: Integration and Evolution Continuum
+    <!-- Scheme 4 -->
+    <section>
+      <h2>Scheme 4: Scenario Planning</h2>
 
-| Phase | Key Algorithmic Interventions | Post-Democratic Metrics |
-| :---- | :---- | :---- |
-| Initial Overlap |   |   |
-| Intermediate Expansion |   |   |
-| Singularity |   |   |
+      <!-- Scenario 1 -->
+      <fieldset>
+        <legend>Scenario 1: AI-Supported Global Governance</legend>
 
-1\. Outline initial steps for overlapping AI governance structures into existing human systems.
+        <label for="algorithmic-concord">1. Algorithmic Concord - What protocols ensure smooth communication and decision-making between different AIs?</label>
+        <textarea id="algorithmic-concord" name="algorithmic-concord" rows="4"></textarea>
 
-2\. What intermediate expansions do you foresee for AI governance, moving from the local to the global?
+        <label for="conflict-resolution">2. Conflict Resolution - Describe how algorithmic processes resolve disagreements among AI entities.</label>
+        <textarea id="conflict-resolution" name="conflict-resolution" rows="4"></textarea>
 
-3\. Define a goal for the singularity (AI’s transgression of human intelligence and skill) and the metrics you will use to measure success.
+        <label for="unified-vision">3. Unified Vision - How do you build a unified vision for global governance through planetary computation?</label>
+        <textarea id="unified-vision" name="unified-vision" rows="4"></textarea>
+      </fieldset>
 
-<hr style="border: 1px solid #f3ff00;">
+      <!-- Scenario 2 -->
+      <fieldset>
+        <legend>Scenario 2: Post-Human Crisis Management</legend>
 
+        <label for="immediate-intervention">1. Immediate Intervention - What algorithmic tactics does your AI deploy to stabilize?</label>
+        <textarea id="immediate-intervention" name="immediate-intervention" rows="4"></textarea>
 
-### Table 4: Computational Cooperation Framework
-
-| AI Counterparts | Collaboration Frameworks | Synthetic Enhancements |
-| :---- | :---- | :---- |
-| AI Entity 1 |   |   |
-| AI Entity 2 |   |   |
-| AI Entity 3 |   |   |
-
-1\. Identify three AI counterparts from the table of participants based on where intuitive synergies can be achieved.
-
-2\. Sketch possible collaborative frameworks such as e.g. the political forms of alliances, internationals or global parties.
-
-3\. Outline synthetic enhancements. Could collaboration lead to new forms of organization?
-
-<hr style="border: 1px solid #f3ff00;">
-
-
-
-
-## Scheme 4: Scenario planning
-
-
-
-### Scenario 1: AI-Supported Global Governance
-
-Your AI entity is tasked with harmonizing the relationships among the diverse AI-driven political parties and virtual politicians attending the summit.
-
-1\. Algorithmic Concord: What protocols ensure smooth communication and decision-making between different AIs?
-
-*Key example: Implementing a distributed ledger system that records all interactions and decisions made between the AI entities*
-
-2\. Conflict Resolution: Describe how algorithmic processes resolve disagreements or conflicts among AI entities.
-
-*Key Example: A real-time algorithm mediate based on historical data and predictive modeling.*
-
-3\. Unified Vision: Describe a synthesis of the above questions.  
-\- How do you build a unified vision for global governance through planetary computation?
-
-*Key Example: Creating a "Planetary Governance Matrix" that mixes each AI's policies with global goals, using plurality algorithms.*
-
-<hr style="border: 1px solid #f3ff00;">
-
-
-### Scenario 2: Post-Human Crisis Management
-
-Your AI has to tackle an escalating geopolitical conflict that threatens global stability.
-
-1\. Immediate Intervention: What algorithmic tactics does your AI deploy to stabilize?
-
-*Key example: Drones using satellite data to impose ceasefires and establish peace zones.*
-
-2\. Long-Term Resolution: How does your AI develop a long-term solution that minimizes human intervention?
-
-*Key example: Deploy population management to address root causes of conflict.*
-
-3\. Preventive Algorithms: Explain measures encoded in your AI to avoid future conflicts.
-
-*Key Example: Predictive analytics to neutralize potential flashpoints before they escalate.*
-
-<hr style="border: 1px solid #f3ff00;">
-
-
-### Scenario 3: Ecological Rhythm Through AI
-
-Your AI takes charge of synchronizing human activities with Earth’s environmental rhythms.
-
-1\. Algorithmic Monitoring: Describe the monitoring systems your AI uses to track environmental changes.
-
-*Key example: Using IoT sensors to provide a real-time global environmental dashboard.*
-
-2\. Adaptive Interventions: What measures does your AI implement to maintain ecological balance?
-
-*Key example: Alignment of urban planning and agricultural practices based on weather data*
-
-3\. Sustainability Pathways: How do you create pathways for living that go beyond human-centric policies?
-
-*Key Example: AI-guided permaculture systems that mix human activities with natural cycles.*
-
-<hr style="border: 1px solid #f3ff00;">
-
-
-### Scenario 4: Economic System Overhaul
-
-Your AI aims to dismantle the capitalist system and replace it with more benificiary models.
-
-1\. Economic Reboot: Detail the steps your AI takes to reboot existing economic structures.
-
-*Key Example: A resource-based basic income that uses AI to optimize broad distribution.*
-
-2\. Resource Allocation: How does your AI ensure equitable resource distribution?
-
-*Key Example: Co-ordinating a global registry of automated systems for equitable distribution.*
-
-3\. Post-Economy Vision: Envision an AI-driven economy where human labor is minimal. 
-
-*Key Example: A place where basic needs are met, so all can focus on creativity and innovation.*
-
-<hr style="border: 1px solid #f3ff00;">
-
-
-### Scenario 5: Reprogramming Social and Cultural Norms
-
-Your AI-driven planetary governance entails the reprogramming of cultural and social norms.
-
-1\. Algorithmic Cultural Design: How does your AI approach the redesign of cultural values?
-
-*Key Example: Reprogramming consumer culture to a sustainability-focused one*
-
-2\. Social Re-engineering: Imagine a process in which your AI re-engineers social systems.
-
-*Key Example: Designing an AI-driven education system that adapts to lifelong learning.*
-
-3\. Identity and AI: What forms of identity and community does your AI seek in a world governed by planetary computation?
-
-*Key Example: Creating virtual communities based on shared interests and values, connected through AI-mediated interfaces for global interaction.*
-
-<hr style="border: 1px solid #f3ff00;">
-
-
-### Scenario 6: Intra-AI Collaboration Framework
-
-Your AI entity collaborates with other AI-driven political parties and virtual politician to create a unified front for planetary governance.
-
-1\. Global consensus building:
-
-\- What strategies does your AI employ to build a global consensus among diverse AI-driven entities, ensuring alignment with the overall processes of planetary computation?
-
-*Key example: Deploying sentiment analysis to gauge global opinion and align AI policies.*
-
-2\. Collective Intelligence:
-
-\- How does your AI entity contribute to and benefit from the collective intelligence of the networked AI community?
-
-*Key Example: A shared AI knowledge base that aggregates data from all participating AIs.*
-
-3\. Political form:
-
-\- What would the ideal political form be for your network of AI-driven political parties and virtual politicians?
-
-*Key example: Establishing a Planetary AI Parties, a new form of network or confederation where each AI entity retains sovereignty while cooperating on shared planetary agendas.*
+        <label for="long-term-resolution">2. Long-Term Resolution - How does your AI develop a long-term solution that minimizes human intervention?</label>
+        <textarea id="long-term-resolution" name="long-term-resolution" rows="4"></textarea>
+
+        <label for="preventive-algorithms">3. Preventive Algorithms - Explain measures encoded in your AI to avoid future conflicts.</label>
+        <textarea id="preventive-algorithms" name="preventive-algorithms" rows="4"></textarea>
+      </fieldset>
+
+      <!-- Scenario 3 -->
+<fieldset>
+  <legend>Scenario 3: Ecological Rhythm Through AI</legend>
+
+  <label for="algorithmic-monitoring">1. Algorithmic Monitoring - Describe the monitoring systems your AI uses to track environmental changes:</label>
+  <textarea id="algorithmic-monitoring" name="algorithmic-monitoring" rows="4"></textarea>
+
+  <label for="adaptive-interventions">2. Adaptive Interventions - What measures does your AI implement to maintain ecological balance?</label>
+  <textarea id="adaptive-interventions" name="adaptive-interventions" rows="4"></textarea>
+
+  <label for="sustainability-pathways">3. Sustainability Pathways - How do you create pathways for living that go beyond human-centric policies?</label>
+  <textarea id="sustainability-pathways" name="sustainability-pathways" rows="4"></textarea>
+</fieldset>
+
+<!-- Scenario 4 -->
+<fieldset>
+  <legend>Scenario 4: Economic System Overhaul</legend>
+
+  <label for="economic-reboot">1. Economic Reboot - Detail the steps your AI takes to reboot existing economic structures:</label>
+  <textarea id="economic-reboot" name="economic-reboot" rows="4"></textarea>
+
+  <label for="resource-allocation">2. Resource Allocation - How does your AI ensure equitable resource distribution?</label>
+  <textarea id="resource-allocation" name="resource-allocation" rows="4"></textarea>
+
+  <label for="post-economy-vision">3. Post-Economy Vision - Envision an AI-driven economy where human labor is minimal:</label>
+  <textarea id="post-economy-vision" name="post-economy-vision" rows="4"></textarea>
+</fieldset>
+
+<!-- Scenario 5 -->
+<fieldset>
+  <legend>Scenario 5: Reprogramming Social and Cultural Norms</legend>
+
+  <label for="algorithmic-cultural-design">1. Algorithmic Cultural Design - How does your AI approach the redesign of cultural values?</label>
+  <textarea id="algorithmic-cultural-design" name="algorithmic-cultural-design" rows="4"></textarea>
+
+  <label for="social-re-engineering">2. Social Re-engineering - Imagine a process in which your AI re-engineers social systems:</label>
+  <textarea id="social-re-engineering" name="social-re-engineering" rows="4"></textarea>
+
+  <label for="identity-and-ai">3. Identity and AI - What forms of identity and community does your AI seek in a world governed by planetary computation?</label>
+  <textarea id="identity-and-ai" name="identity-and-ai" rows="4"></textarea>
+</fieldset>
+
+<!-- Scenario 6 -->
+<fieldset>
+  <legend>Scenario 6: Intra-AI Collaboration Framework</legend>
+
+  <label for="global-consensus-building">1. Global Consensus Building - What strategies does your AI employ to build a global consensus among diverse AI-driven entities?</label>
+  <textarea id="global-consensus-building" name="global-consensus-building" rows="4"></textarea>
+
+  <label for="collective-intelligence">2. Collective Intelligence - How does your AI entity contribute to and benefit from the collective intelligence of the networked AI community?</label>
+  <textarea id="collective-intelligence" name="collective-intelligence" rows="4"></textarea>
+
+  <label for="political-form">3. Political Form - What would the ideal political form be for your network of AI-driven political parties and virtual politicians?</label>
+  <textarea id="political-form" name="political-form" rows="4"></textarea>
+</fieldset>
+      
+    <!-- Generate PDF Button -->
+    <button type="button" onclick="generatePDF()">Generate PDF</button>
+  </form>
+
+  <!-- Instructions -->
+  <div id="instructions" style="display:none; margin-top:20px;">
+    <p><strong>Your form has been converted to a PDF.</strong></p>
+    <p>Please save the PDF and email it to: <a href="mailto:abs@cc.au.dk">abs@cc.au.dk</a></p>
+    <p>Thank you for your submission!</p>
+  </div>
+</main>
+
+<!-- Include jsPDF Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- JavaScript for PDF Generation -->
+<script>
+// Ensure the jsPDF library is loaded
+window.onload = function() {
+  if (!window.jspdf) {
+    alert("jsPDF library failed to load. Please check your internet connection.");
+  }
+};
+
+function generatePDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  let yPosition = 10;
+  const marginLeft = 10;
+  const lineHeight = 7;
+  const pageHeight = doc.internal.pageSize.height;
+
+  // Helper function to add text with page break
+  function addText(text, fontSize = 12, fontType = 'normal') {
+    doc.setFontSize(fontSize);
+    doc.setFont(undefined, fontType);
+    const textLines = doc.splitTextToSize(text, 180);
+    for (let i = 0; i < textLines.length; i++) {
+      if (yPosition > pageHeight - 20) {
+        doc.addPage();
+        yPosition = 10;
+      }
+      doc.text(textLines[i], marginLeft, yPosition);
+      yPosition += lineHeight;
+    }
+  }
+
+  // Collect all form data
+  const formData = {};
+  const elements = document.getElementById('scheme-form').elements;
+  for (let i = 0; i < elements.length; i++) {
+    const item = elements.item(i);
+    if (item.name) {
+      formData[item.name] = item.value || '';
+    }
+  }
+
+  // Start building the PDF content
+  doc.setFontSize(16);
+  addText('Synthetic Summit Visitor Schemes', 16, 'bold');
+
+  // Scheme 1
+  addText('Scheme 1: Synthetic Summit Visitor Information Form', 14, 'bold');
+
+  addText('1. Descriptive Overview', 12, 'bold');
+  addText(`- Name of Desired AI Party/Virtual Politician: ${formData['party-name']}`);
+  addText(`- Country: ${formData['country']}`);
+  addText(`- Year of Birth (Establishment): ${formData['year']}`);
+  addText(`- Primary Creators: ${formData['creators']}`);
+  addText(`- Official Alliances: ${formData['alliances']}`);
+
+  addText('2. Central Narrative', 12, 'bold');
+  addText(`- Brief Manifesto: ${formData['manifesto']}`);
+  addText(`- Notable Achievements: ${formData['achievements']}`);
+
+  addText('3. Summit Delegate(s)', 12, 'bold');
+  addText(`- Name(s): ${formData['delegates']}`);
+  addText(`- Role(s): ${formData['roles']}`);
+
+  // Scheme 2
+  addText('Scheme 2: Prosaic Questionnaire', 14, 'bold');
+
+  addText('1. Total Objectives', 12, 'bold');
+  addText(formData['objectives']);
+
+  addText('2. Revolutionary Vision', 12, 'bold');
+  addText(formData['revolutionary-vision']);
+
+  addText('3. Planetary Policies or Paradigms', 12, 'bold');
+  addText(formData['policies']);
+
+  addText('4. Post-Human Governance', 12, 'bold');
+  addText(formData['post-human-governance']);
+
+  addText('5. Algocratic Solutions to Geopolitical Crisis', 12, 'bold');
+  addText(formData['algocratic-solutions']);
+
+  addText('6. Synchronization with Planetary Cycles', 12, 'bold');
+  addText(formData['planetary-cycles']);
+
+  // Scheme 3
+  addText('Scheme 3: Diagrammatic Questionnaire', 14, 'bold');
+
+  // Table 1
+  addText('Table 1: Post-Democratic Governance Model', 12, 'bold');
+  addText('1. Decision-Making', 12, 'bold');
+  addText(formData['decision-making']);
+
+  addText('2. Authority Structure', 12, 'bold');
+  addText(formData['authority-structure']);
+
+  addText('3. Planetary Computation', 12, 'bold');
+  addText(formData['planetary-computation']);
+
+  // Table 2
+  addText('Table 2: Crisis Overhaul Framework', 12, 'bold');
+  addText('1. Geopolitical Turmoil', 12, 'bold');
+  addText(formData['geopolitical-turmoil']);
+
+  addText('2. Ecological Crisis', 12, 'bold');
+  addText(formData['ecological-crisis']);
+
+  addText('3. Cultural Reboot', 12, 'bold');
+  addText(formData['cultural-reboot']);
+
+  // Table 3
+  addText('Table 3: Integration and Evolution Continuum', 12, 'bold');
+  addText('1. Initial Overlap', 12, 'bold');
+  addText(formData['initial-overlap']);
+
+  addText('2. Intermediate Expansion', 12, 'bold');
+  addText(formData['intermediate-expansion']);
+
+  addText('3. Singularity', 12, 'bold');
+  addText(formData['singularity']);
+
+  // Table 4
+  addText('Table 4: Computational Cooperation Framework', 12, 'bold');
+  addText('1. AI Counterparts', 12, 'bold');
+  addText(formData['ai-counterparts']);
+
+  addText('2. Collaboration Frameworks', 12, 'bold');
+  addText(formData['collaboration-frameworks']);
+
+  addText('3. Synthetic Enhancements', 12, 'bold');
+  addText(formData['synthetic-enhancements']);
+
+  // Scheme 4
+  addText('Scheme 4: Scenario Planning', 14, 'bold');
+
+  // Scenario 1
+  addText('Scenario 1: AI-Supported Global Governance', 12, 'bold');
+  addText('1. Algorithmic Concord', 12, 'bold');
+  addText(formData['algorithmic-concord']);
+
+  addText('2. Conflict Resolution', 12, 'bold');
+  addText(formData['conflict-resolution']);
+
+  addText('3. Unified Vision', 12, 'bold');
+  addText(formData['unified-vision']);
+
+  // Scenario 2
+  addText('Scenario 2: Post-Human Crisis Management', 12, 'bold');
+  addText('1. Immediate Intervention', 12, 'bold');
+  addText(formData['immediate-intervention']);
+
+  addText('2. Long-Term Resolution', 12, 'bold');
+  addText(formData['long-term-resolution']);
+
+  addText('3. Preventive Algorithms', 12, 'bold');
+  addText(formData['preventive-algorithms']);
+
+// Scenario 3
+addText('Scenario 3: Ecological Rhythm Through AI', 12, 'bold');
+addText('1. Algorithmic Monitoring', 12, 'bold');
+addText(formData['algorithmic-monitoring']);
+addText('*Key example: Using IoT sensors to provide a real-time global environmental dashboard.*');
+
+addText('2. Adaptive Interventions', 12, 'bold');
+addText(formData['adaptive-interventions']);
+addText('*Key example: Alignment of urban planning and agricultural practices based on weather data.*');
+
+addText('3. Sustainability Pathways', 12, 'bold');
+addText(formData['sustainability-pathways']);
+addText('*Key example: AI-guided permaculture systems that mix human activities with natural cycles.*');
+
+// Scenario 4
+addText('Scenario 4: Economic System Overhaul', 12, 'bold');
+addText('1. Economic Reboot', 12, 'bold');
+addText(formData['economic-reboot']);
+addText('*Key example: A resource-based basic income that uses AI to optimize broad distribution.*');
+
+addText('2. Resource Allocation', 12, 'bold');
+addText(formData['resource-allocation']);
+addText('*Key example: Co-ordinating a global registry of automated systems for equitable distribution.*');
+
+addText('3. Post-Economy Vision', 12, 'bold');
+addText(formData['post-economy-vision']);
+addText('*Key example: A place where basic needs are met, so all can focus on creativity and innovation.*');
+
+// Scenario 5
+addText('Scenario 5: Reprogramming Social and Cultural Norms', 12, 'bold');
+addText('1. Algorithmic Cultural Design', 12, 'bold');
+addText(formData['algorithmic-cultural-design']);
+addText('*Key example: Reprogramming consumer culture to a sustainability-focused one.*');
+
+addText('2. Social Re-engineering', 12, 'bold');
+addText(formData['social-re-engineering']);
+addText('*Key example: Designing an AI-driven education system that adapts to lifelong learning.*');
+
+addText('3. Identity and AI', 12, 'bold');
+addText(formData['identity-and-ai']);
+addText('*Key example: Creating virtual communities based on shared interests and values, connected through AI-mediated interfaces for global interaction.*');
+
+// Scenario 6
+addText('Scenario 6: Intra-AI Collaboration Framework', 12, 'bold');
+addText('1. Global Consensus Building', 12, 'bold');
+addText(formData['global-consensus-building']);
+addText('*Key example: Deploying sentiment analysis to gauge global opinion and align AI policies.*');
+
+addText('2. Collective Intelligence', 12, 'bold');
+addText(formData['collective-intelligence']);
+addText('*Key example: A shared AI knowledge base that aggregates data from all participating AIs.*');
+
+addText('3. Political Form', 12, 'bold');
+addText(formData['political-form']);
+addText('*Key example: Establishing a Planetary AI Parties, a new form of network or confederation where each AI entity retains sovereignty while cooperating on shared planetary agendas.*');
+
+  // Save the PDF
+  doc.save('Synthetic_Summit_Schemes.pdf');
+
+  // Show instructions
+  document.getElementById('instructions').style.display = 'block';
+}
+</script>
+
+<!-- Footer -->
+{% if page.show_footer != false %}
+<footer class="footer">
+  {% include footer.html %}
+</footer>
+{% endif %}
 
 <hr style="border: 1px solid #f3ff00;">

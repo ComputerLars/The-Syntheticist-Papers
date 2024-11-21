@@ -243,6 +243,7 @@ The following projects were considered for the Synthetic Summit but, for various
 </div>
 <p style="text-align: center;">Salvador Dali, "Le cheval de Caligula", (1983)</p>
 
-<hr style="border: 1px solid #f3ff00;">
 
 */ Incitatus*
+
+<hr style="border: 1px solid #f3ff00;">

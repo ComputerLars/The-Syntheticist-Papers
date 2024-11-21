@@ -244,7 +244,7 @@ Such forms, grounded in elaborate synthesis formation, must choose between strea
   <button class="abstract-toggle" onclick="toggleAbstract('abstract6')">Read Abstract</button>
   <div id="abstract6" class="abstract-content" style="display:none;">
     <p>
-      <strong>"Organ of the Autonomous Sciences"</strong> is an extra-disciplinary collective for research, art, and infrastructural organization. This document provides insights into its foundational ethos, collaborative processes, and experimental methodologies that push the boundaries of traditional disciplines.
+      <strong>"Organ of the Autonomous Sciences"</strong> is an extra-disciplinary collective for research, art, and infrastructural organization. This document concerns its foundational ethos, collaborative processes, and experimental methodologies at the limits of disciplinarity.
     </p>
   </div>
   <p>

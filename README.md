@@ -55,14 +55,14 @@ We recognize that visitors, especially those engaging with this repository, may 
 
 <div style="text-align: center; margin-top: 20px;">
   <img src="/images/idiotext2.png" style="width: 40%; max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-  <p style="text-align: center; font-style: italic;">Idiotextual complex / Bernard Stiegler, 2010. Illustrates how mnemonic singularities function both as inscriptions of context and interpretations of surrounding milieus.</p>
+  <p style="text-align: center; font-style: italic;"><em>Idiotextual complex / Bernard Stiegler, 2010. Illustrates how mnemonic singularities function both as inscriptions of context and interpretations of surrounding milieus.</em></p>
 </div>
 
 Following Bernard Stiegler’s concept-figure of "the idiotext" (Stiegler 1995; 2010), the language modeling of AI media should be contextualized within processes of collective individuation: the text writes its own author as much as the author writes the text. Each mnemonic singularity—visualized here with the Archimedean background spiral, and elliptic spirals within spirals—functions as both an inscription and an interpretation of its milieu, crystallizing the authorial function:
 
 <div style="text-align: center; margin-top: 20px;">
   <img src="/images/idiotext1.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-   <p style="text-align: center; font-style: italic;">Idiotextual constitution / ibid. Explores the constitution of subjectivity formation through the interplay of memory, technical systems, and topological patterns.</p>
+  <p style="text-align: center; font-style: italic;"><em>Idiotextual constitution / ibid. Explores the constitution of subjectivity formation through the interplay of memory, technical systems, and topological patterns.</em></p>
 </div>
 
 The sketches above diagram spirals nesting within broader mnemonic swirls. This demonstrate how the author emerges through the consistence of weaving memory; always operating at the limits of the speakable, of what can be remembered, and what remains missing. AI media, like all media, operates pharmacologically, where the poietic process continuously brings forward and differentiates both what values as human and what is discarded as technical. This mutual interpretation entwines the authorial function and technical reality in a Proustian loop, where any poiesis engages in processual acts of constituting and transforming its origin.

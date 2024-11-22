@@ -19,7 +19,7 @@ show_translate_widget: false
 
 <!-- Introduction -->
 <section class="introduction">
-  <p>This series of video essays elaborates the principles of syntheticism, aiming to imagine the potential roles of AI in democratic processes, social revolts, and experimental representation. Whether you're new to syntheticism or a seasoned fellow, these works offer a steadfast entrance to the ideological stakes of algorithmic democracy and political AI.</p>
+  <p>This series of video essays elaborates the principles of syntheticism, aiming to imagine the potential roles of AI in democratic processes, social revolts, and experimental representation. Whether you're new to syntheticism or a seasoned fellow, these offer an entry to the morphological stakes of algorithmic democracy and political AI.</p>
 </section>
 
 <!-- Main Content -->

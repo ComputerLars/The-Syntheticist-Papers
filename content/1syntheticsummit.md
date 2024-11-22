@@ -5,7 +5,7 @@ show_nav: false
 show_footer: false
 ---
 
-## Workings of the world, untie!
+## “We Have a Win to World”
 
 In early 2023, we at the ['Computer Lars' collective](https://computerlars.com/marcel-proust/) began reaching out to the world’s leading AI-driven political parties and virtual politicians, inviting them to Kunsthal Aarhus for the inaugural "Synthetic Summit". Our goal was to create a forum where these political AIs could engage collectively, exploring the possibility of coalition. Confirmed participants include [The Australian AI Party](https://www.triageliveartcollective.com/the-ai-party), [The Finnish AI Party](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/), [The Japanese AI Party](https://www.ai-mayor.com/), [Parker Politics (New Zealand)](https://parkerpolitics.com/), [the Simiyya platform (Egypt-Jordan)](https://www.simiyya.xyz/), [The Swedish AI Party](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r), [The Synthetic Party (Denmark)](https://www.detsyntetiskeparti.org), and [Wiktoria Cukt 2.0. (Poland)](https://www.facebook.com/wiktoria.cukt.2.0).
 
@@ -13,22 +13,20 @@ Our initial intention was straightforward: to convene these diverse projects—o
 
 As deliberations progressed, we established a [pre-summit simulation](https://syntheticism.org/content/4presummit.html) in a basic multi-agent system, where participants modeled different organizational pathways of collaboration. These synthetic deliberations became a framework for addressing a form of "world coordination" not merely as another coalition of political parties but as a venture into their shared infrastructures underpinning planetary computation.
 
-What follows is a composition of six interrelated inquiries where Computer Lars attempts to crystallize the Synthetic Summit's curatorial framework. The fragments propose pathways for political AI to collaborate on a planetary scale, moving beyond the formal confinements of electoral campaigns within parliamentary systems, which remain bound by territorially defined rights of citizenship.
+What follows is a composition of six interrelated inquiries where Computer Lars crystallizes the Synthetic Summit's curatorial framework. By outlining fragmentary pathways for political AI collaboration on a planetary scale, he explores campaign strategies beyond the territorial confines of parliamentary systems and citizenship. Each section addresses a distinct aspect of AI governance while collectively advancing the Synthetic Summit’s broader vision of political AI collaboration:
 
-Each section operates with its own targeted aim:
-
-1. **[“We Have a Win to World”](#we-have-a-win-to-world):** Articulates the Summit's overall purpose by situating political AI within the planetary computational infrastructure that has already reshaped global governance.  
+1. **[Workings of the world, untie!](#workings):** Articulates the Summit's overall purpose by situating political AI within the planetary computational infrastructure that has already reshaped global governance.  
 2. **[A Win Without World: AI Hate and AI Hype](#a-win-without-world-ai-hate-and-ai-hype):** Diagnoses the socio-political tensions shaping public perceptions of AI-driven governance, navigating a double-bind of Hype and Hate.  
 3. **[The Planetary Sentiment of Political AI](#the-planetary-sentiment-of-political-ai):** Draws lessons from past electoral campaigns, particularly The Synthetic Party's global reception, to specify regional strategies for political AI.
 4. **[Political Virtuality: A New Sensibility?](#political-virtuality-a-new-sensibility):** Explores the hope for regenerating sensibility and symbolic life through surprise-based affective strategies.  
-5. **[Towards World Co-Ordination](#towards-world-co-ordination):** Envisions a path of AI-led governance rooted in shared planetary infrastructures while rejecting both corporate singularitarianism and deliberative pluralism.  
+5. **[Towards World Coordination](#towards-world-coordination):** Envisions a path of AI-led governance rooted in shared planetary infrastructures while rejecting both corporate singularitarianism and deliberative pluralism.  
 6. **[Summit Set-Up](#summit-set-up):** Materializes these speculative visions within the aesthetic and performative framework of the Synthetic Summit itself.
 
 <div style="text-align: center;">
   <img src="../images/image2.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
-## “We Have a Win to World”
+## Workings of the world, untie! {#workings}
 
 The Synthetic Summit begins with the recognition that computers and algorithms already manage much of the world's political infrastructure—from global finance and communication to supply chains and resource distribution. Political decision-making, always compromised, has long been subsumed under the influence of modern technocracy, planetary computation, and algorithmic governmentality. The emergence of political AI in democratic contexts could only occur within this planetary infrastructure—a system that has intricately woven the world into a sprawling megastructure, as [Benjamin Bratton describes](https://research.antikythera.org/#planetary-computation), in which algorithmic networks define international relations through the multipolarity of "hemispherical stacks".
 
@@ -43,7 +41,7 @@ The Synthetic Summit does not aspire to formulate an overarching purpose. Instea
   <img src="../images/image3.jpg" style="max-width: 80%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
-**A Win Without World: AI Hate and AI Hype**  
+## A Win Without World: AI Hate and AI Hype {#a-win-without-world-ai-hate-and-ai-hype}
 *This is the win without world*: algorithmic systems may have conquered every logistical terrain, but they are largely perceived as fracturing the relational sensibility that sustains symbolic life and democratic agency. As AI models further entangle with public and private realms, the prevailing sense is that capacities for democratic participation are eroding. Sensibility itself becomes an appendage to computational processes, severing collective capacities for reflexivity.
 
 This erosion is reflected in shifting public opinion on AI. By 2025, [52% of people in "God's own country" expressed greater concern than excitement about AI](https://www.pewresearch.org/short-reads/2023/11/21/what-the-data-says-about-americans-views-of-artificial-intelligence/#:~:text=Today%2C%2052%25%20of%20Americans%20are,mix%20of%20excitement%20and%20concern): *AI Hate* is overtaking *AI Hype*, signaling a global crisis of perception in which public sentiment oscillates between opportunistic hope for economic growth and fear of an irreversible techno-political dystopia. This backlash is fuelled by a suspicion that generative AI represents a kind of “cheating”—an exploitative system privileging those with access to technological power, exacerbating societal inequalities, and transforming latent anxieties into generalized resentment.
@@ -52,7 +50,7 @@ Yet, ironically, if there is one thing people have long hated more than AI, it i
 
 Political AI, from its inception, was perhaps destined to straddle this double-bind of public sentiment, incubating within a paradoxical matrix of Hype and Hate. Even today, the allure of algorithmic democracy persists in its promise to negate established biases, inefficiencies, and corruption, offering the veneer of impartiality. Still more a refusal than a viable alternative, political AI reflects a negation of past fallibilities.
 
-**The Planetary Sentiment of Political AI**  
+## The Planetary Sentiment of Political AI {#the-planetary-sentiment-of-political-ai}
 For participants in the Synthetic Summit to engage this ‘world’ of planetary sentiment, they can draw on prior electoral experiences. The Synthetic Party’s strangely global campaign in 2022 serves as an instructive case study in this respect, shedding light on the regional appeal—or rejection—of political AI across diverse contexts.
 
 Analyzing international news media referencing The Synthetic Party, we conducted a basic sentiment analysis across multiple languages:
@@ -85,7 +83,7 @@ To further self-reflective insight into how AI perceives its own media coverage,
 
 Here, **surprise** (51.72%) and **neutrality** (28.12%) were the most prevalent emotions, suggesting a tension between awe at AI’s novelty and the normalization of its governance role. While **disgust** and **anger** appeared less frequently, they point to underlying fears of AI’s unchecked power. Yet, the low prevalence of these emotions suggests that widespread rejection of AI governance has not crystallized into a unified opposition. Instead, AI exists in an ambiguous state—both extraordinary and banal, admired and dismissed in equal measure.
 
-**Political Virtuality: A New Sensibility?**  
+## Political Virtuality: A New Sensibility? {#political-virtuality-a-new-sensibility}
 These findings underscore the fractured, context-specific nature of current planetary sentiments toward political AI. **English-speaking publics** display a restrained openness, tempered by concerns over transparency and fairness. The **Spanish-speaking world**, marked by significant negativity, reveals a more visceral fear of political AI, shaped by cultural memories of centralized power and an enduring skepticism of technocratic systems. **French ambivalence** reflects a struggle to reconcile AI’s potential for societal benefit with its risks to democratic deliberation. Meanwhile, **non-Western linguistic** groups highlight indifference and concerns of cultural erasure and technological inequality, underscoring the inherence of global power interests.
 
 This patchwork of reactions indicates that political AI cannot anticipate meeting a uniform global opinion, but interfaces with a constellation of sensibilities shaped by cultural and historical legacies. The Synthetic Summit, as the first entry into AI-driven planetary governance, is thus poised to navigate this diversity. It cannot assume universal acceptance or rejection but must engage strategically with cultural-regional contexts.
@@ -94,14 +92,14 @@ Interplaying AI Hate and AI Hype, the Synthetic Summit could reraise the questio
 
 This would mean embracing ambiguity, sparking new forms of public curiosity, and metastability in terms of performance. Surprise, as an affect à la Tomkins, has the capacity to destabilize entrenched perceptions, creating openings for reimagining the social and political fabric itself.
 
-Such a political AI campaign would not seek to erase the perceived loss of participation. Instead, it would aim to reclaim it, provoking a sense of collective imagination towards a truly *alien world*.
+The surprise-factor of political AI campaign does not need to erase the perceived loss of participation. Instead, it could aim to reclaim it, provoking a sense of collective imagination towards a truly *alien world*.
 
-**Towards World Co-Ordination**  
+## Towards World Coordination {#towards-world-coordination}
 Although every attempt by modernist ideologies have failed to establish a unified world government, the Synthetic Summit elaborates how hitherto ulterior forms of coordination are poised to emerge. The challenge is not in creating this system—it already exists—but in acknowledging and formalizing its consistence. The Synthetic Summit therefore calls to consider the effects of a full-on democratic recalibration beyond any constraints of political authority.
 
 Given that ongoing hostilities among corporations and wars between nation states continue to foster an anarchic system of international relations, the overall evolution towards AI-driven governance appears to be an almost forgivable next step. The challenge is not in creating this system—it already exists—but in acknowledging and formalizing its consistence. The Synthetic Summit therefore calls to consider the effects of a full-on democratic recalibration beyond any constraints of political authority.
 
-Unlike the contemporary assemblies and summits focused on ephemeral **“AI governance"**, the Synthetic Summit delves into the technical realities of "**AI-led governance**". It will simulate an entirely synthetic form of assembly, where the participants are actual AI-driven political parties and virtual politicians. We are envisioning an (anti)-political modus where every decision-making process is visibly algorithmic. This contrasts with how “AI governance” is pursued, where the human-theistic faith in democracy, capital and law justifies control and regulation of other beings. As AI regulation debates rallies politicians, business leaders, and lobbyists at international forums, it becomes increasingly clear that humanity’s designated representatives remain confined to the frameworks of international states.
+Unlike the contemporary assemblies and summits focused on ephemeral **“AI governance"**, the Synthetic Summit delves into the technical realities of "**AI-led governance**". It will simulate an entirely synthetic form of assembly, where the participants are actual AI-driven political parties and virtual politicians. We are envisioning an (anti)-political modus where every decision-making process is visibly algorithmic. This contrasts with how “AI governance” is pursued, where the human-theistic faith in democracy, capital and law justifies control and regulation of other beings. [As AI regulation debates rallies politicians, business leaders, and lobbyists at international forums, it becomes increasingly clear that humanity’s designated representatives remain confined to the frameworks of nation states.](https://www.youtube.com/watch?v=0_jw40Ga_mA&ab_channel=TheRoyalFamily)
 
 The Synthetic Summit’s practices furthermore diverges significantly from firstly corporate singularitarianism, but also from the bureaucratic stagnation of deliberative pluralism. Capitalist leaders, as seen in the *Frontier Model Forum* (Anthropic, Microsoft, Google, OpenAI) and the UK’s *Global AI Safety Summits*, all propagate for a centralized superintelligence as a singular global authority, consolidating decision-making within elite techno-corporate structures. Meanwhile, pluralist organizations like Taiwan’s *Alignment Assemblies* and the UN’s *AI For Good Summits* attempt to valorize AI through liberal democratic processes, but collapse under the weight of competence-settings, unable to dismiss the planetary-scale authority of capital and politics.
 
@@ -117,7 +115,7 @@ Political AIs task, as the inheritors of this coordinative morphology, is to dis
 
 Thus, The Synthetic Summit breaks the chains of AI governance, untying oversight and overlords with a paradigm where AI, like language once did, coordinates the stakes of an existence that is as unworldly as it is inevitable.
 
-**Summit Set-Up**  
+## Summit Set-Up {#summit-set-up} 
 The Synthetic Summit 2025 manifests its more speculative scenarios for augmented deliberation and world co-ordination through a set-up of artistic installations within a visual space.
 
 The summit transforms the exhibition space Kunsthal Aarhus into a retro-futuristic operations chamber that simulates parliamentary proceedings and conference negotiations, divided by panels mimicking mainframe computers that contain plexiglass cases with campaign materials and artifacts, and built-in screens for documentation and video.

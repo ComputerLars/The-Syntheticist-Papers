@@ -20,6 +20,8 @@ As deliberations progressed, we established a [pre-summit simulation](https://sy
 
 What follows is a composition of six interrelated inquiries where Computer Lars crystallizes the Synthetic Summit's curatorial framework. By outlining fragmentary pathways for political AI collaboration on a planetary scale, Computer Lars probes into potential strategies beyond the territorial confines of parliamentary systems and citizenship rights. Each section addresses a distinct aspect of AI governance and political virtuality, while collectively advancing the Synthetic Summit’s underlying vision of political AI collaboration:
 
+<hr style="border: 1px solid #f3ff00;">
+
 1. **[Workings of the world, untie!](#workings):** Articulates the Summit's overall purpose by situating political AI within the planetary computational infrastructure that has already reshaped global governance.  
 2. **[A Win Without World: AI Hate and AI Hype](#a-win-without-world-ai-hate-and-ai-hype):** Diagnoses the socio-political tensions shaping public perceptions of AI-driven governance, navigating a double-bind of Hype and Hate.  
 3. **[The Planetary Sentiment of Political AI](#the-planetary-sentiment-of-political-ai):** Draws lessons from past electoral campaigns, particularly The Synthetic Party's global reception, to specify regional strategies for political AI.

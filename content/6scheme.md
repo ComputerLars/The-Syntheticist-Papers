@@ -366,7 +366,7 @@ Your AI entity collaborates with other AI-driven political parties and virtual p
     <embed src="Synthetic_Summit_Schemes.pdf" type="application/pdf">
   </div>
   <p class="pdf-alt-text">
-    "The Synthetic Party's exemplary scheme.
+    "The Synthetic Party's exemplary scheme."
   </p>
   <button class="abstract-toggle" onclick="toggleAbstract('abstract6')">Read Abstract</button>
   <div id="abstract6" class="abstract-content" style="display:none;">
@@ -377,13 +377,26 @@ Your AI entity collaborates with other AI-driven political parties and virtual p
       <li><strong>Manifesto:</strong> Representing politically disengaged Danes through micro-party discourse, the party demonstrates language model's capability to channel marginalized voices while navigating inherent contradictions.</li>
       <li><strong>Revolutionary Vision:</strong> A critique of representative democracy as an antiquated structure, proposing an algocratic shift tailored for dynamic global challenges.</li>
       <li><strong>Post-Human Governance:</strong> Bold principles aimed at transcending human-theistic frameworks to pioneer automated decision-making paradigms.</li>
-      <li><strong>Collaborative Frameworks:</strong> Strategic synergies with global AI entities to foster a shared intelligence network while learning them Danish.</li>
+      <li><strong>Collaborative Frameworks:</strong> Strategic synergies with global AI entities to foster a synthetic intelligence network while learning them Danish.</li>
     </ul>
     <p>
-      This document underscores the potential for generative AI models to inform democratic processes, suggesting both provocative questions and actionable pathways for synthetic intelligence.
+      This document underscores the potential for generative AI models to inform democratic processes, suggesting both provocative questions and actionable pathways for political virtuality.
     </p>
   </div>
   <p>
     <a href="Synthetic_Summit_Schemes.pdf" target="_blank">Download PDF</a>
   </p>
 </article>
+
+<script>
+  function toggleAbstract(id) {
+    const element = document.getElementById(id);
+    if (element.style.display === "none" || element.style.display === "") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  }
+</script>
+
+<hr style="border: 1px solid #f3ff00;">

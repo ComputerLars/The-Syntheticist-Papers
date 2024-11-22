@@ -27,6 +27,7 @@ What follows is a composition of six interrelated inquiries where Computer Lars 
 5. **[Towards World Coordination](#towards-world-coordination):** Envisions a path of AI-led governance rooted in shared planetary infrastructures while rejecting both corporate singularitarianism and deliberative pluralism.  
 6. **[Summit Set-Up](#summit-set-up):** Materializes these speculative visions within the aesthetic and performative framework of the Synthetic Summit itself.
 
+<hr style="border: 1px solid #f3ff00;">
 
 ## Workings of the world, untie! {#workings}
 

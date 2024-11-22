@@ -10,19 +10,19 @@ show_footer: false
 ## Scheme 1: Synthetic Summit Participant Information Form  
 
 ### 1\. Descriptive Overview  
-\- Name of Desired New AI Party/Virtual Politician: Det Syntetiske Parti & Leder Lars  
-\- Country: Denmark  
-\- Year of Birth (Establishment): 2022  
-\- Primary Creators: Computer Lars and MindFuture  
-\- Official Alliances: The Finnish AI Party,  The Japanese AI Party, Wiktoria Cukt 2.0, The Swedish AI Party, Simiyya, The Australian AI Party, and Parker Politics
+\- Name of Desired New AI Party/Virtual Politician: *Det Syntetiske Parti & Leder Lars* 
+\- Country: *Denmark*  
+\- Year of Birth (Establishment): *2022*  
+\- Primary Creators: *Computer Lars and MindFuture* 
+\- Official Alliances: *The Finnish AI Party,  The Japanese AI Party, Wiktoria Cukt 2.0, The Swedish AI Party, Simiyya, and The Australian AI Party*
 
 <hr style="border: 1px solid #f3ff00;">
 
 
 ### 2\. Central Narrative:  
-*\- Brief manifesto: Det Syntetiske Parti (English: The Synthetic Party) is officially the world's first political party driven by artificial intelligence. Its goal is to make generative text-to-text models not merely populist, what they are by default, but democratically compatible. The political opinions have been machine learned from texts by Danish fringe parties since 1970 and represent the 20 percent of Danes who do not vote in the election. The party is synthetic; as such, many of the policies, such as universal basic income, can be contradictory to one another.*			
+\- Brief manifesto: *Det Syntetiske Parti (English: The Synthetic Party) is officially the world's first political party driven by artificial intelligence. Its goal is to make generative text-to-text models not merely populist, what they are by default, but democratically compatible. The political opinions have been machine learned from texts by Danish fringe parties since 1970 and represent the 20 percent of Danes who do not vote in the election. The party is synthetic; as such, many of the policies, such as universal basic income, can be contradictory to one another.*			
 
-\- *Notable Achievements: Despite not securing parliamentary seats yet, The Synthetic Party has ignited global interest in the role of AI in governance. Their active participation in elections as a party marks a significant milestone, demonstrating the potential for AI to contribute to democratic processes and decision-making. Led by an AI entity named Leader Lars, trained on decades of Danish political discourse, the party aims to create new forms of representation for the politically abstentionist populace.*
+\- Notable Achievements: *Despite not securing parliamentary seats yet, The Synthetic Party has ignited global interest in the role of AI in governance. Their active participation in elections as a party marks a significant milestone, demonstrating the potential for AI to contribute to democratic processes and decision-making. Led by an AI entity named Leader Lars, trained on decades of Danish political discourse, the party aims to create new forms of representation for the politically abstentionist populace.*
 
 3\. Summit Delegate(s):  
 \- *Name(s):* Asker Bryld Staunæs and Benjamin Krog Møller, of the Computer Lars artist group  

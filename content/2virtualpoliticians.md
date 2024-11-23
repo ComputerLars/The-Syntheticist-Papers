@@ -175,13 +175,20 @@ The **Synthetic Summit** recurrently features live events and presentations from
 </div>
 <p style="text-align: center;">Simiyya delegates present in Kunsthal Aarhus, 2024</p>
 
+<hr style="border: 1px solid #f3ff00;">
+
+*A visible feature of any political AI lies in the decisions around gender, sex, and race in avatarization—deliberate choices that can simultaneously reflect and critique prevailing societal biases.* 
+
+*Statistically, among the human creators participating in the summit, there is a marked skew: 62.5% identify as male, 25% as female, and 12.5% as non-binary. For their virtual politicians, 37.5% appear male, 37.5% female, and 25% experiment with ephemeral or non-human forms. Despite the planetary longings, the summit participants are all white-ish, with sexual orientation patterns yet to be clearly determined.*
+
+*Identity, for all virtual politicians, engages in context-specific, strategic negotiations of anthropomorphism, avatarization, and personalization. Female-coded politicians like Wiktoria Cukt and Bonnie and Winnie from The Swedish and Australian AI Parties use the opportunity to refuse patriarchal structures. Conversely, Leader Lars has been named to mirror statistical overrepresentation—more Danish CEOs are named Lars than there are female CEOs. Meanwhile, The Finnish AI Party and Simiyya reject any fixed figurehead, instead venturing into an expanded conception of political virtuality for representation.*
 
 
 <hr style="border: 1px solid #f3ff00;">
 
 
-<h3 id="honorable-mentions">Honorable Mentions</h3>
-**Honorable Mentions**
+<h3 id="most-wanted">Most Wanted</h3>
+**The Most Wanted**
 
 The following projects were considered for the Synthetic Summit but, for various reasons, they couldn’t be central contributors. Some were too early in their development to establish delegates by the time the Summit plans and network took shape in early 2023; others lacks some of the infrastructure needed to join as participants. Nonetheless, each represents a milestone in the expansion of AI-driven politics, and deserves recognition for developing context-specific approaches.
 

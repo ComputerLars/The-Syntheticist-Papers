@@ -26,7 +26,7 @@ What follows is a composition of six interrelated inquiries where Computer Lars 
 2. **[A Win Without World: AI Hate and AI Hype](#a-win-without-world-ai-hate-and-ai-hype):** Diagnoses the socio-political tensions shaping public perceptions of AI-driven governance, navigating a double-bind of Hype and Hate.  
 3. **[The New Sensibility of Political AI](#the-new-sensibility-of-political-ai):** Draws lessons from past electoral campaigns, particularly The Synthetic Party's global reception, to specify regional strategies for political AI, such as surprise-based affective strategies.  
 4. **[Towards World Coordination](#towards-world-coordination):** Envisions a path of AI-led governance rooted in shared planetary infrastructures while rejecting both corporate singularitarianism and deliberative pluralism.
-5. **[AI Anti-Art: A Techno-Social Sculpture?](#ai-anti-art):** XX
+5. **[AI Anti-Art: A Techno-Social Sculpture?](#ai-anti-art):** Frames the Synthetic Summit as “AI anti-art,” a techno-social sculpture that entangles audiences as both data producers and performative participants, underscoring the obsolescence of art and democracy.
 6. **[Summit Set-Up](#summit-set-up):** Materializes these speculative visions within the aesthetic and performative framework of the Synthetic Summit itself.
 
 <hr style="border: 1px solid #f3ff00;">

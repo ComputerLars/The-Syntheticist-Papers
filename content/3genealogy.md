@@ -5,12 +5,6 @@ show_nav: false
 show_footer: false
 ---
 
-<hr style="border: 1px solid #f3ff00;">
-
-# Isaac Asimov's Incubation of Political AI: An Immanent Critique?
-
-<hr style="border: 1px solid #f3ff00;">
-
 # Table of Contents
 
 - [Isaac Asimov's Incubation of Political AI: An Immanent Critique?](#)
@@ -21,6 +15,10 @@ show_footer: false
 - [Immanent Critique as Methodology for Political AI](#Discussion)
 - [Closing Reflections](#Conclusion)
 - [Literature](#References)
+
+<hr style="border: 1px solid #f3ff00;">
+
+# Isaac Asimov's Incubation of Political AI: An Immanent Critique?
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -207,7 +205,7 @@ Asimov incubated a vision of political AI that reveals itself as an exposition o
 
 / Asker Bryld Staunæs, on behalf of Computer Lars and The Synthetic Party
 
-## Literature {#References}
+## Literature {#references}
 
 * Aneesh, A. (2006). *Virtual Migration: The Programming of Globalization*. Durham: Duke University Press.  
 * Anderson, S. (2008). “Asimov’s “three laws of robotics” and machine metaethics”, *AI & Society,* Vol. 22, p. 477-493   

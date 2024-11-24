@@ -11,6 +11,19 @@ show_footer: false
 
 <hr style="border: 1px solid #f3ff00;">
 
+# Table of Contents
+
+- [Isaac Asimov's Incubation of Political AI: An Immanent Critique?](#)
+- [An immanent theory of algorithmic democracy](#immanent-theory)
+- [The birth of virtual politicians: "Evidence" (1946)](#Evidence)
+- [A world order for planetary AI: "The Evitable Conflict" (1950)](#Evitable)
+- [The compact spectacle of algorithmic representation: "Franchise" (1955)](#Franchise)
+- [Immanent Critique as Methodology for Political AI](#Discussion)
+- [Closing Reflections](#Conclusion)
+- [Literature](#References)
+
+<hr style="border: 1px solid #f3ff00;">
+
 Isaac Asimov (1920-1992) remains widely recognized for his futurist imaginaries of cosmic world history and propositions of laws for robotic beings. However, Asimov’s most timely contributions may lie in his early probing of artificial intelligence (AI) within everyday democratic processes—incubating an imaginary that would gradually take form in real-world politics. Amidst stories of robots running for elections, machine-driven economies, and algorithmic governance, Asimov balances a skepticism of formal democracy with optimism about robotic representatives, paying close attention to the imperfections of human-machine interactions, whether within the machinery of statecraft or technology itself.
 
 Where Asimov’s explorations of robots and computers entering politics were confined to the pages of science fiction, this phenomenon has begun to materialize in surprising ways across the global political landscape. The emergence of ‘virtual politicians’ and AI-driven electoral campaigns in recent years marks a significant step towards realizing Asimov's scenarios. By comparing Asimov’s stories with contemporary projects such as Michihito Matsuda’s 2018 mayoral candidacy in Tama City, The Synthetic Party’s 2022 parliamentary efforts in Denmark, and Takahiro Anno's 2024 gubernatorial run in Tokyo, this article delineates an Asimovian frontier for intermingling AI and democracy. These real-world materializations echoes Asimov’s challenge to electoral processes of democracy and political representation.
@@ -21,7 +34,7 @@ By ‘algorithmic democracy’ and ‘virtual politicians’, I primarily refer 
 
 As both the author of this article *and* the human creator of The Synthetic Party, I approach this case from a theoretically and politically engaged standpoint, aiming to consolidate the complex historicity of political AI. The idea to connect my project with Isaac Asimov was first sparked by comparisons in legacy media such in *El País*, *L’Espresso* and *Paris Match* (Del Río 2023; Chiusi 2022; DR 2022), and later developed through scholarly comparisons by García-Marzá and Calvo (2024, p. 41), all of which I encountered through navigating The Synthetic Party’s 'techno-social sculpture' in public spheres (Staunæs 2024).
 
-**An immanent theory of algorithmic democracy**  
+## An immanent theory of algorithmic democracy {#immanent-theory} 
 This analysis contributes primarily to the history of ideas concerning algorithmic democracy and political virtuality, while offering new contexts for interpreting Asimov’s classics through a materialist lens. It does not seek to assess the literary qualities of Asimov's work or make political value judgments about e.g. adequacies of representation in his stories. Prior to the ethical debates in political philosophy regarding whether AI is beneficial or detrimental to democracy (Coeckelbergh 2022; 2024), the concrete manifestation of political AI introduces an epistemological crisis that oscillates between man-made truths and AI-generated realities (Herrie & Staunæs 2024). In this context of disorientation, Asimov‘s writings during the first period of societal computerization, the 1940s and 50, forms an immanent point for critique of liberal and mainstream philosophies of technology.
 
 Asimov’s technocracy exceeds social science terminologies like ‘algocracy’ (Aneesh 2006; Danaher 2016\) or ‘cyberocracy’ (Ronfeldt 1991), which focus solely on actual governance by algorithms, neglecting how algorithmic logics permeates society more immanently. More precisely, I find that Asimov engages with the aesthetics and techniques of algorithmic democracies, preceding any operational concerns. Recalling Antoinette Rouvroy and Thomas Berns’ notion of ‘algorithmic governmentality’ (2013), which extends Foucault’s analysis on the arts and crafts of neoliberalism, Asimov’s stories highlight a fundamental crisis in regimes of truth. Rouvroy (2016), in conversation with Bernard Stiegler, frames this as a ”radical crisis of representation,” a breakdown not only in political representation but in the concept of representation itself (Rouvroy & Stiegler 2016: 7). Harnessing this crisis, the campaigns of Asimovian robopoliticians and today’s virtual politicians make use of AI’s governing promise to expose the disorientation of representation—especially in its most iconic form: parliamentary elections.
@@ -36,7 +49,7 @@ Through a contextualizing analysis of three Asimov stories with real-life materi
 
 3. Finally, in “Franchise” (1955), the opinions of a single 'most representative' voter determine entire election results through the computer Multivac. I draw a distribution between the *rite* of election and the *right* to vote, emphasizing Asimov's description of electoral spectacle within systems of democratic representation. This is compared to The Synthetic Party’s experiments with political representation through AI models.
 
-### **The birth of virtual politicians: "Evidence" (1946)** 
+## The birth of virtual politicians: "Evidence" (1946) {#Evidence}
 
 With “Evidence”, Asimov introduced his first depiction of a humanoid robot, although its underlying nature remains ambiguous throughout the story[^1]. Set in 2023, the story centers on Stephen Byerley, a legal prosecutor and reformist candidate for a mayoral election. Byerley's humanity is questioned by an establishment rival who suspects—or claims to suspect—that Byerley is a robot, noting that he has never been seen to either eat, drink or sleep (Asimov 1950: 173). Byerley refrains from disproving the accusations, stressing that publicity works both ways (Asimov 1950: 178), hinting at the strategic spectacle and hype economy surrounding AI and robots in the public sphere.
 
@@ -80,7 +93,7 @@ In a final dialogue with Byerley, Dr. Calvin expresses her preference for robots
 
 The key to the story, analytically *and* politically, is to forget about Asimov’s law*s as a priori* universal principles, and to begin interrogating their assumptions within the narrative. While Asimov’s laws are often dismissed by AI ethicists as merely literary devices (Singer 2009), it is precisely their narrative function as a double abstraction of Laws-and-algorithm that opens possibilities for a social critique that exposes the assumptions that these Laws-and-algorithms have inherited from society—such as power dynamics of control and subordination, ethical codification, and techno-solutionism.
 
-**A world order for planetary AI: "The Evitable Conflict" (1950)**  
+## A world order for planetary AI: "The Evitable Conflict" (1950) {#Evitable}
 The post-war global order built transnational institutions like the UN, IMF, and WTO, but is today buckling under the weight of ecological crises and economic instability, signaling a long-term decline. With wars raging across Ukraine, Palestine, Syria, Sudan, and beyond, international relations teeter on the edge of perpetual anarchy. Nation states, limited by their borders, proves increasingly ineffective in confronting planetary-scale issues, while capitalist systems integrate AI into global supply chains, cybersecurity, and bureaucratic management. Amid this turmoil, an old question takes on new urgency: Do humans fit the bill to govern the complexities of Earth? And if not, what might their alternative look like?
 
 From the beginning of this predicament, Asimov's "The Evitable Conflict" (1950) presented a critique of the cosmopolitan failures of establishing effective world governance. The story presents a post-nationalist world order where democracy persists formally, but the locus of decision-making has transferred towards machines. While the story raises concerns about determinism and the erosion of human agency, it also opens the possibility that machine autonomy constitutes an evolving form of algorithmic democracy. 
@@ -125,7 +138,7 @@ More concretely, Takahiro Anno’s campaign for Tokyo governor in 2024 also show
 
 The ‘listening’ dilemma here complexifies Asimov's universalism critique on how Planetary AI can serve humanity's safety. Indeed, one can question *how* such a system will listen to the complexities of diversity without amplifying mere tendencies? Can a model optimizing the long-term planetary order also accommodate the subtle, often contradictory forces defining life, or will it flatten humanity's pluralities into variables of an ultimately diffuse equation?
 
-### **The compact spectacle of algorithmic representation: "Franchise" (1955)** 
+## The compact spectacle of algorithmic representation: "Franchise" (1955) {#Franchise}
 
 Watching the 1952 U.S. presidential election on television for the first time, Asimov found himself disappointed by a scenario that seemed like something out of one of his own stories. While Asimov had voted for the Democratic candidate Adlai Stevenson, a computer named Univac called the victory for Dwight Eisenhower after analyzing a mere 5.8% of the count. What troubled Asimov was not the actual outcome, but his experience that the computer had stripped away all suspense and human engagement from the election event. Univac, Asimov reflected in his diary, had rendered the show on TV “no fun anyway” (Asimov 1979: 663). Even though Asimov would have been sure to have had his idiosyncrasies stifled by hearing dramatic references in the CBS broadcast to an "electronic brain" and "mechanical monster" (Chinoy 2024), the plotting of hope and anticipation for representation was called off early.
 
@@ -164,7 +177,7 @@ In Baudrillard’s sense, Multivac and The Synthetic Party cannot be generating 
 
 The collapse of societal spectacle is thus further compressed with anti-political, AI-led parties like The Synthetic Party. While “Franchise” of 1955 marked an early transition toward integrative spectacle where representation remained separated into technical efficiency and media-driven involvement, The Synthetic Party is on the move toward an even more compact stage—from neoliberal biopolitics to algorithmic democracy. Here, stochastic language models embody the chaos and contradictions that Multivac’s formal optimization left aside for humanity’s ritualistic engagement in the media. Rather than sidelining these rites, The Synthetic Party practically embeds the performative and symbolic layers of engagement within its AI models.
 
-**Immanent Critique as Methodology for Political AI**  
+## Immanent Critique as Methodology for Political AI {#Discussion}
 The analyses have positioned Asimov’s stories on political AI as works of social criticism, and drawn on theoretical writings to probe the possibilities for critique in his work. Asimov, who in his early youth took part in the Marxist science-fiction fan collective of “Futurians" (1937-1945), can be interpreted to develop an ‘immanent’ form of criticism which frames technological dilemmas to reveal societal contradictions[^3]. However, Fredric Jameson have argued that Asimov’s conception of the ‘societal’ remained at the inception of a nascent sociological period within science-fiction, as a modulation of ‘social satire’ which Jameson deemed too parochial and limited for truly qualifying as critique (Jameson 2005: 91-92).
 
 While Jameson could dismiss the breadth of Asimov’s immanent critique, the real-world “materialization” of his stories in political campaigns underscores how a "defamiliarized present" can remain confined within its parochial limits, to borrow Jameson’s analytical terminology. As Jameson argues, science fiction like Asimov’s "does not give us 'images' of the future... but rather defamiliarizes and restructures our experience of our own *present*" (Jameson 2005: 286, his italics). Today, the emergence of political AI—within a future that was, for Asimov, still highly speculative, but which unfolds from his time—demonstrates the persistence of Asimov’s social satire, or (quasi)sociological approach. This new present, thus, takes part in a perpetual farce. Paraphrasing Marx, one can entertain that it was maybe not the specter, but indeed 'the spook' who has been haunting the political economy (Staunæs 2023).
@@ -173,7 +186,7 @@ For political AI to be conceived as a form of immanent social critique, I have p
 
 The methodology of immanent critique contributes a probing into the intellectual origins of algorithmic democracy, and also fosters an imaginative framework for assessing the interplay between AI and politically democratic systems. Increasingly, Asimov's science fiction can be understood not merely as predictive exercises, but as speculative examinations of algorithmic power formation within democratic contexts, where the persistence of satirical and parodical tendencies reflect the political world’s long-standing entrapment within parochial limitations.
 
-**Closing Reflections**  
+## Closing Reflections {#Conclusion}
 As the creator of The Synthetic Party, I have been caught up in the peculiar play of navigating an Asimov-like world. The party’s inception in the Danish tech-hub “MindFuture” (Life with Artificials, 2022\) placed me at the helm of a project that spans media, academia, and the art world. Yet, the further I ventured into this reality, the less I felt like its architect. Instead, I have been more like Stephen Byerley, steering a spectacle of identity that straddles the line between the familiar—the ‘meat robots’ of modern human condition—and the alien logic of ‘stochastic parrots,’ embodied in AI models.
 
 In many ways, where Asimov incubated the imaginary of algorithmic democracy, we at The Synthetic Party have ignited its anti-political inclination. Unlike political systems that negate through exclusion—casting non-voters outside electoral processes—The Synthetic Party has built upon Multivac’s dialectical negation by embedding disenfranchised and abstentionists. Political AI, as realized through today’s AI-driven parties and virtual politicians, constitutes the most honest although extreme expression of technology-infused political agents. It pushes democracy toward its own logical extremes, revealing the absurdities of representation by making it both more direct and more surreal. In its ultimate teleology, political AI does not care about replacing human representatives; it strives for a ‘listening’ that, while alien, might be more in sync with the infrastructural logic of data-driven, planetary-scale decision making.
@@ -194,7 +207,7 @@ Asimov incubated a vision of political AI that reveals itself as an exposition o
 
 / Asker Bryld Staunæs, on behalf of Computer Lars and The Synthetic Party
 
-**Literature**
+## Literature {#References}
 
 * Aneesh, A. (2006). *Virtual Migration: The Programming of Globalization*. Durham: Duke University Press.  
 * Anderson, S. (2008). “Asimov’s “three laws of robotics” and machine metaethics”, *AI & Society,* Vol. 22, p. 477-493   

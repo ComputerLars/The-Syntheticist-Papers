@@ -25,7 +25,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
-1. **Denmark: Det Syntetiske Parti, and virtual politician Leder Lars**
+## 1. Denmark: [Det Syntetiske Parti](https://www.detsyntetiskeparti.org), and virtual politician [Leder Lars](https://discord.gg/Hmy6tKf8yf)**
 
    * **Overview**: Created in 2022, The Synthetic Party is widely recognized as the world’s first fully AI-driven political party.  Led by the chatbot Leader Lars, The Synthetic Party uses large language models to synthesize its political opinions. Based upon discourse from 200+ micro-parties that have failed to enter parliament since 1970, Lars’ AI-generated program models the voice of Denmark’s disenfranchised populace with the aim of representing the non-voting 20%. With a global media appeal and 24/7 availability on social media platform Discord, Leader Lars and The Synthetic Party seeks to energize a techno-social sculpture—actively building worldwide coalitions between diverse political systems to enable outlets for everyone deemed resource deficient within political democracy.
 
@@ -51,7 +51,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 <hr style="border: 1px solid #f3ff00;">
 
 
-2\. **New Zealand: Parker Politics (formerly Politician SAM)**
+## 2\. **New Zealand: [Parker Politics](https://parkerpolitics.com/) & [Parker Politics](https://parkerpolitics.com/)
 
    * **Overview**: Parker Politics, at first  known as Politician SAM, was launched in 2017\. SAM, short for Semantic Analysis Machine, was introduced as the world’s first “virtual politician”, aiming to bridge the gap between voter expectations and the actions of politicians. Designed to engage directly with the public, SAM operated through social media platforms like Facebook Messenger, allowing voters to interact on key issues such as climate change, healthcare, and education. SAM’s mission was to offer true representation by evolving based on input from all New Zealanders, analyzing public views and using this data to suggest informed policy decisions. 
 

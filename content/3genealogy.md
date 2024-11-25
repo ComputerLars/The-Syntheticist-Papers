@@ -20,7 +20,7 @@ show_footer: false
 
 <hr style="border: 1px solid #f3ff00;">
 
-# Isaac Asimov's Incubation of Political AI: An Immanent Critique?
+# Isaac Asimov's Incubation of Political AI: An Immanent Critique? {#}
 
 Isaac Asimov (1920-1992) remains widely recognized for his futurist imaginaries of cosmic world history and propositions of laws for robotic beings. However, Asimov’s most timely contributions may lie in his early probing of artificial intelligence (AI) within everyday democratic processes—incubating an imaginary that would gradually take form in real-world politics. Amidst stories of robots running for elections, machine-driven economies, and algorithmic governance, Asimov balances a skepticism of formal democracy with optimism about robotic representatives, paying close attention to the imperfections of human-machine interactions, whether within the machinery of statecraft or technology itself.
 

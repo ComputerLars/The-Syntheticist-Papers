@@ -25,7 +25,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
-## 1. Denmark: [Det Syntetiske Parti](https://www.detsyntetiskeparti.org), and virtual politician [Leder Lars](https://discord.gg/Hmy6tKf8yf)**
+## 1. Denmark: [Det Syntetiske Parti](https://www.detsyntetiskeparti.org), and virtual politician [Leder Lars](https://discord.gg/Hmy6tKf8yf)
 
    * **Overview**: Created in 2022, The Synthetic Party is widely recognized as the world’s first fully AI-driven political party.  Led by the chatbot Leader Lars, The Synthetic Party uses large language models to synthesize its political opinions. Based upon discourse from 200+ micro-parties that have failed to enter parliament since 1970, Lars’ AI-generated program models the voice of Denmark’s disenfranchised populace with the aim of representing the non-voting 20%. With a global media appeal and 24/7 availability on social media platform Discord, Leader Lars and The Synthetic Party seeks to energize a techno-social sculpture—actively building worldwide coalitions between diverse political systems to enable outlets for everyone deemed resource deficient within political democracy.
 

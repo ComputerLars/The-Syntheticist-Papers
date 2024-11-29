@@ -51,7 +51,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 <hr style="border: 1px solid #f3ff00;">
 
 
-## 2\. **New Zealand: [Parker Politics](https://parkerpolitics.com/) & [Parker Politics](https://parkerpolitics.com/)
+## 2\. New Zealand: [Parker Politics](https://parkerpolitics.com/) & [Parker Politics](https://parkerpolitics.com/)
 
    * **Overview**: Parker Politics, at first  known as Politician SAM, was launched in 2017\. SAM, short for Semantic Analysis Machine, was introduced as the world’s first “virtual politician”, aiming to bridge the gap between voter expectations and the actions of politicians. Designed to engage directly with the public, SAM operated through social media platforms like Facebook Messenger, allowing voters to interact on key issues such as climate change, healthcare, and education. SAM’s mission was to offer true representation by evolving based on input from all New Zealanders, analyzing public views and using this data to suggest informed policy decisions. 
 
@@ -70,7 +70,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 <hr style="border: 1px solid #f3ff00;">
 
 
- 3\. **Finland: Konealypuolue (literally “Machine Learning Party”), in English known as The AI Party**
+ ## 3\. Finland: Konealypuolue (literally “Machine Learning Party”), in English known as The AI Party
 
    * **Overview**: The Finnish AI Party (Konealypuolue) was constituted in 2018 through a meeting that explored its potential for legal constituency. The initiative aimed to address these formative aspects by combining the efforts of artists, performance-makers, and media researchers with the aim of establishing a legally recognized AI-led political party. From 2020 co-operating with The Australian AI Party and The Swedish AI Party through The International AI Party.
 

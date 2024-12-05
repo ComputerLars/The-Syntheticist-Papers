@@ -38,12 +38,12 @@ img {
 :root {
     --font-body: 'Roboto', sans-serif;
     --font-heading: 'Merriweather', serif;
-    --color-text: #f3ff00; /* Yellowish green */
+    --color-text: #32CD32; /* Bright Lime Green */
     --color-background: #8B0000; /* Dark red */
     --color-accent: #DAA520; /* Goldenrod */
     --color-nav-bg: #550000; /* Darker red */
     --color-nav-hover: #660000; /* Slightly darker red */
-    --color-link-hover: #ADFF2F; /* Lighter yellowish green */
+    --color-link-hover: #32CD32; /* Bright Lime Green */
     --color-muted-text: #555;
     --color-footer-text: #777;
     --color-button-bg: #007BFF; /* For buttons */
@@ -61,7 +61,7 @@ body.dark-theme {
     --color-accent: #bb86fc;
     --color-nav-bg: #1f1f1f;
     --color-nav-hover: #333333;
-    --color-link-hover: #bb86fc;
+    --color-link-hover: #32CD32; /* Bright Lime Green */
 }
 
 /* Transition for smooth theme change */
@@ -435,7 +435,7 @@ tbody tr:hover {
 
 .video-item,
 .pdf-item {
-    border: 1px solid #ddd;
+    border: 1px solid #32CD32; /* Bright Lime Green */
     padding: 15px;
     margin-bottom: 30px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -749,7 +749,7 @@ form {
   }
   
   fieldset {
-    border: 1px solid #f3ff00;
+    border: 1px solid #32CD32; /* Bright Lime Green */
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -757,7 +757,7 @@ form {
   
   legend {
     font-weight: bold;
-    color: #f3ff00;
+    color: #32CD32; /* Bright Lime Green */
     font-size: 1.2em;
     padding: 0 10px;
   }
@@ -817,7 +817,7 @@ form {
   
   hr {
     border: none;
-    border-top: 1px solid #f3ff00;
+    border-top: 1px solid #32CD32; /* Bright Lime Green */
     margin: 30px 0;
   }
 

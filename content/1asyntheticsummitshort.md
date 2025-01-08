@@ -21,16 +21,17 @@ show_footer: false
 
 Kunsthal Aarhus presents **Synthetic Summit**, a multi-pronged AI assembly that synthesizes contemporary art, algorithmic democracy, and tactical media. Curated by the artist collective [Computer Lars](mailto:computerlars@mindfuture.com)—renowned for founding **The Synthetic Party** (often cited as the world’s first AI-driven political party, 2022)—the exhibition comprises live performances, computer sculptures, and multi-agent summit simulations that reimagine democracy in a political era shaped by machine learning and planetary computation.
 
-The **Synthetic Summit** convenes an unprecedented global lineup of AI parties and virtual politicians, including:  
-- **The Australian AI Party & Winnie** (Australia)
-- **The Finnish AI Party** (Finland)  
-- **The Japanese AI Party & AI Mayor** (Japan)
-- **Pedro Markun & Lex AI** (Brazil)  
-- **Politician SAM** (New Zealand)  
-- **Simiyya** (SWANA region)  
-- **The Swedish AI Party & Olof Palme 2.0** (Sweden)
-- **The Synthetic Party & Leader Lars** (Denmark)  
-- **The Wiktoria Cukt Party & Wiktoria Cukt 2.0** (Poland)
+| Participant | Country | Year of Establishment | Primary Focus |
+| ----- | ----- | ----- | ----- |
+| [**The Synthetic Party & Leader Lars**](https://www.detsyntetiskeparti.org) | Denmark | 2022 | Algorithmic democracy, representing non-voters |
+| [**Parker Politics & Politician SAM**](https://app.parkerpolitics.com/chat/1f0e9c9e-af8f-4906-be65-8e101a840656) | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
+| [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
+| [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
+| [**Swedish AI Party & Olof Palme 2.0**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, leader free of human flaws |
+| [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
+| [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
+| [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
+| [**Pedro Markun & Lex AI**](https://www.lex.tec.br/) | Brazil | 2024 | Human-AI hybrid candidacy, sustainable networks, citizen engagement |
 
 Often deemed “too marginal or too early,” these real-world projects have all emerged outside established political institutions, exploring how **algorithmic democracy** can challenge—and potentially expand—notions of representation, enfranchisement, and political legitimacy. By transforming an art gallery into a simulated **“world parliament,”** the exhibition probes whether AI politics might serve simultaneously as a site of radical experimentation and a reflection of democracy’s unknown futures.
 
@@ -125,16 +126,16 @@ By recasting AI-led politics as more than a passing gimmick, **Synthetic Summit*
 
 ---
 
-### Initiators & Contributors
+### Creators
 
 - **The Australian AI Party** (Australia, Triage Live Art Collective)  
 - **The Finnish AI Party** (Finland, The Center for Everything)  
 - **The Japanese AI Party** (Japan, AI Mayor)  
 - **Pedro Markun & Lex AI** (Brazil, The Sustainable Network Party)  
-- **Politician SAM** (New Zealand, Parker Politics)  
-- **Simiyya** (SWANA region)  
+- **Parker Politics & Politician SAM** (New Zealand, Parker Politics)  
+- **Simiyya** (SWANA region, Simiyya)s
 - **The Swedish AI Party & Olof Palme 2.0** (Sweden, Bombina Bombast)  
-- **The Synthetic Party & Leader Lars** (Denmark, Computer Lars)  
+- **The Synthetic Party & Leader Lars** (Denmark, Computer Lars)
 - **The Wiktoria Cukt Party & Wiktoria Cukt 2.0** (Poland, Central Office of Technical Culture)
 
 ---

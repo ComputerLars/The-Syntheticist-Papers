@@ -18,10 +18,11 @@ The **Synthetic Summit** recurrently features live events and presentations from
 | [**Parker Politics & Politician SAM**](https://app.parkerpolitics.com/chat/1f0e9c9e-af8f-4906-be65-8e101a840656) | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
 | [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
 | [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
-| [**Swedish AI Party & Bonnie**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, ethical community alignment |
+| [**Swedish AI Party & Olof Palme 2.0**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, leader free of human flaws |
 | [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
 | [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
+| [**Pedro Markun & Lex AI**](https://www.lex.tec.br/) | Brazil | 2024 | Human-AI hybrid candidacy, transparency, citizen engagement |
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -177,6 +178,28 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
+## 9. Brazil: [Pedro Markun & Lex AI](https://www.lex.tec.br/)
+
+   * **Overview**: Pedro Markun, a civic hacker and activist, partnered with **Lex AI** during his 2024 campaign for São Paulo’s city council under Brazil’s **Rede Sustentabilidade (Sustainable Network Party)**. Together, they created a human-AI hybrid candidacy that pushed the boundaries of algorithmic participation and transparency.
+
+   * **Key Initiatives**:
+     - **Uma IA por Aluno**: Introduced AI educational assistants to support students.
+     - **Meu Bairro Transparente**: Developed a blockchain system to track government spending, ensuring public transparency.
+
+   * **Challenges**:  
+     Meta suspended Lex AI’s WhatsApp account without warning during the campaign, briefly restored it, and then blocked it again despite legal protests. Markun sued Meta, accusing the company of overreach: *“Meta is acting more royal than the king.”*
+
+   * **Electoral Milestones**: This campaign set legal precedents for AI's role in democratic processes and highlighted new models for direct citizen engagement while pushing the legal boundaries for political AI.
+
+   * **Delegate of Summit**: Pedro Markun (Hacker)
+
+<div style="text-align: center;">
+  <img src="../images/image24.png" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
+<p style="text-align: center;">Markun & Lex</p>
+
+<hr style="border: 1px solid #f3ff00;">
+
 *A visible feature of any political AI lies in the decisions around gender, sex, and race in avatarization—deliberate choices that can simultaneously reflect and critique prevailing societal biases.* 
 
 *Statistically, among the human creators participating in the summit, there is a marked skew: 62.5% identify as male, 25% as female, and 12.5% as non-binary. For their virtual politicians, 37.5% appear male, 37.5% female, and 25% experiment with ephemeral or non-human forms. Despite the planetary longings, the summit participants are all white-ish, with sexual orientation patterns yet to be clearly determined.*
@@ -214,15 +237,6 @@ The following projects were considered for the Synthetic Summit but, for various
   <img src="../images/image23.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 <p style="text-align: center;">AI Steve, campaign material</p>
-
-<hr style="border: 1px solid #f3ff00;">
-
-3\. **Pedro Markun & Lex AI, Rede Sustentabilidade, 2024**: [Pedro Markun's](https://www.lex.tec.br/) campaign for São Paulo’s city council in 2024 under Brazil’s “Sustainable Network Party” partnered with Lex AI to create a human-AI hybrid candidacy. Markun, a hacker and civic activist, engaged Lex to draft policy, monitor public contracts, and engage with residents. Initiatives included *Uma IA por Aluno* for AI educational assistants and *Meu Bairro Transparente* for blockchain-tracked government spending. Meta suspended Lex’s WhatsApp account without warning, briefly restored it, and then blocked it again, ignoring an extrajudicial notice. Markun then sued Meta, criticizing its unchecked power: “Meta is acting more royal than the king”. The campaign emphasized using AI to engage citizens directly, thus both setting new precedents for algorithmic participation and pushing the legal boundaries for political AI.
-
-<div style="text-align: center;">
-  <img src="../images/image24.png" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-</div>
-<p style="text-align: center;">Markun & Lex</p>
 
 <hr style="border: 1px solid #f3ff00;">
 

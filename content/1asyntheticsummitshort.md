@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is the Synthetic Summit?
+title: Synthetic Summit - Do You Follow?
 show_nav: false
 show_footer: false
 ---
@@ -70,7 +70,7 @@ Refusing to answer whether AI can “fix” democracy outright, the summit prese
 ### Summit Scenography & Installation Highlights
 
 **“Do You Follow?”**  
-Occupying Kunsthal Aarhus’ Galleri 1, the Synthetic Summit evokes a retro-futuristic control center—somewhere between Chile’s Project Cybersyn and the aesthetics of early Star Trek. Kitsch partitions, blinking monitors, and a quasi-“world parliament” setting generate an atmosphere at once satirical and genuinely investigative. A central question—“Do you follow?”—encapsulates the scenographic ethos. By engaging with virtual politicians, visitors see how AI deliberation can replicate well-established political customs, spurring both friction and alternative visions for civic engagement.
+Occupying Kunsthal Aarhus’ Galleri 1, the Synthetic Summit evokes a retro-futuristic control center—somewhere between Chile’s Project Cybersyn and the aesthetics of early Star Trek. Kitsch partitions, blinking monitors, and a quasi-“world parliament” setting generate an atmosphere at once satirical and genuinely investigative. A repeating question—“Do you follow?”—encapsulates the scenographic ethos. By engaging with virtual politicians, visitors see how AI deliberation can replicate well-established political customs, spurring both friction and alternative visions for civic engagement.
 
 **Summit Simulator**  
 Developed in collaboration with the Danish NGO [Next Generation Democracy](https://wearenextgenerationdemocracy.org/), this interactive system orchestrates multi-agent debates among virtual politicians. Visitors may propose hypothetical “bills,” witness committee-style deliberations, or watch how algorithmic logic reconfigures the complexities of policymaking. Rather than yielding real-world electoral results, the Simulator underscores how smoothly consensus can turn out once parliamentary rituals intersect with machine learning.

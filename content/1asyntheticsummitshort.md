@@ -28,7 +28,7 @@ Kunsthal Aarhus presents **Synthetic Summit**, a multi-pronged AI assembly that 
 | [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
 | [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
 | [**Swedish AI Party & Olof Palme 2.0**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, leader free of human flaws |
-| [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
+| [**Wiktoria Cukt 2.0**](https://wyrzykowski.weebly.com/wiktoriacukt.html) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
 | [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
 | [**Pedro Markun & Lex AI**](https://www.lex.tec.br/) | Brazil | 2024 | Human-AI hybrid candidacy, sustainable networks, citizen engagement |

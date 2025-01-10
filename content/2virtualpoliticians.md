@@ -22,7 +22,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 | [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
 | [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
-| [**Pedro Markun & Lex AI**](https://www.lex.tec.br/) | Brazil | 2024 | Human-AI hybrid candidacy, transparency, citizen engagement |
+| [**Pedro Markun & Lex AI**](https://www.lex.tec.br/) | Brazil | 2024 | Human-AI hybrid candidacy, sustainable networks, citizen engagement |
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -127,7 +127,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
        
-## 6. Poland: [Wiktoria Cukt 2.0](https://www.facebook.com/wiktoria.cukt.2.0)
+## 6. Poland: [Wiktoria Cukt 2.0](https://wyrzykowski.weebly.com/wiktoriacukt.html)
 
    * **Overview**: Born from the Polish art collective “Central Office of Technical Culture” (Centralny Urząd Kultury Technicznej, CUKT) in 2000, Wiktoria Cukt was created as a virtual presidential candidate. Her slogan, "Politicians Are Obsolete," struck at the heart of representative parliamentarism. The campaign, rooted in ‘Electoral Citizen Software’ (‘Obywatelski Software Wyborczy’), combined various conflicting opinions sent online into a collective voice, the so-called ‘Will of Wiktoria Cukt’. Updated for 2024, Wiktoria Cukt 2.0 returns as a bot and haunting emblem of early AI activism, broadcasting the electoral disillusionment of electronic democracy.
 

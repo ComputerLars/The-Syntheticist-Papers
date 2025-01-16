@@ -109,9 +109,9 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
-## 5. Sweden: [AI Partiet (The AI Party)](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) & [Olof Palme](https://www.malmostadsteater.se/arkiv/t-malmo-stadsteater-2223/ai-partiet)
+## 5. Sweden: [AI Partiet (The AI Party)](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) & [Olof Palme](https://beta.eden.art/chat/olof-palme-ai-partiet/678902adb60f7f3c39a3a0b8)
 
-   * **Overview**: Founded in 2020 at Malmö City Theater, AI Partiet uses theater to align AI with public sentiment, aspiring to shape a leader devoid of human frailty. Originally introduced as “Bonnie,” the party’s digital persona gradually merged with the combative intellect and moral fervor of Sweden’s most polarizing statesman, culminating in **Olof Palme, 2025**—an AI-driven orator who wields Palme’s incisive clarity yet transcends the mortal drama that marked his predecessor’s life. Through The AI Party Pep Rallies, devised with performance collective Bombina Bombast, Malmö citizens (including school students) have actively co-authored the manifestoes that today program Palme’s ethical code.
+   * **Overview**: Founded in 2020 at Malmö City Theater, AI Partiet uses theater to align AI with public sentiment, aspiring to shape a leader devoid of human frailty. Originally introduced as “Bonnie,” the party’s digital persona gradually merged with the combative intellect and moral fervor of Sweden’s most polarizing statesman, culminating in **Olof Palme, 2025**—an AI-driven orator who wields Palme’s incisive clarity yet transcends the mortal drama that marked his predecessor’s life. Through The AI Party Pep Rallies, devised with performance collective Bombina Bombast, Malmö citizens (including school students) have actively co-authored the manifestoes that today program Palme’s "socialism with a human face".
 
    * **Creator:** Bombina Bombast (Art and Technology Performance Group)
 

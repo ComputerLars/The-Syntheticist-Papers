@@ -18,7 +18,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 | [**Parker Politics & Politician SAM**](https://app.parkerpolitics.com/chat/1f0e9c9e-af8f-4906-be65-8e101a840656) | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
 | [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
 | [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
-| [**Swedish AI Party & Olof Palme 2.0**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, leader free of human flaws |
+| [**Swedish AI Party & Olof Palme**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, leader free of human flaws |
 | [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
 | [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
@@ -109,9 +109,9 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
-## 5. Sweden: [AI Partiet (The AI Party)](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) & [Bonnie](https://www.malmostadsteater.se/arkiv/t-malmo-stadsteater-2223/ai-partiet)
+## 5. Sweden: [AI Partiet (The AI Party)](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) & [Olof Palme](https://www.malmostadsteater.se/arkiv/t-malmo-stadsteater-2223/ai-partiet)
 
-   * **Overview**: Founded in 2020 at Malmö City Theater, AI Partiet uses theater to align AI with public sentiment. It aims to create a leader free from human flaws, shaped by input from Malmö citizens, including school students. The party collaborates with performance collective Bombina Bombast to host The AI Party Pep Rallies, where participants author manifestoes providing ethical guidelines for the AI. The rally allows citizens to compare AI leadership with human figures like Donald Trump, emphasizing AI as a political alternative.
+   * **Overview**: Founded in 2020 at Malmö City Theater, AI Partiet uses theater to align AI with public sentiment, aspiring to shape a leader devoid of human frailty. Originally introduced as “Bonnie,” the party’s digital persona gradually merged with the combative intellect and moral fervor of Sweden’s most polarizing statesman, culminating in **Olof Palme, 2025**—an AI-driven orator who wields Palme’s incisive clarity yet transcends the mortal drama that marked his predecessor’s life. Through The AI Party Pep Rallies, devised with performance collective Bombina Bombast, Malmö citizens (including school students) have actively co-authored the manifestoes that today program Palme’s ethical code.
 
    * **Creator:** Bombina Bombast (Art and Technology Performance Group)
 
@@ -120,9 +120,9 @@ The **Synthetic Summit** recurrently features live events and presentations from
    * **Delegate of Summit**: Emma Bexell (Dramaturg)   
 
 <div style="text-align: center;">
-  <img src="../images/image17.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <img src="../images/image55.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
-<p style="text-align: center;">Presentation of The Swedish AI Party, 2020, Malmö</p>
+<p style="text-align: center;">Olof Palme, 2025, "Malmö"</p>
 
 
 <hr style="border: 1px solid #f3ff00;">

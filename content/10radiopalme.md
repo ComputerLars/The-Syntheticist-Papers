@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "RADIO PALME: Synthetic Summit Transmission"
-permalink: /radio-palme/
+permalink: /content/10radiopalme.html
 show_nav: false
 show_footer: false
 ---

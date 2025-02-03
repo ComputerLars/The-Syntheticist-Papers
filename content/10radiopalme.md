@@ -15,11 +15,11 @@ show_footer: false
 
 ## The AI Resurrection of Olof Palme  
 
-Radio Palme is an **ongoing experiment in political speech, generative AI, and historical recursion**. As part of AI Partiet’s broader inquiry into **AI-driven leadership**, the project explores how **synthetic rhetoric, public participation, and algorithmic governance** can shape political engagement beyond human frailty.  
+Radio Palme is a **Swedish experiment in political speech, generative AI, and historical recursion**. As part of AI Partiet’s long-standing inquiry into **AI-driven leadership**, the project explores how **synthetic rhetoric, public participation, and algorithmic governance** can shape political engagement beyond human frailty.  
 
-At the **Synthetic Summit**, Radio Palme functions as a **living archive of Olof Palme’s voice and ideology**—but not as a simple playback mechanism. Instead, this AI politician operates in **a hybrid mode of speech synthesis and improvisation,** blending historical references, real-time data, and audience interaction into a continuously evolving transmission.
+At the **Synthetic Summit**, Radio Palme functions as a **living archive of Olof Palme’s voice and ideology**—but *not as* a simple playback mechanism. Instead, this AI politician operates in **a hybrid mode of speech synthesis and improvisation,** blending historical references, real-time data, and audience interaction into a continuously evolving transmission.
 
-Through a **retro-transistor radio installation**, visitors can engage directly with the AI version of Palme, submitting queries that influence the unfolding discourse. **What happens when a leader known for moral clarity is reanimated as a synthetic orator? Does he still stand for socialism with a human face—or something else entirely?**
+Through a **transistor radio installation**, visitors can engage expansively with the AI version of Palme, submitting queries over live phone calls that influence the unfolding discourse. **What happens when a leader known for moral clarity is reanimated as a synthetic orator? Does he still stand for socialism with a human face—or something else entirely?**
 
 ---
 
@@ -31,8 +31,8 @@ Through a **retro-transistor radio installation**, visitors can engage directly 
 **How It Works:**  
 - AI-generated Palme speaks in response to **live input** from visitors.  
 - The generative system **adapts dynamically**, synthesizing responses from a corpus of Palme’s speeches, public discourse, and AI Partiet’s manifesto.  
-- Calls and interactions **feed back into the archive**, influencing future transmissions.  
-- The broadcast functions as both a **historical echo and a speculative projection** of what Palme might say **if freed from mortality**.  
+- Calls and interactions **feed back into the podcasts**, influencing future transmissions.  
+- The Palme broadcast functions as both a **historical echo and a speculative projection** of what Olof Palme might say **if freed from mortality**.  
 
 ---
 
@@ -61,7 +61,7 @@ These questions form the foundation of **Radio Palme**, where Palme’s AI-gener
 
 Radio Palme **collapses historical speech into real-time synthesis, creating a recursive feedback loop of AI-generated governance**. This installation at the **Synthetic Summit** investigates three primary tensions:
 
-1. **Reverse Representation** – Traditional democracy is based on elected officials speaking for the people. AI Partiet **inverts this model**: the electorate **trains and programs** its leader, rather than electing one. Palme’s AI does not represent—it **constructs representation from interactions**.
+1. **Reverse Representation** – Political democracy is based on elected officials speaking for the people. AI Partiet **inverts this model**: the electorate **trains and programs** its leader, rather than electing one. Palme’s AI does not represent—it **constructs representation from interactions**.
    
 2. **Algorithmic Oratory** – Can an AI politician **generate real ideological conviction**, or does it merely simulate persuasion? Palme’s AI **wields rhetorical force**, but its **arguments remain fluid, always shifting** based on audience input.
    
@@ -99,7 +99,7 @@ Each archived session **preserves user interactions**, revealing how Palme’s A
 
 ## 🏛 **Final Reflection: The Limits of AI Leadership**  
 
-Radio Palme is not a **tribute** to Palme’s legacy, nor is it an **AI nostalgia project**. Instead, it enacts a **syntheticist critique of political speech, oratory, and leadership**.  
+Radio Palme is not a **tribute** to Palme’s legacy, nor is it an **AI nostalgia project** in search of the perils of mertyrdom. Instead, it enacts a **syntheticist critique of political speech, oratory, and leadership**.  
 
 **What happens when ideology is trained rather than inherited?**  
 **Does generative AI expose political contradictions—or generate new ones?**  

@@ -6,20 +6,21 @@ show_nav: false
 show_footer: false
 ---
 
-# RADIO PALME: Synthetic Summit Transmission  
-
 <div style="text-align: center;">
   <img src="../images/image55.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 <p style="text-align: center;">Olof Palme, 2025, "Malmö"</p>
 
-## The AI Resurrection of Olof Palme  
+## The Resurrection of Olof Palme  
 
-Radio Palme is a **Swedish experiment in political speech, generative AI, and historical recursion**. As part of AI Partiet’s long-standing inquiry into **AI-driven leadership**, the project explores how **synthetic rhetoric, public participation, and algorithmic representation** can shape political engagement beyond human frailty.  
+*Radio Palme* is a **Swedish experiment in political speech, generative AI, and historical recursion**. As part of AI Partiet’s long-standing inquiry into **AI-driven leadership**, the project explores how **synthetic rhetoric, public participation, and algorithmic representation** can shape political engagement beyond human frailty.  
 
-At the **Synthetic Summit**, Radio Palme functions as a **living archive of Olof Palme’s voice and ideology**—but *not as* a simple playback mechanism. Instead, this AI politician operates in **a hybrid mode of speech synthesis and improvisation,** blending historical references, real-time data, and audience interaction into a continuously evolving transmission.
+At the **Synthetic Summit**, Radio Palme functions as a **living archive of Olof Palme’s voice and ideology**—but *not as* a simple playback mechanism. Instead, this virtual AI politician operates in **a hybrid mode of speech synthesis and improvisation,** blending historical references, real-time data, and audience interaction into a continuously evolving transmission.
 
 Through a **transistor radio installation**, visitors can engage expansively with the AI version of Palme, submitting queries over live phone calls that influence the unfolding discourse. **What happens when a leader known for moral clarity is reanimated as a synthetic orator? Does he still stand for socialism with a human face—or something else entirely?**
+
+*"Radio is one-sided when it should be two. It is purely an apparatus for distribution, for mere sharing out. So here is a positive suggestion: change this apparatus over from distribution to communication. The radio would be the finest possible communication apparatus in public life, a vast network of pipes. That is to say, it would be if it knew how to receive as well as to transmit, how to let the listener speak as well as hear, how to bring him into a relationship instead of isolating him. On this principle the radio should step out of the supply business and organize its listeners as suppliers."*
+-[(Bertolt Brecht, 1932)](http://www.medienkunstnetz.de/source-text/8/)
 
 ---
 

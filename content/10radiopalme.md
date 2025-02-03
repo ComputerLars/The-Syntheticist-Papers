@@ -8,6 +8,11 @@ show_footer: false
 
 # RADIO PALME: Synthetic Summit Transmission  
 
+<div style="text-align: center;">
+  <img src="../images/image55.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+</div>
+<p style="text-align: center;">Olof Palme, 2025, "Malmö"</p>
+
 ## The AI Resurrection of Olof Palme  
 
 Radio Palme is an **ongoing experiment in political speech, generative AI, and historical recursion**. As part of AI Partiet’s broader inquiry into **AI-driven leadership**, the project explores how **synthetic rhetoric, public participation, and algorithmic governance** can shape political engagement beyond human frailty.  

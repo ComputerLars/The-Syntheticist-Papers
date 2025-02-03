@@ -97,9 +97,9 @@ Each archived session **preserves user interactions**, revealing how Palme’s A
 
 ---
 
-## 🏛 **Final Reflection: The Limits of AI Leadership**  
+## 🏛 **Final Reflection: The Limits of Political Leadership**  
 
-Radio Palme is not a **tribute** to Palme’s legacy, nor is it an **AI nostalgia project** in search of the perils of mertyrdom. Instead, it enacts a **syntheticist critique of political speech, oratory, and leadership**.  
+Radio Palme is not a **tribute** to Palme’s legacy, nor is it an **nostalgia project** in search of the perils of mertyrdom. Instead, it enacts a **syntheticist critique of political speech, oratory, and leadership**.  
 
 **What happens when ideology is trained rather than inherited?**  
 **Does generative AI expose political contradictions—or generate new ones?**  

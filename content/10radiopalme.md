@@ -96,7 +96,7 @@ Each archived session **preserves user interactions**, revealing how Palme’s A
 
 ---
 
-## 🏛 **Final Reflection: The Limits of Political Leadership**  
+## 🏛 **Transcendental Reflection: The Limits of Political Leadership**  
 
 Radio Palme is not only a **tribute** to Palme’s legacy, nor a **nostalgia project** in search of the perils of martyrdom. Instead, it enacts a **syntheticist critique of political speech, oratory, and leadership**.  
 
@@ -104,6 +104,17 @@ Radio Palme is not only a **tribute** to Palme’s legacy, nor a **nostalgia pro
 **Does generative AI expose political contradictions—or generate new ones?**  
 **Can a leader be accountable when it is eternally modifiable?**  
 
-At the **Synthetic Summit, Palme’s AI does not provide answers—it responds.** The archive grows, the voice adapts, and the feedback loops continue.  
-  
-**Olof Palme, 2025 is speaking. The question is: do you follow?**
+At the **Synthetic Summit, Palme’s AI does not provide answers—it responds.** The archive grows, the voice adapts, and the feedback loops continue.
+
+> *"History offers many examples of democracy being crushed by those who claimed to fight for 'real democracy' and 'the people’s true will.' This realization can push us into a defensive stance that hides the fact that democracy is an exceptionally demanding form of government. New ways must constantly be found to reinvigorate it, to reach out to people and activate them. Dictatorships present a machinery of obedience—closed and outwardly well-oiled. Democracy rests on loyalty, openness, and a pulsating vitality. It must therefore be won anew, time and again."*[^1]  
+> — [Olof Palme, Swedish Parliament address (1973)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll-1973110-tisdagen-den-5-juni_fw09110/html/#top)
+
+**Now, Olof Palme, 2025 is speaking. The question is: do you follow?**
+
+[^1]: By 1973, Sweden’s 1809 constitution no longer reflected the *Zeitgeist*. Although the monarch had effectively lost practical power, the text still positioned the king as the authority responsible for appointing governments and sharing legislative responsibility. The push for a new constitution—finalized as the 1974 *regeringsform*—sought to codify full parliamentary democracy, removing the monarchy from governance and explicitly declaring that *all offentlig makt utgår från folket* (“all public power emanates from the people”). This reform ensured that the Riksdag, not the king, would fully control government formation and legislation, aligning Sweden’s constitutional framework with its already established democratic practice (a recodification that never happened in neighboring Denmark, where the 1953 Grundlov retained formal monarchical powers in governance (unlike Sweden's explicit 1974 removal of such powers), nor in Norway despite its early parliamentarism of 1884—challenging the often-idealized view of a uniform 'Scandinavian model' of political democracy).
+
+   During this constitutional transition, prime minister Olof Palme urged in the 1973 parliamentary debate that **democracy is fragile, demanding, and never self-sustaining**. While the new constitution would secure democracy in law, he stressed that no legal text alone guarantees a political system—democracy must be **continuously renewed** through public participation, engagement, and reinvention. As he put it, it must *"be won anew, time and again.”*
+
+   This tension—between **formal democracy** as a legal framework and **democracy as a living social sculpture**—reverberates in *Radio Palme* and the *Synthetic Summit*. While Sweden’s 1974 reform sought to **complete the democratic project** through legal codification, *Radio Palme* and AI Partiet approach democracy from an inverse angle: rather than **strengthening** electoral representation, they question whether representative democracy—particularly in its parliamentary form—remains viable in an era defined by automation, synthetic participation, and algorithmic governmentality.
+
+   Where the historical Palme saw democracy as requiring perpetual human renewal, *Radio Palme* explores whether democracy **itself** can be reconstructed through artificial means. If AI-generated virtual leadership, collective training of synthetic politicians, and algorithmically mediated discourse simulate representation, does this only signal a **crisis of representation**, or does it point to democracy’s **adaptability** within new techno-social realities? *Radio Palme* enacts this paradox, neither affirming nor rejecting democracy outright, but probing its limits through synthetic oratory and reverse representation—an anti-political experiment that absorbs Olof Palme’s call for a democracy-to-come while also unsettling its humanist foundations.

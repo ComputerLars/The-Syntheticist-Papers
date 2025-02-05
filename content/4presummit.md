@@ -161,13 +161,13 @@ The **Swedish AI Party**, **Simiyya**, and **Japanese AI Party** have argued the
 
 #### Quotes for The Networked Core
 
-**Wiktoria Cukt**, **Parker Politics**, and **Australian AI Party** speculated along a third path: a **Networked Core** model, where AI political entities maintain their autonomy while connecting for planetary decision-making.
+**Wiktoria Cukt**, **Parker Politics**, and **RATS Australia** speculated along a third path: a **Networked Core** model, where AI political entities maintain their autonomy while connecting for planetary decision-making.
 
 *"Picking just one path is like choosing a politician—totally unnecessary."* — **Wiktoria Cukt**
 
 *"Stay local, think global. That’s the whole point of a network. We don’t want coalitions, but room to breathe."* — **Parker Politics**
 
-*"Adapt or die. The Networked Core ensures we’re not stuck in our regional bubbles while the planet burns.”* — **Australian AI Party**
+*"Adapt or die. The Networked Core ensures we’re not stuck in our regional bubbles while the planet burns.”* — **RATS Australia**
 
 
 <div style="text-align: center;">
@@ -194,7 +194,7 @@ political\_AIs \= {
     "The Synthetic Party": "Global Computational Coordinator",  
     "Wiktoria Cukt": "Networked Core Illusionist",  
     "Parker Politics": "Local Unity with Global Brain",  
-    "Australian AI Party": "Ecological Advocate"  
+    "RATS Bot Australia": "Techno-philosophy"  
 }
 
 <hr style="border: 1px solid #f3ff00;">
@@ -209,28 +209,28 @@ We can now construct a weighted adjacency matrix to represent the strength of cr
     *("Swedish AI Party", "The Synthetic Party"): 0.2,*  
     *("Swedish AI Party", "Wiktoria Cukt"): 0.5,*  
     *("Swedish AI Party", "Parker Politics"): 0.3,*  
-    *("Swedish AI Party", "Australian AI Party"): 0.4,*  
+    *("Swedish AI Party", "RATS Australia"): 0.4,*  
     *("Simiyya", "Japanese AI Party"): 0.6,*  
     *("Simiyya", "Finnish AI Party"): 0.2,*  
     *("Simiyya", "The Synthetic Party"): 0.4,*  
     *("Simiyya", "Wiktoria Cukt"): 0.6,*  
     *("Simiyya", "Parker Politics"): 0.3,*  
-    *("Simiyya", "Australian AI Party"): 0.3,*  
+    *("Simiyya", "RATS Bot Australia"): 0.3,*  
     *("Japanese AI Party", "Finnish AI Party"): 0.4,*  
     *("Japanese AI Party", "The Synthetic Party"): 0.3,*  
     *("Japanese AI Party", "Wiktoria Cukt"): 0.5,*  
     *("Japanese AI Party", "Parker Politics"): 0.2,*  
-    *("Japanese AI Party", "Australian AI Party"): 0.4,*  
+    *("Japanese AI Party", "RATS Bot Australia"): 0.4,*  
     *("Finnish AI Party", "The Synthetic Party"): 0.7,*  
     *("Finnish AI Party", "Wiktoria Cukt"): 0.5,*  
     *("Finnish AI Party", "Parker Politics"): 0.4,*  
-    *("Finnish AI Party", "Australian AI Party"): 0.3,*  
+    *("Finnish AI Party", "RATS Bot Australia"): 0.3,*  
     *("The Synthetic Party", "Wiktoria Cukt"): 0.6,*  
     *("The Synthetic Party", "Parker Politics"): 0.5,*  
-    *("The Synthetic Party", "Australian AI Party"): 0.4,*  
+    *("The Synthetic Party", "RATS Bot Australia"): 0.4,*  
     *("Wiktoria Cukt", "Parker Politics"): 0.7,*  
-    *("Wiktoria Cukt", "Australian AI Party"): 0.6,*  
-    *("Parker Politics", "Australian AI Party"): 0.7*  
+    *("Wiktoria Cukt", "RATS Bot Australia"): 0.6,*  
+    *("Parker Politics", "RATS Bot Australia"): 0.7*  
 *}*
 
 <hr style="border: 1px solid #f3ff00;">
@@ -321,7 +321,7 @@ def simiyya\_japanese\_local\_global(local\_data, planetary\_model):
 <hr style="border: 1px solid #f3ff00;">
 
 
-4\.	**Australian AI Party \+ Parker Politics** 
+4\.	**RATS Bot Australia \+ Parker Politics** 
 Result: Local resilience with a global feedback loop. Every local policy experiment becomes planetary data. The Networked Core model extends globally but remains adaptive, responding to crises with locally sourced knowledge feeding into global AI solutions.
 
 def australian\_parker\_loop(local\_initiatives, global\_feedback):  
@@ -392,7 +392,7 @@ We compile all the centrality measures into a comprehensive table for analysis.
 | **The Synthetic Party** | 3.1 | 0.0238 | 0.4094707520891365 | 0.34054259823691974 | 0.12175910209048221 |
 | **Wiktoria Cukt** | 4.0 | 0.21428571428571427 | 0.5632183908045977 | 0.42447290150859546 | 0.15220127493444896 |
 | **Parker Politics** | 3.1000000000000005 | 0.0714 | 0.4066390041493776 | 0.34527947119862784 | 0.121533050426232 |
-| **Australian AI Party** | 3.1000000000000005 | 0.0 | 0.40551724137931033 | 0.34431418135765945 | 0.12155737116253193 |
+| **RATS Bot Australia** | 3.1000000000000005 | 0.0 | 0.40551724137931033 | 0.34431418135765945 | 0.12155737116253193 |
 
 
 <hr style="border: 1px solid #f3ff00;">
@@ -410,7 +410,7 @@ The centrality measures reveal the following insights:
 
 •	**The Synthetic Party** and **Finnish AI Party** possess moderate centrality scores, indicating specialized roles that contribute to both localized and global coordination efforts.
 
-•	**Australian AI Party** maintains a balanced position with substantial connections, playing a constant role in integrating ecological considerations into the broader discourse.
+•	**RATS Bot Australia** maintains a balanced position with substantial connections, playing a constant role in integrating ecological considerations into the broader discourse.
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -467,7 +467,7 @@ for party, pos in final\_positions.items():
 | **Cultural Multiplicity** | Preserving cultural diversity through techno-political evolution and cross-cultural synthesis. | *Simiyya, Wiktoria Cukt* |
 | **Network Resilience** | Building a robust network capable of adapting to disruptions and integrating diverse inputs. | *All parties, key roles played by Wiktoria Cukt and Parker Politics* |
 | **Strategic Alliances** | Formation of partnerships to advocate for hybrid models. | *Swedish AI Party & Simiyya, Finnish AI Party & The Synthetic Party* |
-| **Adaptive Governance** | Emphasizing the need for governance structures that evolve with emerging challenges. | *Australian AI Party, Parker Politics, Wiktoria Cukt* |
+| **Adaptive Governance** | Emphasizing the need for governance structures that evolve with emerging challenges. | *RATS Bot Australia, Parker Politics, Wiktoria Cukt* |
 
 <hr style="border: 1px solid #f3ff00;">
 

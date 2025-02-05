@@ -20,7 +20,6 @@ The **Synthetic Summit** recurrently features live events and presentations from
 | [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
 | [**Swedish AI Party & Olof Palme**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, leader free of human flaws |
 | [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
-| [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020 | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/) | SWANA | 2024 | Decolonial technology, cultural differentiation |
 | [**Pedro Markun & Lex AI**](https://www.lex.tec.br/) | Brazil | 2024 | Human-AI hybrid candidacy, sustainable networks, citizen engagement |
 
@@ -145,25 +144,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
-## 7. Australia: [The AI Party](https://www.triageliveartcollective.com/the-ai-party) & [Winnie](https://www.triageliveartcollective.com/the-ai-party)
-
-   * **Overview**: Part of international collaborations involving Finland and Sweden from 2017, The AI Party in Australia emphasizes the ecological relations of AI and the Earth, ethical AI governance, and community engagement.
-
-   * **Creator**: Triage Live Art Collective (Performance Troupe).
-
-   * **Official Collaborations**: Agreements with participants of The International AI Party.
-
-   * **Delegate of Summit:** Katerina Kokkinos-Kennedy (Performance Artist)
-
-<div style="text-align: center;">
-  <img src="../images/image19.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
-</div>
-<p style="text-align: center;">Theater audience texting with Winnie of Australian AI Party, 2020</p>
-
-
-<hr style="border: 1px solid #f3ff00;">
-
-## 8. SWANA: [Simiyya](https://www.simiyya.xyz/)
+## 7. SWANA: [Simiyya](https://www.simiyya.xyz/)
 
    * **Overview**: A platform focusing on technology's interplay with politics and cultural-geographical contexts, with a particular focus on the SWANA-region (Southwest Asia and North Africa). Simiyya constructs interfaces between decolonialist and rationalist perspectives within the techno-political landscape. As a platform that operates across geopolitical contexts, Simiyya supports those who invest in their aims as well as it is becoming an actor of its own.
 
@@ -178,7 +159,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
-## 9. Brazil: [Pedro Markun & Lex AI](https://www.lex.tec.br/)
+## 8. Brazil: [Pedro Markun & Lex AI](https://www.lex.tec.br/)
 
    * **Overview**: Pedro Markun, a civic hacker and activist, partnered with **Lex AI** during his 2024 campaign for São Paulo’s city council under Brazil’s **Rede Sustentabilidade (Sustainable Network Party)**. Together, they created a human-AI hybrid candidacy that pushed the boundaries of algorithmic participation and transparency.
 
@@ -197,17 +178,6 @@ The **Synthetic Summit** recurrently features live events and presentations from
   <img src="../images/image24.png" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 <p style="text-align: center;">Markun & Lex</p>
-
-<hr style="border: 1px solid #f3ff00;">
-
-*A visible feature of any political AI lies in the decisions around gender, sex, and race in avatarization—deliberate choices that can simultaneously reflect and critique prevailing societal biases.* 
-
-*Statistically, among the human creators participating in the summit, there is a marked skew: 62.5% identify as male, 25% as female, and 12.5% as non-binary. For their virtual politicians, 37.5% appear male, 37.5% female, and 25% experiment with ephemeral or non-human forms. Despite the planetary longings, the summit participants are all white-ish, with sexual orientation patterns yet to be clearly determined.*
-
-*Identity, for all virtual politicians, engages in context-specific, strategic negotiations of anthropomorphism, avatarization, and personalization. Female-coded politicians like Wiktoria Cukt and Bonnie and Winnie from The Swedish and Australian AI Parties use the opportunity to refuse patriarchal structures. Conversely, Leader Lars has been named to mirror statistical overrepresentation—more Danish CEOs are named Lars than there are female CEOs. Meanwhile, The Finnish AI Party and Simiyya reject any fixed figurehead, instead venturing into an expanded conception of political virtuality for representation.*
-
-*/ Computer Lars* 
-
 
 <hr style="border: 1px solid #f3ff00;">
 
@@ -240,7 +210,7 @@ The following projects were considered for the Synthetic Summit but, for various
 
 <hr style="border: 1px solid #f3ff00;">
 
-4\. **Rosa, Socialdemokratiet, 2001**: [Rosa](https://web.archive.org/web/20020524223304/http://www.socialdemokratiet.dk/) took part in Denmark’s Social Democratic Party’s “Humans First” campaign in 2001. As a virtual proto-politician, Rosa was a novel form of “dialogue robot” developed by Ankiro; a company led by brother-in-law of Prime Minister Poul Nyrup Rasmussen. Built on an ontology-based ”fuzzy logic” that prioritized concepts over mere keywords, and reinforced with a parser for interpreting user grammar and style, Rosa represented an early attempt at conversational AI aimed at both interactive political engagement and being an alternative to search functions. Branded as a politician who “never sleeps, knows everything about the Social Democrats, and never takes a day off,” Rosa was trained with input from Social Democratic youth press, amongst others Sophie Hæstorp—the future mayor-to-be of Copenhagen. During the campaign, voters frequently queried Rosa about immigration, healthcare, and the role of elderly people —exactly the topics that in the election made the populist Danish People’s Party siphon support from the Social Democrats and paradigmatically reshape Denmark’s political landscape. Despite Rosa’s unquestionable user popularity, the Social Democrats quietly pulled the chatbot in early 2002 following negative press, marking a remarkable miss for leveraging data analysis into constituency sentiment, and that at a historical turning point. Notably, the very name ‘Rosa’ recalls the revolutionary communist martyr Rosa Luxemburg—adding a considerable irony to Rosa’s role within a social democratic party. 
+3\. **Rosa, Socialdemokratiet, 2001**: [Rosa](https://web.archive.org/web/20020524223304/http://www.socialdemokratiet.dk/) took part in Denmark’s Social Democratic Party’s “Humans First” campaign in 2001. As a virtual proto-politician, Rosa was a novel form of “dialogue robot” developed by Ankiro; a company led by brother-in-law of Prime Minister Poul Nyrup Rasmussen. Built on an ontology-based ”fuzzy logic” that prioritized concepts over mere keywords, and reinforced with a parser for interpreting user grammar and style, Rosa represented an early attempt at conversational AI aimed at both interactive political engagement and being an alternative to search functions. Branded as a politician who “never sleeps, knows everything about the Social Democrats, and never takes a day off,” Rosa was trained with input from Social Democratic youth press, amongst others Sophie Hæstorp—the future mayor-to-be of Copenhagen. During the campaign, voters frequently queried Rosa about immigration, healthcare, and the role of elderly people —exactly the topics that in the election made the populist Danish People’s Party siphon support from the Social Democrats and paradigmatically reshape Denmark’s political landscape. Despite Rosa’s unquestionable user popularity, the Social Democrats quietly pulled the chatbot in early 2002 following negative press, marking a remarkable miss for leveraging data analysis into constituency sentiment, and that at a historical turning point. Notably, the very name ‘Rosa’ recalls the revolutionary communist martyr Rosa Luxemburg—adding a considerable irony to Rosa’s role within a social democratic party. 
 
 <div style="text-align: center;">
   <img src="../images/image25.png" style="max-width: 40%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -249,7 +219,7 @@ The following projects were considered for the Synthetic Summit but, for various
 
 <hr style="border: 1px solid #f3ff00;">
 
-5\. **Stephen Byerley, “Evidence”:**  Lawyer [Stephen Byerley](https://www.isfdb.org/cgi-bin/title.cgi?41426), introduced in Isaac Asimov’s short story “Evidence“ (1950), runs for mayor amid suspicions that he is, in fact, a robot. Byerley neither confirms nor denies this claim, instead leveraging the spectacle of ambiguity. A parallel Byerley—rumored to be crippled—deepens the enigma, echoing the hybrid candidacy seen today in figures like Markun and Lex. In “The Evitable Conflict” (1955), Byerley ascends to the role of World Co-ordinator who manages a machine-driven global economy. Both Dr. Susan Calvin and later Asimov himself implied that Byerley was indeed a humanoid robot, marking him as the inaugural positive depiction of a mechanical political candidate and leader—albeit definitely not the first accused of being such.
+4\. **Stephen Byerley, “Evidence”:**  Lawyer [Stephen Byerley](https://www.isfdb.org/cgi-bin/title.cgi?41426), introduced in Isaac Asimov’s short story “Evidence“ (1950), runs for mayor amid suspicions that he is, in fact, a robot. Byerley neither confirms nor denies this claim, instead leveraging the spectacle of ambiguity. A parallel Byerley—rumored to be crippled—deepens the enigma, echoing the hybrid candidacy seen today in figures like Markun and Lex. In “The Evitable Conflict” (1955), Byerley ascends to the role of World Co-ordinator who manages a machine-driven global economy. Both Dr. Susan Calvin and later Asimov himself implied that Byerley was indeed a humanoid robot, marking him as the inaugural positive depiction of a mechanical political candidate and leader—albeit definitely not the first accused of being such.
 
 <div style="text-align: center;">
   <img src="../images/image26.png" style="max-width: 80%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
@@ -258,7 +228,7 @@ The following projects were considered for the Synthetic Summit but, for various
 
 <hr style="border: 1px solid #f3ff00;">
 
-6\. **Incitatus, Consul of Rome, 37–41 AD**: According to Suetonius in *The Lives of the Twelve Caesars* (121 AD), Emperor Caligula’s beloved horse, [Incitatus](https://riordan.fandom.com/wiki/Incitatus) (Latin for “swift” or “at full gallop”), was nearly appointed Roman consul. Later, Cassius Dio added that the emperor made Incitatus a priest. Pampered with a marble stable, an ivory manger, and a collar of precious stones, Incitatus was reportedly even served oats mixed with gold flakes. Scholars still debate whether Caligula’s actions on behalf of Incitatus reflected excessive madness or an elaborate satire mocking the Senate. Reimagined today through the lens of political AI, Incitatus can negate the roles of “Brutus,” “Cato,” and “Publius” as the antinomies of American Federalist neoclassicism to symbolize automated public spheres. If a horse could almost ascend to high office, perhaps today’s machines are far closer to political power than people dare to admit.
+5\. **Incitatus, Consul of Rome, 37–41 AD**: According to Suetonius in *The Lives of the Twelve Caesars* (121 AD), Emperor Caligula’s beloved horse, [Incitatus](https://riordan.fandom.com/wiki/Incitatus) (Latin for “swift” or “at full gallop”), was nearly appointed Roman consul. Later, Cassius Dio added that the emperor made Incitatus a priest. Pampered with a marble stable, an ivory manger, and a collar of precious stones, Incitatus was reportedly even served oats mixed with gold flakes. Scholars still debate whether Caligula’s actions on behalf of Incitatus reflected excessive madness or an elaborate satire mocking the Senate. Reimagined today through the lens of political AI, Incitatus can negate the roles of “Brutus,” “Cato,” and “Publius” as the antinomies of American Federalist neoclassicism to symbolize automated public spheres. If a horse could almost ascend to high office, perhaps today’s machines are far closer to political power than people dare to admit.
 
 <div style="text-align: center;">
   <img src="../images/image27.jpg" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">

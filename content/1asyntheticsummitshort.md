@@ -28,7 +28,6 @@ Kunsthal Aarhus presents **Synthetic Summit**, a multi-pronged AI assembly that 
 | [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan    | 2019 / 2018           | Municipal AI governance through the AI Mayor model |
 | [**Swedish AI Party & Olof Palme**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden   | 2020                  | Participatory governance, leader free of human flaws |
 | [**Wiktoria Cukt 2.0**](https://wyrzykowski.weebly.com/wiktoriacukt.html) | Poland   | 2000 (2.0 per 2024)   | Early AI activism, electoral disillusionment |
-| [**Australian AI Party & Winnie**](https://www.triageliveartcollective.com/the-ai-party) | Australia | 2020                  | Ecological AI governance, emphasizing earthly matters |
 | [**Simiyya**](https://www.simiyya.xyz/)                 | SWANA    | 2024                  | Decolonial technology, cultural differentiation |
 | [**Pedro Markun & Lex AI**](https://www.lex.tec.br/)    | Brazil   | 2024                  | Human-AI hybrid candidacy, sustainable networks, citizen engagement |
 
@@ -118,7 +117,7 @@ Occupying Galleri 1, the scenography curated by Computer Lars evokes a retro-fut
 
 > Meanwhile, The Japanese AI Party & AI Mayor has left an artifact through the mouth-cut “AI Mayor Mask,” a stark symbol of anonymity in electoral politics, suggesting that algorithmic democracy might not need a human face at all.
 
-> Beyond these artifacts, we also work in immaterial registers—through conceptual models, technical infrastructures, and political-theoretical provocations. The Australian AI Party stages oracular performances in psephology, revisiting the long history of computation and election forecasting. The NGO NextGen Democracy, responsible for the Summit Simulator, builds the actual software for algorithmic democracy, while Life with Artificials brings The Synthetic Party into UN-oriented AI governance summits, inserting political AI into international policy discourse of sustainable development goals. Research and activist networks such as The Aesthetics of AI Images (Aarhus University), The Organ of Autonomous Sciences (Aarhus), and RATS (Reprised Analytics re Techne` Schema, Australia) stretch the limits of technopolitics, blending theoretical inquiry with direct intervention.
+> Beyond these artifacts, we also work in immaterial registers—through conceptual models, technical infrastructures, and political-theoretical provocations. The NGO NextGen Democracy, responsible for the Summit Simulator, builds the actual software for algorithmic democracy, while Life with Artificials brings The Synthetic Party into UN-oriented AI governance summits, inserting political AI into international policy discourse of sustainable development goals. Research and activist networks such as The Aesthetics of AI Images (Aarhus University), The Organ of Autonomous Sciences (Aarhus), and RATS (Reprised Analytics re Techne` Schema, Australia) stretch the limits of technopolitics, blending theoretical inquiry with direct intervention.
 
 > Across these diverse approaches—some tactical, some satirical, some dead serious—we converge in the Synthetic Summit’s quasi–“world parliament,” probing whether AI-led political models can hack civic participation or simply automate the same systemic flaws with new digital masks.”
 
@@ -162,7 +161,6 @@ By recasting AI-led politics as more than a passing gimmick, **Synthetic Summit*
 
 ### Creators
 
-- **The Australian AI Party** (Australia, Triage Live Art Collective)  
 - **The Finnish AI Party** (Finland, The Center for Everything)  
 - **The Japanese AI Party** (Japan, AI Mayor)  
 - **Pedro Markun & Lex AI** (Brazil, The Sustainable Network Party)  

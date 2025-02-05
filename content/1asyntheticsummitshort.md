@@ -70,21 +70,21 @@ Refusing to answer whether AI can “fix” democracy outright, the summit prese
 Occupying Galleri 1, the scenography curated by Computer Lars evokes a retro-futuristic control center—somehow reminiscing Chile’s Project Cybersyn with its aesthetics of early Star Trek. Kitsch partitions, blinking monitors, and a quasi-“world parliament” setting generate an atmosphere that is simultaneously satirical and investigative. By engaging with virtual politicians, visitors are immersed in AI deliberations replicating well-established political customs—producing friction and, occasionally, alternative visions for civic hacking. Throughout the space, clusters of TV monitors, a phone booth, a radio, and curated vantage points build a theatrical ambiance, guiding visitors in a circular route around the gallery. The overall design merges playful nostalgia with the seriousness of legislative debate, enabling the summit as an experiential “control room.”
 
 #### Koneälypuolue, AI Partiet, Det Syntetiske Parti & Computer Lars, The Center for Everything
-> “This is a playtest for broad listening.  
+> “This is the **Playtest for Broad Listening**.  
 > Playtest means it’s not a finished artwork. It does mean it’s been developed far enough to merit testing with exhibition guests. We wish to do this in order to develop the AI system and the overall interaction of the upcoming artwork.  
 > We are playing with the concept of broad listening by civic hacker Audrey Tang. Broad listening has been described as a change from broadcasting into broad listening, the latter being an aspiration to listen to a broader base of people, also those you disagree with.  
 > This concept has been combined in this playtest with a mechanism first developed for The AI Party in Finland. The aim of the playtest is to develop a large-scale immersive installation in the future.  
 > The playtest is a collaboration between the Nordic AI parties. The development process has been facilitated by Samee Haapa (they/them).”
 
 #### Wiktoria Cukt 2.0
-> “Politicians Are Obsolete” was our slogan in 2001; back then, we dreamed of a future where society wouldn’t hinge on human vanity. Now, Wiktoriomat +48 732 144 021 is our time-traveling phone booth connecting Wiktoria Cukt 1.0—Poland’s proto-virtual presidential candidate—with her updated AI persona, Wiktoria Cukt 2.0. Visitors can pick up the receiver to speak directly with her evolving bot, while three synced video screens weave archival footage, voiceover, and references to a “representative democracy” whose obsolescence we continue to question.
+> “Politicians Are Obsolete” was our slogan in 2000; back then, we dreamed of a future where society wouldn’t hinge on human vanity. Now, **Wiktoriomat +48 732 144 021** is our time-traveling phone booth connecting Wiktoria Cukt 1.0—Poland’s proto-virtual presidential candidate—with her updated AI persona, Wiktoria Cukt 2.0. Visitors can pick up the receiver to speak directly with her evolving bot, while three synced video screens weave archival footage, voiceover, and references to a “representative democracy” whose obsolescence we continue to question.
 
-> Adjacent is the 1950s shampoo cardboard cutout featuring Gitta Schilling, the improbable muse who was present when CUKT members Rafał Ewertowski, Mikołaj Jurkowski, Artur Kozdowski, Jacek Niegoda, Maciej Sienkiewicz and Piotr Wyrzykowski first envisioned Wiktoria Cukt’s visage. Surreal beauty, spectacle, and electronic democracy collide—again asking whether “politicians” (and their stylized images) have any relevance in an era of algorithmic representation.
+> Adjacent is the **1950s shampoo cardboard cutout featuring Gitta Schilling**, the improbable muse who was present when CUKT members Rafał Ewertowski, Mikołaj Jurkowski, Artur Kozdowski, Jacek Niegoda, Maciej Sienkiewicz and Piotr Wyrzykowski first envisioned Wiktoria Cukt’s visage. Surreal beauty, spectacle, and electronic democracy collide—again asking whether “politicians” (and their stylized images) have any relevance in an era of algorithmic representation.
 
-> For some, this vision became more than speculative. In the year 2000, supporters of Wiktoria Cukt’s campaign could formalize their allegiance by signing membership lists and receiving an official Wiktoria Cukt Party sticker inside their Dowód Osobisty—the state-issued ID of the Polish People’s Republic. These hacked documents, once bureaucratic relics, became artifacts of a fictional yet aspirational citizenship, where algorithmic democracy was stamped into existence.”
+> For some, this vision became more than speculative. In the year 2000, supporters of Wiktoria Cukt’s campaign could formalize their allegiance by signing membership lists and receiving an official Wiktoria Cukt Party sticker inside their **Dowód Osobisty**—the state-issued ID of the Polish People’s Republic. These hacked documents, once bureaucratic relics, became artifacts of a fictional yet aspirational citizenship, where algorithmic democracy was stamped into existence.”
 
 #### Simiyya
-> “Abyss Theft or The Heist of the Void is our attempt to inhabit the borderline conditions of governance once AI logic intrudes upon the body politic. We conjure the interplay of sinister, utopian, and nihilist AIs, letting three actor-blobs navigate a single environment in differing emotional arcs.
+> **Abyss Theft or The Heist of the Void** is our attempt to inhabit the borderline conditions of governance once AI logic intrudes upon the body politic. We conjure the interplay of sinister, utopian, and nihilist AIs, letting three actor-blobs navigate a single environment in differing emotional arcs.
 
 > Each blob is anchored to its own LLM backend—one fed on sinister AI documents, another on utopian ideals, the third on nihilist or pata-physical speculation. As they drift in three-channel simultaneity, their collisions and mood swings illustrate the precariousness of consensus—“public deliberation” morphs into a swirl of contradictory impulses.
 
@@ -93,31 +93,31 @@ Occupying Galleri 1, the scenography curated by Computer Lars evokes a retro-fut
 #### AI Partiet
 > “We keep imagining a leader who transcends human flaws, and Olof Palme is our ongoing experiment in resurrecting a political ethos—through AI.
 
-> Radio Palme is our generative podcast channel, anchored by a transistor radio that broadcasts the iconic Swedish prime minister. We invite visitors to call in, shaping live responses as Olof merges historical references, real-time data, and tangents drawn from public queries.
+> **Radio Palme** is our generative podcast channel, anchored by a transistor radio that broadcasts the iconic Swedish prime minister. We invite visitors to call in, shaping live responses as Olof merges historical references, real-time data, and tangents drawn from public queries.
 
 > This work stems from AI Partiet’s earlier theatrical interventions, where we asked: could AI leadership eclipse human corruption, or would it merely replicate ingrained biases with a new veneer? By foregrounding interactivity and improvisation, Radio Palme questions how an AI “leader” might address urgent concerns—yet leaves open whether such a leader truly surpasses the vulnerabilities of a mortal politician.”
 
 #### Computer Lars & The Synthetic Party
 > “Democracy is code—always versioning, always forkable, never final. At the Synthetic Summit, we make that logic manifest.
 
-> Our Synthetic Summit Simulator, built together with NextGen Democracy, is a multi-agent parliamentary engine where visitors propose hypothetical bills, watching AI politicians deliberate, align, or fracture in real time. It’s a dramatization of parliamentarism freed from human constraints—at times efficient, at times absurd, yet always exposing how quickly consensus can form when algorithms inherit the task.
+> Our **Synthetic Summit Simulator**, built together with NextGen Democracy, is a multi-agent parliamentary engine where visitors propose hypothetical bills, watching AI politicians deliberate, align, or fracture in real time. It’s a dramatization of parliamentarism freed from human constraints—at times efficient, at times absurd, yet always exposing how quickly consensus can form when algorithms inherit the task.
 
-> Meanwhile, syntheticism.org operates as our digital infrastructure, a GitHub Pages site bundling the Summit’s meta-ideological framework—part manifesto, part sandbox, always open to iteration. It resembles a standard website, but at its core is a proposition: that democracy, too, should be a forkable system, capable of expansion beyond its preconfigured parameters.
+> Meanwhile, **syntheticism.org** operates as our digital infrastructure, a GitHub Pages site bundling the Summit’s meta-ideological framework—part manifesto, part sandbox, always open to iteration. It resembles a standard website, but at its core is a proposition: that democracy, too, should be a forkable system, capable of expansion beyond its preconfigured parameters.
 
-> Finally, Techno-Social Sculptures unspools in four audiovisual sequences—rolling text scrolls, staged disputations, nods to Marcel Proust, and ‘readies’-style psy-ops—unfolding democracy as an infinitely rewritable script.
+> Finally, **Techno-Social Sculptures** unspools in four audiovisual sequences—rolling text scrolls, staged disputations, nods to Marcel Proust, and ‘readies’-style psy-ops—unfolding democracy as an infinitely rewritable script.
 
 > To us, “the political” is not a fixed set of institutions but a bare repository, where no commit is sacred, no branch remains untouched. If necessary, we merge, rebase, or force-push a new structure into being. Because if democracy is to be realized, it cannot be locked—it must be hacked.”
 
 #### Planetary Synthesis
 > “We come from different systems—some okay, some barely functioning—but we share an urge to test how code might reconfigure representation. Scattered throughout the Synthetic Summit, our contributions take many forms: pamphlets, code snippets, rally remnants, machine-learning loops, and speculative manifestos.
 
-> Some emerge from our most notorious AI-driven political experiments. Politician SAM (New Zealand), spotlighted in Can Machines Vote?, was among the first to propose an algorithmic representative, evidenced in the Synthetic Summit by TEDx proposals and policy documents debating whether non-human entities could hold electoral rights.
+> Some emerge from our most notorious AI-driven political experiments. **Politician SAM** (New Zealand), spotlighted in *Can Machines Vote?*, was among the first to propose an algorithmic representative, evidenced in the Synthetic Summit by TEDx proposals and policy documents debating whether non-human entities could hold electoral rights.
 
-> Pedro Markun & Lex AI (Brazil) resurface through a bilingual Q&A totem, inviting visitors to interact with an AI candidate operating within the Sustainable Network Party—a hybrid between civic hacking and political automation.
+> **Pedro Markun & Lex AI** (Brazil) resurface through a *bilingual Q&A totem*, inviting visitors to interact with an AI candidate operating within the Sustainable Network Party—a hybrid between civic hacking and political automation.
 
-> Meanwhile, The Japanese AI Party & AI Mayor has left an artifact through the mouth-cut “AI Mayor Mask,” a stark symbol of anonymity in electoral politics, suggesting that algorithmic democracy might not need a human face at all.
+> Meanwhile, **The Japanese AI Party & AI Mayor** has left an artifact through the mouth-cut *“AI Mayor Mask,”* a stark symbol of anonymity in electoral politics, suggesting that algorithmic democracy might not need a human face at all.
 
-> Beyond these artifacts, we also work in immaterial registers—through conceptual models, technical infrastructures, and political-theoretical provocations. The NGO NextGen Democracy, responsible for the Summit Simulator, builds the actual software for algorithmic democracy, while Life with Artificials brings The Synthetic Party into UN-oriented AI governance summits, inserting political AI into international policy discourse of sustainable development goals. Research and activist networks such as The Aesthetics of AI Images (Aarhus University), The Organ of Autonomous Sciences (Aarhus), and RATS (Reprised Analytics re Techne` Schema, Australia) stretch the limits of technopolitics, blending theoretical inquiry with direct intervention.
+> Beyond these artifacts, we also work in immaterial registers—through conceptual models, technical infrastructures, and political-theoretical provocations. The NGO **NextGen Democracy**, responsible for the *Synthetic Summit Simulator*, builds the actual software for algorithmic democracy, while **Life with Artificials** brings The Synthetic Party into *UN-oriented AI governance summits*, inserting political AI into international policy discourse of sustainable development goals. Research and activist networks such as **The Aesthetics of AI Images** (Aarhus University), **The Organ of Autonomous Sciences** (Aarhus), and **RATS BOT (Reprised Analytics re Techne` Schema** (Australia) stretch the limits of technopolitics, blending theoretical inquiry with direct intervention.
 
 > Across these diverse approaches—some tactical, some satirical, some dead serious—we converge in the Synthetic Summit’s quasi–“world parliament,” probing whether AI-led political models can hack civic participation or simply automate the same systemic flaws with new digital masks.”
 
@@ -169,7 +169,11 @@ By recasting AI-led politics as more than a passing gimmick, **Synthetic Summit*
 - **The Swedish AI Party & Olof Palme 2.0** (Sweden, Bombina Bombast)  
 - **The Synthetic Party & Leader Lars** (Denmark, Computer Lars)
 - **The Wiktoria Cukt Party & Wiktoria Cukt 2.0** (Poland, Central Office of Technical Culture)
-
+- **NextGen Democracy** (Denmark)
+- **Life with Artificials** (Denmark)
+•	**Aesthetics of AI Images** (Denmark)
+•	**The Organ of Autonomous Sciences** (Denmark)
+•	**RATS BOT: Reprised Analytics re Techne` Schema** (Australia)
 ---
 
 ### Contact & Further Details

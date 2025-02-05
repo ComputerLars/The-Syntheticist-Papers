@@ -117,7 +117,7 @@ Occupying Galleri 1, the scenography curated by Computer Lars evokes a retro-fut
 
 > Meanwhile, **The Japanese AI Party & AI Mayor** has left an artifact through the mouth-cut *“AI Mayor Mask,”* a stark symbol of anonymity in electoral politics, suggesting that algorithmic democracy might not need a human face at all.
 
-> Beyond these artifacts, we also work in immaterial registers—through conceptual models, technical infrastructures, and political-theoretical provocations. The NGO **NextGen Democracy**, responsible for the *Synthetic Summit Simulator*, builds the actual software for algorithmic democracy, while **Life with Artificials** brings The Synthetic Party into *UN-oriented AI governance summits*, inserting political AI into international policy discourse of sustainable development goals. Research and activist networks such as **The Aesthetics of AI Images** (Aarhus University), **The Organ of Autonomous Sciences** (Aarhus), and **RATS BOT (Reprised Analytics re Techne` Schema** (Australia) stretch the limits of technopolitics, blending theoretical inquiry with direct intervention.
+> Beyond these artifacts, we also work in immaterial registers—through conceptual models, technical infrastructures, and political-theoretical provocations. The dada-cybernetic collective **VHS Factory** provides a live stream of analogue camera footage to broadcast summit proceedings. The NGO **NextGen Democracy**, responsible for the *Synthetic Summit Simulator*, builds the actual software for algorithmic democracy, while **Life with Artificials** brings The Synthetic Party into *UN-oriented AI governance summits*, inserting political AI into international policy discourse of sustainable development goals. Research and activist networks such as **The Aesthetics of AI Images** (Aarhus University), **The Organ of Autonomous Sciences** (Aarhus), and **RATS BOT (Reprised Analytics re Techne` Schema** (Australia) stretch the limits of technopolitics, blending theorisation with direct intervention.
 
 > Across these diverse approaches—some tactical, some satirical, some dead serious—we converge in the Synthetic Summit’s quasi–“world parliament,” probing whether AI-led political models can hack civic participation or simply automate the same systemic flaws with new digital masks.”
 
@@ -169,10 +169,11 @@ By recasting AI-led politics as more than a passing gimmick, **Synthetic Summit*
 - **The Swedish AI Party & Olof Palme 2.0** (Sweden, Bombina Bombast)  
 - **The Synthetic Party & Leader Lars** (Denmark, Computer Lars)
 - **The Wiktoria Cukt Party & Wiktoria Cukt 2.0** (Poland, Central Office of Technical Culture)
-- **NextGen Democracy** (Denmark)
-- **Life with Artificials** (Denmark)
 •	**Aesthetics of AI Images** (Denmark)
+- **Life with Artificials** (Denmark)
+- **NextGen Democracy** (Denmark)
 •	**The Organ of Autonomous Sciences** (Denmark)
+- **VHS Factory** (Denmark)
 •	**RATS BOT: Reprised Analytics re Techne` Schema** (Australia)
 ---
 

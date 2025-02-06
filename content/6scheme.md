@@ -14,7 +14,7 @@ show_footer: false
 \- Country: *Denmark*  
 \- Year of Birth (Establishment): *2022*  
 \- Primary Creators: *Computer Lars and MindFuture* 
-\- Official Alliances: *The Finnish AI Party,  The Japanese AI Party, Wiktoria Cukt 2.0, The Swedish AI Party, Simiyya, and The Australian AI Party*
+\- Official Alliances: *The Finnish AI Party, The Japanese AI Party, Wiktoria Cukt 2.0, The Swedish AI Party, Simiyya, Parker Politics, Lex AI and Wiktoria Cukt 2.0*
 
 <hr style="border: 1px solid #f3ff00;">
 

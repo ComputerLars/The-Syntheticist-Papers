@@ -38,12 +38,12 @@ img {
 :root {
     --font-body: 'Roboto', sans-serif;
     --font-heading: 'Merriweather', serif;
-    --color-text: #32CD32; /* Bright Lime Green */
+    --color-text: #f3ff00; /* Yellowish green */
     --color-background: #8B0000; /* Dark red */
     --color-accent: #DAA520; /* Goldenrod */
     --color-nav-bg: #550000; /* Darker red */
     --color-nav-hover: #660000; /* Slightly darker red */
-    --color-link-hover: #32CD32; /* Bright Lime Green */
+    --color-link-hover: #ADFF2F; /* Lighter yellowish green */
     --color-muted-text: #555;
     --color-footer-text: #777;
     --color-button-bg: #007BFF; /* For buttons */
@@ -61,7 +61,7 @@ body.dark-theme {
     --color-accent: #bb86fc;
     --color-nav-bg: #1f1f1f;
     --color-nav-hover: #333333;
-    --color-link-hover: #32CD32; /* Bright Lime Green */
+    --color-link-hover: #bb86fc;
 }
 
 /* Transition for smooth theme change */
@@ -193,6 +193,8 @@ body {
     border-radius: var(--border-radius);
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    max-height: 80vh;     /* or whatever you like, e.g. 70vh, 90vh, etc. */
+    overflow-y: auto;     /* enable vertical scrolling when overflowing */
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
@@ -217,6 +219,7 @@ body {
 .fixed-menu nav a {
     color: var(--color-text);
     font-weight: 700;
+    font-size: 0.9rem; /* or 0.8rem, etc. */
     transition: color var(--transition-speed);
 }
 
@@ -435,7 +438,7 @@ tbody tr:hover {
 
 .video-item,
 .pdf-item {
-    border: 1px solid #32CD32; /* Bright Lime Green */
+    border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 30px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -749,7 +752,7 @@ form {
   }
   
   fieldset {
-    border: 1px solid #32CD32; /* Bright Lime Green */
+    border: 1px solid #f3ff00;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -757,7 +760,7 @@ form {
   
   legend {
     font-weight: bold;
-    color: #32CD32; /* Bright Lime Green */
+    color: #f3ff00;
     font-size: 1.2em;
     padding: 0 10px;
   }
@@ -817,7 +820,7 @@ form {
   
   hr {
     border: none;
-    border-top: 1px solid #32CD32; /* Bright Lime Green */
+    border-top: 1px solid #f3ff00;
     margin: 30px 0;
   }
 

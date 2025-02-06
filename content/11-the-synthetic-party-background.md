@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Genesis of The Synthetic Party"
-permalink: /content/10radiopalme.html
+permalink: /content/11radiopalme.html
 show_nav: false
 show_footer: false
 ---

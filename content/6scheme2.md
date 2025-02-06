@@ -6,7 +6,7 @@ show_nav: false
 show_footer: false
 ---
 
-### Scheme example by RATS Collective, based on [**RATS Boot**](https://notebooklm.google.com/?_gl=1*15orfo3*_ga*MTU0MTQwOTM5OC4xNzI5NDkwNjky*_ga_W0LDH41ZCB*MTcyOTU1MTA2Mi4yLjEuMTcyOTU1MTQzNC40Mi4wLjA&pli=1), 
+### Scheme example by RATS Collective, based on [**RATS Bot**](https://notebooklm.google.com/?_gl=1*15orfo3*_ga*MTU0MTQwOTM5OC4xNzI5NDkwNjky*_ga_W0LDH41ZCB*MTcyOTU1MTA2Mi4yLjEuMTcyOTU1MTQzNC40Mi4wLjA&pli=1), 
 
 ## Scheme 1: Synthetic Summit Visitor Information Form  
 

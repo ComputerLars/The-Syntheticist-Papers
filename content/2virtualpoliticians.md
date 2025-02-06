@@ -70,7 +70,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 <hr style="border: 1px solid #f3ff00;">
 
 
- ## 3. Finland: [Koneälypuolue (The AI Party)](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/)
+## 3\. Finland: [Koneälypuolue (The AI Party)](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/)
 
    * **Overview**: The Finnish AI Party (Konealypuolue) was constituted in 2018 through a meeting that explored its potential for legal constituency. The initiative aimed to address these formative aspects by combining the efforts of artists, performance-makers, and media researchers with the aim of establishing a legally recognized AI-led political party. From 2020 co-operating with The Australian AI Party and The Swedish AI Party through The International AI Party.
 

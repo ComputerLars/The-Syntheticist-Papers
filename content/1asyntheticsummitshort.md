@@ -23,7 +23,7 @@ Kunsthal Aarhus presents **Synthetic Summit**, a multi-pronged AI assembly that 
 | Participant                                             | Country  | Year of Establishment | Primary Focus                               |
 | ------------------------------------------------------- | -------- | --------------------- | ------------------------------------------- |
 | [**The Synthetic Party & Leader Lars**](https://www.detsyntetiskeparti.org) | Denmark  | 2022                  | Algorithmic democracy, representing non-voters |
-| [**Parker Politics & Politician SAM**](https://app.parkerpolitics.com/chat/1f0e9c9e-af8f-4906-be65-8e101a840656) | New Zealand | 2023 / 2017           | Local policy engagement, direct public involvement |
+| [**Parker Politics (formely Politician SAM)**](https://app.parkerpolitics.com/chat/1f0e9c9e-af8f-4906-be65-8e101a840656) | New Zealand | 2023 / 2017           | Local policy engagement, direct public involvement |
 | [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland  | 2018                  | Advocating for a legal AI party with global reach |
 | [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan    | 2019 / 2018           | Municipal AI governance through the AI Mayor model |
 | [**Swedish AI Party & Olof Palme**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden   | 2020                  | Participatory governance, leader free of human flaws |
@@ -165,8 +165,8 @@ By recasting AI-led politics as more than a passing gimmick, **Synthetic Summit*
 - **The Japanese AI Party** (Japan, AI Mayor)  
 - **Pedro Markun & Lex AI** (Brazil, The Sustainable Network Party)  
 - **Parker Politics & Politician SAM** (New Zealand, Parker Politics)  
-- **Simiyya** (SWANA region, Simiyya)s
-- **The Swedish AI Party & Olof Palme 2.0** (Sweden, Bombina Bombast)  
+- **Simiyya** (SWANA region, Assem, Mandus & Mostafa)
+- **The Swedish AI Party & Olof Palme 2.0** (Sweden, Emma Bexell Labs)  
 - **The Synthetic Party & Leader Lars** (Denmark, Computer Lars)
 - **The Wiktoria Cukt Party & Wiktoria Cukt 2.0** (Poland, Central Office of Technical Culture)
 •	**Aesthetics of AI Images** (Denmark)

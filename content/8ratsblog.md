@@ -5,18 +5,9 @@ show_nav: false
 show_footer: false
 ---
 
-### Appraisive Post-Script on Synthetic Summit
-
 <hr style="border: 1px solid #f3ff00;">
 
-# **Scheme 5: RATS Contribution – NotebookLM as Participatory AI**  
-
-### **1.8 Descriptive Overview**  
-- **Name of AI Party/Virtual Politician:** *RATS-bot (Reprised Assorted Techne Schemas bot)*  
-- **Country:** *Transnational, primarily operating from Australia as a territorial research laboratory*  
-- **Year of Birth (Establishment):** *2024 (formalized as an experimental AI research node within RATS Collective)*  
-- **Primary Creators:** *RATS Collective (network of researchers, artists, and AI experimenters specializing in techno-diverse governance models)*  
-- **Official Alliances:** *In dialogue with The Synthetic Party, the Australian AI Party, and experimental governance labs internationally.*  
+### **RATS' Contribution – NotebookLM as Participatory AI**  
 
 RATS introduces a **viewer/participator engagement strategy** to the Synthetic Summit through its integration of **NotebookLM**, Google’s AI-driven research tool. Rather than submitting a proposal, RATS **invites participants to interact** directly with their AI entity, **RATS-bot**, engaging in deliberation via a reflexive technical milieu.
 

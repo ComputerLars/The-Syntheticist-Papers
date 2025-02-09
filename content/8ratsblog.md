@@ -1,37 +1,43 @@
 ---
 layout: default
-title: RATS Blog
+title: RATS Bot Blog
 show_nav: false
 show_footer: false
 ---
 
 <hr style="border: 1px solid #f3ff00;">
 
-# **RATS' Contribution – NotebookLM as Participatory AI**  
+# **RATS' Contribution – NotebookLM as Reflexive AI**  
 
-RATS introduces a **viewer/participator engagement strategy** to the Synthetic Summit through its integration of **NotebookLM**, Google’s AI-driven research tool. Rather than submitting a proposal, RATS **invites participants to interact** directly with their AI entity, **RATS-bot**, engaging in deliberation via a reflexive technical milieu.
+## **1.8 Descriptive Overview**  
+- **AI Party/Virtual Politician:** *RATS-bot (Reprised Assorted Techne Schemas bot)*  
+- **Country:** *Transnational, operating as a territorial research laboratory based in Australia*  
+- **Year of Birth (Establishment):** *2024 (formalized as an experimental AI research node within RATS Collective)*  
+- **Primary Creators:** *RATS Collective (a distributed network of researchers, artists, and AI experimenters engaged in techno-diverse governance models, counting Ben Nunquam, Brendan Cartmel, Gavin O'Loughlin, Neil Peach, Jasson Willers & Haipei Zhang)*  
+- **Official Alliances:** *Dialoguing with The Synthetic Party, the Australian AI Party, and experimental techno-political labs worldwide.*  
 
-> **RATS-bot & NotebookLM as an Interactive Political Process**  
-> > **Engage RATS-bot via NotebookLM:**  
-> 📎 - **Broad Reflection:** RATS-bot is accessible via [this link](https://notebooklm.google.com/notebook/ceb447aa-e20a-46d5-8346-3fa29d8222e8?_gl=1*15orfo3*_ga*MTU0MTQwOTM5OC4xNzI5NDkwNjky*_ga_W0LDH41ZCB*MTcyOTU1MTA2Mi4yLjEuMTcyOTU1MTQzNC40Mi4wLjA.), where users can submit related queries and **engage with us in an evolving AI-mediated dialogue** shaped by RATS’ research.
-> - **Algorithmic Reflexivity:** Instead of static declarations, RATS-bot’s responses **mutate based on input**, producing **recursive governance dialogues** that highlight contradictions in AI political agency.  
-> - **Computational Deliberation:** RATS leverages NotebookLM to model **an evolving, AI-mediated form of political reasoning**, challenging the Summit’s participants to rethink how AI can participate in political discourse.  
+RATS introduces a **viewer/participator engagement strategy** to the Synthetic Summit through its integration of **NotebookLM**, Google’s LLM-driven research tool. RATS **invites participants to co-comment** directly with their **RATS-bot** as their reflexive technical milieu.
 
-This methodology **questions the assumption that AI in politics must be static or predictive**—instead, RATS suggests that AI can act as a **contingent, participatory entity**, generating knowledge through interaction rather than imposition.
+> 📎 **RATS-bot & NotebookLM as an Interactive Political Process**  
+> - **Broad Reflection:** RATS-bot is accessible via [this link](https://notebooklm.google.com/notebook/ceb447aa-e20a-46d5-8346-3fa29d8222e8?_gl=1*15orfo3*_ga*MTU0MTQwOTM5OC4xNzI5NDkwNjky*_ga_W0LDH41ZCB*MTcyOTU1MTA2Mi4yLjEuMTcyOTU1MTQzNC40Mi4wLjA.), where users can submit related queries and **engage with us in an evolving AI-mediated dialogue** shaped by RATS’ research.
+> - **Algorithmic Commentary:** Instead of spectating commentary, RATS-bot’s responses **mutate based on input**, producing **recursive dialogues** that follows the mode of contraption in the Synthetic Summit's political agency.  
+> - **Computational Deliberation:** RATS leverages NotebookLM to model **an evolving, AI-mediated form of political reasoning**, casting the Synthetic Summit’s participants as research material of collective individuation.  
+
+This methodology **questions the assumption that AI in politics must be infrastructural or deterministic**—instead, RATS Bot suggests that Political AI can act as a **contingent, participatory construct**.
 
 ### **1.9 Proposed Contributions to the Summit**
-RATS has performed the following **four contributions** as part of its engagement in the Summit:
+RATS has to date performed the following **four contributions** as part of its engagement with the Synthetic Summit:
 
-1. **Using NotebookLM as the AI research interface** for all RATS contributions, where deliberative and generative AI capabilities will respond dynamically to Summit themes.  
-2. **Submitting NotebookLM’s auto-completed Summit survey** based on pre-loaded RATS research materials as an alternative AI reflection on the Summit’s goals.  
-3. **Presenting an Issues/Themes Blog** (detailed below), focusing on critical tensions in AI governance, synthetic leadership, and irony in political AI.  
-4. **Submitting an AI-generated poetic contribution** (also installed in exhibition space, explanation below), created through NotebookLM’s synthesis of RATS source material, and influenced by Mallarmé’s poem *A Throw of the Dice Will Never Abolish Chance*.
+1. **Using NotebookLM as the AI research interface** for all RATS contributions, where deliberative and generative capabilities will respond dynamically to Synthetic Summit themes.  
+2. **Submitting NotebookLM’s auto-completed Summit survey** based on pre-loaded RATS research materials as an alternative reflection on the Synthetic Summit’s goals.
+3. **Presenting an Issues/Themes Blog** (detailed below), focusing on critical tensions in algorithmic democracy, synthetic leadership, and irony in political AI.
+4. **Submitting a poetic synthesis** (also installed in exhibition space, explanation below), created through NotebookLM’s systematization of RATS source material, and structured around Stephane Mallarmé’s poem *A Throw of the Dice Will Never Abolish Chance*.
 
 <hr style="border: 1px solid #f3ff00;">
 
 ## **2.0 Issues/Themes Blog Contribution**  
 
-RATS submits the following **core provocations** as part of its thematic engagement with the Summit. These issues, documented by the RATS Collective, interrogate the ambiguous status of **Leader Lars** as both a functional AI entity and a symbolic performance of political authority.
+RATS submits the following **core provocations** as part of its thematic engagement with the Synthetic Summit. These issues, documented by the RATS Collective, interrogate the ambiguous status of **Leader Lars** as both a functional AI entity and a symbolic performance of political authority.
 
 ### **Lars as Leadership Potential vs. Lars as Spectacle**  
 Leader Lars exists in a **schism between authentic AI-driven governance and performative satire**. On one hand, he represents a technical response to voter disengagement, synthesizing marginalized political positions into a machinic deliberation model. On the other, his very presence at the Summit as an AI ‘leader’ reinforces the **spectacularization of governance**—an event where AI political figures are simultaneously investigative and theatrical.  

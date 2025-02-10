@@ -13,6 +13,20 @@ show_footer: false
 
 ## The Resurrection of Olof Palme  
 
+<div style="text-align: center;">
+  <video
+    autoplay
+    loop
+    muted
+    playsinline
+    controls
+    style="max-width: 100%; height: auto;"
+  >
+    <source src="palme.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 *Radio Palme* is a **Swedish experiment in political speech, generative AI, and historical recursion**. As part of AI Partiet’s long-standing inquiry into **AI-driven leadership**, the project explores how **synthetic rhetoric, public participation, and algorithmic representation** can shape political engagement beyond human frailty.  
 
 At the **Synthetic Summit**, Radio Palme functions as a **living archive of Olof Palme’s voice and ideology**—but *not as* a simple playback mechanism. Instead, this virtual AI politician operates in **a hybrid mode of speech synthesis and improvisation,** blending historical references, real-time data, and audience interaction into a continuously evolving transmission.

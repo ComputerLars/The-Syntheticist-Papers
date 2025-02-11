@@ -1,14 +1,11 @@
 source "https://rubygems.org"
 
-# Core Jekyll
-gem "jekyll", "~> 4.3.2"
-
-# Default Jekyll theme
+gem "jekyll", "~> 4.3.1"
 gem "minima", "~> 2.5"
 
-# Needed to run `jekyll serve` in newer Ruby
-gem "webrick"
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-seo-tag", "~> 2.8"
+end
 
-# If minima pulls in jekyll-feed, you can add this line explicitly 
-# if you still get "missing jekyll-feed" errors:
-# gem "jekyll-feed"
+gem "webrick", "~> 1.7"

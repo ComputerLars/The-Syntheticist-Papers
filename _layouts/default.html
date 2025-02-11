@@ -37,6 +37,16 @@
   }
   </script>
 </head>
+
+<script>
+  document.addEventListener('keydown', function(e) {
+    if (e.code === 'Space' || e.keyCode === 32) {
+      e.preventDefault();
+      window.location.href = '/';
+    }
+  });
+  </script>  
+
 <body>
   {% if page.show_fixed_menu != false %}
   <!-- Menu Toggle Button -->

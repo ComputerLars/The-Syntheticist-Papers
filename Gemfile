@@ -1,8 +1,14 @@
 source "https://rubygems.org"
 
-gem "jekyll"       # Core Jekyll engine
-gem "minima"       # Default theme used by GitHub Pages
-gem "webrick"      # Required for 'jekyll serve' on newer Ruby
+# Core Jekyll
+gem "jekyll", "~> 4.3.2"
 
-# gem "github-pages", group: :jekyll_plugins
-# ^ Commented out if you don't need GitHub Pages–specific features
+# Default Jekyll theme
+gem "minima", "~> 2.5"
+
+# Needed to run `jekyll serve` in newer Ruby
+gem "webrick"
+
+# If minima pulls in jekyll-feed, you can add this line explicitly 
+# if you still get "missing jekyll-feed" errors:
+# gem "jekyll-feed"

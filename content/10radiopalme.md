@@ -7,19 +7,9 @@ show_footer: false
 ---
 
 <div style="text-align: center;">
-  <video
-    autoplay
-    loop
-    muted
-    playsinline
-    controls
-    style="max-width: 100%; height: auto;"
-  >
-    <source src="palme.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="../images/image55.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
-
+<p style="text-align: center;">Olof Palme, 2025, "Malmö"</p>
 
 ## The Resurrection of Olof Palme  
 
@@ -119,12 +109,23 @@ At the **Synthetic Summit, Palme’s AI does not provide answers—it responds.*
 > *"History offers many examples of democracy being crushed by those who claimed to fight for 'real democracy' and 'the people’s true will.' This realization can push us into a defensive stance that hides the fact that democracy is an exceptionally demanding form of government. New ways must constantly be found to reinvigorate it, to reach out to people and activate them. Dictatorships present a machinery of obedience—closed and outwardly well-oiled. Democracy rests on loyalty, openness, and a pulsating vitality. It must therefore be won anew, time and again."*[^1].[^2].[^3].[^4]  
 > — [Olof Palme, Swedish Parliament address (1973)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll-1973110-tisdagen-den-5-juni_fw09110/html/#top)
 
-**Now, Olof Palme, 2025 is speaking. The question is: *do you follow?***
+**Now, Olof Palme, leader of AI Partiet is speaking. The question is: *do you follow?***
+
 
 <div style="text-align: center;">
-  <img src="../images/image55.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
+  <video
+    autoplay
+    loop
+    muted
+    playsinline
+    controls
+    style="max-width: 100%; height: auto;"
+  >
+    <source src="palme.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
-<p style="text-align: center;">Olof Palme, 2025, "Malmö"*</p>
+
 
 [^1]: By 1973, Sweden’s 1809 constitution no longer reflected the *Zeitgeist*. Although the monarch had effectively lost practical power, the text still positioned the king as the authority responsible for appointing governments and sharing legislative responsibility. The push for a new constitution—finalized as the 1974 *regeringsform*—sought to codify full parliamentary democracy, removing the monarchy from governance and explicitly declaring that *all offentlig makt utgår från folket* (“all public power emanates from the people”). This reform ensured that the Riksdag, not the king, would fully control government formation and legislation, aligning Sweden’s constitutional framework with its already established democratic practice (a recodification that never happened in neighboring Denmark, where the 1953 Grundlov retained formal monarchical powers in governance (unlike Sweden's explicit 1974 removal of such powers), nor in Norway despite its early parliamentarism of 1884—challenging the often-idealized view of a uniform 'Scandinavian model' of political democracy). 
 

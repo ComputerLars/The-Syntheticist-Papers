@@ -28,18 +28,18 @@ The article discusses the democratic potential of the adoption of AI technologie
 
 ## Table of Contents
 
-   [Abstract](#abstract)  
-   [[국문초록] AI 정당의 이론적 · 제도적 설계와 민주주의적 함의](#국문초록-ai-정당의-이론적--제도적-설계와-민주주의적-함의)  
-1. [Ⅰ. Introduction](#Ⅰ-introduction)  
-2. [Ⅱ. Theoretical frameworks: Delegation and sovereignty in the AI environment](#Ⅱ-theoretical-frameworks-delegation-and-sovereignty-in-the-ai-environment)  
-3. [Ⅲ. Operating system for AI political parties](#Ⅲ-operating-system-for-ai-political-parties)  
+1. [Abstract](#abstract)  
+2. [[국문초록] AI 정당의 이론적 · 제도적 설계와 민주주의적 함의](#국문초록-ai-정당의-이론적--제도적-설계와-민주주의적-함의)  
+3. [Ⅰ. Introduction](#Ⅰ-introduction)  
+4. [Ⅱ. Theoretical frameworks: Delegation and sovereignty in the AI environment](#Ⅱ-theoretical-frameworks-delegation-and-sovereignty-in-the-ai-environment)  
+5. [Ⅲ. Operating system for AI political parties](#Ⅲ-operating-system-for-ai-political-parties)  
    - [1. Roles and Components of AI agents](#1-roles-and-components-of-ai-agents)  
    - [2. Structure of the operating system for AI agents](#2-structure-of-the-operating-system-for-ai-agents)  
-4. [Ⅳ. The nexus between political reality and AI Political Parties](#Ⅳ-the-nexus-between-political-reality-and-ai-political-parties)  
+6. [Ⅳ. The nexus between political reality and AI Political Parties](#Ⅳ-the-nexus-between-political-reality-and-ai-political-parties)  
    - [1. Institutional limits for the adoption of AI parties in Korea](#1-institutional-limits-for-the-adoption-of-ai-parties-in-korea)  
    - [2. AI Political parties: possibilities and risks](#2-ai-political-parties-possibilities-and-risks)  
-5. [Ⅴ. Conclusion: doing politics with AI for a better democracy](#Ⅴ-conclusion-doing-politics-with-ai-for-a-better-democracy)  
-6. [VI. Other Political AI literature by Seon Gyu Go](#vi-other-political-ai-literature-by-seon-gyu-go)
+7. [Ⅴ. Conclusion: doing politics with AI for a better democracy](#Ⅴ-conclusion-doing-politics-with-ai-for-a-better-democracy)  
+8. [VI. Other Political AI literature by Seon Gyu Go](#vi-other-political-ai-literature-by-seon-gyu-go)
 
 ---
 

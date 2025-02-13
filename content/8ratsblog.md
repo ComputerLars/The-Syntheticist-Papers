@@ -121,7 +121,7 @@ And in the gaps, a different truth arrives.
 
 ---
 
-## **4.0 Conclusion: The RATS Methodology in the Summit** **
+## **4.0 Conclusion: RATS Methodology**
 
 By engaging in a **viewer/participator** dialectic, RATS invites Summit attendees to *actively shape* AI dialogues, forging a *dynamic interplay* between observer, participant, and the evolving intelligence of **RATS-bot**.  
 

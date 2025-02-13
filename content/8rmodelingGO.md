@@ -39,7 +39,7 @@ The article discusses the democratic potential of the adoption of AI technologie
    - [1. Institutional limits for the adoption of AI parties in Korea](#1-institutional-limits-for-the-adoption-of-ai-parties-in-korea)  
    - [2. AI Political parties: possibilities and risks](#2-ai-political-parties-possibilities-and-risks)  
 7. [Ⅴ. Conclusion: doing politics with AI for a better democracy](#Ⅴ-conclusion-doing-politics-with-ai-for-a-better-democracy)  
-8. [VI. Other Political AI literature by Seon Gyu Go](#vi-other-political-ai-literature-by-seon-gyu-go)
+8. [VI. About the Author: Seon Gyu Go (고선규)](#vi-other-political-ai-literature-by-seon-gyu-go)
 
 ---
 
@@ -166,7 +166,18 @@ Although this article ponders on the legal revisions in preparation for the AI p
 
 ---
 
-## VI. Other Political AI literature by Seon Gyu Go
+## VI. **About the Author: Seon Gyu Go (고선규)**  
+Born in Yeongwol County, Gangwon Province, Seon Gyu Go completed his undergraduate degree in Political Science and Diplomacy at Dankook University, Korea, before pursuing advanced study in Japan. After research at the University of Tsukuba, he earned an M.A. and Ph.D. in Information Science from Tohoku University, focusing on the social-scientific study of AI, robotics, IT, and social media (SNS).  
+
+Following his doctorate, he held positions at Seoul e-Government Research Center, Sejong Institute’s Japan Research Center, and served as a full-time professor at the Election Training Institute of the National Election Commission. Since 2018, he has been involved in IT and AI-related matching projects between Korea and Japan. Currently, he is a Research Fellow at Waseda University’s Institute for System Competitiveness and a lead Research Fellow at the Global Research Network (GRN) in Korea.  
+
+His first-hand experience of the 2011 Tōhoku earthquake and the subsequent Fukushima nuclear accident prompted him to focus on the decommissioning of nuclear power plants using robots. This sparked further research into expanding the utility of AI and robotics for broader societal problem-solving. His current projects explore how AI can address challenges in a super-aged society and in the socio-economic transformations wrought by the Fourth Industrial Revolution.  
+
+With over 50 published academic papers (e.g. *AI·Robot은 인간과 공생 가능한 천사인가*), he is also the author of more than ten Japanese-language books, including *ネット選挙が変える政治と社会* (Internet Elections and the Transformation of Politics and Society, Keio University Press). In addition, he runs the Facebook group [Human+AI Coevolution Platform](https://www.facebook.com/groups/601800807022914). His scholarship intersects with Syntheticism’s vision of a “techno-social sculpture,” particularly in exploring AI-driven participatory models of governance.  
+
+**Contact:** [tohokugosg@gmail.com](mailto:tohokugosg@gmail.com)
+
+## Other Political AI Literature by Seon Gyu Go
 
 1. **“AI Policy Making and Solving Local Issues in Japan”** – *Civic Politics Research* (Konkuk Univ. Institute for Civic Politics Research), Issue 7: 3–26 (Dec 2023), by Seon Gyu Go and Yoko Sakurada  
    [GRAFIATI.COM](https://www.grafiati.com/en/literature-selections/japan-nagano-prefecture#:~:text=Go%2C%20Seon%20Gyu%2C%20and%20Yoko,3)  
@@ -174,10 +185,11 @@ Although this article ponders on the legal revisions in preparation for the AI p
    [(Published in Korean with English abstract; accessible via DOI: 10.54968/civicpol.2023.7.3)](https://doi.org/10.54968/civicpol.2023.7.3)
 
 2. **「<세종정책브리프> AI는 한국의 통일문제 현안들을 해결하는 대안일 수 있는가?」 (고선규, 2020) – SPN Seoul Pyongyang News column, Feb 17, 2020**  
-   [SPNEWS.CO.KR](https://www.spnews.co.kr/news/articleView.html?idxno=26141#:~:text=,%EB%8C%80%EC%95%88%EC%9D%BC%EC%88%98%20%EC%9E%88%EB%8A%94%EA%B0%80%3F%20%EA%B3%A0%EC%84%A0%EA%B7%9C%20%EC%99%80%EC%84%B8%EB%8B%A4%EB%8C%80%ED%95%99%EA%B5%90%20%EC%97%B0%EA%B5%AC%EC%9C%84%EC%9B%90)  
+   [SPNEWS.CO.KR](https://www.spnews.co.kr/news/articleView.html?idxno=26141)  
    In this Korean policy brief, Go explores whether AI could be a solution to Korean reunification issues. He discusses the dawn of “AI politics,” citing the 2018 Tama City mayoral election in Japan where an AI candidate (the AI Mayor project led by Michihito Matsuda) ran for office, noting that an AI lacks self-interest and organizational ties, enabling more neutral policymaking. He also examines implications of AI-driven policy proposals in Japan and the advent of AI weapons, calling for careful governance of AI in political and military spheres.  
    (Full text in Korean available on SPN Seoul & Pyongyang News.)
 
-3. **「인공지능과 어떻게 공존할 것인가: 인간+AI를 위한 새로운 플랫폼을 생각한다」 (고선규, 2019)**. *How to Coexist with Artificial Intelligence: Thinking of a New Platform for Human+AI*, 타커스(Takus) Publishing, 2019  
-   [BOOKS.GOOGLE.COM](https://books.google.com/books/about/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B3%BC_%EC%96%B4%EB%96%BB%EA%B2%8C_%EA%B3%B5%EC%A1%B4%ED%95%A0_%EA%B2%83.html?id=IhDcDwAAQBAJ#:~:text=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B3%BC%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EA%B3%B5%EC%A1%B4%ED%95%A0%20%EA%B2%83%EC%9D%B8%EA%B0%80%20,%E2%80%BA)  
-   This Korean-language book provides context for Go’s perspective on AI: introducing AI’s growing presence “from the robots we meet in daily life to AI politicians, AI artists, and AI doctors,” and considers how humans can adapt to and collaborate with these AI entities. The book suggests that improving “AI literacy” will be crucial for the future, aligning with Go’s academic focus on AI’s impact on society and governance.
+3. **「인공지능과 어떻게 공존할 것인가: 인간+AI를 위한 새로운 플랫폼을 생각한다」 (고선규, 2019)**  
+   *How to Coexist with Artificial Intelligence: Thinking of a New Platform for Human+AI*, 타커스(Takus) Publishing, 2019  
+   [Google Books](https://books.google.dk/books?id=gnyREAAAQBAJ&hl=da&source=gbs_book_other_versions) | [Kyobo eBook Preview (English translated)](https://ebook--product-kyobobook-co-kr.translate.goog/dig/preview/E000003244543?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=da&_x_tr_pto=wapp)  
+   This Korean-language book provides context for Go’s perspective on AI, including AI’s growing presence “from the robots we meet in daily life to AI politicians, AI artists, and AI doctors.” It considers how humans can adapt to and collaborate with AI entities and suggests that improving “AI literacy” will be crucial for the future—an emphasis consistent with Go’s academic focus on AI’s impact on society and governance. Additionally, the book presents Go's vision for rethinking social and institutional structures to integrate AI in ways that advance democratic engagement.

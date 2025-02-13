@@ -59,7 +59,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Electoral Milestones**: Planned to candidate for the 2020 elections, SAM was rebranded as Parker Politics in 2023\.
 
-   * **Delegate of Summit**: Floor Kist (Dutch Politician and Technologist) 
+   * **Delegates of Summit**: Nick Gerritsen (New Zealand, social entrepreneur) & Floor Kist (Dutch Politician and Technologist) 
 
 
 <div style="text-align: center;">
@@ -98,7 +98,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
    * **Official Collaborations**: Signed agreements with The Synthetic Party for global AI-politics development.
 
-   * **Delegate of Summit:** Michihito Matsuda (Activist) 
+   * **Delegate of Summit:** Michihito Matsuda & Shinsuke Kato (AI Party members)
 
 <div style="text-align: center;">
   <img src="../images/image16.jpg" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">

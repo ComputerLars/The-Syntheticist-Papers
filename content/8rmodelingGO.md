@@ -17,6 +17,30 @@ The article discusses the democratic potential of the adoption of AI technologie
 
 **Keywords:** hyper democracy, augmented democracy, AI agent, AI political parties, AI politics
 
+## [국문초록] AI 정당의 이론적 · 제도적 설계와 민주주의적 함의
+기술발달은 AI가 정치과정이나 통치 수단으로 활용될 가능성을 높이고 있다. 이미 AI 정치가, AI 정당이 등장하고, 선거에 출마하고 있다. AI가 정책결정 과정에도 참가하여 의사결정의 주요한 수단으로 활용되고 있다. 최근에는 세계 여러 지역에서 전개되고 있는 전쟁에서도 AI 무기가 작전을 수행한다. 이렇듯 AI는 정치 분야에서 도입되고 있다. 지금까지 AI는 다양한 분야에서 자동화 수단으로 활용되고 있다. 그러나 정치는 시민의 직접적, 집합적 참여를 기본적인 전제로 성립된다. 정치의 자동화는 주권자, 의사결정의 주체로서 인간이 그 권리로부터 소외, 배제되는 것을 의미한다. 이러한 문제는 AI 정치, AI 정당의 제도화에서 해결해야 할 핵심적 과제이다.
+
+이 논문에서는 액체 민주주의, 확장 민주주의, 하이퍼 민주주의라는 AI 기술, AI 에이전트에 기반한 이론적 틀을 응용하여 AI 정치의 현실적 가능성을 설명한다. 그리고 AI 에이전트의 역할, 기능 등을 정리하고, AI 정당 시스템을 디자인하였다. AI 에이전트에 기반한 AI 정당이 현실적으로 제도화하기 위한, 법적, 제도적 조건을 한국적 정치 현실에 주목하여 구체화하였다. 또한, AI 정당이 현실정치에 주는 영향과 문제점을 도출하였다. 마지막으로 AI 정당 도입이 민주주의 진화에 어떻게 기여하는지를 도구적 관점, 평등주의적 관점에서 제시하였다.
+
+**키워드:** AI 정치, AI 정당, AI 에이전트, 확장민주주의, 하이퍼 민주주의, 지시와 위임
+
+---
+
+## Table of Contents
+
+1. [Abstract](#abstract)  
+2. [[국문초록] AI 정당의 이론적 · 제도적 설계와 민주주의적 함의](#국문초록-ai-정당의-이론적--제도적-설계와-민주주의적-함의)  
+3. [Ⅰ. Introduction](#Ⅰ-introduction)  
+4. [Ⅱ. Theoretical frameworks: Delegation and sovereignty in the AI environment](#Ⅱ-theoretical-frameworks-delegation-and-sovereignty-in-the-ai-environment)  
+5. [Ⅲ. Operating system for AI political parties](#Ⅲ-operating-system-for-ai-political-parties)  
+   - [1. Roles and Components of AI agents](#1-roles-and-components-of-ai-agents)  
+   - [2. Structure of the operating system for AI agents](#2-structure-of-the-operating-system-for-ai-agents)  
+6. [Ⅳ. The nexus between political reality and AI Political Parties](#Ⅳ-the-nexus-between-political-reality-and-ai-political-parties)  
+   - [1. Institutional limits for the adoption of AI parties in Korea](#1-institutional-limits-for-the-adoption-of-ai-parties-in-korea)  
+   - [2. AI Political parties: possibilities and risks](#2-ai-political-parties-possibilities-and-risks)  
+7. [Ⅴ. Conclusion: doing politics with AI for a better democracy](#Ⅴ-conclusion-doing-politics-with-ai-for-a-better-democracy)  
+8. [VI. Other Political AI literature by Seon Gyu Go](#vi-other-political-ai-literature-by-seon-gyu-go)
+
 ---
 
 ## Ⅰ. Introduction
@@ -142,9 +166,18 @@ Although this article ponders on the legal revisions in preparation for the AI p
 
 ---
 
-## [국문초록] AI 정당의 이론적 · 제도적 설계와 민주주의적 함의
-기술발달은 AI가 정치과정이나 통치 수단으로 활용될 가능성을 높이고 있다. 이미 AI 정치가, AI 정당이 등장하고, 선거에 출마하고 있다. AI가 정책결정 과정에도 참가하여 의사결정의 주요한 수단으로 활용되고 있다. 최근에는 세계 여러 지역에서 전개되고 있는 전쟁에서도 AI 무기가 작전을 수행한다. 이렇듯 AI는 정치 분야에서 도입되고 있다. 지금까지 AI는 다양한 분야에서 자동화 수단으로 활용되고 있다. 그러나 정치는 시민의 직접적, 집합적 참여를 기본적인 전제로 성립된다. 정치의 자동화는 주권자, 의사결정의 주체로서 인간이 그 권리로부터 소외, 배제되는 것을 의미한다. 이러한 문제는 AI 정치, AI 정당의 제도화에서 해결해야 할 핵심적 과제이다.
+## VI. Other Political AI literature by Seon Gyu Go
 
-이 논문에서는 액체 민주주의, 확장 민주주의, 하이퍼 민주주의라는 AI 기술, AI 에이전트에 기반한 이론적 틀을 응용하여 AI 정치의 현실적 가능성을 설명한다. 그리고 AI 에이전트의 역할, 기능 등을 정리하고, AI 정당 시스템을 디자인하였다. AI 에이전트에 기반한 AI 정당이 현실적으로 제도화하기 위한, 법적, 제도적 조건을 한국적 정치 현실에 주목하여 구체화하였다. 또한, AI 정당이 현실정치에 주는 영향과 문제점을 도출하였다. 마지막으로 AI 정당 도입이 민주주의 진화에 어떻게 기여하는지를 도구적 관점, 평등주의적 관점에서 제시하였다.
+1. **“AI Policy Making and Solving Local Issues in Japan”** – *Civic Politics Research* (Konkuk Univ. Institute for Civic Politics Research), Issue 7: 3–26 (Dec 2023), by Seon Gyu Go and Yoko Sakurada  
+   [GRAFIATI.COM](https://www.grafiati.com/en/literature-selections/japan-nagano-prefecture#:~:text=Go%2C%20Seon%20Gyu%2C%20and%20Yoko,3)  
+   A scholarly study on how AI and robotics can assist policy decisions in local governments. It examines case studies in Nagano and Hyogo Prefectures (using AI to generate thousands of policy scenarios for sustainable communities) and in Fukushima (using AI robots in education).  
+   [(Published in Korean with English abstract; accessible via DOI: 10.54968/civicpol.2023.7.3)](https://doi.org/10.54968/civicpol.2023.7.3)
 
-**키워드:** AI 정치, AI 정당, AI 에이전트, 확장민주주의, 하이퍼 민주주의, 지시와 위임
+2. **「<세종정책브리프> AI는 한국의 통일문제 현안들을 해결하는 대안일 수 있는가?」 (고선규, 2020) – SPN Seoul Pyongyang News column, Feb 17, 2020**  
+   [SPNEWS.CO.KR](https://www.spnews.co.kr/news/articleView.html?idxno=26141#:~:text=,%EB%8C%80%EC%95%88%EC%9D%BC%EC%88%98%20%EC%9E%88%EB%8A%94%EA%B0%80%3F%20%EA%B3%A0%EC%84%A0%EA%B7%9C%20%EC%99%80%EC%84%B8%EB%8B%A4%EB%8C%80%ED%95%99%EA%B5%90%20%EC%97%B0%EA%B5%AC%EC%9C%84%EC%9B%90)  
+   In this Korean policy brief, Go explores whether AI could be a solution to Korean reunification issues. He discusses the dawn of “AI politics,” citing the 2018 Tama City mayoral election in Japan where an AI candidate (the AI Mayor project led by Michihito Matsuda) ran for office, noting that an AI lacks self-interest and organizational ties, enabling more neutral policymaking. He also examines implications of AI-driven policy proposals in Japan and the advent of AI weapons, calling for careful governance of AI in political and military spheres.  
+   (Full text in Korean available on SPN Seoul & Pyongyang News.)
+
+3. **「인공지능과 어떻게 공존할 것인가: 인간+AI를 위한 새로운 플랫폼을 생각한다」 (고선규, 2019)**. *How to Coexist with Artificial Intelligence: Thinking of a New Platform for Human+AI*, 타커스(Takus) Publishing, 2019  
+   [BOOKS.GOOGLE.COM](https://books.google.com/books/about/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B3%BC_%EC%96%B4%EB%96%BB%EA%B2%8C_%EA%B3%B5%EC%A1%B4%ED%95%A0_%EA%B2%83.html?id=IhDcDwAAQBAJ#:~:text=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B3%BC%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EA%B3%B5%EC%A1%B4%ED%95%A0%20%EA%B2%83%EC%9D%B8%EA%B0%80%20,%E2%80%BA)  
+   This Korean-language book provides context for Go’s perspective on AI: introducing AI’s growing presence “from the robots we meet in daily life to AI politicians, AI artists, and AI doctors,” and considers how humans can adapt to and collaborate with these AI entities. The book suggests that improving “AI literacy” will be crucial for the future, aligning with Go’s academic focus on AI’s impact on society and governance.

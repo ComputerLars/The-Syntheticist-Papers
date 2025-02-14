@@ -203,6 +203,13 @@ Occupying Galleri 1, the scenography curated by Computer Lars evokes a retro-fut
   <img src="../images/image9.gif" style="max-width: 60%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">
 </div>
 
+#### Simiyya
+> **Abyss Theft or The Heist of the Void** is our attempt to inhabit the borderline conditions of governance once AI logic intrudes upon the body politic. We conjure the interplay of sinister, utopian, and nihilist AIs, letting three actor-blobs navigate a single environment in differing emotional arcs.
+
+> Each blob is anchored to its own LLM backend—one fed on sinister AI documents, another on utopian ideals, the third on nihilist or pata-physical speculation. As they drift in three-channel simultaneity, their collisions and mood swings illustrate the precariousness of consensus—“public deliberation” morphs into a swirl of contradictory impulses.
+
+> Beneath it all is a question of agency: when the rules of civic existence crumble, what remains to hold us together, and what does it mean to “decide” in a domain without stable ground? Realism must be a doctrine of defeat.”
+
 * **AI Partiet:**
 
 *“We keep imagining a leader who transcends human flaws, and Olof Palme is our ongoing experiment in resurrecting a political ethos—through AI.*

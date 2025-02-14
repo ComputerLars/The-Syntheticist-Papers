@@ -144,13 +144,13 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 <hr style="border: 1px solid #f3ff00;">
 
-## 7. SWANA: [Simiyya](https://www.simiyya.xyz/)
+## 7. Cairo/Copenhagen: [Simiyya](https://www.simiyya.xyz/)
 
    * **Overview**: A platform focusing on technology's interplay with politics and cultural-geographical contexts, with a particular focus on the SWANA-region (Southwest Asia and North Africa). Simiyya constructs interfaces between decolonialist and rationalist perspectives within the techno-political landscape. As a platform that operates across geopolitical contexts, Simiyya supports those who invest in their aims as well as it is becoming an actor of its own.
 
-   * **Creators:** Assem Hendawi, Mostafa El Baroody & Mandus Ridefelt
+   * **Creators:** Assem Hendawi, Mostafa Elbaroody & Mandus Ridefelt
 
-   * **Delegates of Summit:** Mandus Ridefelt (Theorist)  
+   * **Delegates of Summit:** Mandus Ridefelt (Theorist), Mostafa Elbaroody (Artist) & Assem Hendawi (Artist)
        
 <div style="text-align: center;">
   <img src="../images/image20.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; margin-bottom: 40px;">

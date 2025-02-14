@@ -161,20 +161,27 @@ By recasting AI-led politics as more than a passing gimmick, **Synthetic Summit*
 
 ### Creators
 
-- **The Finnish AI Party** (Finland, The Center for Everything)  
-- **The Japanese AI Party** (Japan, AI Mayor)  
-- **Pedro Markun & Lex AI** (Brazil, The Sustainable Network Party)  
-- **Parker Politics & Politician SAM** (New Zealand, Parker Politics)  
-- **Simiyya** (SWANA region, Assem, Mandus & Mostafa)
-- **The Swedish AI Party & Olof Palme 2.0** (Sweden, Emma Bexell Labs)  
-- **The Synthetic Party & Leader Lars** (Denmark, Computer Lars)
-- **The Wiktoria Cukt Party & Wiktoria Cukt 2.0** (Poland, Central Office of Technical Culture)
-•	**Aesthetics of AI Images** (Denmark)
-- **Life with Artificials** (Denmark)
-- **NextGen Democracy** (Denmark)
-•	**The Organ of Autonomous Sciences** (Denmark)
-- **VHS Factory** (Denmark)
-•	**RATS BOT: Reprised Assorted Techne Schema** (Australia)
+*Political AIs:*
+
+- **The Japanese AI Party** (JP, AI Mayor)
+- **The Swedish AI Party & Olof Palme** (SE, Emma Bexell Labs)
+- **The Finnish AI Party** (FI, The Center for Everything)
+- **Parker Politics & Politician SAM** (NZ, Parker Politics)
+- **Pedro Markun & Lex AI** (BR, The Sustainable Network Party)
+- **Simiyya** (EG/SE, Assem Hendawi, Mandus Ridefelt & Mostafa Elbaroody)
+- **The Synthetic Party & Leader Lars** (DK, Computer Lars)
+- **The Wiktoria Cukt Party & Wiktoria Cukt 2.0** (PL, Piotr Wyrzykowski & Central Office of Technical Culture)
+
+*Extradisciplinary Collectives:*
+
+- **Aesthetics of AI Images** (DK)
+- **Life with Artificials** (DK)
+- **Next Generation Democracy** (DK)
+- **Organ of the Autonomous Sciences** (DK)
+- **RATS: Reprised Assorted Techne Schema** (AU)
+- **Seon Gyu Go** (KR)
+- **VHS Factory** (DK)
+
 ---
 
 ### Contact & Further Details

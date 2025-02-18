@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Modelling AI political party (Seon Gyu Go)"
+title: "The AI Political Party"
 show_nav: false
 show_footer: false
 ---

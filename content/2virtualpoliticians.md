@@ -16,7 +16,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 | ----- | ----- | ----- | ----- |
 | [**The Synthetic Party & Leader Lars**](https://www.detsyntetiskeparti.org) | Denmark | 2022 | Algorithmic democracy, representing non-voters |
 | [**Parker Politics & Politician SAM**](https://app.parkerpolitics.com/chat/1f0e9c9e-af8f-4906-be65-8e101a840656) | New Zealand | 2023 / 2017 | Local policy engagement, direct public involvement |
-| [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Advocating for a legal AI party with global reach |
+| [**Finnish AI Party**](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/) | Finland | 2018 | Decentralised, queer, decolonial and embodied politics |
 | [**Japanese AI Party & AI Mayor**](https://www.ai-mayor.com/) | Japan | 2019 / 2018 | Municipal AI governance through the AI Mayor model |
 | [**Swedish AI Party & Olof Palme**](https://www.bombinabombast.com/ai-partiet?lang=en&lightbox=dataItem-kwkspm1r) | Sweden | 2020 | Participatory governance, leader free of human flaws |
 | [**Wiktoria Cukt 2.0**](https://www.facebook.com/wiktoria.cukt.2.0) | Poland | 2000 (2.0 per 2024) | Early AI activism, electoral disillusionment |
@@ -72,7 +72,7 @@ The **Synthetic Summit** recurrently features live events and presentations from
 
 ## 3\. Finland: [Koneälypuolue (The AI Party)](https://www.centerforeverything.com/history/constitutive-meeting-of-the-ai-party-fi/)
 
-   * **Overview**: The Finnish AI Party (Konealypuolue) was constituted in 2018 through a meeting that explored its potential for legal constituency. The initiative aimed to address these formative aspects by combining the efforts of artists, performance-makers, and media researchers with the aim of establishing a legally recognized AI-led political party. From 2020 co-operating with The Australian AI Party and The Swedish AI Party through The International AI Party.
+   * **Overview**: The Finnish AI Party (Konealypuolue) was constituted in 2018 through a meeting that explored its potential for legal constituency. The initiative aimed to address these formative aspects by combining the efforts of artists, performance-makers, and media researchers with the aim of establishing a legally recognized AI-led political party. From 2020 co-operating with The Australian AI Party and The Swedish AI Party through The International AI Party. Values decentralised, queer, decolonial and embodied politics.
 
    * **Key Creator**: Kaiken Keskus (Center for Everything), an immersive performing art center.
 

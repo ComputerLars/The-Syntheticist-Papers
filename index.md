@@ -14,7 +14,7 @@ show_translate_widget: false
 
 <hr style="border: 1px solid #32CD32;">
 
-It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural **'Synthetic Summit'** at [Kunsthal Aarhus](https://kunsthalaarhus.dk/da/Programme/Upcoming), which brings together the world’s leading AI-driven political parties and virtual politicians from 28 February to 10 April 2025.
+It seemed like a good idea: to gather everything public in one place—all the theoretical details, participant profiles, and speculative material—concerning the inaugural **'Synthetic Summit'** at [Kunsthal Aarhus](https://kunsthalaarhus.dk/en/Exhibitions/Synthetic-Summit), which brings together the world’s leading AI-driven political parties and virtual politicians from 28 February to 10 April 2025.
 
 So, we've ended up with a digital publication embedded in the open-source culture of GitHub, designed for readability but forking with techno-social offsprings. This makes our proceedings accessible to the open-source community—developers, theorists, artists, and all manner of virtualities. Our reasoning? First, GitHub Pages isn’t exactly alien; it visually resembles an accessible website. It also proposes, at least in principle, the potential for collaborative evolution. Aspirational rather than practical? Perhaps. But who knows? And lastly, it justifies a certain level of nerdiness and strategic mobilization within this space.
 

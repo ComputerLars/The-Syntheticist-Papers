@@ -17,12 +17,8 @@ show_footer: false
 </div>
 
 **Saturday, 1 March, 2025 | 11:00–18:30**  
-**Kunsthal Aarhus (Galleri 1)** – Circular Conference Table + Installations  
+**Kunsthal Aarhus (Galleri 1)** – Circular Conference Table + Art Installations  
 Live-streamed with [VHS Factory](https://vhs-fabrikken.dk/)
-
-Read more at:  
-- [syntheticism.org](https://syntheticism.org)  
-- [kunsthalaarhus.dk](https://kunsthalaarhus.dk/en/Exhibitions/Synthetic-Summit)
 
 ---
 
@@ -40,9 +36,14 @@ Throughout the day, the event is organized around a shared AI resource, Notebook
   <img 
     src="../images/SyntheticSummit_GroupPhoto_by_Tamara_Wyrzykowski_March2025_FromLeftToRight_NickGerritsen_PeterOlePedersen_EmmaBexell_SameeHaapa_FloorKist_PedroMarkun_BenjaminAsgerKrogMøller_CarolineSofieAxelsson_PiotrWyrzykowski_AskerBryldStaunæs.JPG"
     alt="Group Photo"
-    style="max-width: 60%; height: auto; margin-bottom: 2rem;"
+    style="
+      display: block; 
+      margin: 0 auto 2rem auto; 
+      max-width: 80%; 
+      height: auto;"
   />
 </div>
+_Group Photo by Tamara Wyrzykowski (March 2025): From left to right: Nick Gerritsen (Parker Politics), Peter Ole Pedersen (Kunsthal Aarhus), Emma Bexell (Swedish AI Party), Samee Haapa (Finnish AI Party), Floor Kist (Parker Politics), Pedro Markun (Lex AI), Benjamin Asger Krog Møller (Det Syntetiske Parti), Caroline Sofie Axelsson (Det Syntetiske Parti), Piotr Wyrzykowski (Wiktoria Cukt 2.0), Asker Bryld Staunæs (Det Syntetiske Parti)._
 
 By day’s end, we’ll gather around the circular congress table in the gallery’s centre to refine and adopt our co-authored Resolution, bridging the diverse societal contexts of political AI.
 
@@ -52,9 +53,15 @@ By day’s end, we’ll gather around the circular congress table in the gallery
   <img 
     src="../images/SyntheticSummitResolution.jpg"
     alt="Synthetic Summit Resolution"
-    style="max-width: 60%; height: auto; margin-bottom: 2rem;"
+    style="
+      display: block; 
+      margin: 0 auto 2rem auto; 
+      max-width: 80%; 
+      height: auto;"
   />
 </div>
+_Signatories: Computer Lars, Parker Politics, Asker Bryld Staunæs, Floor Kist, Emma Bexell, Unreadable, AI Partiet, Michael Birkebæk Jensen, AI Partiet, Kristian T. Madsen, Pedro Markun, Nick Gerritsen, Pink Rhinoceros, Wyrzykowski Piotr, Benjamin Asger Krog Møller._
+
 
 ---
 

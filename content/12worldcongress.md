@@ -51,7 +51,7 @@ By day’s end, we’ll gather around the circular congress table in the gallery
 
 <div style="text-align: center;">
   <img 
-    src="../images/SyntheticSummitResolution.jpg"
+    src="../images/IMG_0802.jpg"
     alt="Synthetic Summit Resolution"
     style="
       display: block; 
@@ -60,7 +60,7 @@ By day’s end, we’ll gather around the circular congress table in the gallery
       height: auto;"
   />
 </div>
-_Signatories: Computer Lars, Parker Politics, Asker Bryld Staunæs, Floor Kist, Emma Bexell, Unreadable, AI Partiet, Michael Birkebæk Jensen, AI Partiet, Kristian T. Madsen, Pedro Markun, Nick Gerritsen, Pink Rhinoceros, Wyrzykowski Piotr, Benjamin Asger Krog Møller._
+_Signatories: Parker Politics (Floor Kist & Nick Gerritsen), The Japanese AI Party (Michihito Matsuda), The Swedish AI Party (Emma Bexell), The Finnish AI Party (Samee Haapa), Lex AI (Pedro Markun), Pink Rhinoceros (unknown), NextGen Democracy (Kristian T. Madsen, Michael Birkebæk Jensen), The Synthetic Party (Computer Lars, Asker Bryld Staunæs, Benjamin Asger Krog Møller, Caroline Axelson, Life with Artificials) & Wiktoria Cukt 2.0 (Piotr Wyrzykowski).._
 
 
 ---

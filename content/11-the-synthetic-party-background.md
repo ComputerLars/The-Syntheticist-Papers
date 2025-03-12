@@ -6,7 +6,7 @@ show_nav: false
 show_footer: false
 ---
 
-## Introduction
+## What is The Synthetic Party?
 The Synthetic Party (*Det Syntetiske Parti*) is a Danish political art project founded in May 2022 by the artist collective “Computer Lars” in collaboration with the MindFuture Foundation. It is often described as the world’s first AI-driven political party [\[EN.WIKIPEDIA.ORG\]](https://en.wikipedia.org/wiki/The_Synthetic_Party). Its public figurehead is an AI chatbot named **Leader Lars**, which was “trained” on the policy platforms of Danish fringe parties since 1970 and designed to represent the 15–20% of Danes who do not vote. In practice, human members of the party serve as proxies for the AI’s decisions, since the chatbot itself cannot appear on ballots. From its inception, The Synthetic Party – and the Computer Lars collective behind it – have attracted worldwide media attention as a provocative blend of technology, art, and politics.
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Deep Research on The Synthetic Party"
-permalink: https://syntheticism.org/content/genesis.html
+title: "Genesis of The Synthetic Party"
+permalink: /content/genesis.html
 show_nav: false
 show_footer: false
 ---

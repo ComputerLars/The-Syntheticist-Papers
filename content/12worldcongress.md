@@ -60,8 +60,18 @@ By day’s end, we’ll gather around the circular congress table in the gallery
       height: auto;"
   />
 </div>
-_Signatories: Parker Politics (Floor Kist & Nick Gerritsen), The Japanese AI Party (Michihito Matsuda), The Swedish AI Party (Emma Bexell), The Finnish AI Party (Samee Haapa), Lex AI (Pedro Markun), Pink Rhinoceros (unknown), NextGen Democracy (Kristian T. Madsen, Michael Birkebæk Jensen), The Synthetic Party (Computer Lars, Asker Bryld Staunæs, Benjamin Asger Krog Møller, Caroline Axelson, Life with Artificials) & Wiktoria Cukt 2.0 (Piotr Wyrzykowski).._
+_Signatories: Parker Politics (Floor Kist & Nick Gerritsen), The Japanese AI Party (Michihito Matsuda), The Swedish AI Party (Emma Bexell), The Finnish AI Party (Samee Haapa), Lex AI (Pedro Markun), Pink Rhinoceros (unknown), NextGen Democracy (Kristian T. Madsen, Michael Birkebæk Jensen), The Synthetic Party (Computer Lars: Asker Bryld Staunæs, Benjamin Asger Krog Møller; Caroline Axelson, Life with Artificials) & Wiktoria Cukt 2.0 (Piotr Wyrzykowski).._
 
+<div style="text-align:center;margin:2rem 0;">
+  <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/Q41Yn2Nk9xI"
+          frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<p style="text-align:center;max-width:80%;margin:0 auto;">
+  Video excerpt: the signing of the Summit Resolution—
+  the closing act that formalises the day’s collective authorship.
+</p>
 
 ---
 

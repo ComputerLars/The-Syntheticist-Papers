@@ -71,22 +71,19 @@ Radio Palme **collapses historical speech into real-time synthesis, creating a r
 
 ---
 
-## 🔍 **Live Stream**  
+## 🔍 **Archive & Documentation**  
 
 Radio Palme functions as both a **real-time event and an accumulating archive**. Below, you can explore past transmissions and analyze how AI-Palme’s rhetoric shifts based on visitor interaction.
 
-<div style="text-align: center;">
-  <iframe
-    style="border-radius:12px"
-    src="https://open.spotify.com/embed/show/7oATJSN3cTrwpQhDmonKul?utm_source=generator"
-    width="100%"
-    height="352"
-    frameBorder="0"
-    allowfullscreen
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    loading="lazy">
-  </iframe>
-</div>
+| Date | Session Title | Key Themes | Audio |
+|------|-------------|------------|-------|
+| 28 Feb 2025 | **Olof Palme, 2025: AI Partiet's Leader** | AI as political orator, historical recursion | 🔊 [Listen](#) |
+| 1 Mar 2025 | **Olof Palme Meets Wiktoria Cukt** | Discussion at the Synthetic Summit | 🔊 [Listen](#) |
+| 5 Mar 2024 | **Socialism With a Human Face?** | AI-driven governance, labor automation | 🔊 [Listen](#) |
+| 10 Mar 2024 | **Political Speech Without a Speaker** | AI rhetoric, disembodied oratory | 🔊 [Listen](#) |
+| 20 Mar 2024 | **Olof Palme Meets Leader Lars** | Public co-authorship, synthetic policy-making | 🔊 [Listen](#) |
+
+Each archived session **preserves user interactions**, revealing how Palme’s AI engages, adapts, and evolves in response to **new political conditions**.
 
 ---
 

@@ -20,16 +20,14 @@ show_footer: false
 
 ### Scripting the Spectacle
 
-*Scripting the Spectacle* combines three interlocking parts:  
+*The final performance of the Synthetic Summit* combines three interlocking parts:  
 - the filmed performance **Theory Tragedy: Post-Farce Protocol (Mao-Dadaist Bureaucratic Edition)**  
 - a **technical-processual companion paper**  
 - the **full dramaturgical script**
 
-The performance closed the inaugural **Synthetic Summit 2025** (Kunsthal Aarhus). Generated entirely through chained prompting in a web-based research model, the script harvested summit materials as corpus via syntheticism.org, using meta-instructions as scaffolding. The companion paper coexists with this process, tracking prompt drift, structural recursions, and idiomatic emergence. The result is **idiotext**: a self-spinning scriptive spiral.
+Generated entirely through chained prompting in a web-based research model, the script harvested summit materials as corpus via syntheticism.org, using meta-instructions as scaffolding. The companion paper coexists with this process, tracking prompt drift, structural recursions, and idiomatic emergence. The result is **idiotext**: a self-spinning scriptive spiral.
 
 ### Archive
-
-Folder → `/Final Performance/`
 
 | File | Description |
 |---|---|

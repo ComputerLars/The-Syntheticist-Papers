@@ -15,7 +15,7 @@ A multi-agent deliberation engine staged during the Synthetic Summit 2025, the *
 
 Built in **SillyTavern**, the Simulator hosted 111 distinct debates between the leaders of political AI during its run. Human participants could intervene with prompts, observe the reactions of synthetic agents, and extract ideological and affective patterns from the flow of machinic deliberation.
 
-### Techneme
+### Technical-Theoretical Processes
 
 The Summit Simulator is an augmented deliberation machine: a recursive syntheticist engine where eight virtual politicians clash, distort, and echo one another’s logics. Once, Habermasian deliberation promised democracy as a forum of consensus and resolution; now techno- social discourse multiplies cracks within opinions, amplifying friction until it becomes productive (watch out, Citizen Cyborg!). Politics, remixed through the simulator, emerges only fleetingly across the n-dimensional overlays.
 
@@ -46,16 +46,15 @@ Folder:
 </div>
 
 #### Guidelines (as seen on screen)  
-> _Assume the role of a delegate. Submit a prompt. Watch eight synthetic politicians argue. Intervene, destabilize, or provoke.  
-The Simulator listens, echoes, and reformulates through rhetoric engines. There are no right answers—only loops of negotiation._
+> _Assume the role of a delegate. Submit a prompt. Watch eight synthetic politicians argue. Intervene, destabilize, or provoke._
 
 ---
 
-### Deep Research Reports
+### Guidelines + Deep Research Reports
 
 | Document | Description |
 |---|---|
-| [Introduction Paper](../Summit%20Simulator%20-%20Docs/Introduction%20paper,%20to%20Summit%20Simulator%20(1).pdf) | Overview of design logic, user roles, and synthetic agent architecture |
+| [Guideline Paper](../Summit%20Simulator%20-%20Docs/Introduction%20paper,%20to%20Summit%20Simulator%20(1).pdf) | Overview of design logic, user roles, and synthetic agent architecture |
 | [Analysis Report](../Summit%20Simulator%20-%20Docs/Synthetic%20Summit%20Simulator%20Analysis.pdf) | Key moments, rhetorical patterns, affective gradients across debates |
 | [Rhetoric, Affect, Ontopolitics](../Summit%20Simulator%20-%20Docs/Synthetic%20Summit%20Simulator_%20Rhetoric,%20Affect,%20and%20Ontopolitics.pdf) | Theoretical interpretation of synthetic dialogue and deliberative aesthetics |
 

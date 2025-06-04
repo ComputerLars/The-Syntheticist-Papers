@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Fetch the search index JSON file
-  fetch('{{ "/search.json" | relative_url }}')
+  // The JavaScript files in the `scripts` directory are not processed by Jekyll,
+  // so Liquid tags like `{{ "/search.json" | relative_url }}` will be served
+  // literally to the browser and break the fetch call. Use a normal relative
+  // path instead.
+  fetch('/search.json')
     .then(response => response.json())
     .then(pages => {
       // Initialize Lunr.js

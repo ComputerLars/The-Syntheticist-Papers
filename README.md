@@ -125,8 +125,10 @@ To support nonlinear navigation and qualitative interpretation in the text unive
 
 - Starts hidden by default on page load.
 - Reopen/hide via lower-left `synth-terminal` badge (or `Alt+Shift+C`).
+- Glitch is off initially and auto-activates when opening the terminal via badge click.
 - URL parameter: `?overlay=off|resonance|drift`
-- URL parameter: `?glitch=on|off`
+- Drift now uses a local Markov transition chain to produce multi-hop vector paths.
+- Hermeneutic recompose now performs cut-up/détournement montage with axis diagnostics.
 - Keyboard chords:
   - `Alt+Shift+M` cycles overlay mode (`off -> resonance -> drift`)
   - `Alt+Shift+R` triggers resonance highlighting + relation lines
@@ -134,7 +136,7 @@ To support nonlinear navigation and qualitative interpretation in the text unive
   - `Alt+Shift+W` opens a least-visited in-site wormhole with visible portal transition
   - `Alt+Shift+P` opens the multiversal map modal
   - `Alt+Shift+E` composes a qualitative hermeneutic web
-  - `Alt+Shift+Q` opens quest scenes with consequence/risk accumulation
+  - `Alt+Shift+Q` opens quest scenes with stat checks (`d20` style), consequence, and risk accumulation
   - `Alt+Shift+L` opens trace logbook + comment capture + GitHub issue draft export
   - `Alt+Shift+K` opens portal link to `computerlars.github.io/KI-DIPFIES`
   - `Alt+Shift+G` toggles a stronger CRT/glitch veil

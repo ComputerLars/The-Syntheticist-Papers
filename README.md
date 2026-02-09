@@ -131,6 +131,7 @@ To support nonlinear navigation and qualitative interpretation in the text unive
 - Terminal session builds a multiversal corpus index by traversing linked content pages.
 - Drift now uses a site-wide Markov transition chain to produce multi-hop vector paths.
 - Hermeneutic recompose now performs cut-up/détournement montage with axis diagnostics and cross-page jump links.
+- Qualitative reading now includes weighted bridge scoring, stance vectors, confidence scoring, and sentence-level evidence alignment.
 - Keyboard chords:
   - `Alt+Shift+M` cycles overlay mode (`off -> resonance -> drift`)
   - `Alt+Shift+R` triggers resonance highlighting + relation lines

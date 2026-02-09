@@ -1574,6 +1574,19 @@ body.synthetic-risk-high .content {
     margin-right: 5px;
 }
 
+.synthetic-herm-item-score,
+.synthetic-herm-item-facets {
+    border-left: 2px solid rgba(73, 227, 148, 0.35);
+    padding-left: 6px;
+}
+
+.synthetic-herm-item-evidence {
+    border-left: 2px dashed rgba(73, 227, 148, 0.3);
+    padding-left: 6px;
+    font-size: 0.66rem;
+    opacity: 0.9;
+}
+
 .synthetic-herm-item-page button {
     border: 1px solid rgba(73, 227, 148, 0.72);
     background: rgba(73, 227, 148, 0.14);

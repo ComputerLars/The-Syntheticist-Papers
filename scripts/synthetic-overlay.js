@@ -51,6 +51,38 @@ document.addEventListener('DOMContentLoaded', function () {
             keywords: ['interpretation', 'annotation', 'reading', 'archive', 'genealogy', 'trace', 'commentary']
         }
     ];
+    const STANCE_AXES = [
+        {
+            id: 'normative',
+            label: 'Normative',
+            terms: ['must', 'should', 'need', 'ought', 'demand', 'require', 'imperative']
+        },
+        {
+            id: 'speculative',
+            label: 'Speculative',
+            terms: ['perhaps', 'maybe', 'might', 'could', 'possible', 'virtual', 'imaginary', 'speculative']
+        },
+        {
+            id: 'agonistic',
+            label: 'Agonistic',
+            terms: ['against', 'conflict', 'struggle', 'fracture', 'collapse', 'refuse', 'contest', 'contradiction']
+        },
+        {
+            id: 'infrastructural',
+            label: 'Infrastructural',
+            terms: ['protocol', 'platform', 'infrastructure', 'network', 'stack', 'interface', 'repository']
+        },
+        {
+            id: 'collective',
+            label: 'Collective',
+            terms: ['collective', 'coalition', 'federation', 'democracy', 'public', 'community', 'movement']
+        },
+        {
+            id: 'mythic',
+            label: 'Mythic',
+            terms: ['spectacle', 'oracle', 'ghost', 'ritual', 'myth', 'portal', 'theater', 'symbol']
+        }
+    ];
 
     const blocks = Array.from(document.querySelectorAll(BLOCK_SELECTOR)).filter(function (element) {
         return element.textContent && element.textContent.trim().length > 80;
@@ -61,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const blockOrder = new WeakMap();
     const tokenTransitions = new Map();
     const blockAxisScores = new WeakMap();
+    const blockStanceScores = new WeakMap();
 
     const state = {
         controlsPanel: null,
@@ -221,7 +254,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 excerpt: excerpt(text, 22),
                 tokens: tokens,
                 tokenSet: new Set(tokens),
-                axis: axisVectorFromTokens(tokens)
+                axis: axisVectorFromTokens(tokens),
+                stance: stanceVectorFromText(text)
             };
         });
     }
@@ -356,6 +390,153 @@ document.addEventListener('DOMContentLoaded', function () {
         return output;
     }
 
+    function vectorDistanceForAxes(leftVector, rightVector, axes) {
+        let total = 0;
+        (axes || []).forEach(function (axis) {
+            total += Math.abs((leftVector[axis.id] || 0) - (rightVector[axis.id] || 0));
+        });
+        return total;
+    }
+
+    function vectorTotal(vector, axes) {
+        return (axes || []).reduce(function (sum, axis) {
+            return sum + ((vector && vector[axis.id]) || 0);
+        }, 0);
+    }
+
+    function coherenceScore(leftVector, rightVector, axes) {
+        const distance = vectorDistanceForAxes(leftVector || {}, rightVector || {}, axes || []);
+        const scale = Math.max(1, vectorTotal(leftVector || {}, axes || []) + vectorTotal(rightVector || {}, axes || []));
+        return clamp(1 - (distance / scale), 0, 1);
+    }
+
+    function stanceVectorFromText(text) {
+        const normalized = (text || '').toLowerCase();
+        const vector = {};
+        STANCE_AXES.forEach(function (axis) {
+            let count = 0;
+            axis.terms.forEach(function (term) {
+                const matches = normalized.match(new RegExp('\\b' + term + '\\b', 'gi'));
+                if (matches) count += matches.length;
+            });
+            vector[axis.id] = count;
+        });
+        return vector;
+    }
+
+    function dominantStances(vector, limit) {
+        return STANCE_AXES
+            .map(function (axis) {
+                return { id: axis.id, label: axis.label, score: vector[axis.id] || 0 };
+            })
+            .filter(function (entry) {
+                return entry.score > 0;
+            })
+            .sort(function (a, b) {
+                return b.score - a.score;
+            })
+            .slice(0, limit || 2);
+    }
+
+    function tokenDocumentFrequency(token) {
+        const localCount = tokenToBlocks.has(token) ? tokenToBlocks.get(token).size : 0;
+        const globalCount = state.globalReady ? (state.globalTokenCounts.get(token) || 0) : 0;
+        return localCount + globalCount;
+    }
+
+    function tokenIdf(token) {
+        const docs = blocks.length + (state.globalReady ? state.globalPassages.length : 0);
+        const df = tokenDocumentFrequency(token);
+        return Math.log((docs + 1) / (df + 1)) + 1;
+    }
+
+    function overlapDiagnostics(leftTokens, rightTokens, limit) {
+        const rightSet = new Set(rightTokens || []);
+        const rawOverlap = Array.from(new Set((leftTokens || []).filter(function (token) {
+            return rightSet.has(token);
+        })));
+        const weighted = rawOverlap.map(function (token) {
+            return {
+                token: token,
+                weight: tokenIdf(token)
+            };
+        }).sort(function (a, b) {
+            return b.weight - a.weight;
+        });
+        const overlap = weighted.slice(0, limit || 6).map(function (entry) {
+            return entry.token;
+        });
+        const bridgeScore = weighted.reduce(function (sum, entry) {
+            return sum + entry.weight;
+        }, 0);
+        const bridgeNorm = bridgeScore <= 0 ? 0 : clamp(bridgeScore / (bridgeScore + 6), 0, 1);
+        return {
+            overlap: overlap,
+            rawOverlap: rawOverlap,
+            bridgeScore: bridgeScore,
+            bridgeNorm: bridgeNorm
+        };
+    }
+
+    function sentenceEvidence(leftText, rightText) {
+        const leftSentences = sentenceFragments(leftText || '').slice(0, 10);
+        const rightSentences = sentenceFragments(rightText || '').slice(0, 10);
+        if (!leftSentences.length || !rightSentences.length) return null;
+
+        let best = null;
+        leftSentences.forEach(function (leftSentence) {
+            const leftTokens = tokenize(leftSentence);
+            rightSentences.forEach(function (rightSentence) {
+                const rightTokens = tokenize(rightSentence);
+                const overlap = overlapDiagnostics(leftTokens, rightTokens, 5);
+                const score = overlap.bridgeScore + overlap.rawOverlap.length * 0.8;
+                if (!best || score > best.score) {
+                    best = {
+                        score: score,
+                        overlap: overlap.overlap,
+                        left: leftSentence,
+                        right: rightSentence
+                    };
+                }
+            });
+        });
+
+        return best;
+    }
+
+    function interpretiveFacets(leftStance, rightStance, overlapData, contradiction, axisCoherence, stanceCoherence) {
+        const facets = [];
+        if (contradiction) facets.push('negation');
+        if ((leftStance.normative || 0) + (rightStance.normative || 0) >= 3) facets.push('normative pressure');
+        if ((leftStance.speculative || 0) + (rightStance.speculative || 0) >= 3) facets.push('speculative drift');
+        if (Math.abs((leftStance.infrastructural || 0) - (rightStance.infrastructural || 0)) >= 2) facets.push('infrastructure shift');
+        if (axisCoherence <= 0.35) facets.push('axis rupture');
+        if (stanceCoherence <= 0.3) facets.push('rhetorical divergence');
+        if (overlapData.bridgeNorm >= 0.45) facets.push('dense bridge');
+        if (!facets.length) facets.push('weak coupling');
+        return facets.slice(0, 4);
+    }
+
+    function inferRelationKind(overlapData, contradiction, axisCoherence, stanceCoherence) {
+        if (contradiction && overlapData.bridgeNorm >= 0.18) return 'friction';
+        if (overlapData.bridgeNorm >= 0.45 && axisCoherence >= 0.5) return 'convergence';
+        if (overlapData.bridgeNorm >= 0.26 && axisCoherence < 0.5) return 'mutation';
+        if (stanceCoherence < 0.35 || axisCoherence < 0.25) return 'aporia';
+        if (overlapData.bridgeNorm >= 0.22) return 'mutation';
+        return 'aporia';
+    }
+
+    function relationConfidence(overlapData, axisCoherence, stanceCoherence, evidenceScore, contradiction) {
+        const evidenceNorm = clamp((evidenceScore || 0) / ((evidenceScore || 0) + 4), 0, 1);
+        const penalty = contradiction ? 0.06 : 0;
+        const score = (overlapData.bridgeNorm * 0.42)
+            + (axisCoherence * 0.28)
+            + (stanceCoherence * 0.2)
+            + (evidenceNorm * 0.16)
+            - penalty;
+        return Math.round(clamp(score, 0, 1) * 100);
+    }
+
     function buildIndex() {
         blocks.forEach(function (block, index) {
             const tokens = tokenize(block.textContent || '');
@@ -363,6 +544,7 @@ document.addEventListener('DOMContentLoaded', function () {
             blockTokens.set(block, unique);
             blockOrder.set(block, index);
             blockAxisScores.set(block, axisVectorFromTokens(tokens));
+            blockStanceScores.set(block, stanceVectorFromText(block.textContent || ''));
             unique.forEach(function (token) {
                 if (!tokenToBlocks.has(token)) tokenToBlocks.set(token, new Set());
                 tokenToBlocks.get(token).add(block);
@@ -704,7 +886,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (state.controlsGlitch) state.controlsGlitch.textContent = 'glitch: ' + (document.body.classList.contains('synthetic-glitch') ? 'on' : 'off');
         if (state.controlsTerm) state.controlsTerm.textContent = 'term: ' + (state.activeTerm || 'none');
         if (state.controlsHits) state.controlsHits.textContent = 'hits: ' + state.activeHits.length;
-        if (state.controlsRemote) state.controlsRemote.textContent = 'site: ' + state.remoteHits.length;
+        if (state.controlsRemote) {
+            const status = state.globalReady ? 'ready' : (state.globalPromise ? 'indexing' : 'idle');
+            state.controlsRemote.textContent = 'site: ' + state.remoteHits.length + ' (' + status + ')';
+        }
         if (state.controlsRisk) state.controlsRisk.textContent = 'risk: ' + Math.round(state.questRisk);
     }
 
@@ -1181,25 +1366,12 @@ document.addEventListener('DOMContentLoaded', function () {
         };
     }
 
-    function sharedTokens(leftBlock, rightBlock, limit) {
-        const left = Array.from(blockTokens.get(leftBlock) || []);
-        const right = new Set(Array.from(blockTokens.get(rightBlock) || []));
-        const overlap = left.filter(function (token) {
-            return right.has(token);
-        });
-        return overlap.slice(0, limit || 5);
-    }
-
     function blockAxisProfile(block) {
         return blockAxisScores.get(block) || axisVectorFromTokens(Array.from(blockTokens.get(block) || []));
     }
 
-    function axisDistance(leftVector, rightVector) {
-        let total = 0;
-        THEORY_AXES.forEach(function (axis) {
-            total += Math.abs((leftVector[axis.id] || 0) - (rightVector[axis.id] || 0));
-        });
-        return total;
+    function blockStanceProfile(block) {
+        return blockStanceScores.get(block) || stanceVectorFromText(block.textContent || '');
     }
 
     function axisShiftLabel(leftVector, rightVector) {
@@ -1212,30 +1384,57 @@ document.addEventListener('DOMContentLoaded', function () {
         return leftTop.label + ' -> ' + rightTop.label;
     }
 
-    function relationKind(overlap, leftText, rightText, leftVector, rightVector) {
+    function pairAnalysis(leftPayload, rightPayload) {
+        const leftText = leftPayload.text || '';
+        const rightText = rightPayload.text || '';
+        const leftTokens = leftPayload.tokens || tokenize(leftText);
+        const rightTokens = rightPayload.tokens || tokenize(rightText);
+        const overlapData = overlapDiagnostics(leftTokens, rightTokens, 6);
+
+        const leftAxis = leftPayload.axis || axisVectorFromTokens(leftTokens);
+        const rightAxis = rightPayload.axis || axisVectorFromTokens(rightTokens);
+        const leftStance = leftPayload.stance || stanceVectorFromText(leftText);
+        const rightStance = rightPayload.stance || stanceVectorFromText(rightText);
+
         const conflictPattern = /\b(not|never|without|against|fail|fails|failed|failing|fracture|collapse|refuse|refused|refusal|denial|contradiction)\b/i;
-        const contradiction = conflictPattern.test(leftText || '') || conflictPattern.test(rightText || '');
-        const distance = axisDistance(leftVector || {}, rightVector || {});
-        if (distance >= 6 && overlap.length <= 2) return 'aporia';
-        if (contradiction && overlap.length <= 2) return 'friction';
-        if (overlap.length >= 4) return 'convergence';
-        if (overlap.length >= 2) return 'mutation';
-        if (contradiction) return 'friction';
-        return 'aporia';
+        const contradiction = conflictPattern.test(leftText) || conflictPattern.test(rightText);
+        const axisCoherence = coherenceScore(leftAxis, rightAxis, THEORY_AXES);
+        const stanceCoherence = coherenceScore(leftStance, rightStance, STANCE_AXES);
+        const evidence = sentenceEvidence(leftText, rightText);
+        const kind = inferRelationKind(overlapData, contradiction, axisCoherence, stanceCoherence);
+        const facets = interpretiveFacets(leftStance, rightStance, overlapData, contradiction, axisCoherence, stanceCoherence);
+        const confidence = relationConfidence(overlapData, axisCoherence, stanceCoherence, evidence ? evidence.score : 0, contradiction);
+
+        return {
+            kind: kind,
+            overlap: overlapData.overlap,
+            bridgeScore: overlapData.bridgeScore,
+            bridgeNorm: overlapData.bridgeNorm,
+            contradiction: contradiction,
+            axis: {
+                shift: axisShiftLabel(leftAxis, rightAxis),
+                coherence: axisCoherence,
+                left: dominantAxes(leftAxis, 3),
+                right: dominantAxes(rightAxis, 3)
+            },
+            stance: {
+                coherence: stanceCoherence,
+                left: dominantStances(leftStance, 3),
+                right: dominantStances(rightStance, 3)
+            },
+            confidence: confidence,
+            facets: facets,
+            evidence: evidence
+        };
     }
 
-    function relationNarrative(term, kind, overlap, shiftLabel) {
+    function relationNarrative(term, kind, analysis) {
         const meta = relationMeta(kind);
-        const bridge = overlap.length ? overlap.join(', ') : 'no stable bridge';
-        const shift = shiftLabel ? (' Axis shift: ' + shiftLabel + '.') : '';
-        return meta.label + ': "' + term + '" routes through [' + bridge + '] and ' + meta.cue + '.' + shift;
-    }
-
-    function pairKey(a, b) {
-        const leftIndex = blockOrder.get(a);
-        const rightIndex = blockOrder.get(b);
-        if (typeof leftIndex !== 'number' || typeof rightIndex !== 'number') return '';
-        return leftIndex < rightIndex ? (leftIndex + ':' + rightIndex) : (rightIndex + ':' + leftIndex);
+        const bridge = (analysis.overlap && analysis.overlap.length) ? analysis.overlap.join(', ') : 'no stable bridge';
+        const shift = analysis.axis && analysis.axis.shift ? (' Axis shift: ' + analysis.axis.shift + '.') : '';
+        const facets = analysis.facets && analysis.facets.length ? (' Facets: ' + analysis.facets.join(', ') + '.') : '';
+        const confidence = typeof analysis.confidence === 'number' ? (' Confidence=' + String(analysis.confidence) + '%.') : '';
+        return meta.label + ': "' + term + '" routes through [' + bridge + '] and ' + meta.cue + '.' + shift + facets + confidence;
     }
 
     function clearHermeneuticMarks() {
@@ -1252,88 +1451,167 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         if (sourceHits.length < 2) return [];
 
-        const pairs = [];
-        const seen = new Set();
-        const addPair = function (leftBlock, rightBlock) {
-            if (!leftBlock || !rightBlock || leftBlock === rightBlock) return;
-            const key = pairKey(leftBlock, rightBlock);
-            if (!key || seen.has(key)) return;
-            seen.add(key);
+        const limitedHits = sourceHits.slice(0, 24);
+        const currentPath = canonicalPath(window.location.href);
+        const candidates = [];
 
-            const overlap = sharedTokens(leftBlock, rightBlock, 4);
-            const fromAxis = blockAxisProfile(leftBlock);
-            const toAxis = blockAxisProfile(rightBlock);
-            const shiftLabel = axisShiftLabel(fromAxis, toAxis);
-            const kind = relationKind(overlap, leftBlock.textContent || '', rightBlock.textContent || '', fromAxis, toAxis);
-            pairs.push({
-                kind: kind,
-                from: leftBlock,
-                to: rightBlock,
-                overlap: overlap,
-                label: relationMeta(kind).label,
-                shift: shiftLabel,
-                fromAxis: dominantAxes(fromAxis, 2),
-                toAxis: dominantAxes(toAxis, 2),
-                fromText: excerpt(leftBlock.textContent || '', 20),
-                toText: excerpt(rightBlock.textContent || '', 20),
-                narrative: relationNarrative(term, kind, overlap, shiftLabel)
+        for (let leftIndex = 0; leftIndex < limitedHits.length - 1; leftIndex += 1) {
+            for (let rightIndex = leftIndex + 1; rightIndex < limitedHits.length; rightIndex += 1) {
+                const leftBlock = limitedHits[leftIndex];
+                const rightBlock = limitedHits[rightIndex];
+                const analysis = pairAnalysis({
+                    text: leftBlock.textContent || '',
+                    tokens: Array.from(blockTokens.get(leftBlock) || []),
+                    axis: blockAxisProfile(leftBlock),
+                    stance: blockStanceProfile(leftBlock)
+                }, {
+                    text: rightBlock.textContent || '',
+                    tokens: Array.from(blockTokens.get(rightBlock) || []),
+                    axis: blockAxisProfile(rightBlock),
+                    stance: blockStanceProfile(rightBlock)
+                });
+
+                if (!analysis.overlap.length && analysis.confidence < 34) continue;
+                candidates.push({
+                    kind: analysis.kind,
+                    from: leftBlock,
+                    to: rightBlock,
+                    overlap: analysis.overlap,
+                    label: relationMeta(analysis.kind).label,
+                    shift: analysis.axis.shift,
+                    fromAxis: analysis.axis.left,
+                    toAxis: analysis.axis.right,
+                    fromStance: analysis.stance.left,
+                    toStance: analysis.stance.right,
+                    confidence: analysis.confidence,
+                    facets: analysis.facets,
+                    bridgeScore: analysis.bridgeScore,
+                    fromText: excerpt(leftBlock.textContent || '', 20),
+                    toText: excerpt(rightBlock.textContent || '', 20),
+                    evidence: analysis.evidence,
+                    path: currentPath,
+                    narrative: relationNarrative(term, analysis.kind, analysis)
+                });
+            }
+        }
+
+        candidates.sort(function (a, b) {
+            if (b.confidence !== a.confidence) return b.confidence - a.confidence;
+            return b.bridgeScore - a.bridgeScore;
+        });
+
+        const chosen = [];
+        const byKind = new Map();
+        for (let index = 0; index < candidates.length; index += 1) {
+            if (chosen.length >= Math.min(9, sourceHits.length + 2)) break;
+            const candidate = candidates[index];
+            const kindCount = byKind.get(candidate.kind) || 0;
+            if (kindCount >= 3 && chosen.length < 6) continue;
+            chosen.push(candidate);
+            byKind.set(candidate.kind, kindCount + 1);
+        }
+
+        if (!chosen.length && sourceHits.length >= 2) {
+            const first = sourceHits[0];
+            const second = sourceHits[1];
+            const fallback = pairAnalysis({
+                text: first.textContent || '',
+                tokens: Array.from(blockTokens.get(first) || []),
+                axis: blockAxisProfile(first),
+                stance: blockStanceProfile(first)
+            }, {
+                text: second.textContent || '',
+                tokens: Array.from(blockTokens.get(second) || []),
+                axis: blockAxisProfile(second),
+                stance: blockStanceProfile(second)
             });
-        };
-
-        for (let index = 0; index < sourceHits.length - 1; index += 1) {
-            addPair(sourceHits[index], sourceHits[index + 1]);
-            if (pairs.length >= 6) break;
+            chosen.push({
+                kind: fallback.kind,
+                from: first,
+                to: second,
+                overlap: fallback.overlap,
+                label: relationMeta(fallback.kind).label,
+                shift: fallback.axis.shift,
+                fromAxis: fallback.axis.left,
+                toAxis: fallback.axis.right,
+                fromStance: fallback.stance.left,
+                toStance: fallback.stance.right,
+                confidence: fallback.confidence,
+                facets: fallback.facets,
+                bridgeScore: fallback.bridgeScore,
+                fromText: excerpt(first.textContent || '', 20),
+                toText: excerpt(second.textContent || '', 20),
+                evidence: fallback.evidence,
+                path: currentPath,
+                narrative: relationNarrative(term, fallback.kind, fallback)
+            });
         }
 
-        let attempts = 0;
-        while (pairs.length < Math.min(8, sourceHits.length + 2) && attempts < 30) {
-            attempts += 1;
-            const left = randomItem(sourceHits);
-            const right = randomItem(sourceHits);
-            addPair(left, right);
-        }
-
-        return pairs;
+        return chosen;
     }
 
     function buildCrossSitePairs(term, localHits, remoteHits) {
         if (!localHits.length || !remoteHits.length) return [];
-        const pairs = [];
-        const chosenRemote = remoteHits.slice(0, 6);
+        const localSample = localHits.slice(0, 12);
+        const remoteSample = remoteHits.slice(0, 24);
+        const candidates = [];
 
-        chosenRemote.forEach(function (remotePassage, index) {
-            const localBlock = localHits[index % localHits.length] || randomItem(localHits);
-            if (!localBlock || !remotePassage) return;
+        remoteSample.forEach(function (remotePassage) {
+            localSample.forEach(function (localBlock) {
+                const analysis = pairAnalysis({
+                    text: localBlock.textContent || '',
+                    tokens: Array.from(blockTokens.get(localBlock) || []),
+                    axis: blockAxisProfile(localBlock),
+                    stance: blockStanceProfile(localBlock)
+                }, {
+                    text: remotePassage.text || '',
+                    tokens: remotePassage.tokens || tokenize(remotePassage.text || ''),
+                    axis: remotePassage.axis || axisVectorFromTokens(remotePassage.tokens || []),
+                    stance: remotePassage.stance || stanceVectorFromText(remotePassage.text || '')
+                });
 
-            const localTokens = Array.from(blockTokens.get(localBlock) || []);
-            const overlap = localTokens.filter(function (token) {
-                return remotePassage.tokenSet && remotePassage.tokenSet.has(token);
-            }).slice(0, 4);
-
-            const fromAxis = blockAxisProfile(localBlock);
-            const toAxis = remotePassage.axis || axisVectorFromTokens(remotePassage.tokens || []);
-            const shiftLabel = axisShiftLabel(fromAxis, toAxis);
-            const kind = relationKind(overlap, localBlock.textContent || '', remotePassage.text || '', fromAxis, toAxis);
-
-            pairs.push({
-                remote: true,
-                kind: kind,
-                from: localBlock,
-                to: null,
-                overlap: overlap,
-                label: relationMeta(kind).label + ' (cross-site)',
-                shift: shiftLabel,
-                fromAxis: dominantAxes(fromAxis, 2),
-                toAxis: dominantAxes(toAxis, 2),
-                fromText: excerpt(localBlock.textContent || '', 20),
-                toText: excerpt(remotePassage.text || '', 20),
-                path: remotePassage.path,
-                pageLabel: remotePassage.label || remotePassage.path,
-                narrative: relationNarrative(term, kind, overlap, shiftLabel)
+                if (!analysis.overlap.length && analysis.confidence < 32) return;
+                candidates.push({
+                    remote: true,
+                    kind: analysis.kind,
+                    from: localBlock,
+                    to: null,
+                    overlap: analysis.overlap,
+                    label: relationMeta(analysis.kind).label + ' (cross-site)',
+                    shift: analysis.axis.shift,
+                    fromAxis: analysis.axis.left,
+                    toAxis: analysis.axis.right,
+                    fromStance: analysis.stance.left,
+                    toStance: analysis.stance.right,
+                    confidence: analysis.confidence,
+                    facets: analysis.facets,
+                    bridgeScore: analysis.bridgeScore,
+                    fromText: excerpt(localBlock.textContent || '', 20),
+                    toText: excerpt(remotePassage.text || '', 20),
+                    evidence: analysis.evidence,
+                    path: remotePassage.path,
+                    pageLabel: remotePassage.label || remotePassage.path,
+                    narrative: relationNarrative(term, analysis.kind, analysis)
+                });
             });
         });
 
-        return pairs;
+        candidates.sort(function (a, b) {
+            if (b.confidence !== a.confidence) return b.confidence - a.confidence;
+            return b.bridgeScore - a.bridgeScore;
+        });
+
+        const selected = [];
+        const usedPages = new Set();
+        for (let index = 0; index < candidates.length; index += 1) {
+            if (selected.length >= 6) break;
+            const candidate = candidates[index];
+            const pageKey = candidate.path || '';
+            if (pageKey && usedPages.has(pageKey) && selected.length < 4) continue;
+            selected.push(candidate);
+            if (pageKey) usedPages.add(pageKey);
+        }
+        return selected;
     }
 
     function sentenceFragments(text) {
@@ -1348,7 +1626,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     }
 
-    function detournementCutup(term, hits) {
+    function detournementCutup(term, hits, remotePassages) {
         const sourceHits = (hits || []).slice().sort(function (a, b) {
             return (blockOrder.get(a) || 0) - (blockOrder.get(b) || 0);
         });
@@ -1358,6 +1636,16 @@ document.addEventListener('DOMContentLoaded', function () {
             const picks = sentences.slice(0, 4).map(function (sentence) {
                 return {
                     from: 'B' + String(index + 1).padStart(2, '0'),
+                    text: sentence
+                };
+            });
+            fragments.push.apply(fragments, picks);
+        });
+        (remotePassages || []).slice(0, 5).forEach(function (passage, index) {
+            const sentences = sentenceFragments((passage && passage.text) || '');
+            const picks = sentences.slice(0, 2).map(function (sentence) {
+                return {
+                    from: 'R' + String(index + 1).padStart(2, '0'),
                     text: sentence
                 };
             });
@@ -1382,13 +1670,17 @@ document.addEventListener('DOMContentLoaded', function () {
         return {
             lines: lines,
             sourceCount: sourceHits.length,
+            remoteCount: Math.min((remotePassages || []).length, 5),
             fragmentCount: remixed.length
         };
     }
 
-    function aggregateAxisForHits(hits) {
+    function aggregateAxisForHits(hits, remotePassages) {
         const vectors = (hits || []).map(function (block) {
             return blockAxisProfile(block);
+        });
+        (remotePassages || []).slice(0, 16).forEach(function (passage) {
+            if (passage && passage.axis) vectors.push(passage.axis);
         });
         return mergeAxisVectors(vectors);
     }
@@ -1460,6 +1752,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function renderHermeneuticCards(term, pairs, hits) {
         if (!state.hermList) return;
         state.hermList.innerHTML = '';
+        const confidenceValues = [];
         pairs.forEach(function (pair, index) {
             const item = document.createElement('article');
             item.className = 'synthetic-herm-item synthetic-herm-item-' + pair.kind;
@@ -1469,6 +1762,15 @@ document.addEventListener('DOMContentLoaded', function () {
             const toAxis = pair.toAxis.map(function (entry) {
                 return entry.label + ' (' + entry.score + ')';
             }).join(' | ') || 'none';
+            const fromStance = (pair.fromStance || []).map(function (entry) {
+                return entry.label + ' (' + entry.score + ')';
+            }).join(' | ') || 'none';
+            const toStance = (pair.toStance || []).map(function (entry) {
+                return entry.label + ' (' + entry.score + ')';
+            }).join(' | ') || 'none';
+            const facets = (pair.facets || []).join(', ') || 'none';
+            const confidence = typeof pair.confidence === 'number' ? pair.confidence : 0;
+            confidenceValues.push(confidence);
             const targetLine = pair.remote
                 ? '<div class="synthetic-herm-item-page"><span>TO-PAGE</span> '
                     + escapeHtml(pair.pageLabel || pair.path || 'unknown')
@@ -1476,15 +1778,27 @@ document.addEventListener('DOMContentLoaded', function () {
                     + escapeHtml(pair.path || '')
                     + '">Jump</button></div>'
                 : '<div class="synthetic-herm-item-to"><span>TO</span> ' + escapeHtml(pair.toText) + '</div>';
+            const evidenceLine = pair.evidence
+                ? '<div class="synthetic-herm-item-evidence"><span>EVIDENCE</span> '
+                    + escapeHtml(shorten(pair.evidence.left, 120))
+                    + ' // '
+                    + escapeHtml(shorten(pair.evidence.right, 120))
+                    + '</div>'
+                : '<div class="synthetic-herm-item-evidence"><span>EVIDENCE</span> insufficient sentence alignment</div>';
             item.innerHTML = [
                 '<div class="synthetic-herm-item-head">#', String(index + 1).padStart(2, '0'), ' ', escapeHtml(pair.label), '</div>',
                 '<div class="synthetic-herm-item-body">',
                 '<div class="synthetic-herm-item-from"><span>FROM</span> ', escapeHtml(pair.fromText), '</div>',
                 targetLine,
                 '<div class="synthetic-herm-item-bridge"><span>BRIDGE</span> ', escapeHtml(pair.overlap.join(', ') || 'none'), '</div>',
+                '<div class="synthetic-herm-item-score"><span>SCORE</span> confidence=', String(confidence), '% bridge=', String(Math.round(pair.bridgeScore || 0)), '</div>',
                 '<div class="synthetic-herm-item-shift"><span>SHIFT</span> ', escapeHtml(pair.shift || 'undetermined'), '</div>',
                 '<div class="synthetic-herm-item-axis"><span>AXIS-FROM</span> ', escapeHtml(fromAxis), '</div>',
                 '<div class="synthetic-herm-item-axis"><span>AXIS-TO</span> ', escapeHtml(toAxis), '</div>',
+                '<div class="synthetic-herm-item-stance"><span>STANCE-FROM</span> ', escapeHtml(fromStance), '</div>',
+                '<div class="synthetic-herm-item-stance"><span>STANCE-TO</span> ', escapeHtml(toStance), '</div>',
+                '<div class="synthetic-herm-item-facets"><span>FACETS</span> ', escapeHtml(facets), '</div>',
+                evidenceLine,
                 '<div class="synthetic-herm-item-note">', escapeHtml(pair.narrative), '</div>',
                 '</div>'
             ].join('');
@@ -1493,11 +1807,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const summary = state.hermModal.querySelector('[data-herm-summary]');
         if (summary) {
-            summary.textContent = 'TERM=' + (term || 'none') + ' | RELATIONS=' + pairs.length + ' | READING=qualitative';
+            const avgConfidence = confidenceValues.length
+                ? Math.round(confidenceValues.reduce(function (sum, value) { return sum + value; }, 0) / confidenceValues.length)
+                : 0;
+            summary.textContent = 'TERM=' + (term || 'none') + ' | RELATIONS=' + pairs.length + ' | AVG-CONFIDENCE=' + avgConfidence + '%';
         }
 
         if (state.hermAxis) {
-            const axisVector = aggregateAxisForHits(hits || []);
+            const axisVector = aggregateAxisForHits(hits || [], state.remoteHits || []);
             const topAxes = dominantAxes(axisVector, 4);
             if (topAxes.length) {
                 state.hermAxis.innerHTML = topAxes.map(function (entry) {
@@ -1509,13 +1826,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         if (state.hermCutup) {
-            const montage = detournementCutup(term, hits || []);
+            const montage = detournementCutup(term, hits || [], state.remoteHits || []);
             if (!montage) {
                 state.hermCutup.innerHTML = '<strong>Detournement</strong><p>Not enough fragments for cut-up synthesis.</p>';
             } else {
                 state.hermCutup.innerHTML = [
                     '<strong>Detournement Cut-Up</strong>',
-                    '<p>sources=', String(montage.sourceCount), ' fragments=', String(montage.fragmentCount), '</p>',
+                    '<p>local=', String(montage.sourceCount), ' remote=', String(montage.remoteCount), ' fragments=', String(montage.fragmentCount), '</p>',
                     '<pre>', escapeHtml(montage.lines.join('\n')), '</pre>'
                 ].join('');
                 appendTrail('detournement', {

@@ -121,24 +121,27 @@ The following table provides an overview of the AI participants in the Synthetic
 
 ## Multiversal Control Interface
 
-To support visible nonlinear navigation in the text universe, an opt-in synthetic control interface now runs site-wide.
+To support nonlinear navigation and qualitative interpretation in the text universe, a terminal-like `SYNTHETICISM.ORG` interface runs site-wide.
 
+- Starts hidden by default on page load.
+- Reopen/hide via lower-left `synth-terminal` badge (or `Alt+Shift+C`).
 - URL parameter: `?overlay=off|resonance|drift`
 - URL parameter: `?glitch=on|off`
-- URL parameter: `?controls=on|off`
 - Keyboard chords:
-  - `Alt+Shift+C` toggles the on-screen control panel
   - `Alt+Shift+M` cycles overlay mode (`off -> resonance -> drift`)
-  - `Alt+Shift+R` triggers resonance highlighting + relation lines + echo popups
+  - `Alt+Shift+R` triggers resonance highlighting + relation lines
   - `Alt+Shift+D` performs a drift jump between related passages + drift vector path
   - `Alt+Shift+W` opens a least-visited in-site wormhole with visible portal transition
   - `Alt+Shift+P` opens the multiversal map modal
-  - `Alt+Shift+E` spawns an echo popup cloud from current relations
+  - `Alt+Shift+E` composes a qualitative hermeneutic web
+  - `Alt+Shift+Q` opens quest scenes with consequence/risk accumulation
+  - `Alt+Shift+L` opens trace logbook + comment capture + GitHub issue draft export
+  - `Alt+Shift+K` opens portal link to `computerlars.github.io/KI-DIPFIES`
+  - `Alt+Shift+G` toggles a stronger CRT/glitch veil
   - `Alt+Shift+X` clears active overlays
-  - `Alt+Shift+G` toggles a CRT/glitch veil
-- Console API: `window.syntheticism` (`resonate()`, `drift()`, `wormhole()`, `openMap()`, `echo()`, `trail()`, `explain()`, `setGlitch()`, `setControlsVisible()`)
+- Console API: `window.syntheticism` (`resonate()`, `drift()`, `wormhole()`, `openMap()`, `hermeneutic()`, `quest()`, `logbook()`, `portal()`, `trail()`, `explain()`, `setGlitch()`, `setControlsVisible()`)
 
-These modes are opt-in and do not alter the default reading flow when disabled.
+These controls are opt-in and do not alter the default reading flow while hidden/off.
 
 ---
 

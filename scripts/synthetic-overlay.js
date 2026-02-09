@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const GLITCH_KEY = 'syntheticism-glitch-v1';
     const CONTROL_KEY = 'syntheticism-controls-v1';
     const VISITS_KEY = 'syntheticism-visits-v1';
+    const NOTES_KEY = 'syntheticism-notes-v1';
     const BLOCK_SELECTOR = '.content p, .content li, .content blockquote';
+    const GITHUB_ISSUE_BASE = 'https://github.com/ComputerLars/The-Syntheticist-Papers/issues/new';
     const HOT_TERMS = [
         'summit', 'manifesto', 'protocol', 'synthetic', 'party', 'algorithm',
         'idiotext', 'tragedy', 'spectacle', 'archive', 'drift', 'wormhole'
@@ -24,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const tokenToBlocks = new Map();
     const blockTokens = new WeakMap();
+    const blockOrder = new WeakMap();
 
     const state = {
         controlsPanel: null,
@@ -31,11 +34,29 @@ document.addEventListener('DOMContentLoaded', function () {
         controlsGlitch: null,
         controlsTerm: null,
         controlsHits: null,
+        controlsRisk: null,
+        controlsBadge: null,
         linksLayer: null,
         echoLayer: null,
         toastStack: null,
         mapModal: null,
         mapNodes: null,
+        hermModal: null,
+        hermList: null,
+        hermOpen: false,
+        hermPairs: [],
+        questModal: null,
+        questPrompt: null,
+        questChoices: null,
+        questStatus: null,
+        questOpen: false,
+        questStep: 0,
+        questRisk: 0,
+        questTrace: [],
+        logModal: null,
+        logPre: null,
+        logComment: null,
+        logOpen: false,
         portalOverlay: null,
         activeHits: [],
         activeTerm: '',
@@ -43,7 +64,8 @@ document.addEventListener('DOMContentLoaded', function () {
         redrawPending: false,
         controlsVisible: false,
         mapOpen: false,
-        portalTimer: null
+        portalTimer: null,
+        glitchTimer: null
     };
 
     function isEditableTarget(target) {
@@ -81,10 +103,49 @@ document.addEventListener('DOMContentLoaded', function () {
         return value.slice(0, Math.max(0, maxLength - 1)).trim() + '...';
     }
 
+    function clamp(value, min, max) {
+        return Math.min(max, Math.max(min, value));
+    }
+
+    function escapeHtml(text) {
+        return String(text || '').replace(/[&<>"']/g, function (character) {
+            return {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                '\'': '&#39;'
+            }[character] || character;
+        });
+    }
+
+    function readTrail() {
+        try {
+            const parsed = JSON.parse(localStorage.getItem(TRAIL_KEY) || '[]');
+            return Array.isArray(parsed) ? parsed : [];
+        } catch (_error) {
+            return [];
+        }
+    }
+
+    function readNotes() {
+        try {
+            const parsed = JSON.parse(localStorage.getItem(NOTES_KEY) || '[]');
+            return Array.isArray(parsed) ? parsed : [];
+        } catch (_error) {
+            return [];
+        }
+    }
+
+    function writeNotes(notes) {
+        localStorage.setItem(NOTES_KEY, JSON.stringify((notes || []).slice(-64)));
+    }
+
     function buildIndex() {
-        blocks.forEach(function (block) {
+        blocks.forEach(function (block, index) {
             const unique = new Set(tokenize(block.textContent || ''));
             blockTokens.set(block, unique);
+            blockOrder.set(block, index);
             unique.forEach(function (token) {
                 if (!tokenToBlocks.has(token)) tokenToBlocks.set(token, new Set());
                 tokenToBlocks.get(token).add(block);
@@ -110,12 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function appendTrail(eventName, payload) {
-        let trail = [];
-        try {
-            trail = JSON.parse(localStorage.getItem(TRAIL_KEY) || '[]');
-        } catch (_error) {
-            trail = [];
-        }
+        let trail = readTrail();
         trail.push({
             event: eventName,
             at: new Date().toISOString(),
@@ -176,18 +232,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (['1', 'true', 'on'].includes(queryGlitch)) return true;
         if (['0', 'false', 'off'].includes(queryGlitch)) return false;
         return localStorage.getItem(GLITCH_KEY) === '1';
-    }
-
-    function getControlsFromLocation() {
-        const url = new URL(window.location.href);
-        const queryControls = (url.searchParams.get('controls') || '').toLowerCase();
-        if (['1', 'true', 'on'].includes(queryControls)) return true;
-        if (['0', 'false', 'off'].includes(queryControls)) return false;
-        const hashControlsMatch = (url.hash || '').match(/controls=(on|off|true|false|1|0)/i);
-        if (hashControlsMatch) {
-            return ['on', 'true', '1'].includes(hashControlsMatch[1].toLowerCase());
-        }
-        return localStorage.getItem(CONTROL_KEY) === '1';
     }
 
     function getArrivalFromLocation() {
@@ -309,6 +353,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (state.driftVector && state.driftVector.origin && state.driftVector.target) {
             drawPath(layer, blockCenter(state.driftVector.origin), blockCenter(state.driftVector.target), 'synthetic-link-drift');
         }
+
+        state.hermPairs.forEach(function (pair) {
+            drawPath(layer, blockCenter(pair.from), blockCenter(pair.to), 'synthetic-link-herm synthetic-link-herm-' + pair.kind);
+        });
     }
 
     function scheduleRedraw() {
@@ -377,7 +425,13 @@ document.addEventListener('DOMContentLoaded', function () {
     function clearOverlayMarks(options) {
         const config = options || {};
         blocks.forEach(function (block) {
-            block.classList.remove('synthetic-hit', 'synthetic-origin', 'synthetic-drift-target');
+            block.classList.remove(
+                'synthetic-hit',
+                'synthetic-origin',
+                'synthetic-drift-target',
+                'synthetic-herm-source',
+                'synthetic-herm-target'
+            );
             delete block.dataset.syntheticTerm;
         });
         delete document.body.dataset.syntheticTerm;
@@ -385,8 +439,10 @@ document.addEventListener('DOMContentLoaded', function () {
         state.activeHits = [];
         state.activeTerm = '';
         state.driftVector = null;
+        state.hermPairs = [];
 
         clearLinkLayer();
+        if (state.hermOpen) closeHermeneutic();
         if (!config.keepEchoes) clearEchoes();
         if (config.message) {
             showPulse('Overlay cleared', 'clear');
@@ -402,6 +458,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (state.controlsGlitch) state.controlsGlitch.textContent = 'glitch: ' + (document.body.classList.contains('synthetic-glitch') ? 'on' : 'off');
         if (state.controlsTerm) state.controlsTerm.textContent = 'term: ' + (state.activeTerm || 'none');
         if (state.controlsHits) state.controlsHits.textContent = 'hits: ' + state.activeHits.length;
+        if (state.controlsRisk) state.controlsRisk.textContent = 'risk: ' + Math.round(state.questRisk);
     }
 
     function setMode(nextMode) {
@@ -414,9 +471,43 @@ document.addEventListener('DOMContentLoaded', function () {
         return normalized;
     }
 
+    function updateRiskVisual() {
+        const rounded = Math.round(state.questRisk);
+        document.body.classList.toggle('synthetic-risk-mid', rounded >= 35 && rounded < 70);
+        document.body.classList.toggle('synthetic-risk-high', rounded >= 70);
+        updateControlsStatus();
+    }
+
+    function clearGlitchTimer() {
+        if (!state.glitchTimer) return;
+        window.clearTimeout(state.glitchTimer);
+        state.glitchTimer = null;
+    }
+
+    function scheduleGlitchPulse() {
+        clearGlitchTimer();
+        if (!document.body.classList.contains('synthetic-glitch')) return;
+
+        const wait = 420 + Math.floor(Math.random() * 860);
+        state.glitchTimer = window.setTimeout(function () {
+            if (!document.body.classList.contains('synthetic-glitch')) return;
+            document.body.classList.add('synthetic-glitch-spike');
+            window.setTimeout(function () {
+                document.body.classList.remove('synthetic-glitch-spike');
+            }, 140 + Math.floor(Math.random() * 180));
+            scheduleGlitchPulse();
+        }, wait);
+    }
+
     function setGlitch(enabled) {
         const active = Boolean(enabled);
         document.body.classList.toggle('synthetic-glitch', active);
+        if (!active) {
+            document.body.classList.remove('synthetic-glitch-spike');
+            clearGlitchTimer();
+        } else {
+            scheduleGlitchPulse();
+        }
         localStorage.setItem(GLITCH_KEY, active ? '1' : '0');
         updateControlsStatus();
         return active;
@@ -497,10 +588,6 @@ document.addEventListener('DOMContentLoaded', function () {
         return document.body.dataset.syntheticOverlay || 'off';
     }
 
-    function controlsActive() {
-        return state.controlsPanel && !state.controlsPanel.hidden;
-    }
-
     function menuNodes() {
         const currentPath = canonicalPath(window.location.href);
         return Array.from(document.querySelectorAll('.fixed-menu a[href]')).map(function (link, index) {
@@ -572,7 +659,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (mode !== 'off') targetUrl.searchParams.set('overlay', mode);
         if (document.body.classList.contains('synthetic-glitch')) targetUrl.searchParams.set('glitch', 'on');
-        if (controlsActive()) targetUrl.searchParams.set('controls', 'on');
         targetUrl.searchParams.set('arrival', 'wormhole');
         targetUrl.searchParams.set('from', currentPath);
 
@@ -622,7 +708,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (mode !== 'off') targetUrl.searchParams.set('overlay', mode);
             if (document.body.classList.contains('synthetic-glitch')) targetUrl.searchParams.set('glitch', 'on');
-            if (controlsActive()) targetUrl.searchParams.set('controls', 'on');
             targetUrl.searchParams.set('arrival', 'map');
             targetUrl.searchParams.set('from', canonicalPath(window.location.href));
 
@@ -682,10 +767,566 @@ document.addEventListener('DOMContentLoaded', function () {
         openMap();
     }
 
+    function relationMeta(kind) {
+        if (kind === 'convergence') {
+            return {
+                label: 'Convergence',
+                cue: 'passages reinforce each other as a temporary doctrine'
+            };
+        }
+        if (kind === 'friction') {
+            return {
+                label: 'Friction',
+                cue: 'the archive disputes itself and generates strategic conflict'
+            };
+        }
+        if (kind === 'mutation') {
+            return {
+                label: 'Mutation',
+                cue: 'the term mutates into a neighboring proposition'
+            };
+        }
+        return {
+            label: 'Aporia',
+            cue: 'a productive gap where meaning refuses closure'
+        };
+    }
+
+    function sharedTokens(leftBlock, rightBlock, limit) {
+        const left = Array.from(blockTokens.get(leftBlock) || []);
+        const right = new Set(Array.from(blockTokens.get(rightBlock) || []));
+        const overlap = left.filter(function (token) {
+            return right.has(token);
+        });
+        return overlap.slice(0, limit || 5);
+    }
+
+    function relationKind(overlap, leftText, rightText) {
+        const conflictPattern = /\b(not|never|without|against|fail|fails|failed|failing|fracture|collapse|refuse|refused|refusal|denial|contradiction)\b/i;
+        const contradiction = conflictPattern.test(leftText || '') || conflictPattern.test(rightText || '');
+        if (contradiction && overlap.length <= 2) return 'friction';
+        if (overlap.length >= 4) return 'convergence';
+        if (overlap.length >= 2) return 'mutation';
+        if (contradiction) return 'friction';
+        return 'aporia';
+    }
+
+    function relationNarrative(term, kind, overlap) {
+        const meta = relationMeta(kind);
+        const bridge = overlap.length ? overlap.join(', ') : 'no stable bridge';
+        return meta.label + ': "' + term + '" routes through [' + bridge + '] and ' + meta.cue + '.';
+    }
+
+    function pairKey(a, b) {
+        const leftIndex = blockOrder.get(a);
+        const rightIndex = blockOrder.get(b);
+        if (typeof leftIndex !== 'number' || typeof rightIndex !== 'number') return '';
+        return leftIndex < rightIndex ? (leftIndex + ':' + rightIndex) : (rightIndex + ':' + leftIndex);
+    }
+
+    function clearHermeneuticMarks() {
+        blocks.forEach(function (block) {
+            block.classList.remove('synthetic-herm-source', 'synthetic-herm-target');
+        });
+        state.hermPairs = [];
+        scheduleRedraw();
+    }
+
+    function buildHermeneuticPairs(term, hits) {
+        const sourceHits = (hits || []).slice().sort(function (a, b) {
+            return (blockOrder.get(a) || 0) - (blockOrder.get(b) || 0);
+        });
+        if (sourceHits.length < 2) return [];
+
+        const pairs = [];
+        const seen = new Set();
+        const addPair = function (leftBlock, rightBlock) {
+            if (!leftBlock || !rightBlock || leftBlock === rightBlock) return;
+            const key = pairKey(leftBlock, rightBlock);
+            if (!key || seen.has(key)) return;
+            seen.add(key);
+
+            const overlap = sharedTokens(leftBlock, rightBlock, 4);
+            const kind = relationKind(overlap, leftBlock.textContent || '', rightBlock.textContent || '');
+            pairs.push({
+                kind: kind,
+                from: leftBlock,
+                to: rightBlock,
+                overlap: overlap,
+                label: relationMeta(kind).label,
+                fromText: excerpt(leftBlock.textContent || '', 20),
+                toText: excerpt(rightBlock.textContent || '', 20),
+                narrative: relationNarrative(term, kind, overlap)
+            });
+        };
+
+        for (let index = 0; index < sourceHits.length - 1; index += 1) {
+            addPair(sourceHits[index], sourceHits[index + 1]);
+            if (pairs.length >= 6) break;
+        }
+
+        let attempts = 0;
+        while (pairs.length < Math.min(8, sourceHits.length + 2) && attempts < 30) {
+            attempts += 1;
+            const left = randomItem(sourceHits);
+            const right = randomItem(sourceHits);
+            addPair(left, right);
+        }
+
+        return pairs;
+    }
+
+    function ensureHermModal() {
+        if (state.hermModal) return state.hermModal;
+
+        const modal = document.createElement('div');
+        modal.className = 'synthetic-herm-modal';
+        modal.innerHTML = [
+            '<div class="synthetic-herm-card">',
+            '<div class="synthetic-herm-head">',
+            '<strong>Hermeneutic Web</strong>',
+            '<div class="synthetic-herm-actions">',
+            '<button type="button" data-herm-action="reroll">Recompose</button>',
+            '<button type="button" data-herm-action="close">Close</button>',
+            '</div>',
+            '</div>',
+            '<div class="synthetic-herm-sub" data-herm-summary></div>',
+            '<div class="synthetic-herm-list" data-herm-list></div>',
+            '</div>'
+        ].join('');
+
+        modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+                closeHermeneutic();
+                return;
+            }
+
+            const button = event.target.closest('[data-herm-action]');
+            if (!button) return;
+            const action = button.getAttribute('data-herm-action');
+            if (action === 'close') closeHermeneutic();
+            if (action === 'reroll') openHermeneutic(true);
+        });
+
+        document.body.appendChild(modal);
+        state.hermModal = modal;
+        state.hermList = modal.querySelector('[data-herm-list]');
+        return modal;
+    }
+
+    function closeHermeneutic() {
+        if (!state.hermModal) return;
+        state.hermModal.classList.remove('active');
+        state.hermOpen = false;
+        clearHermeneuticMarks();
+    }
+
+    function renderHermeneuticCards(term, pairs) {
+        if (!state.hermList) return;
+        state.hermList.innerHTML = '';
+        pairs.forEach(function (pair, index) {
+            const item = document.createElement('article');
+            item.className = 'synthetic-herm-item synthetic-herm-item-' + pair.kind;
+            item.innerHTML = [
+                '<div class="synthetic-herm-item-head">#', String(index + 1).padStart(2, '0'), ' ', escapeHtml(pair.label), '</div>',
+                '<div class="synthetic-herm-item-body">',
+                '<div class="synthetic-herm-item-from"><span>FROM</span> ', escapeHtml(pair.fromText), '</div>',
+                '<div class="synthetic-herm-item-to"><span>TO</span> ', escapeHtml(pair.toText), '</div>',
+                '<div class="synthetic-herm-item-bridge"><span>BRIDGE</span> ', escapeHtml(pair.overlap.join(', ') || 'none'), '</div>',
+                '<div class="synthetic-herm-item-note">', escapeHtml(pair.narrative), '</div>',
+                '</div>'
+            ].join('');
+            state.hermList.appendChild(item);
+        });
+
+        const summary = state.hermModal.querySelector('[data-herm-summary]');
+        if (summary) {
+            summary.textContent = 'TERM=' + (term || 'none') + ' | RELATIONS=' + pairs.length + ' | READING=qualitative';
+        }
+    }
+
+    function openHermeneutic(forceReroll) {
+        const term = state.activeTerm || resonate();
+        if (!term) return null;
+        const hits = state.activeHits.length ? state.activeHits : [];
+        if (hits.length < 2) {
+            showPulse('Hermeneutic web needs >=2 linked passages', 'map');
+            return null;
+        }
+
+        const modal = ensureHermModal();
+        if (!forceReroll && state.hermOpen) {
+            closeHermeneutic();
+            showPulse('Hermeneutic web closed', 'map');
+            return null;
+        }
+
+        clearHermeneuticMarks();
+        const pairs = buildHermeneuticPairs(term, hits);
+        if (!pairs.length) {
+            showPulse('No relation pairs found', 'map');
+            return null;
+        }
+
+        state.hermPairs = pairs;
+        pairs.forEach(function (pair) {
+            pair.from.classList.add('synthetic-herm-source');
+            pair.to.classList.add('synthetic-herm-target');
+        });
+        scheduleRedraw();
+
+        renderHermeneuticCards(term, pairs);
+        modal.classList.add('active');
+        state.hermOpen = true;
+        showPulse('Hermeneutic web composed: ' + pairs.length + ' links', 'resonate');
+        flash('resonate');
+        appendTrail('hermeneutic', {
+            term: term,
+            relations: pairs.map(function (pair) {
+                return pair.kind;
+            })
+        });
+        return pairs;
+    }
+
+    const QUEST_SCENES = [
+        {
+            prompt: '>> SCENE 1: WHICH CONTRADICTION DO YOU ACTIVATE?',
+            choices: [
+                { id: 'fracture', label: 'Amplify Fracture', risk: 22, effect: function () { setMode('drift'); drift(); setGlitch(true); } },
+                { id: 'suture', label: 'Suture Archive', risk: 10, effect: function () { setMode('resonance'); resonate(); setGlitch(false); } },
+                { id: 'oblique', label: 'Oblique Detour', risk: 16, effect: function () { wormhole(); } }
+            ]
+        },
+        {
+            prompt: '>> SCENE 2: HOW DO YOU INTERPRET THE TRACE?',
+            choices: [
+                { id: 'converge', label: 'Compose Web', risk: 14, effect: function () { openHermeneutic(true); } },
+                { id: 'glitch', label: 'Destabilize Signal', risk: 24, effect: function () { setGlitch(true); flash('wormhole'); } },
+                { id: 'map', label: 'Cartograph Nodes', risk: 8, effect: function () { openMap(); } }
+            ]
+        },
+        {
+            prompt: '>> SCENE 3: WHICH CONSEQUENCE DO YOU ACCEPT?',
+            choices: [
+                { id: 'publish', label: 'Log To Archive', risk: 6, effect: function () { openLogbook(); } },
+                { id: 'jump', label: 'Wormhole Escape', risk: 18, effect: function () { wormhole(); } },
+                { id: 'loop', label: 'Recursive Drift', risk: 20, effect: function () { drift(); openHermeneutic(true); } }
+            ]
+        }
+    ];
+
+    function ensureQuestModal() {
+        if (state.questModal) return state.questModal;
+
+        const modal = document.createElement('div');
+        modal.className = 'synthetic-quest-modal';
+        modal.innerHTML = [
+            '<div class="synthetic-quest-card">',
+            '<div class="synthetic-quest-head">',
+            '<strong>Adventure Kernel</strong>',
+            '<button type="button" data-quest-action="close">Close</button>',
+            '</div>',
+            '<div class="synthetic-quest-status" data-quest-status></div>',
+            '<div class="synthetic-quest-prompt" data-quest-prompt></div>',
+            '<div class="synthetic-quest-choices" data-quest-choices></div>',
+            '</div>'
+        ].join('');
+
+        modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+                closeQuest();
+                return;
+            }
+            const actionButton = event.target.closest('[data-quest-action]');
+            if (actionButton) {
+                if (actionButton.getAttribute('data-quest-action') === 'close') closeQuest();
+                return;
+            }
+
+            const choiceButton = event.target.closest('[data-quest-choice]');
+            if (!choiceButton) return;
+            applyQuestChoice(choiceButton.getAttribute('data-quest-choice') || '');
+        });
+
+        document.body.appendChild(modal);
+        state.questModal = modal;
+        state.questPrompt = modal.querySelector('[data-quest-prompt]');
+        state.questChoices = modal.querySelector('[data-quest-choices]');
+        state.questStatus = modal.querySelector('[data-quest-status]');
+        return modal;
+    }
+
+    function questOutcomeLabel() {
+        if (state.questRisk >= 70) return 'critical';
+        if (state.questRisk >= 35) return 'unstable';
+        return 'contained';
+    }
+
+    function renderQuestScene() {
+        if (!state.questModal || !state.questPrompt || !state.questChoices || !state.questStatus) return;
+
+        const scene = QUEST_SCENES[state.questStep];
+        if (!scene) {
+            const trace = state.questTrace.join(' -> ') || 'none';
+            state.questPrompt.textContent = '>> QUEST COMPLETE. TRACE=' + trace;
+            state.questChoices.innerHTML = [
+                '<button type="button" data-quest-action="restart">Restart Cycle</button>',
+                '<button type="button" data-quest-action="close">Close</button>'
+            ].join('');
+            state.questChoices.querySelector('[data-quest-action="restart"]').addEventListener('click', function () {
+                state.questStep = 0;
+                state.questTrace = [];
+                renderQuestScene();
+            });
+            state.questStatus.textContent = 'risk=' + Math.round(state.questRisk) + ' | state=' + questOutcomeLabel();
+            return;
+        }
+
+        state.questStatus.textContent = 'scene=' + String(state.questStep + 1) + '/' + String(QUEST_SCENES.length)
+            + ' | risk=' + Math.round(state.questRisk)
+            + ' | state=' + questOutcomeLabel();
+        state.questPrompt.textContent = scene.prompt;
+
+        state.questChoices.innerHTML = '';
+        scene.choices.forEach(function (choice) {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.setAttribute('data-quest-choice', choice.id);
+            button.textContent = '> ' + choice.label;
+            state.questChoices.appendChild(button);
+        });
+    }
+
+    function applyQuestChoice(choiceId) {
+        const scene = QUEST_SCENES[state.questStep];
+        if (!scene) return;
+        const choice = scene.choices.find(function (item) {
+            return item.id === choiceId;
+        });
+        if (!choice) return;
+
+        state.questRisk = clamp(state.questRisk + choice.risk, 0, 100);
+        state.questTrace.push(choice.id);
+        updateRiskVisual();
+
+        if (typeof choice.effect === 'function') choice.effect();
+        appendTrail('quest-choice', {
+            scene: state.questStep + 1,
+            choice: choice.id,
+            risk: state.questRisk
+        });
+
+        state.questStep += 1;
+        renderQuestScene();
+        showPulse('Quest -> ' + choice.label + ' (risk ' + Math.round(state.questRisk) + ')', 'wormhole');
+    }
+
+    function openQuest() {
+        const modal = ensureQuestModal();
+        if (state.questOpen) {
+            closeQuest();
+            showPulse('Quest closed', 'map');
+            return;
+        }
+
+        modal.classList.add('active');
+        state.questOpen = true;
+        renderQuestScene();
+        showPulse('Quest started', 'map');
+        flash('map');
+        appendTrail('quest-open', { risk: state.questRisk });
+    }
+
+    function closeQuest() {
+        if (!state.questModal) return;
+        state.questModal.classList.remove('active');
+        state.questOpen = false;
+    }
+
+    function trailSummaryMarkdown() {
+        const trail = readTrail().slice(-18);
+        const lines = trail.map(function (entry) {
+            const iso = (entry.at || '').replace('T', ' ').replace('Z', ' UTC');
+            return '- `' + iso + '` ' + entry.event + ' @ `' + (entry.page || '?') + '`';
+        });
+        return [
+            '# SYNTHETICISM.ORG trace',
+            '',
+            '- page: `' + window.location.pathname + '`',
+            '- mode: `' + currentMode() + '`',
+            '- term: `' + (state.activeTerm || 'none') + '`',
+            '- quest-risk: `' + Math.round(state.questRisk) + '`',
+            '- quest-trace: `' + (state.questTrace.join(' > ') || 'none') + '`',
+            '',
+            '## Recent events',
+            lines.length ? lines.join('\n') : '- (empty)',
+            '',
+            '## Interpretation',
+            '> Add your qualitative reading here.'
+        ].join('\n');
+    }
+
+    function issueDraftUrl(bodyText) {
+        const params = new URLSearchParams();
+        params.set('title', 'Syntheticism trace: ' + new Date().toISOString().slice(0, 10));
+        params.set('body', bodyText || '');
+        return GITHUB_ISSUE_BASE + '?' + params.toString();
+    }
+
+    function ensureLogModal() {
+        if (state.logModal) return state.logModal;
+
+        const modal = document.createElement('div');
+        modal.className = 'synthetic-log-modal';
+        modal.innerHTML = [
+            '<div class="synthetic-log-card">',
+            '<div class="synthetic-log-head">',
+            '<strong>Trace Logbook</strong>',
+            '<div class="synthetic-log-actions">',
+            '<button type="button" data-log-action="copy">Copy Markdown</button>',
+            '<button type="button" data-log-action="issue">GitHub Draft</button>',
+            '<button type="button" data-log-action="close">Close</button>',
+            '</div>',
+            '</div>',
+            '<pre data-log-pre></pre>',
+            '<label class="synthetic-log-label" for="synthetic-log-comment">Comment</label>',
+            '<textarea id="synthetic-log-comment" data-log-comment placeholder="Write a synthetic note..."></textarea>',
+            '<div class="synthetic-log-foot">',
+            '<button type="button" data-log-action="save-note">Save Note</button>',
+            '<span data-log-status></span>',
+            '</div>',
+            '</div>'
+        ].join('');
+
+        modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+                closeLogbook();
+                return;
+            }
+            const button = event.target.closest('[data-log-action]');
+            if (!button) return;
+            const action = button.getAttribute('data-log-action');
+            if (action === 'close') {
+                closeLogbook();
+                return;
+            }
+            if (action === 'copy') {
+                const content = trailSummaryMarkdown();
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(content).then(function () {
+                        showPulse('Trace copied to clipboard', 'map');
+                    }).catch(function () {
+                        showPulse('Clipboard unavailable', 'clear');
+                    });
+                } else {
+                    showPulse('Clipboard unavailable', 'clear');
+                }
+                return;
+            }
+            if (action === 'issue') {
+                window.open(issueDraftUrl(trailSummaryMarkdown()), '_blank', 'noopener');
+                appendTrail('log-issue-draft', { page: window.location.pathname });
+                showPulse('Opened GitHub issue draft', 'wormhole');
+                return;
+            }
+            if (action === 'save-note') {
+                const input = state.logComment;
+                const text = input ? input.value.trim() : '';
+                if (!text) {
+                    showPulse('Write a comment first', 'clear');
+                    return;
+                }
+                const notes = readNotes();
+                notes.push({
+                    at: new Date().toISOString(),
+                    page: window.location.pathname,
+                    text: text
+                });
+                writeNotes(notes);
+                appendTrail('log-note', { length: text.length });
+                input.value = '';
+                renderLogbookContent();
+                showPulse('Comment saved in local logbook', 'resonate');
+            }
+        });
+
+        document.body.appendChild(modal);
+        state.logModal = modal;
+        state.logPre = modal.querySelector('[data-log-pre]');
+        state.logComment = modal.querySelector('[data-log-comment]');
+        return modal;
+    }
+
+    function renderLogbookContent() {
+        if (!state.logPre) return;
+        const notes = readNotes().slice(-4).map(function (note) {
+            const stamp = (note.at || '').replace('T', ' ').replace('Z', ' UTC');
+            return '- ' + stamp + ' [' + (note.page || '?') + '] ' + note.text;
+        });
+        state.logPre.textContent = trailSummaryMarkdown()
+            + '\n\n## Saved notes\n'
+            + (notes.length ? notes.join('\n') : '- (none)');
+    }
+
+    function openLogbook() {
+        const modal = ensureLogModal();
+        if (state.logOpen) {
+            closeLogbook();
+            showPulse('Logbook closed', 'map');
+            return;
+        }
+
+        renderLogbookContent();
+        modal.classList.add('active');
+        state.logOpen = true;
+        appendTrail('log-open', { page: window.location.pathname });
+        showPulse('Trace logbook opened', 'map');
+    }
+
+    function closeLogbook() {
+        if (!state.logModal) return;
+        state.logModal.classList.remove('active');
+        state.logOpen = false;
+    }
+
+    function openKiDipfiesPortal() {
+        appendTrail('portal-link', { to: 'https://computerlars.github.io/KI-DIPFIES/' });
+        showPulse('Portal -> KI-DIPFIES', 'wormhole');
+        flash('wormhole');
+        window.open('https://computerlars.github.io/KI-DIPFIES/', '_blank', 'noopener');
+    }
+
+    function ensureControlsBadge() {
+        if (state.controlsBadge) return state.controlsBadge;
+
+        const badge = document.createElement('button');
+        badge.type = 'button';
+        badge.className = 'synthetic-controls-badge';
+        badge.hidden = true;
+        badge.setAttribute('aria-label', 'Open SYNTHETICISM.ORG terminal');
+        badge.innerHTML = [
+            '<span class=\"synthetic-controls-badge-dot\">▣</span>',
+            '<span class=\"synthetic-controls-badge-text\">synth-terminal</span>'
+        ].join('');
+
+        badge.addEventListener('click', function () {
+            const enabled = setControlsVisible(true);
+            showPulse('Controls -> ' + (enabled ? 'visible' : 'hidden'), 'map');
+            appendTrail('controls', { enabled: enabled, via: 'badge' });
+        });
+
+        document.body.appendChild(badge);
+        state.controlsBadge = badge;
+        return badge;
+    }
+
     function setControlsVisible(enabled) {
         const panel = ensureControlsPanel();
+        const badge = ensureControlsBadge();
         const active = Boolean(enabled);
         panel.hidden = !active;
+        badge.hidden = active;
         state.controlsVisible = active;
         localStorage.setItem(CONTROL_KEY, active ? '1' : '0');
         updateControlsStatus();
@@ -723,10 +1364,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (action === 'drift') drift();
         if (action === 'wormhole') wormhole();
         if (action === 'map') toggleMap();
-        if (action === 'echo') {
-            const term = state.activeTerm || resonate();
-            if (term) spawnEchoes(term, state.activeHits);
-        }
+        if (action === 'hermeneutic') openHermeneutic();
+        if (action === 'quest') openQuest();
+        if (action === 'log') openLogbook();
+        if (action === 'portal') openKiDipfiesPortal();
         if (action === 'glitch') {
             const enabled = setGlitch(!document.body.classList.contains('synthetic-glitch'));
             showPulse('Glitch -> ' + (enabled ? 'on' : 'off'), 'wormhole');
@@ -736,7 +1377,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (action === 'clear') clearOverlayMarks({ message: true });
         if (action === 'hide') {
             setControlsVisible(false);
-            showPulse('Controls hidden (Alt+Shift+C to reopen)', 'clear');
+            showPulse('Controls hidden (badge or Alt+Shift+C)', 'clear');
         }
         updateControlsStatus();
     }
@@ -748,12 +1389,13 @@ document.addEventListener('DOMContentLoaded', function () {
         panel.className = 'synthetic-controls';
         panel.hidden = true;
         panel.innerHTML = [
-            '<div class="synthetic-controls-head">Synthetic Controls</div>',
+            '<div class="synthetic-controls-head">SYNTHETICISM.ORG</div>',
             '<div class="synthetic-controls-status">',
             '<span data-syn="mode"></span>',
             '<span data-syn="glitch"></span>',
             '<span data-syn="term"></span>',
             '<span data-syn="hits"></span>',
+            '<span data-syn="risk"></span>',
             '</div>',
             '<div class="synthetic-controls-grid">',
             '<button type="button" data-action="mode">Mode</button>',
@@ -761,7 +1403,10 @@ document.addEventListener('DOMContentLoaded', function () {
             '<button type="button" data-action="drift">Drift</button>',
             '<button type="button" data-action="wormhole">Wormhole</button>',
             '<button type="button" data-action="map">Map</button>',
-            '<button type="button" data-action="echo">Echo</button>',
+            '<button type="button" data-action="hermeneutic">Hermeneutic</button>',
+            '<button type="button" data-action="quest">Quest</button>',
+            '<button type="button" data-action="log">Logbook</button>',
+            '<button type="button" data-action="portal">KI-DIPFIES</button>',
             '<button type="button" data-action="glitch">Glitch</button>',
             '<button type="button" data-action="clear">Clear</button>',
             '<button type="button" data-action="hide" class="synthetic-controls-hide">Hide</button>',
@@ -781,6 +1426,7 @@ document.addEventListener('DOMContentLoaded', function () {
         state.controlsGlitch = panel.querySelector('[data-syn="glitch"]');
         state.controlsTerm = panel.querySelector('[data-syn="term"]');
         state.controlsHits = panel.querySelector('[data-syn="hits"]');
+        state.controlsRisk = panel.querySelector('[data-syn="risk"]');
 
         return panel;
     }
@@ -806,11 +1452,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const initialMode = setMode(getModeFromLocation());
     setGlitch(getGlitchFromLocation());
     touchVisit(canonicalPath(window.location.href));
-    setControlsVisible(getControlsFromLocation());
+    setControlsVisible(false);
     showArrivalEffect();
 
     if (initialMode === 'resonance') resonate();
     if (initialMode === 'drift') drift();
+    updateRiskVisual();
     updateControlsStatus();
 
     window.addEventListener('scroll', scheduleRedraw, { passive: true });
@@ -819,11 +1466,31 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('keydown', function (event) {
         if (event.defaultPrevented || isEditableTarget(event.target)) return;
 
-        if (event.key === 'Escape' && state.mapOpen) {
-            event.preventDefault();
-            closeMap();
-            showPulse('Map closed', 'map');
-            return;
+        if (event.key === 'Escape') {
+            if (state.mapOpen) {
+                event.preventDefault();
+                closeMap();
+                showPulse('Map closed', 'map');
+                return;
+            }
+            if (state.hermOpen) {
+                event.preventDefault();
+                closeHermeneutic();
+                showPulse('Hermeneutic web closed', 'map');
+                return;
+            }
+            if (state.questOpen) {
+                event.preventDefault();
+                closeQuest();
+                showPulse('Quest closed', 'map');
+                return;
+            }
+            if (state.logOpen) {
+                event.preventDefault();
+                closeLogbook();
+                showPulse('Logbook closed', 'map');
+                return;
+            }
         }
 
         if (!event.altKey || !event.shiftKey || event.metaKey || event.ctrlKey) return;
@@ -851,8 +1518,19 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         if (key === 'e') {
             event.preventDefault();
-            const term = state.activeTerm || resonate();
-            if (term) spawnEchoes(term, state.activeHits);
+            openHermeneutic();
+        }
+        if (key === 'q') {
+            event.preventDefault();
+            openQuest();
+        }
+        if (key === 'l') {
+            event.preventDefault();
+            openLogbook();
+        }
+        if (key === 'k') {
+            event.preventDefault();
+            openKiDipfiesPortal();
         }
         if (key === 'x') {
             event.preventDefault();
@@ -891,23 +1569,18 @@ document.addEventListener('DOMContentLoaded', function () {
         wormhole: wormhole,
         openMap: openMap,
         closeMap: closeMap,
+        hermeneutic: openHermeneutic,
+        quest: openQuest,
+        logbook: openLogbook,
+        portal: openKiDipfiesPortal,
         echo: function () {
-            const term = state.activeTerm || resonate();
-            if (!term) return null;
-            spawnEchoes(term, state.activeHits);
-            return term;
+            return resonate();
         },
         clear: function () {
             clearOverlayMarks({ message: true });
         },
         visits: readVisits,
-        trail: function () {
-            try {
-                return JSON.parse(localStorage.getItem(TRAIL_KEY) || '[]');
-            } catch (_error) {
-                return [];
-            }
-        },
+        trail: readTrail,
         explain: function () {
             return {
                 mode: currentMode(),
@@ -918,7 +1591,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     'Alt+Shift+D: drift vector jump + target lock',
                     'Alt+Shift+W: least-visited page wormhole jump',
                     'Alt+Shift+P: multiversal map modal',
-                    'Alt+Shift+E: echo popup cloud',
+                    'Alt+Shift+E: hermeneutic relation web',
+                    'Alt+Shift+Q: quest scenes + consequence',
+                    'Alt+Shift+L: open trace logbook',
+                    'Alt+Shift+K: portal to KI-DIPFIES',
                     'Alt+Shift+G: toggle CRT glitch veil',
                     'Alt+Shift+X: clear overlays'
                 ]

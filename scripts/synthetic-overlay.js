@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         controlsGlitch: null,
         controlsTerm: null,
         controlsHits: null,
+        controlsRemote: null,
         controlsRisk: null,
         controlsBadge: null,
         linksLayer: null,
@@ -93,9 +94,16 @@ document.addEventListener('DOMContentLoaded', function () {
         logOpen: false,
         portalOverlay: null,
         activeHits: [],
+        remoteHits: [],
         activeTerm: '',
         driftVector: null,
         driftVectors: [],
+        globalReady: false,
+        globalPromise: null,
+        globalPassages: [],
+        globalTokenToPassages: new Map(),
+        globalTokenCounts: new Map(),
+        globalTokenTransitions: new Map(),
         redrawPending: false,
         controlsVisible: false,
         mapOpen: false,
@@ -185,6 +193,123 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem(NOTES_KEY, JSON.stringify((notes || []).slice(-64)));
     }
 
+    function menuNodesFromDocument(doc, baseHref) {
+        return Array.from(doc.querySelectorAll('.fixed-menu a[href]')).map(function (link, index) {
+            const href = new URL(link.getAttribute('href') || '', baseHref || window.location.href).toString();
+            const path = canonicalPath(href);
+            return {
+                href: href,
+                path: path,
+                label: (link.textContent || '').replace(/\s+/g, ' ').trim() || ('Node ' + (index + 1))
+            };
+        }).filter(function (node) {
+            return Boolean(node.path);
+        });
+    }
+
+    function passagesFromDocument(doc, path, label) {
+        return Array.from(doc.querySelectorAll(BLOCK_SELECTOR)).filter(function (element) {
+            return element.textContent && element.textContent.trim().length > 80;
+        }).map(function (element, index) {
+            const text = (element.textContent || '').replace(/\s+/g, ' ').trim();
+            const tokens = tokenize(text);
+            return {
+                id: path + '#p' + String(index + 1),
+                path: path,
+                label: label || path,
+                text: text,
+                excerpt: excerpt(text, 22),
+                tokens: tokens,
+                tokenSet: new Set(tokens),
+                axis: axisVectorFromTokens(tokens)
+            };
+        });
+    }
+
+    function addGlobalPassage(passage) {
+        if (!passage || !passage.text) return;
+        state.globalPassages.push(passage);
+
+        const unique = new Set(passage.tokens || []);
+        unique.forEach(function (token) {
+            if (!state.globalTokenToPassages.has(token)) state.globalTokenToPassages.set(token, []);
+            state.globalTokenToPassages.get(token).push(passage);
+            state.globalTokenCounts.set(token, (state.globalTokenCounts.get(token) || 0) + 1);
+        });
+
+        const tokens = passage.tokens || [];
+        for (let index = 0; index < tokens.length - 1; index += 1) {
+            const left = tokens[index];
+            const right = tokens[index + 1];
+            if (!left || !right || left === right) continue;
+            incrementNested(state.globalTokenTransitions, left, right, 1);
+        }
+    }
+
+    async function fetchHtmlDocument(url) {
+        try {
+            const response = await fetch(url, { credentials: 'same-origin' });
+            if (!response.ok) return null;
+            const html = await response.text();
+            return new DOMParser().parseFromString(html, 'text/html');
+        } catch (_error) {
+            return null;
+        }
+    }
+
+    function ensureGlobalCorpus() {
+        if (state.globalReady) return Promise.resolve(state.globalPassages);
+        if (state.globalPromise) return state.globalPromise;
+
+        state.globalPromise = (async function () {
+            const currentPath = canonicalPath(window.location.href);
+            const queue = menuNodes().map(function (node) {
+                return {
+                    href: node.href,
+                    path: node.path,
+                    label: node.label
+                };
+            }).filter(function (node) {
+                return node.path !== currentPath;
+            });
+
+            const visited = new Set([currentPath]);
+            const queued = new Set(queue.map(function (node) { return node.path; }));
+            const maxPages = 72;
+            let pagesIndexed = 0;
+
+            while (queue.length && pagesIndexed < maxPages) {
+                const node = queue.shift();
+                if (!node || !node.path || visited.has(node.path)) continue;
+                queued.delete(node.path);
+                visited.add(node.path);
+
+                const doc = await fetchHtmlDocument(node.href);
+                if (!doc) continue;
+
+                pagesIndexed += 1;
+                passagesFromDocument(doc, node.path, node.label).forEach(addGlobalPassage);
+
+                menuNodesFromDocument(doc, node.href).forEach(function (discovered) {
+                    if (!discovered.path || visited.has(discovered.path) || queued.has(discovered.path)) return;
+                    queue.push(discovered);
+                    queued.add(discovered.path);
+                });
+            }
+
+            state.globalReady = true;
+            state.globalPromise = null;
+            appendTrail('global-index', {
+                pages: pagesIndexed,
+                passages: state.globalPassages.length
+            });
+            updateControlsStatus();
+            return state.globalPassages;
+        })();
+
+        return state.globalPromise;
+    }
+
     function incrementNested(map, left, right, amount) {
         if (!map.has(left)) map.set(left, new Map());
         const inner = map.get(left);
@@ -253,9 +378,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function termPool() {
-        return Array.from(tokenToBlocks.entries()).filter(function (entry) {
-            const blockCount = entry[1].size;
-            return blockCount > 1 && blockCount <= Math.max(2, Math.floor(blocks.length * 0.45));
+        const tokens = new Set(tokenToBlocks.keys());
+        if (state.globalReady) {
+            state.globalTokenCounts.forEach(function (_count, token) {
+                tokens.add(token);
+            });
+        }
+
+        const corpusSize = blocks.length + (state.globalPassages ? state.globalPassages.length : 0);
+        const upper = Math.max(2, Math.floor(corpusSize * 0.45));
+
+        return Array.from(tokens).map(function (token) {
+            const localCount = tokenToBlocks.has(token) ? tokenToBlocks.get(token).size : 0;
+            const globalCount = state.globalReady ? (state.globalTokenCounts.get(token) || 0) : 0;
+            return [token, localCount + globalCount];
+        }).filter(function (entry) {
+            return entry[1] > 1 && entry[1] <= upper;
         });
     }
 
@@ -459,6 +597,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         state.hermPairs.forEach(function (pair) {
+            if (pair && pair.remote) return;
             drawPath(layer, blockCenter(pair.from), blockCenter(pair.to), 'synthetic-link-herm synthetic-link-herm-' + pair.kind);
         });
     }
@@ -542,6 +681,7 @@ document.addEventListener('DOMContentLoaded', function () {
         delete document.body.dataset.syntheticTerm;
 
         state.activeHits = [];
+        state.remoteHits = [];
         state.activeTerm = '';
         state.driftVector = null;
         state.driftVectors = [];
@@ -564,6 +704,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (state.controlsGlitch) state.controlsGlitch.textContent = 'glitch: ' + (document.body.classList.contains('synthetic-glitch') ? 'on' : 'off');
         if (state.controlsTerm) state.controlsTerm.textContent = 'term: ' + (state.activeTerm || 'none');
         if (state.controlsHits) state.controlsHits.textContent = 'hits: ' + state.activeHits.length;
+        if (state.controlsRemote) state.controlsRemote.textContent = 'site: ' + state.remoteHits.length;
         if (state.controlsRisk) state.controlsRisk.textContent = 'risk: ' + Math.round(state.questRisk);
     }
 
@@ -648,12 +789,29 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function canUseMarkovTerm(term) {
-        if (!term || !tokenToBlocks.has(term)) return false;
-        return tokenToBlocks.get(term).size > 1;
+        if (!term) return false;
+        const localCount = tokenToBlocks.has(term) ? tokenToBlocks.get(term).size : 0;
+        const globalCount = state.globalReady ? (state.globalTokenCounts.get(term) || 0) : 0;
+        return (localCount + globalCount) > 1;
+    }
+
+    function mergedTransitionsForTerm(term) {
+        const merged = new Map();
+        const localTransitions = tokenTransitions.get(term) || new Map();
+        localTransitions.forEach(function (weight, key) {
+            merged.set(key, (merged.get(key) || 0) + weight);
+        });
+        if (state.globalReady) {
+            const globalTransitions = state.globalTokenTransitions.get(term) || new Map();
+            globalTransitions.forEach(function (weight, key) {
+                merged.set(key, (merged.get(key) || 0) + weight);
+            });
+        }
+        return merged;
     }
 
     function nextMarkovTerm(term, visitedTerms) {
-        const transitions = tokenTransitions.get(term);
+        const transitions = mergedTransitionsForTerm(term);
         if (!transitions || !transitions.size) return null;
         const filtered = new Map();
         transitions.forEach(function (weight, nextTerm) {
@@ -706,6 +864,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!terminalActive()) return null;
         if (!blocks.length) return null;
 
+        ensureGlobalCorpus();
+
         const pool = termPool();
         if (!pool.length) return null;
 
@@ -721,15 +881,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.body.dataset.syntheticTerm = resolvedTerm;
         state.activeHits = targets;
+        state.remoteHits = state.globalReady ? (state.globalTokenToPassages.get(resolvedTerm) || []).slice(0, 24) : [];
         state.activeTerm = resolvedTerm;
         state.driftVector = null;
         state.driftVectors = [];
         renderConnections();
 
         spawnEchoes(resolvedTerm, targets);
-        showPulse('Resonance: ' + resolvedTerm + ' [' + targets.length + ']', 'resonate');
+        showPulse(
+            'Resonance: ' + resolvedTerm + ' [local ' + targets.length + ' | site ' + state.remoteHits.length + ']',
+            'resonate'
+        );
         flash('resonate');
-        appendTrail('resonate', { term: resolvedTerm, hits: targets.length });
+        appendTrail('resonate', {
+            term: resolvedTerm,
+            localHits: targets.length,
+            siteHits: state.remoteHits.length
+        });
         updateControlsStatus();
         return resolvedTerm;
     }
@@ -737,6 +905,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function drift() {
         if (!terminalActive()) return null;
         if (blocks.length < 2) return null;
+        ensureGlobalCorpus();
 
         const chain = markovTermChain(state.activeTerm || null, 5);
         if (chain.length < 2) return null;
@@ -1127,6 +1296,46 @@ document.addEventListener('DOMContentLoaded', function () {
         return pairs;
     }
 
+    function buildCrossSitePairs(term, localHits, remoteHits) {
+        if (!localHits.length || !remoteHits.length) return [];
+        const pairs = [];
+        const chosenRemote = remoteHits.slice(0, 6);
+
+        chosenRemote.forEach(function (remotePassage, index) {
+            const localBlock = localHits[index % localHits.length] || randomItem(localHits);
+            if (!localBlock || !remotePassage) return;
+
+            const localTokens = Array.from(blockTokens.get(localBlock) || []);
+            const overlap = localTokens.filter(function (token) {
+                return remotePassage.tokenSet && remotePassage.tokenSet.has(token);
+            }).slice(0, 4);
+
+            const fromAxis = blockAxisProfile(localBlock);
+            const toAxis = remotePassage.axis || axisVectorFromTokens(remotePassage.tokens || []);
+            const shiftLabel = axisShiftLabel(fromAxis, toAxis);
+            const kind = relationKind(overlap, localBlock.textContent || '', remotePassage.text || '', fromAxis, toAxis);
+
+            pairs.push({
+                remote: true,
+                kind: kind,
+                from: localBlock,
+                to: null,
+                overlap: overlap,
+                label: relationMeta(kind).label + ' (cross-site)',
+                shift: shiftLabel,
+                fromAxis: dominantAxes(fromAxis, 2),
+                toAxis: dominantAxes(toAxis, 2),
+                fromText: excerpt(localBlock.textContent || '', 20),
+                toText: excerpt(remotePassage.text || '', 20),
+                path: remotePassage.path,
+                pageLabel: remotePassage.label || remotePassage.path,
+                narrative: relationNarrative(term, kind, overlap, shiftLabel)
+            });
+        });
+
+        return pairs;
+    }
+
     function sentenceFragments(text) {
         return (text || '')
             .replace(/\s+/g, ' ')
@@ -1211,6 +1420,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
 
+            const jumpButton = event.target.closest('[data-herm-jump]');
+            if (jumpButton) {
+                const rawPath = jumpButton.getAttribute('data-herm-jump') || '';
+                if (!rawPath) return;
+
+                const targetUrl = new URL(rawPath, window.location.origin);
+                const mode = currentMode();
+                if (mode !== 'off') targetUrl.searchParams.set('overlay', mode);
+                if (document.body.classList.contains('synthetic-glitch')) targetUrl.searchParams.set('glitch', 'on');
+                targetUrl.searchParams.set('arrival', 'herm');
+                targetUrl.searchParams.set('from', canonicalPath(window.location.href));
+                window.location.href = targetUrl.toString();
+                return;
+            }
+
             const button = event.target.closest('[data-herm-action]');
             if (!button) return;
             const action = button.getAttribute('data-herm-action');
@@ -1245,11 +1469,18 @@ document.addEventListener('DOMContentLoaded', function () {
             const toAxis = pair.toAxis.map(function (entry) {
                 return entry.label + ' (' + entry.score + ')';
             }).join(' | ') || 'none';
+            const targetLine = pair.remote
+                ? '<div class="synthetic-herm-item-page"><span>TO-PAGE</span> '
+                    + escapeHtml(pair.pageLabel || pair.path || 'unknown')
+                    + ' <button type="button" data-herm-jump="'
+                    + escapeHtml(pair.path || '')
+                    + '">Jump</button></div>'
+                : '<div class="synthetic-herm-item-to"><span>TO</span> ' + escapeHtml(pair.toText) + '</div>';
             item.innerHTML = [
                 '<div class="synthetic-herm-item-head">#', String(index + 1).padStart(2, '0'), ' ', escapeHtml(pair.label), '</div>',
                 '<div class="synthetic-herm-item-body">',
                 '<div class="synthetic-herm-item-from"><span>FROM</span> ', escapeHtml(pair.fromText), '</div>',
-                '<div class="synthetic-herm-item-to"><span>TO</span> ', escapeHtml(pair.toText), '</div>',
+                targetLine,
                 '<div class="synthetic-herm-item-bridge"><span>BRIDGE</span> ', escapeHtml(pair.overlap.join(', ') || 'none'), '</div>',
                 '<div class="synthetic-herm-item-shift"><span>SHIFT</span> ', escapeHtml(pair.shift || 'undetermined'), '</div>',
                 '<div class="synthetic-herm-item-axis"><span>AXIS-FROM</span> ', escapeHtml(fromAxis), '</div>',
@@ -1297,6 +1528,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function openHermeneutic(forceReroll) {
         if (!terminalActive()) return null;
+        if (!state.globalReady) {
+            ensureGlobalCorpus().then(function () {
+                if (!terminalActive() || !state.hermOpen) return;
+                openHermeneutic(true);
+            });
+        }
+
         const term = state.activeTerm || resonate();
         if (!term) return null;
         const hits = state.activeHits.length ? state.activeHits : [];
@@ -1313,7 +1551,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         clearHermeneuticMarks();
-        const pairs = buildHermeneuticPairs(term, hits);
+        const localPairs = buildHermeneuticPairs(term, hits);
+        const remoteHits = state.globalReady ? (state.globalTokenToPassages.get(term) || []).slice(0, 10) : [];
+        const crossPairs = buildCrossSitePairs(term, hits, remoteHits);
+        const pairs = localPairs.concat(crossPairs).slice(0, 12);
         if (!pairs.length) {
             showPulse('No relation pairs found', 'map');
             return null;
@@ -1321,6 +1562,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         state.hermPairs = pairs;
         pairs.forEach(function (pair) {
+            if (pair.remote) return;
             pair.from.classList.add('synthetic-herm-source');
             pair.to.classList.add('synthetic-herm-target');
         });
@@ -1329,7 +1571,10 @@ document.addEventListener('DOMContentLoaded', function () {
         renderHermeneuticCards(term, pairs, hits);
         modal.classList.add('active');
         state.hermOpen = true;
-        showPulse('Hermeneutic web composed: ' + pairs.length + ' links + detournement', 'resonate');
+        showPulse(
+            'Hermeneutic web: ' + localPairs.length + ' local + ' + crossPairs.length + ' cross-site links',
+            'resonate'
+        );
         flash('resonate');
         appendTrail('hermeneutic', {
             term: term,
@@ -1852,6 +2097,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const badge = ensureControlsBadge();
         const active = Boolean(enabled);
         if (!active) shutdownTerminalRuntime();
+        if (active) ensureGlobalCorpus();
         panel.hidden = !active;
         badge.hidden = active;
         state.controlsVisible = active;
@@ -1922,6 +2168,7 @@ document.addEventListener('DOMContentLoaded', function () {
             '<span data-syn="glitch"></span>',
             '<span data-syn="term"></span>',
             '<span data-syn="hits"></span>',
+            '<span data-syn="remote"></span>',
             '<span data-syn="risk"></span>',
             '</div>',
             '<div class="synthetic-controls-grid">',
@@ -1953,6 +2200,7 @@ document.addEventListener('DOMContentLoaded', function () {
         state.controlsGlitch = panel.querySelector('[data-syn="glitch"]');
         state.controlsTerm = panel.querySelector('[data-syn="term"]');
         state.controlsHits = panel.querySelector('[data-syn="hits"]');
+        state.controlsRemote = panel.querySelector('[data-syn="remote"]');
         state.controlsRisk = panel.querySelector('[data-syn="risk"]');
 
         return panel;
@@ -1969,6 +2217,9 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (arrival.arrival === 'map') {
             showPulse('Arrived via map jump' + source, 'map');
             flash('map');
+        } else if (arrival.arrival === 'herm') {
+            showPulse('Arrived via hermeneutic jump' + source, 'resonate');
+            flash('resonate');
         } else {
             showPulse('Arrival event: ' + arrival.arrival + source, 'map');
         }

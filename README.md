@@ -128,8 +128,9 @@ To support nonlinear navigation and qualitative interpretation in the text unive
 - Glitch is off initially and auto-activates when opening the terminal via badge click.
 - Overlay/glitch/map/hermeneutic/quest effects only run while terminal is active; hiding terminal clears them.
 - URL parameter: `?overlay=off|resonance|drift`
-- Drift now uses a local Markov transition chain to produce multi-hop vector paths.
-- Hermeneutic recompose now performs cut-up/détournement montage with axis diagnostics.
+- Terminal session builds a multiversal corpus index by traversing linked content pages.
+- Drift now uses a site-wide Markov transition chain to produce multi-hop vector paths.
+- Hermeneutic recompose now performs cut-up/détournement montage with axis diagnostics and cross-page jump links.
 - Keyboard chords:
   - `Alt+Shift+M` cycles overlay mode (`off -> resonance -> drift`)
   - `Alt+Shift+R` triggers resonance highlighting + relation lines

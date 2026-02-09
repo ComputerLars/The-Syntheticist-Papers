@@ -1574,6 +1574,18 @@ body.synthetic-risk-high .content {
     margin-right: 5px;
 }
 
+.synthetic-herm-item-page button {
+    border: 1px solid rgba(73, 227, 148, 0.72);
+    background: rgba(73, 227, 148, 0.14);
+    color: #49e394;
+    font-family: inherit;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    padding: 2px 5px;
+    margin-left: 6px;
+}
+
 .synthetic-herm-item-convergence {
     border-color: rgba(0, 255, 179, 0.6);
 }

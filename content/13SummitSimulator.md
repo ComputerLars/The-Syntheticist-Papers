@@ -54,7 +54,7 @@ Folder:
 
 | Document | Description |
 |---|---|
-| [Guideline Paper](../Summit%20Simulator%20-%20Docs/Introduction%20paper,%20to%20Summit%20Simulator%20(1).pdf) | Overview of design logic, user roles, and synthetic agent architecture |
+| [Guideline Paper](../Summit%20Simulator%20-%20Docs/Introduction%20paper,%20to%20Summit%20Simulator%20%281%29.pdf) | Overview of design logic, user roles, and synthetic agent architecture |
 | [Analysis Report](../Summit%20Simulator%20-%20Docs/Synthetic%20Summit%20Simulator%20Analysis.pdf) | Key moments, rhetorical patterns, affective gradients across debates |
 | [Rhetoric, Affect, Ontopolitics](../Summit%20Simulator%20-%20Docs/Synthetic%20Summit%20Simulator_%20Rhetoric,%20Affect,%20and%20Ontopolitics.pdf) | Theoretical interpretation of synthetic dialogue and deliberative aesthetics |
 

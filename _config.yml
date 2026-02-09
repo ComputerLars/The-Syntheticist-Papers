@@ -4,3 +4,5 @@ description: A catalogue featuring essays and videos on synthetic statecraft.
 markdown: kramdown
 theme: minima
 baseurl: ""
+url: "https://syntheticism.org"
+lang: en

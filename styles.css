@@ -825,5 +825,31 @@ form {
   }
 
 /* ====================================================
+   Synthetic Overlay (Opt-in)
+   ==================================================== */
+
+body[data-synthetic-overlay="resonance"] .content .synthetic-hit,
+body[data-synthetic-overlay="drift"] .content .synthetic-hit {
+    background: linear-gradient(90deg, rgba(243, 255, 0, 0.12), rgba(218, 165, 32, 0.22));
+    border-left: 2px solid rgba(243, 255, 0, 0.45);
+    padding-left: 10px;
+    transition: background-color var(--transition-speed), border-color var(--transition-speed);
+}
+
+body[data-synthetic-overlay="drift"] .content .synthetic-origin {
+    border-left: 3px solid rgba(255, 255, 255, 0.55);
+}
+
+body[data-synthetic-overlay="drift"] .content .synthetic-drift-target {
+    border-left: 3px solid rgba(173, 255, 47, 0.85);
+    animation: synthetic-drift-pulse 1.1s ease-out 1;
+}
+
+@keyframes synthetic-drift-pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(173, 255, 47, 0.5); }
+    100% { box-shadow: 0 0 0 18px rgba(173, 255, 47, 0); }
+}
+
+/* ====================================================
    End of Styles
    ==================================================== */

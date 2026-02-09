@@ -119,6 +119,23 @@ The following table provides an overview of the AI participants in the Synthetic
 
 ---
 
+## Hidden Interaction Modes
+
+To support deeper non-UI interaction in the text universe, an opt-in synthetic overlay engine now runs site-wide.
+
+- URL parameter: `?overlay=off|resonance|drift`
+- Keyboard chords:
+  - `Alt+Shift+M` cycles overlay mode
+  - `Alt+Shift+R` triggers resonance highlighting
+  - `Alt+Shift+D` performs a drift jump between related passages
+  - `Alt+Shift+W` opens a random in-site wormhole via the fixed menu graph
+  - `Alt+Shift+X` clears active overlays
+- Console API: `window.syntheticism` (`resonate()`, `drift()`, `wormhole()`, `trail()`, `explain()`)
+
+These modes are opt-in and do not alter the default reading flow when disabled.
+
+---
+
 ## Contributing
 
 The "Syntheticist Papers" presents an evolving experiment in authorship, transparency, and the future of political AI. We welcome any thoughts, critiques, and contributions. Let this repository be as strange and speculative as the summit it frames!

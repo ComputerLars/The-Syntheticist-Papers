@@ -31,8 +31,8 @@ Generated entirely through chained prompting in a web-based research model, the 
 
 | File | Description |
 |---|---|
-| [Theory Tragedy – Script (Readers Version)](../Final%20Performance/Theory%20Tragedy_%20Post-Farce%20Protocol%20(Mao-Dadaist%20Bureaucratic%20Edition)%20-%20Readers%20Version%20(1).docx) | Complete text, with staging cues |
-| [Scripting the Spectacle – Companion Essay](../Final%20Performance/Scripting%20the%20Spectacle_%20Theory%20Tragedy%20Companion%20(8)%20(5).pdf) | Theoretical and technical companion analysis |
+| [Theory Tragedy – Script (Readers Version)](../Final%20Performance/Theory%20Tragedy_%20Post-Farce%20Protocol%20%28Mao-Dadaist%20Bureaucratic%20Edition%29%20-%20Readers%20Version%20%281%29.docx) | Complete text, with staging cues |
+| [Scripting the Spectacle – Companion Essay](../Final%20Performance/Scripting%20the%20Spectacle_%20Theory%20Tragedy%20Companion%20%288%29%20%285%29.pdf) | Theoretical and technical companion analysis |
 
 ### Roles and Figures
 

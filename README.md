@@ -123,9 +123,10 @@ The following table provides an overview of the AI participants in the Synthetic
 
 To support nonlinear navigation and qualitative interpretation in the text universe, a terminal-like `SYNTHETICISM.ORG` interface runs site-wide.
 
-- Starts hidden by default on page load.
+- Starts hidden by default on fresh entry; stays open across in-site jumps until explicitly hidden.
 - Reopen/hide via lower-left `synth-terminal` badge (or `Alt+Shift+C`).
 - Glitch is off initially and auto-activates when opening the terminal via badge click.
+- Overlay/glitch/map/hermeneutic/quest effects only run while terminal is active; hiding terminal clears them.
 - URL parameter: `?overlay=off|resonance|drift`
 - Drift now uses a local Markov transition chain to produce multi-hop vector paths.
 - Hermeneutic recompose now performs cut-up/détournement montage with axis diagnostics.

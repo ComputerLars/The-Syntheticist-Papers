@@ -325,6 +325,18 @@ document.addEventListener('DOMContentLoaded', function () {
         return 'off';
     }
 
+    function getGlitchFromLocation() {
+        const url = new URL(window.location.href);
+        const queryGlitch = (url.searchParams.get('glitch') || '').toLowerCase();
+        if (['1', 'true', 'on'].includes(queryGlitch)) return true;
+        if (['0', 'false', 'off'].includes(queryGlitch)) return false;
+        return localStorage.getItem(GLITCH_KEY) === '1';
+    }
+
+    function getControlsFromStorage() {
+        return localStorage.getItem(CONTROL_KEY) === '1';
+    }
+
     function getArrivalFromLocation() {
         const url = new URL(window.location.href);
         const arrival = (url.searchParams.get('arrival') || '').toLowerCase();
@@ -691,6 +703,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function resonate(term) {
+        if (!terminalActive()) return null;
         if (!blocks.length) return null;
 
         const pool = termPool();
@@ -722,6 +735,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function drift() {
+        if (!terminalActive()) return null;
         if (blocks.length < 2) return null;
 
         const chain = markovTermChain(state.activeTerm || null, 5);
@@ -788,6 +802,10 @@ document.addEventListener('DOMContentLoaded', function () {
         return document.body.dataset.syntheticOverlay || 'off';
     }
 
+    function terminalActive() {
+        return Boolean(state.controlsVisible);
+    }
+
     function menuNodes() {
         const currentPath = canonicalPath(window.location.href);
         return Array.from(document.querySelectorAll('.fixed-menu a[href]')).map(function (link, index) {
@@ -839,6 +857,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function wormhole() {
+        if (!terminalActive()) return null;
         const currentPath = canonicalPath(window.location.href);
         const links = menuNodes().filter(function (node) {
             return node.path !== currentPath;
@@ -923,6 +942,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function openMap() {
+        if (!terminalActive()) return;
         const modal = ensureMapModal();
         const nodes = menuNodes().slice().sort(function (a, b) {
             if (a.current && !b.current) return -1;
@@ -1276,6 +1296,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function openHermeneutic(forceReroll) {
+        if (!terminalActive()) return null;
         const term = state.activeTerm || resonate();
         if (!term) return null;
         const hits = state.activeHits.length ? state.activeHits : [];
@@ -1599,6 +1620,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function openQuest() {
+        if (!terminalActive()) return;
         const modal = ensureQuestModal();
         if (state.questOpen) {
             closeQuest();
@@ -1749,6 +1771,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function openLogbook() {
+        if (!terminalActive()) return;
         const modal = ensureLogModal();
         if (state.logOpen) {
             closeLogbook();
@@ -1770,6 +1793,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function openKiDipfiesPortal() {
+        if (!terminalActive()) return;
         appendTrail('portal-link', { to: 'https://computerlars.github.io/KI-DIPFIES/' });
         showPulse('Portal -> KI-DIPFIES', 'wormhole');
         flash('wormhole');
@@ -1804,10 +1828,30 @@ document.addEventListener('DOMContentLoaded', function () {
         return badge;
     }
 
+    function shutdownTerminalRuntime() {
+        closeMap();
+        closeHermeneutic();
+        closeQuest();
+        closeLogbook();
+        clearOverlayMarks({ keepEchoes: false });
+        state.questRisk = 0;
+        state.questTrace = [];
+        state.questStats = {
+            hermeneutics: 2,
+            hermetics: 1,
+            contestation: 1
+        };
+        if (state.questRollNode) state.questRollNode.textContent = '';
+        setMode('off');
+        setGlitch(false);
+        updateRiskVisual();
+    }
+
     function setControlsVisible(enabled) {
         const panel = ensureControlsPanel();
         const badge = ensureControlsBadge();
         const active = Boolean(enabled);
+        if (!active) shutdownTerminalRuntime();
         panel.hidden = !active;
         badge.hidden = active;
         state.controlsVisible = active;
@@ -1932,14 +1976,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     buildIndex();
 
-    const initialMode = setMode(getModeFromLocation());
-    setGlitch(false);
     touchVisit(canonicalPath(window.location.href));
-    setControlsVisible(false);
-    showArrivalEffect();
+    const controlsBoot = getControlsFromStorage();
+    if (controlsBoot) {
+        setControlsVisible(true);
+        const initialMode = setMode(getModeFromLocation());
+        setGlitch(getGlitchFromLocation());
+        if (initialMode === 'resonance') resonate();
+        if (initialMode === 'drift') drift();
+        showArrivalEffect();
+    } else {
+        setControlsVisible(false);
+    }
 
-    if (initialMode === 'resonance') resonate();
-    if (initialMode === 'drift') drift();
     updateRiskVisual();
     updateControlsStatus();
 
@@ -1979,6 +2028,16 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!event.altKey || !event.shiftKey || event.metaKey || event.ctrlKey) return;
 
         const key = event.key.toLowerCase();
+        if (key === 'c') {
+            event.preventDefault();
+            const enabled = setControlsVisible(!state.controlsVisible);
+            showPulse('Controls -> ' + (enabled ? 'visible' : 'hidden'), 'map');
+            appendTrail('controls', { enabled: enabled });
+            return;
+        }
+
+        if (!terminalActive()) return;
+
         if (key === 'm') {
             event.preventDefault();
             cycleMode();
@@ -2025,12 +2084,6 @@ document.addEventListener('DOMContentLoaded', function () {
             showPulse('Glitch -> ' + (enabled ? 'on' : 'off'), 'wormhole');
             flash('wormhole');
             appendTrail('glitch', { enabled: enabled });
-        }
-        if (key === 'c') {
-            event.preventDefault();
-            const enabled = setControlsVisible(!state.controlsVisible);
-            showPulse('Controls -> ' + (enabled ? 'visible' : 'hidden'), 'map');
-            appendTrail('controls', { enabled: enabled });
         }
     });
 

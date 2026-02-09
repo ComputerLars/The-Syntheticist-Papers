@@ -2,7 +2,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const OVERLAY_MODES = new Set(['off', 'resonance', 'drift']);
     const TRAIL_KEY = 'syntheticism-trail-v1';
     const MODE_KEY = 'syntheticism-overlay-mode';
+    const GLITCH_KEY = 'syntheticism-glitch-v1';
+    const VISITS_KEY = 'syntheticism-visits-v1';
     const BLOCK_SELECTOR = '.content p, .content li, .content blockquote';
+    const HOT_TERMS = [
+        'summit', 'manifesto', 'protocol', 'synthetic', 'party', 'algorithm',
+        'idiotext', 'tragedy', 'spectacle', 'archive', 'drift', 'wormhole'
+    ];
     const STOP_WORDS = new Set([
         'about', 'after', 'again', 'against', 'along', 'among', 'around',
         'being', 'between', 'could', 'every', 'first', 'from', 'into',
@@ -90,6 +96,49 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem(TRAIL_KEY, JSON.stringify(trail));
     }
 
+    function canonicalPath(href) {
+        try {
+            const url = new URL(href, window.location.origin);
+            const trimmed = url.pathname.replace(/\/+$/, '');
+            return trimmed || '/';
+        } catch (_error) {
+            return '';
+        }
+    }
+
+    function readVisits() {
+        try {
+            const parsed = JSON.parse(localStorage.getItem(VISITS_KEY) || '{}');
+            return parsed && typeof parsed === 'object' ? parsed : {};
+        } catch (_error) {
+            return {};
+        }
+    }
+
+    function writeVisits(visits) {
+        const entries = Object.entries(visits || {});
+        if (entries.length > 256) {
+            entries.sort(function (a, b) {
+                return b[1] - a[1];
+            });
+            localStorage.setItem(VISITS_KEY, JSON.stringify(Object.fromEntries(entries.slice(0, 256))));
+            return;
+        }
+        localStorage.setItem(VISITS_KEY, JSON.stringify(visits || {}));
+    }
+
+    function visitScore(pathname) {
+        const visits = readVisits();
+        return visits[pathname] || 0;
+    }
+
+    function touchVisit(pathname) {
+        if (!pathname) return;
+        const visits = readVisits();
+        visits[pathname] = (visits[pathname] || 0) + 1;
+        writeVisits(visits);
+    }
+
     function getModeFromLocation() {
         const url = new URL(window.location.href);
         const queryMode = (url.searchParams.get('overlay') || '').toLowerCase();
@@ -101,13 +150,39 @@ document.addEventListener('DOMContentLoaded', function () {
         return 'off';
     }
 
+    function getGlitchFromLocation() {
+        const url = new URL(window.location.href);
+        const queryGlitch = (url.searchParams.get('glitch') || '').toLowerCase();
+        if (['1', 'true', 'on'].includes(queryGlitch)) return true;
+        if (['0', 'false', 'off'].includes(queryGlitch)) return false;
+        return localStorage.getItem(GLITCH_KEY) === '1';
+    }
+
+    function setGlitch(enabled) {
+        const active = Boolean(enabled);
+        document.body.classList.toggle('synthetic-glitch', active);
+        localStorage.setItem(GLITCH_KEY, active ? '1' : '0');
+        return active;
+    }
+
+    function pickTerm(pool) {
+        const available = new Set(pool.map(function (entry) {
+            return entry[0];
+        }));
+        const seeded = HOT_TERMS.filter(function (term) {
+            return available.has(term);
+        });
+        if (seeded.length) return randomItem(seeded);
+        return randomItem(Array.from(available));
+    }
+
     function resonate(term) {
         if (!blocks.length) return null;
 
         const pool = termPool();
         if (!pool.length) return null;
 
-        const resolvedTerm = term && tokenToBlocks.has(term) ? term : randomItem(pool)[0];
+        const resolvedTerm = term && tokenToBlocks.has(term) ? term : pickTerm(pool);
         const targets = Array.from(tokenToBlocks.get(resolvedTerm) || []);
         if (!targets.length) return null;
 
@@ -148,18 +223,42 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function wormhole() {
+        const currentPath = canonicalPath(window.location.href);
         const links = Array.from(document.querySelectorAll('.fixed-menu a[href]')).filter(function (link) {
             if (!link.href) return false;
-            if (link.href === window.location.href) return false;
-            return link.origin === window.location.origin;
+            if (link.origin !== window.location.origin) return false;
+            const path = canonicalPath(link.href);
+            return path && path !== currentPath;
         });
 
-        const destination = randomItem(links);
+        const weighted = links.map(function (link) {
+            const path = canonicalPath(link.href);
+            return {
+                link: link,
+                path: path,
+                visits: visitScore(path)
+            };
+        });
+        if (!weighted.length) return null;
+
+        const minVisits = Math.min.apply(null, weighted.map(function (item) {
+            return item.visits;
+        }));
+        const leastVisited = weighted.filter(function (item) {
+            return item.visits === minVisits;
+        });
+        const destination = randomItem(leastVisited);
         if (!destination) return null;
 
-        appendTrail('wormhole', { to: destination.href });
-        window.location.href = destination.href;
-        return destination.href;
+        const targetUrl = new URL(destination.link.href);
+        const currentMode = document.body.dataset.syntheticOverlay || 'off';
+        if (currentMode !== 'off' && !targetUrl.searchParams.has('overlay')) {
+            targetUrl.searchParams.set('overlay', currentMode);
+        }
+
+        appendTrail('wormhole', { to: destination.path, visits: destination.visits });
+        window.location.href = targetUrl.toString();
+        return targetUrl.toString();
     }
 
     function cycleMode() {
@@ -177,6 +276,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     buildIndex();
     const initialMode = setMode(getModeFromLocation());
+    setGlitch(getGlitchFromLocation());
+    touchVisit(canonicalPath(window.location.href));
     if (initialMode === 'resonance') resonate();
     if (initialMode === 'drift') drift();
 
@@ -205,6 +306,11 @@ document.addEventListener('DOMContentLoaded', function () {
             event.preventDefault();
             clearOverlayMarks();
         }
+        if (key === 'g') {
+            event.preventDefault();
+            const enabled = setGlitch(!document.body.classList.contains('synthetic-glitch'));
+            appendTrail('glitch', { enabled: enabled });
+        }
     });
 
     window.syntheticism = {
@@ -212,10 +318,15 @@ document.addEventListener('DOMContentLoaded', function () {
             return document.body.dataset.syntheticOverlay || 'off';
         },
         setMode: setMode,
+        glitch: function () {
+            return document.body.classList.contains('synthetic-glitch');
+        },
+        setGlitch: setGlitch,
         resonate: resonate,
         drift: drift,
         wormhole: wormhole,
         clear: clearOverlayMarks,
+        visits: readVisits,
         trail: function () {
             try {
                 return JSON.parse(localStorage.getItem(TRAIL_KEY) || '[]');
@@ -230,8 +341,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     'Alt+Shift+M: cycle overlay mode (off -> resonance -> drift)',
                     'Alt+Shift+R: resonance highlight',
                     'Alt+Shift+D: drift jump',
-                    'Alt+Shift+W: random page wormhole',
-                    'Alt+Shift+X: clear active overlays'
+                    'Alt+Shift+W: least-visited page wormhole',
+                    'Alt+Shift+X: clear active overlays',
+                    'Alt+Shift+G: toggle CRT glitch veil'
                 ]
             };
         }

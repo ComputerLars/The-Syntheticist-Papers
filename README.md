@@ -124,13 +124,15 @@ The following table provides an overview of the AI participants in the Synthetic
 To support deeper non-UI interaction in the text universe, an opt-in synthetic overlay engine now runs site-wide.
 
 - URL parameter: `?overlay=off|resonance|drift`
+- URL parameter: `?glitch=on|off`
 - Keyboard chords:
   - `Alt+Shift+M` cycles overlay mode
   - `Alt+Shift+R` triggers resonance highlighting
   - `Alt+Shift+D` performs a drift jump between related passages
-  - `Alt+Shift+W` opens a random in-site wormhole via the fixed menu graph
+  - `Alt+Shift+W` opens a least-visited in-site wormhole via the fixed menu graph
   - `Alt+Shift+X` clears active overlays
-- Console API: `window.syntheticism` (`resonate()`, `drift()`, `wormhole()`, `trail()`, `explain()`)
+  - `Alt+Shift+G` toggles a CRT/glitch veil
+- Console API: `window.syntheticism` (`resonate()`, `drift()`, `wormhole()`, `trail()`, `explain()`, `setGlitch()`)
 
 These modes are opt-in and do not alter the default reading flow when disabled.
 

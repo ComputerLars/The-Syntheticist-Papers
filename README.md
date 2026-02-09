@@ -119,20 +119,24 @@ The following table provides an overview of the AI participants in the Synthetic
 
 ---
 
-## Hidden Interaction Modes
+## Multiversal Control Interface
 
-To support deeper non-UI interaction in the text universe, an opt-in synthetic overlay engine now runs site-wide.
+To support visible nonlinear navigation in the text universe, an opt-in synthetic control interface now runs site-wide.
 
 - URL parameter: `?overlay=off|resonance|drift`
 - URL parameter: `?glitch=on|off`
+- URL parameter: `?controls=on|off`
 - Keyboard chords:
-  - `Alt+Shift+M` cycles overlay mode
-  - `Alt+Shift+R` triggers resonance highlighting
-  - `Alt+Shift+D` performs a drift jump between related passages
-  - `Alt+Shift+W` opens a least-visited in-site wormhole via the fixed menu graph
+  - `Alt+Shift+C` toggles the on-screen control panel
+  - `Alt+Shift+M` cycles overlay mode (`off -> resonance -> drift`)
+  - `Alt+Shift+R` triggers resonance highlighting + relation lines + echo popups
+  - `Alt+Shift+D` performs a drift jump between related passages + drift vector path
+  - `Alt+Shift+W` opens a least-visited in-site wormhole with visible portal transition
+  - `Alt+Shift+P` opens the multiversal map modal
+  - `Alt+Shift+E` spawns an echo popup cloud from current relations
   - `Alt+Shift+X` clears active overlays
   - `Alt+Shift+G` toggles a CRT/glitch veil
-- Console API: `window.syntheticism` (`resonate()`, `drift()`, `wormhole()`, `trail()`, `explain()`, `setGlitch()`)
+- Console API: `window.syntheticism` (`resonate()`, `drift()`, `wormhole()`, `openMap()`, `echo()`, `trail()`, `explain()`, `setGlitch()`, `setControlsVisible()`)
 
 These modes are opt-in and do not alter the default reading flow when disabled.
 

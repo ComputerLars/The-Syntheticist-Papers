@@ -10,7 +10,7 @@ show_footer: false
   <iframe
     width="560"
     height="315"
-    src="https://www.youtube.com/embed/z-KvVixMYUY?list=PLesCMhjFg3-ifaMhQtrGy_thU4OdlqiRE&index=1&cc_load_policy=1"
+    src="https://www.youtube.com/embed/videoseries?list=PLesCMhjFg3-ifaMhQtrGy_thU4OdlqiRE&cc_load_policy=1"
     frameborder="0"
     allowfullscreen>
   </iframe>

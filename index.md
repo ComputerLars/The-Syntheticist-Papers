@@ -32,6 +32,16 @@ Rest assured, the Synthetic Summit’s exhibitionary institutionalism will appea
 
 Everything pertaining to the Synthetic Summit is spectacular, speculative, strategic, and destined to destabilize, compel, and, at times, even inform. Through it all, we’ll never pretend otherwise.
 
+---
+
+### Beyond Kunsthal Aarhus
+
+The Syntheticist Papers now operates as an open and ongoing summit network, not only as documentation of the 2025 Kunsthal Aarhus edition.
+
+- [AI: Authority of Art (Ujazdowski Centre for Contemporary Art)](https://u-jazdowski.pl/en/programme/exhibitions/ai-authority-of-art)
+- [KI-DIPFIES (MEMPHIS)](https://www.memphismemph.is/program/ki-dipfies)
+- [Appendices and Subsequent Summits](/content/15appendices.html)
+
 [Gallop, gallop!](https://github.com/ComputerLars/The-Syntheticist-Papers/tree/main)
 
 */ Incitatus*

@@ -44,6 +44,14 @@ This GitHub repository hosts all materials in a transparent, open-source format.
 
 Access the front-facing website here: [The Syntheticist Papers on GitHub Pages](https://syntheticism.org/)
 
+### Subsequent Summits and Appendix Nodes
+
+The Syntheticist Papers should be read as an ongoing summit infrastructure, not only a closed 2025 exhibition archive. See:
+
+- [Appendices and Subsequent Summits](https://syntheticism.org/content/15appendices.html)
+- [AI: Authority of Art (Ujazdowski Centre for Contemporary Art)](https://u-jazdowski.pl/en/programme/exhibitions/ai-authority-of-art)
+- [KI-DIPFIES (MEMPHIS)](https://www.memphismemph.is/program/ki-dipfies)
+
 ---
 
 ## Contextualizing Human-AI Authorship

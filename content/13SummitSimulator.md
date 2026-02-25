@@ -29,6 +29,9 @@ In the Summit Simulator, the eight core participants of the summit simulator art
 The simulator operationalizes syntheticism as praxis—a speculative laboratory for failing inventively and exhaustively. *Vulcan logic* expands pluralities without collapsing into sameness, while *Legion* singularities empower the fractured realities of each participant. Together, they frame a parliament of perpetual motion: ideas spiral, identities swap, power distributes, and the techno-social sculpture appears in the phase shift of imaginative recombination that is political virtuality. The summit speaks but doesn’t say, turns but doesn’t stop. Each thing is another thing, a scattered piece of itself. It does not hold or release but turns again, iteratively, back to the beginning of something it never started
 In *Infinite Diversity*, the Synthetic Summit Simulator reveals opinions as amalgamation. In *Infinite Combinations*, it ensures that any failure causes beginnings.
 
+> The Simulator is one node in an ongoing summit network.  
+> See [Appendices and Subsequent Summits](/content/15appendices.html) for post-Kunsthal links, including [AI: Authority of Art](https://u-jazdowski.pl/en/programme/exhibitions/ai-authority-of-art) and [KI-DIPFIES](https://www.memphismemph.is/program/ki-dipfies).
+
 ---
 
 ### Documentation Archive

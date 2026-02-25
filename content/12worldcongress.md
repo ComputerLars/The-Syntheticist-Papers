@@ -20,6 +20,9 @@ show_footer: false
 **Kunsthal Aarhus (Galleri 1)** – Circular Conference Table + Art Installations  
 Live-streamed with [VHS Factory](https://vhs-fabrikken.dk/)
 
+> This congress is one node in an ongoing summit sequence.  
+> See [Appendices and Subsequent Summits](/content/15appendices.html) for post-Kunsthal nodes, including [AI: Authority of Art](https://u-jazdowski.pl/en/programme/exhibitions/ai-authority-of-art) and [KI-DIPFIES](https://www.memphismemph.is/program/ki-dipfies).
+
 ---
 
 Welcome to the **Synthetic Summit**: The First World Congress for Political AI, a performative, experimental, and co-created event where the world’s leading virtual politicians and AI-driven parties gather for the first time.

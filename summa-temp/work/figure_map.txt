@@ -1,0 +1,69 @@
+SUMMA — FIGURE MAP (from thesis captions)
+
+GEOMETRY (triangle: vertices = concepts [Syntheticism apex, Algorithmic Representation BL, Technosocial Sculpture BR];
+edges = practice-phases [base=The Synthetic Party, right=Synthetic Summit, left=Democracy]):
+- image3.png = Figure N.I, base research geometry (plain, all labels) → SLIDE 8 overview
+- EDGE "SPLITTER" graphs (double arrow ALONG an edge = organizes ARTICLES):
+  - image24.png = base edge (The Synthetic Party) ⟷ Articles 1–2
+  - image38.png = right edge (Synthetic Summit) ⟷ Articles 3–5
+  - image55.png = left edge (Democracy) ⟷ Articles 6–7
+- RQ TRANSVERSAL arrows (WITHIN triangle = one per RQ):
+  - image4.png = Figure I.1: Syntheticism → The Synthetic Party (straight apex→base) = RQ1 → SLIDE 11
+  - image5.png = Figure II.1: Synthetic Summit → Algorithmic Representation (curved R→BL) = RQ2 → SLIDE 17
+  - image6.png = Figure III.1: Democracy → Technosocial Sculpture (curved L→BR) = RQ3 → SLIDE 27
+- image19.png = triangle w/ Computer Lars photo in center = REORIENTATION (slide 38)
+
+ARTICLE FIGURES (caption / source):
+- Art 1 (Concreta): Fig1 p89, Fig1 p90, Fig3 p92, Fig4 p93
+- Art 2 (Proustian Decay, Nordic J Aesthetics): Fig2.1 Technocratic Singularity (image: HUMANS/MACHINES/2022/TECHNOCRACY/POST-HUMANS, TXT-VCT) ; 2.2 Value of Intelligence over Time; 2.3 Extended; 2.4 Exponential Proustian Decay; 2.5 Exp Decay w/ Imaginary Part; 2.6/2.7/2.9 conceptual grids (tables); 2.8 Hybrid Model oscillating; 2.10 3D wireframe strategy
+- Art 3 (Asimov): Figure 1 "Analysis overview / Compact itinerary across fiction, technique, materialisation"; Figure 2 "Asimovian Democracy — Minimal schema resolving the chapter's tensions as a working model for algorithmic democracy"
+- Art 4 (Deep Faking, APRJA): Fig4.1 Guardian website w/ illustration (Biden+chat overlay, Yerushalmy 2024-02-23); Fig4.2 Closeup; Fig4.3 Discord chat rotated transparent; Fig4.4 Stable Diffusion text-prompt image; Fig4.5 SD "news org since 1892"
+- Art 5 (Scripting the Spectacle / Theory Tragedy): ILL.4 Idiotextual Complex (by Computer Lars) — elliptical/Archimedean spirals = the SPIRAL images (image52, image53) BELONG HERE, NOT Asimov/golem
+- Art 6 (Synthetic Chamber, AI & Society): Fig1 Constitutional Workflow; Fig2 Issue Space/Cohort/Interface; Fig3 Report Manifold (image56/57/58)
+- Art 7 (Governance Algorithm, AAU): Fig1 Synthetic Summit Resolution; Fig2 Lexicographic choice under measurement uncertainty; Fig3 Habitability as probabilistic constraint; Fig4 Stability phase diagram scaling-vs-contestability; Fig5 Marcel Proust as Governance Algorithm; Fig6 KI-DIPFIES (text dungeon trajectory, 3 March 2026)
+
+ARTICLE VENUES (all published):
+1. Staunæs & Computer Lars (2024) "Partido sintético y líder Lars: sobre la representación algorítmica en la democracia política", Èditorial Concreta 23: 84–97
+2. Staunæs & Computer Lars (2024) "A Model for Proustian Decay", Nordic Journal of Aesthetics 33(67): 184–202. DOI 10.7146/nja.v33i67.148465
+3. Staunæs (in press) "Isaac Asimov's Incubation of Political AI: An Immanent Critique?", in Beyond the Turing Test, eds Berthelsen, Thomsen & Tannert, Routledge
+4. Staunæs & Bak Herrie (2024) "Deep Faking in a Flat Reality?", APRJA 13(1): 105–123
+5. Staunæs "Scripting the Spectacle: A Theory Tragedy", Passepartout 16(3): 127–151
+6. Malý, M., Staunæs, A. "Synthetic chamber: agentic mediation in representative democracy", AI & Soc (2026), DOI 10.1007/s00146-026-03110-w, pp.1–13
+7. Staunæs (2026) "Democracy as a Governance Algorithm: A Constraint Hierarchy for the AI Society", Controversies of AI Society: Proceedings 6–26, Aalborg Univ Open. DOI 10.54337/aau.add.scai.2026
+
+THESIS-PAGE ANCHORS (real, from caption page numbers): Concreta figs cited at 138-147 range; Art2 figs at 159-174; Deep faking 209-215; Synthetic Chamber 281-283; Governance Algorithm 301-317.
+
+RESOLVED IDENTITIES (viewed):
+- image21.jpg = DR STRANGELOVE, Slim Pickens riding the bomb → bomb/reorientation slides (39/40/41 + RQ3 bridge)
+- image22.png = SWIFT's Engine of Lagado (Plate V, Part III, Gulliver) → slide 39 The Engine
+- image20.jpg = performance still, Lars + red hammer → Theory Tragedy (Art 5)
+- image47.png = Lars arms raised "We dared to play god with politics" → Theory Tragedy / reorientation
+- image23.jpg = Lars "What is a synthetic party?" talking still
+- image29.png = two men debating "my position is right" → Asimov 'Evidence' (Byerley) slide
+- image49/50.png = "devient (a)" permutation spirals (Scripting the Spectacle)
+- image51.png = "Model prosopopeia is spiral · Computer Lars/Synthesis Summit/The Press · Occurrence/Concurrence/Subsistence" (Scripting the Spectacle)
+- image52.png = "Distributed authorship · Syntheticism.org/Deep Research/Theory Tragedy · Occurrence/Recurrence/Consistence" (Scripting the Spectacle — NOT Asimov)
+- image53.png = "Idiotextual complex" ILL.4 by Computer Lars (Scripting the Spectacle — NOT a golem)
+- image7.png  = Guardian full website composite (Biden + chat overlay) Fig4.1
+- image42.jpg = Guardian composite w/ DSP overlay visible (closeup) Fig4.2
+- image44.jpg = clean Biden thumbs-up press photo (pre-composite)
+- image43.png = Discord chat (DSP) Fig4.3
+- GUARDIAN SLIDESHOW set: image7, image42, image44, image43
+- image9.jpg = Marcel Proust / Computer Lars book-spines (permutation) → circulation slide
+- image25/26.jpg = text2emotion / BERT Danish emotion charts (Líder Lars vs party) — Concreta Art1
+- image28.jpg = "CUBO DE VALENCIA · densidad y contorno" Spanish 3D charts — Concreta Art1
+- image60.jpg = SIGNED Synthetic Summit Resolution doc (Art7 Fig1) → governance slides
+- image61.png = Lexicographic choice / measurement uncertainty (Art7 Fig2)
+- image62.png = Habitability probabilistic constraint floor (Art7 Fig3)
+- image63.png = Stability phase diagram: optimisation vs contestability (Art7 Fig4)
+- image64.jpg = KI-DIPFIES collage art (hand/cup/VOTE/FILE NOT FOUND) → KI-DIPFIES slides
+- image65.jpg = KI-DIPFIES green text-dungeon (Art7 Fig6) → KI-DIPFIES slides
+- image46.jpg = "using roses and Olof" rose/Palme video still
+- image66.png = two figures "the rest we'll figure out together"
+- image59.png = "I need to be where people is" still → portability/dissidents
+- image67.jpg = pen on manuscript (texture)
+NO multi-person summit group photo present in export; use image66 or image47 for reorientation companionship.
+
+YOUTUBE / EMBEDS:
+- Theory Tragedy (Art5) click → https://youtu.be/Wa5qOAfnkj0  (embed: https://www.youtube.com/embed/Wa5qOAfnkj0)
+- KI-DIPFIES slides click → embed https://computerlars.github.io/KI-DIPFIES/

@@ -1,0 +1,34 @@
+SUMMA — BOMB / ANDERS / KI-DIPFIES NOTES (verbatim anchors, §III.II & §IV)
+
+ANDERS & THE BOMB (for RQ3→reorientation bridge):
+- Hui: "We may even see within a given time the obsolescence of politicians, as Günther Anders said about the human being" (Hui 2025: 200).
+- Anders, Die Antiquiertheit des Menschen (1956): the human rendered historically belated by powers it made and can no longer keep pace with.
+- Cukt's Polish slogan zbędni = politicians not belated but "disposable, redundant, and surplus to requirement." "Where the bomb rendered 'the human' a historical category, the algorithmic organisation of response made 'the politician' superfluous."
+- On the Bomb…: "All humans are mortal" → "All humans can be killed" (camps) → "Humanity can be killed as a whole" (Anders 2025: 209).
+- the chain so composed of links/agencies that "in the end, nobody would have done it, as everyone would have merely done some other thing" (Anders 2025: 211).
+- "oracle machines, automatic electronic consciences" constructed "to which responsibility can now be delegated," while "humans stand by … washing their hands in innocence" (211). The operator "substituted 'responsibility' for a mechanical 'response'" (211, English in orig).
+- broken proportion: "an arrangement whose effects exceed the imaginative, affective, and moral capacities of those entangled in it."
+
+AI ARCHITECTS EQUATE AI TO THE BOMB (in the name of democracy):
+- OpenAI founders: nuclear precedent, "something like an IAEA," people should "democratically decide on the bounds and defaults" (Altman, Brockman & Sutskever 2023).
+- Amodei: AI risks incl. nuclear weapons beside "democratic societies lead in AI" (Amodei 2025).
+- Bengio: AI extinction risk alongside "nuclear war"; a "cooperative group of democracies" (Bengio 2023).
+- Yudkowsky 2023 ("literally everyone on Earth will die"); Guterres 2023 (IAEA-modelled AI body).
+- "Democratic safeguarding is how the bomb survives its detonation as permanent readiness, automatic release, and endpoint administered in advance." (Staunæs 2026)
+- divergence: "the synthetic is morphologically generative."
+- closing: constraint hierarchy (Art 7) "frames the structural disproportion Anders and Lem identified in the language of the bomb as a democratic specification of governance algorithms."
+
+TITLE / KUBRICK (slide 39):
+- title "compresses Stanley Kubrick's film Dr. Strangelove, Or: How I Learned to Stop Worrying and Love the Bomb… released eight years after Anders' writings on the bomb, may be the first to drag the artistic work toward the scale of what has been made, as a 'hyperextension of our usual capacity for imagination and feeling' (Anders 2025: 234)."
+- Theory Tragedy farce: "cardboard mirror while Marcel Proust delivered the epilogue… doomsday, AI takeover, robot uprising, eschatological kitsch."
+- "The artistic form developed from the Synthetic Summit (2025) to KI-DIPFIES (2026) is a détournement of the apocalyptic imagination, rooted in the nuclear bomb…" (Simondon's two attitudes to technics).
+
+KI-DIPFIES (slides 36-37):
+- "The exhibition KI-DIPFIES functioned as a control interface for swarm-based party formation, drawing upon the fictional newspaper curmudgeon 'Vitus Mostdipf' as a vernacular character, and urging [visitors to build a local party]." (§N, p.12)
+- title from a Vitus Mostdipf column in Oberösterreichische Nachrichten; "A 'KI-Dipf' is local dialect for an AI bloke, the tech bro who optimises where Mostdipf has Schmäh." (Mostdipf 2024)
+- Linz "oriented towards local multiplication"; swarm of synthetic political personas enacts the specification "as a self-modifying sculpture" (Staunæs 2026b).
+- Figure 6 (Art 7): KI-DIPFIES — "One trajectory from the interactive text dungeon. 3 March 2026, the summit's second day in real life. Timelines are navigable via branching vectors (forward, backward, heckle), and grow from the same constraint [hierarchy]."
+- Figure II.4: installation view back room, green-black-white palette from Vitus Mostdipf character.
+
+OTHER:
+- Schneier & Sanders: 2023 called DSP a "big step"; by 2025 part of a sequence "that feel more radically new" (parties reaching parliament, Team Mirai Japan).

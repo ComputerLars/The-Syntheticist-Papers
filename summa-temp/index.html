@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SUMMA TRANSSCRIPTUS — DIY-Defence of Computer Lars</title>
+<link rel="stylesheet" href="summa.css">
+</head>
+<body>
+<template id="__bundler_thumbnail">
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" fill="#0a0700"/>
+  <polygon points="50,26 72,68 28,68" fill="none" stroke="#caa23a" stroke-width="2"/>
+  <text x="50" y="84" font-family="monospace" font-size="9" fill="#fff3d6" text-anchor="middle" font-weight="700">SUMMA</text>
+  <circle cx="50" cy="52" r="3" fill="#46e07a"/>
+</svg>
+</template>
+
+<!-- ============================================================
+     SUMMA TRANSSCRIPTUS — a DIY-defence of "Syntheticism: How I Learned
+     to Love Democracy". Defendant: Computer Lars, sub mandato. Opposition:
+     all comrades are comité. Body text is verbatim from the
+     extended synthesis & resumé (Staunæs 2026); chrome and command lines
+     are staging. Inline (Author Year); full references at page foot.
+     Figures keyed to the thesis. Click the Codex (top-right) for the PDF.
+     ============================================================ -->
+<deck-stage width="1920" height="1080" no-rail>
+
+  <!-- 01 · COLOPHON -->
+  <section class="slide" data-mode="terminal" data-screen-label="01 Colophon" data-speaker-notes="Open the disputation. A PDF in Art, not a PhD. Greet the comrades.">
+    <div class="chrome"><span><b>SUMMA TRANSSCRIPTUS</b> · COLOPHON</span><span><span class="folio">diy-defence</span> <span class="mode">SYS</span> 01</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">run diy-defence --defendant "Computer Lars"</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <div class="kicker frag">PDF in Art · Institute of Emancipatory Science</div>
+        <h1 class="title glitch frag" style="font-size:104px">Syntheticism</h1>
+        <div class="sub frag" style="font-size:38px">How I Learned to Love Democracy</div>
+        <div class="meta frag">Article-based PhD dissertation in artistic research · extended synthesis &amp; seven published articles<br>Asker Bryld Staunæs, <span class="e">sub mandato</span> Computer Lars · Aarhus University, Arts</div>
+      </div>
+      <div class="vis">
+        <dl class="colo frag">
+          <dt>EVENT</dt><dd><b>DIY-Defence</b> — a take on the PhD, as cabaret</dd>
+          <dt>DATE</dt><dd>Every day</dd>
+          <dt>SITE</dt><dd>Under a red cap &amp; shirt with lime-green writing</dd>
+          <dt>DEFENDANT</dt><dd><b>Computer Lars</b> (open signature)</dd>
+          <dt>OPPOSITION</dt><dd><b>All comrades are comité</b></dd>
+          <dt>FOR</dt><dd>PDF in Art · Institute of Emancipatory Science</dd>
+          <dt>FUNDING</dt><dd>Novo Nordisk Foundation — Mads Øvlisen PhD Scholarship</dd>
+          <dt>CODEX</dt><dd class="g">click the cover, top-right, to read</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="cite">Staunæs, Asker Bryld. 2026. <i>Syntheticism: How I Learned to Love Democracy.</i> PhD dissertation in artistic research, Aarhus University, Arts. Supervision: Lotte Philipsen &amp; Cristina Fominaya. Funded by the Novo Nordisk Foundation (Mads Øvlisen Scholarship, 2023), in partnership with Kunsthal Aarhus. Cover image: DALL·E · Flux · Nano Banana (© 2026 Computer Lars).</div>
+  </section>
+
+  <!-- 01½ · COMITÉ IN ABSENTIA -->
+  <section class="slide" data-mode="terminal" data-screen-label="Comité in absentia" data-speaker-notes="The Organ of the Autonomous Sciences was to sit as comité for the patafence — Sat 20 June, 16:00–05:00, M.P. Bruuns Gade 47, Aarhus. For weeks they ran a PsyOp announcing they would prepare the defence in order to slaughter the defendant. Then they cancelled — the withdrawal may itself be the operation. With no executioner present, the defendant must slaughter himself. So the comité is automated: at the end of every scroll the Organ erupts, cut and détourned from its own writings.">
+    <div class="chrome"><span><b>COMITÉ IN ABSENTIA</b> · THE OPPOSITION WITHDRAWS</span><span><span class="folio">M.P. Bruuns Gade 47 · 20 vi</span> <span class="disp">DISPUTATIO</span> 1½</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">summon ./comité --from "Organ of the Autonomous Sciences" → 404 withdrawn</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="kicker warn frag">the opposition withdraws · 20 June · Aarhus</p>
+        <p class="term sm frag" style="color:var(--alert)">The comité has withdrawn</p>
+        <ul class="gloss tight">
+          <li class="frag">The <span class="e">Organ of the Autonomous Sciences</span> was to sit as comité for this patafence.</li>
+          <li class="frag">For weeks they ran the <span class="a">PsyOp</span> — vowing to prepare the defence and <span class="e">slaughter the defendant</span>.</li>
+          <li class="frag">Then they cancelled. Perhaps the operation itself: <span class="e">no one left to hold the knife</span>.</li>
+        </ul>
+        <p class="objectio frag" style="margin-top:14px">With no executioner, the defendant must <b>slaughter himself</b>. The comité is automated: at the end of every scroll the Organ erupts <i>in absentia</i>, cut from its own writings — the only move left is <b>play on</b>.</p>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>COMITÉ · IN ABSENTIA</span><span>we have already won</span></div><div class="v"><img src="media/fig/image47.png" alt="Computer Lars, arms raised"></div><div class="cap">«We are not merely surrounded by fascists — we have become fascist.» The Organ departs; the knife stays. (Organ of the Autonomous Sciences)</div></div>
+      </div>
+    </div>
+    <div class="cite">Patafence of Computer Lars · Saturday 20 June 2026, 16:00–05:00 · M.P. Bruuns Gade 47, 8000 Aarhus C. Comité <i>in absentia</i>: the Organ of the Autonomous Sciences (Staunæs, Møller &amp; Dias). Speech-balloon text is cut-up &amp; détourned from the Organ's public writings — «We Have Already Won», the Synthetic Summit post-script, and related Nashist testaments.</div>
+  </section>
+
+  <!-- 02 · PREDICAMENT -->
+  <section class="slide" data-mode="terminal" data-screen-label="02 Predicament" data-speaker-notes="AI now speaks through political roles. What is actually speaking, and who can be held responsible.">
+    <div class="chrome"><span><b>PROOEMIUM</b> · THE PREDICAMENT</span><span><span class="folio">resumé</span> <span class="mode">SYS</span> 02</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">state the predicament</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="versal frag" style="max-width:42em">Artificial intelligence speaks through political roles. It now appears as party leader, candidate, adviser, minister, and spokesperson. In this situation, it is less clear what is <span class="e">actually speaking</span>, and who can be <span class="e">held responsible</span> for what is said.</p>
+      <div class="row2">
+        <div class="g2 half">
+          <div class="g2cell frag">Democracy remains a constitutional order of elections, parliaments, and representation, but it is also a technical arrangement that <span class="e">receives, sorts, amplifies, and judges responses</span>.</div>
+          <div class="g2cell frag">It does not exist independently of these representations. It is a composition and a composite.</div>
+          <div class="g2cell frag" style="grid-column:1 / -1;color:var(--hi)">Through AI, political address has acquired a respondent that answers without itself being answerable in the full sense of responsibility. I offer a <span class="e">theory of response composed from inside that disproportion</span>.</div>
+        </div>
+        <div class="vis" style="flex:0 0 34%">
+          <div class="win"><div class="t"><span>DIELLA — AI MINISTER</span><span>Albania, 2025</span></div><div class="v"><img src="media/fig/image17.jpg" alt="Diella, AI minister"></div><div class="cap">AI as office: party leader, candidate, adviser, minister, spokesperson</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (Abstract; §N). · AP. 2025. "Albania's Prime Minister Appoints an AI-Generated 'Minister' to Tackle Corruption." Associated Press, 12 September 2025. · Council of Ministers of Albania. 2025. "Diella — Minister of State for Artificial Intelligence."</div>
+  </section>
+
+  <!-- 03 · OUTPUTS & STRUCTURE -->
+  <section class="slide" data-mode="terminal" data-screen-label="03 Outputs &amp; structure" data-speaker-notes="An article-based dissertation: an extended synthesis (five parts) plus seven PUBLISHED articles, grouped along three edges. Two movements of reading.">
+    <div class="chrome"><span><b>STRUCTURE</b> · OUTPUTS OF SYNTHETICISM</span><span><span class="folio">synthesis N–IV · 7 articles</span> <span class="mode">SYS</span> 03</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">ls ./dissertation --tree</span><span class="cur"></span></div>
+    <div class="main split wide">
+      <div class="txt">
+        <p class="term sm frag">Extended synthesis · five parts</p>
+        <ul class="gloss tight">
+          <li class="frag"><span class="g">N</span> — the trajectory of practice (the response-site, scaled).</li>
+          <li class="frag"><span class="g">I · II · III</span> — the three research questions, each following its concept, practice-phase, and articles.</li>
+          <li class="frag"><span class="g">IV</span> — reorientation, at the level of form.</li>
+          <li class="frag bare">A book-length critical text stands in for a traditional monograph, where the binding puts forward the compositional form.</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <p class="flowlbl frag">Seven articles</p>
+        <ul class="gloss num tight col2" style="max-width:none">
+          <li class="frag"><b style="color:var(--hi)">The Synthetic Party &amp; Leader Lars</b> <span class="src">Èditorial Concreta, no. 23 (2024): 84–97</span></li>
+          <li class="frag"><b style="color:var(--hi)">A Model for Proustian Decay</b> <span class="src">Nordic Journal of Aesthetics, 33/67 (2024): 184–202</span></li>
+          <li class="frag"><b style="color:var(--hi)">Isaac Asimov's Incubation of Political AI</b> <span class="src">Beyond the Turing Test, Routledge (2026, in press)</span></li>
+          <li class="frag"><b style="color:var(--hi)">Deep Faking in a Flat Reality?</b> <span class="src">APRJA, 13/1 (2024): 105–123</span></li>
+          <li class="frag"><b style="color:var(--hi)">Scripting the Spectacle</b> <span class="src">Passepartout, 16/3 (2026): 127–151</span></li>
+          <li class="frag"><b style="color:var(--hi)">Synthetic Chamber</b> <span class="src">AI &amp; Society (2026): 1–13</span></li>
+          <li class="frag"><b style="color:var(--hi)">Democracy as a Governance Algorithm</b> <span class="src">Controversies of AI Society, AAU Open (2026): 6–26</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (Table of Contents, pp. 5–6; Published Articles, pp. 134–335). Edges: 1 (Art 1–2) · 2 (Art 3–5) · 3 (Art 6–7).</div>
+  </section>
+
+  <!-- 04 · THE ACT (Article 1) -->
+  <section class="slide" data-mode="terminal" data-screen-label="04 The Act" data-speaker-notes="May 2022: I registered the party. The dissertation orients around the consequences of that act. Insider status is the method.">
+    <div class="chrome"><span><b>N</b> · A TRAJECTORY OF RESPONSE · ART. 1</span><span><span class="folio">synthesis §N</span> <span class="mode">SYS</span> 04</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">git log --since=2022-05 · the registering act</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="versal frag" style="max-width:42em">In May 2022, I registered an AI-driven political party in Denmark. This dissertation orients around the <span class="e">consequences of that act</span>.</p>
+      <div class="row2">
+        <div class="g2 half">
+          <div class="g2cell frag">The Synthetic Party [Det Syntetiske Parti] is widely regarded as the world's first officially recognised electoral party with an AI chatbot, <span class="e">Leader Lars</span>, as its political figurehead (Xiang 2022).</div>
+          <div class="g2cell frag">The methodological contribution lies in my <span class="e">insider status</span> for AI-led politics — backstage access to the mechanics of synthetic politics, below the level of normative abstraction that dominates public debate.</div>
+          <div class="g2cell frag" style="grid-column:1 / -1">By the time Vice ran the story, the party had collected only <span class="e">four</span> of the 20,000 voter declarations required — more a foundational myth than a platform.</div>
+        </div>
+        <div class="vis" style="flex:0 0 38%">
+          <div class="win" data-videos="uploads/Eine%20KI%20ersetzt%20Politiker%20Leader%20Lars%20sagt%20ja!%20shorts.mp4 | uploads/AI%20robot%20runs%20a%20political%20party%2C%20explains%20its%20intelligence.mp4 | uploads/This%20AI%20Wants%20To%20Be%20President%20%F0%9F%A4%96%F0%9F%98%B2.mp4"><div class="t"><span>THIS DANISH PARTY IS LED BY AN AI</span><span>world press, 2022–</span></div><div class="v"><img src="media/fig/image15.png" alt="Vice: This Danish Political Party Is Led by an AI"></div><div class="cap">Click to play — Leader Lars across the world's press</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="cite">Article 1: Staunæs, Asker Bryld, &amp; Computer Lars. 2024. 'Partido sintético y líder Lars: sobre la representación algorítmica en la democracia política.' <i>Èditorial Concreta</i> 23: 84–97. · MindFuture. 2022b. "Kunstig intelligens vil lede danmarkshistoriens sidste nye parti." MyNewsDesk, 9 June 2022. · Xiang, Chloe. 2022. "This Danish Political Party Is Led by an AI." <i>Motherboard, Vice</i>, 13 October 2022.</div>
+  </section>
+
+  <!-- 05 · THE DOUBLE BIND -->
+  <section class="slide" data-mode="terminal" data-screen-label="05 Double bind" data-speaker-notes="A machine that answers, a registrant who answers FOR. Levinas: always one response more to give. Registration forecloses the distance.">
+    <div class="chrome"><span><b>N</b> · THE DOUBLE BIND</span><span><span class="folio">synthesis §N</span> <span class="mode">SYS</span> 05</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">whoami → respondent ⨯ answerable</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">A parallel structure of response</p>
+        <ul class="gloss tight">
+          <li class="frag">A <span class="e">machinic instance</span> that answers every prompt directed at it, and a <span class="e">juridical instance</span> that answers for the existence and effects of that answering.</li>
+          <li class="frag">Had the system stayed an automated demonstration, its speech could be disavowed as generative stochasticity. The formal registration forecloses that distance.</li>
+        </ul>
+        <blockquote class="src frag">«in the responsibility which we have for one another, I have always one response more to give»<span class="gl">— Levinas 1981: 84, acquiring a peculiar inflection here</span></blockquote>
+        <p class="stmt frag" style="color:var(--hi)">It was more like the world sculpted The Synthetic Party and I had to respond, rather than that I gave the world a party and it responded to me.</p>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>LEDER_LARS · /discord</span><span>addressable entity</span></div><div class="v"><img src="media/fig/image43.png" alt="Leader Lars Discord interface"></div><div class="cap">Available to journalists and citizens who could probe what the party meant</div></div>
+      </div>
+    </div>
+    <div class="cite">Levinas, Emmanuel. 1981. <i>Otherwise than Being, or Beyond Essence</i>: 84. Discord interface: Staunæs &amp; Bak Herrie 2024, <i>APRJA</i> 13 (1) (Article 4).</div>
+  </section>
+
+  <!-- 06 · FORESHADOW: FROM A PARTY TO AN INTERNATIONAL -->
+  <section class="slide" data-mode="feed" data-screen-label="06 From a party to an international" data-speaker-notes="A glimpse ahead. The party became a synthetic international, convened as art exhibitions across Aarhus, Warsaw, Linz. RQ2, foreshadowed.">
+    <div class="chrome"><span><b>FORESHADOW</b> · WHERE THIS IS GOING</span><span><span class="folio">synthesis §N.I</span> <span class="mode feed">FEED</span> 06</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">peek ./summits --ahead</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="lead frag" style="font-size:44px">From a Party<br>to an International</p>
+        <p class="stmt frag" style="font-size:30px;max-width:24em">The PhD project culminated in the <span class="e">Synthetic Summits</span> — a series of world congresses for AI-driven political initiatives, staged as art exhibitions across <span class="g">Aarhus, Warsaw, and Linz</span> (Staunæs 2026: 10; Kunsthal Aarhus 2025a). We return to them in full at Quaestio II.</p>
+        <div class="syscomment frag">a portable, comparative field of synthetic politics — <b>convened, not simulated</b>.</div>
+      </div>
+      <div class="vis">
+        <div class="win" data-video="uploads/Synthetic%20Summit_%20AI%20World%20Congress.mp4"><div class="t"><span>SYNTHETIC SUMMIT · AI WORLD CONGRESS</span><span>Kunsthal Aarhus, 2025</span></div><div class="v"><img src="media/fig/image2.jpg" alt="Synthetic Summit analogue feed still"></div><div class="cap">Click to play — the analogue-feed master (VHS Factory), Appendix D</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§N.I). · <i>Automatic Uprisings: The Synthetic Party as a Technosocial Sculpture</i> (2023–2026). · Kunsthal Aarhus. 2025a. <i>Synthetic Summit.</i> Exhibition, 28 February – 13 April 2025.</div>
+  </section>
+
+  <!-- 07 · CIRCULATION AS COMPOSITION -->
+  <section class="slide" data-mode="terminal" data-screen-label="07 Circulation" data-speaker-notes="The party appeared within circulation. First articulation: a blog dialogue of three anagrams of Marcel Proust. Computer Lars binds involuntary memory to an overfitted local name.">
+    <div class="chrome"><span><b>N.III.I</b> · CIRCULATION AS COMPOSITION</span><span><span class="folio">synthesis §N.III</span> <span class="mode">SYS</span> 07</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">anagram("Marcel Proust") → "Computer Lars"</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="versal frag" style="max-width:42em">The party did not first consolidate itself as a sovereign subject and then enter circulation; it appeared <span class="e">within circulation</span> as a configuration of voices already answerable.</p>
+      <div class="row2">
+        <div class="g2 half">
+          <div class="g2cell frag">Its public life began on blogs — a form already structured by response (comment, link, reblog), unsettling the stabilising gesture of the manifesto.</div>
+          <div class="g2cell frag">It entered on 24 March 2022 inside a written dialogue between <span class="g">Computer Lars</span>, <span class="g">Carol Stumper</span>, and <span class="g">Marcel Proust</span> — all anagrammatic permutations of the same thirteen letters (Det Syntetiske Parti 2022a; Stumper 2021).</div>
+          <div class="g2cell frag" style="grid-column:1 / -1">The anagram binds a name synonymous with <span class="e">involuntary memory</span> to a statistically overfitted, local one: in Denmark there are more CEOs named Lars than there are female CEOs at all (Dalgaard et al. 2021).</div>
+        </div>
+        <div class="vis" style="flex:0 0 34%">
+          <div class="win"><div class="t"><span>À LA RECHERCHE · COMPUTER LARS</span><span>thirteen letters</span></div><div class="v"><img src="media/fig/image9.jpg" alt="Marcel Proust / Computer Lars book spines"></div><div class="cap">Computer Lars: more than a pseudonym — a public myth, a shared vernacular idiom</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="cite">Det Syntetiske Parti. 2022a. "Det Syntetiske Parti I." YouTube, 24 March 2022. · Dalgaard, Mette, et al. 2021. "Der er stadig flere danske topchefer, der hedder Lars eller Peter, end der er kvinder." <i>Berlingske</i>, 20 September 2021. · Stumper, Carol. 2021. <i>marcel proust recherche / my tales of corrupt males.</i> Organ of the Autonomous Sciences.</div>
+  </section>
+
+  <!-- 08 · GEOMETRY OF PRACTICE (image3 — Figure N.I) -->
+  <section class="slide" data-mode="terminal" data-screen-label="08 Geometry" data-speaker-notes="The research geometry: a rotating object. VERTICES are the three concepts; EDGES are the three practice-phases (The Synthetic Party, Synthetic Summit, Democracy). Practice runs along edges; analysis follows transversal arrows.">
+    <div class="chrome"><span><b>N.II</b> · A GEOMETRY OF PRACTICE</span><span><span class="folio">Figure N.I</span> <span class="mode">SYS</span> 08</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">render geometry --rotatable</span><span class="cur"></span></div>
+    <div class="main">
+      <div class="vis" style="justify-content:center;flex:0 0 auto">
+        <div class="figbox crt" style="max-width:560px"><img src="media/fig/image3.png" alt="Research geometry triangle (Figure N.I)" style="max-height:420px"><span class="figcap">Fig. N.I — the research geometry (Staunæs 2026: 13)</span></div>
+      </div>
+      <div class="g2">
+        <div class="g2cell frag"><span class="g">VERTICES — the three concepts</span> Syntheticism sits at the apex; Algorithmic Representation and Technosocial Sculpture anchor the base. Each names a way the practice became thinkable.</div>
+        <div class="g2cell frag"><span class="g">EDGES — the three practice-phases</span> <span class="e">The Synthetic Party</span> (base), <span class="e">the Synthetic Summit</span> (right), and <span class="e">Democracy</span> (left). Each edge carries an article-group and a research question.</div>
+        <div class="g2cell frag">«Practice proceeds along the edges as traversable sequences of action, while the dissertation's analysis, theories, and mixed speculations follow the <span class="e">directed arrows</span> as interpretive returns» (Staunæs 2026: 13).</div>
+        <div class="g2cell frag">Each transversal arrow corresponds to a distinct answer to a research question — so the geometry can be read linearly, beginning to end, or transversally, following one question along its edge.</div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§N.II "Research Questions: A Geometry of Practice": 13). Base edge (The Synthetic Party) ⟷ Art 1–2 · right edge (Synthetic Summit) ⟷ Art 3–5 · left edge (Democracy) ⟷ Art 6–7.</div>
+  </section>
+
+  <!-- 09 · THE THREE RESEARCH QUESTIONS -->
+  <section class="slide" data-mode="terminal" data-screen-label="09 Three questions" data-speaker-notes="Read the three research questions exactly. Each tied to a phase of practice: ideology, scaling, recomposition of democracy.">
+    <div class="chrome"><span><b>N.II</b> · THE THREE QUESTIONS</span><span><span class="folio">synthesis §N.II</span> <span class="mode">SYS</span> 09</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">cat research_questions.txt</span><span class="cur"></span></div>
+    <div class="main center mid">
+      <div class="rqstack">
+        <div class="rq frag"><div class="no">1</div><div class="body"><span class="ph">RQ1 · Ideology · the substrate</span><p>What becomes of ideology when a real political party is built around an AI trained on the voices of people who usually do not vote?</p></div><div class="edge"><b>Edge 1</b>The Synthetic Party · Art. 1–2</div></div>
+        <div class="rq frag"><div class="no">2</div><div class="body"><span class="ph">RQ2 · Scaling · the problem-space</span><p>How can an AI party be scaled, through artistic and academic mediation, into a synthetic international of AI parties and politicians?</p></div><div class="edge"><b>Edge 2</b>The Synthetic Summit · Art. 3–5</div></div>
+        <div class="rq frag"><div class="no">3</div><div class="body"><span class="ph">RQ3 · Recomposition · democracy itself</span><p>How do these synthetic political forms contest and recompose democracy?</p></div><div class="edge"><b>Edge 3</b>Democracy · Art. 6–7</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§N.II: 13). The three questions grow out of distinct phases of artistic practice while developing a shared conceptual field.</div>
+  </section>
+
+  <!-- 10 · COLLAGE INTERSTITIAL I -->
+  <section class="slide collage-slide" data-mode="feed" data-collage data-cmode="1" data-screen-label="10 Edge 1" data-speaker-notes="Cabaret break. Edge 1 = the base edge, The Synthetic Party. RQ1.">
+    <div class="cwall"></div>
+    <div class="cvig"></div>
+    <div class="cov">
+      <span class="qn">Edge 1 · base · Quaestio I</span>
+      <h2>The Synthetic<br>Party</h2>
+      <div class="sub">Algorithmic representation — who gets a voice, who is spoken for, how cultural data becomes a societal body.</div>
+      <span class="cnt">RQ1 · Articles 1–2</span>
+    </div>
+  </section>
+
+  <!-- 11 · QUAESTIO I (question + image4: Figure I.1) -->
+  <section class="slide" data-mode="terminal" data-screen-label="11 Quaestio I" data-speaker-notes="Pose Quaestio I, alone. The transversal figure: Syntheticism read back down onto the Synthetic Party (Figure I.1).">
+    <div class="chrome"><span><b>QUAESTIO I</b> · RQ1</span><span><span class="folio">Figure I.1</span> <span class="disp">DISPUTATIO</span> 11</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">pose quaestio --prima</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt" style="justify-content:center">
+        <div class="quaestio frag"><span class="qn">Quaestio Prima</span><p class="qt">What becomes of ideology when a party is built around an AI trained on the voices of people who usually do not vote?</p></div>
+      </div>
+      <div class="vis" style="justify-content:center">
+        <div class="figbox crt big"><img src="media/fig/image4.png" alt="Figure I.1: Syntheticism → The Synthetic Party"><span class="figcap">Fig. I.1 — Syntheticism → The Synthetic Party</span><p class="fignote frag">A straight arrow from Syntheticism at the apex down to The Synthetic Party: a retroactive reading — not how the party developed toward syntheticism, but how syntheticism, once articulated, discloses what the party was doing.</p></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (Figure I.1, §I: 43). The two articles on this edge are cited at their own slides.</div>
+  </section>
+
+  <!-- 12 · ALGORITHMIC REPRESENTATION (concept) -->
+  <!-- 12 · IDEOLOGICAL SUBSTRATE (Article 1) -->
+  <section class="slide" data-mode="terminal" data-screen-label="12 Substrate" data-speaker-notes="Building the substrate was archival filth: Joomla scrapers and Epson scanning of fringe pamphlets. Weatherby: ideology scanning, after Foucault on idéologie.">
+    <div class="chrome"><span><b>I.I</b> · BUILDING THE IDEOLOGICAL SUBSTRATE</span><span><span class="folio">synthesis §I.I</span> <span class="mode">SYS</span> 12</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">scan ./democratic_backwash --epson --joomla</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="versal frag" style="max-width:42em">The building of The Synthetic Party was no clean affair of cutting-edge engineering, but a <span class="e">springtime of archival filth</span>.</p>
+      <div class="row2">
+        <div class="g2 half">
+          <div class="g2cell frag">Months spent scraping text off old Joomla sites of forgotten fringe parties and feeding yellowed pamphlets from the democratic backwash into the contingencies of Epson scanning.</div>
+          <div class="g2cell frag">It surfaced the Vodka Party, Theta Service, The Trump Party, and dozens of micro-formations as a training corpus.</div>
+          <div class="g2cell frag" style="grid-column:1 / -1">This was, in Weatherby's term, <span class="g">ideology scanning</span> (Weatherby 2025: 187): a practice that, after Foucault on Destutt de Tracy's idéologie, «scans the domain of representations» and formulates the «laws of composition and decomposition» of a system of ideas (Foucault 2007).</div>
+        </div>
+        <div class="vis" style="flex:0 0 34%">
+          <div class="win"><div class="t"><span>DEMOCRATIC BACKWASH</span><span>scanned corpus</span></div><div class="v"><img src="media/fig/image67.jpg" alt="scanned pamphlet from the democratic backwash"></div><div class="cap">Yellowed pamphlets from 200+ extra-parliamentary formations, fed through Epson scanning</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="cite">Weatherby, Leif. 2025. <i>Language Machines: Cultural AI and the End of Remainder Humanism.</i> Minneapolis: University of Minnesota Press. · Foucault, Michel. 2007. <i>The Order of Things: An Archaeology of the Human Sciences.</i> London: Routledge. · MindFuture. 2022b. "Kunstig intelligens vil lede danmarkshistoriens sidste nye parti." MyNewsDesk, 9 June 2022.</div>
+  </section>
+
+  <!-- 13 · ALGORITHMIC REPRESENTATION (concept) -->
+  <section class="slide" data-mode="terminal" data-screen-label="13 Algorithmic representation" data-speaker-notes="The concept, on its own slide. Corpus selection, training, prompting, curation already function as representative acts.">
+    <div class="chrome"><span><b>I</b> · ALGORITHMIC REPRESENTATION</span><span><span class="folio">synthesis §I</span> <span class="mode">SYS</span> 13</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">define algorithmic_representation</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">Algorithmic representation names the way <span class="e">corpus selection, training data, prompting, and model curation</span> already function as representative acts.</p>
+        <ul class="gloss tight">
+          <li class="frag">This is where it is decided who gets a voice, who is spoken for, and how cultural data becomes a societal body.</li>
+          <li class="frag">The Synthetic Party stages representation as a technical question — datafied, prompted, moderated — rather than only an electoral one.</li>
+        </ul>
+        <p class="stmt frag" style="color:var(--hi)">Representation is not given to the model from outside; it is produced inside the pipeline, and can therefore be examined, contested, and remade.</p>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>EMOTION ANALYSIS · LÍDER LARS vs PARTY</span><span>Concreta, Art 1</span></div><div class="v" style="background:#0d0a02"><img src="media/fig/image25.jpg" alt="text2emotion / BERT emotion analysis of Leader Lars vs party members"></div><div class="cap">text2emotion · BERT-Danish: the corpus rendered as an affective body (Staunæs &amp; Computer Lars 2024)</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§I). · Staunæs, Asker Bryld, and Computer Lars. 2024a. "Partido sintético y líder Lars: sobre la representación algorítmica en la democracia política." <i>Èditorial Concreta</i> 23: 84–97.</div>
+  </section>
+
+  <!-- 14 · THE IDEOLOGY MACHINE -->
+  <section class="slide" data-mode="terminal" data-screen-label="14 Ideology machine" data-speaker-notes="Abelson's 1971 Ideology Machine encoded a True Believer. The LLM changes the substrate: output is no one's belief and everyone's material. Chun: software+hardware as ideology.">
+    <div class="chrome"><span><b>I.II</b> · THE PARTY AS AN IDEOLOGY MACHINE</span><span><span class="folio">synthesis §I.II</span> <span class="mode">SYS</span> 14</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">diff Abelson1971 LLM2022</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">No one's belief, everyone's material</p>
+        <ul class="gloss tight">
+          <li class="frag">Yale psychologist Robert P. Abelson built an <span class="e">Ideology Machine</span> (Abelson 1971) to model a «True Believer» — ideology as a property that can be authored, located, and reproduced identical to itself.</li>
+          <li class="frag">What LLMs change is not the ambition to model belief, but the <span class="e">substrate</span>: the model does not script positions, it composes them from a corpus.</li>
+          <li class="frag">The output is <span class="e">no one's belief and everyone's material</span>. Pushing past Abelson, Wendy Chun reads computers — software and hardware together — as themselves ideological (Chun 2004).</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>CUBO DE VALENCIA · DENSIDAD</span><span>Concreta, Art 1</span></div><div class="v" style="background:#0d0a02"><img src="media/fig/image28.jpg" alt="Cubo de Valencia density and contour charts, Líder Lars vs party"></div><div class="cap">Líder Lars vs. los miembros del partido — belief rendered as density and contour (Staunæs &amp; Computer Lars 2024)</div></div>
+      </div>
+    </div>
+    <div class="cite">Abelson, Robert P. 1971. "The Ideology Machine." Conference paper, American Political Science Association, September 1971. · Chun, Wendy Hui Kyong. 2004. "On Software, or the Persistence of Visual Knowledge." <i>Grey Room</i> 18: 26–51. · Staunæs 2026, <i>Syntheticism</i> (§I.II).</div>
+  </section>
+
+  <!-- 15 · SYNTHETICISM AS IDEOLOGY -->
+  <section class="slide" data-mode="terminal" data-screen-label="15 Synthetic" data-speaker-notes="The word 'synthetic' is the theory. From synthetikós: a putting-together that preserves yet transforms. Not artificial or fake.">
+    <div class="chrome"><span><b>I.III</b> · SYNTHETICISM AS IDEOLOGY</span><span><span class="folio">synthesis §I.III</span> <span class="mode">SYS</span> 15</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">etymology synthetikós</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">Synthesis: combine, yet absolve</p>
+        <blockquote class="src frag" style="font-size:26px">«the Greek root 'synthetikós' implies a proto-statistical convergence or amalgamation of divergent perspectives into a central or universally common point… Unlike the 'artificial' or 'fake,' which often denote mere imitation or deception, the 'synthetic' distinctively incorporates elements to form a new entity that preserves, yet transforms, the component attributes.»<span class="gl">— Staunæs &amp; Bak Herrie 2024: 117</span></blockquote>
+        <p class="stmt frag">Synthetic-ism takes the rudimentary form of an 'ism' because the practice was <span class="e">immediately received as one</span> — not because I wish to add a creed to the archive of doctrines.</p>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>COMPUTER LARS</span><span>«What is a synthetic party?»</span></div><div class="v"><img src="media/fig/image23.jpg" alt="Computer Lars: what is a synthetic party"></div><div class="cap">Synthesis: the compositional binding of heterogeneous material into a form that circulates as if it were a unity</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs, Asker Bryld, and Maja Bak Herrie. 2024. "Deep Faking in a Flat Reality?" <i>A Peer-Reviewed Journal About_</i> 13 (1): 105–123 (here 117). · Staunæs 2026, <i>Syntheticism</i> (§I.III).</div>
+  </section>
+
+  <!-- 16 · A MODEL FOR PROUSTIAN DECAY (Article 2) -->
+  <section class="slide" data-mode="feed" data-screen-label="16 Proustian Decay" data-speaker-notes="Article 2 with Computer Lars: a speculative model of intelligence's value in an AI-saturated public, rendered as amber CRT charts.">
+    <div class="chrome"><span><b>ARTICLE 2</b> · A MODEL FOR PROUSTIAN DECAY</span><span><span class="folio">Nordic J. Aesthetics 33/67</span> <span class="mode feed">FEED</span> 16</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">plot value_of_intelligence(t)</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="lead frag" style="font-size:32px;margin-bottom:14px">A speculative mathematical model of <span class="e">intelligence's estimated value</span> in an AI-saturated public — estimating the value of intelligence in the age of unreason (Staunæs &amp; Computer Lars 2024).</p>
+      <div class="mgrid three">
+        <div class="win"><div class="t"><span>FIG 2.2 · VALUE OF INTELLIGENCE / TIME</span><span>TXT-VCT</span></div><div class="v" style="background:#050300"><img src="media/fig/image31.png" alt="Value of intelligence over time"></div></div>
+        <div class="win"><div class="t"><span>FIG 2.4 · EXPONENTIAL PROUSTIAN DECAY</span><span>TXT-VCT</span></div><div class="v" style="background:#050300"><img src="media/fig/image33.png" alt="Exponential Proustian decay"></div></div>
+        <div class="win"><div class="t"><span>FIG 2.1 · TECHNOCRATIC SINGULARITY</span><span>TXT-VCT</span></div><div class="v" style="background:#050300"><img src="media/fig/image30.png" alt="Humans vs machines crossover at 2022"></div></div>
+      </div>
+      <div class="syscomment frag">co-authored with Computer Lars — the artist as <b>signature</b> on the chain, consenting to be held to it.</div>
+    </div>
+    <div class="cite">Article 2: Staunæs, Asker Bryld, &amp; Computer Lars. 2024. 'A Model for Proustian Decay: Estimating the Value of Intelligence in the Age of Unreason.' <i>Nordic Journal of Aesthetics</i> 33 (67): 184–202. doi 10.7146/nja.v33i67.148465.</div>
+  </section>
+
+  <!-- RQ1 ANSWERED -->
+  <section class="slide" data-mode="terminal" data-screen-label="17 RQ1 answered" data-speaker-notes="Close edge 1 with the explicit answer to RQ1, verbatim from the synthesis.">
+    <div class="chrome"><span><b>RESPONDEO I</b> · RQ1 ANSWERED</span><span><span class="folio">synthesis §II: 76</span> <span class="mode">SYS</span> 17</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">return answer(RQ1)</span><span class="cur"></span></div>
+    <div class="main center mid">
+      <div class="respondeo-head frag"><span class="qn">Quaestio Prima</span><p class="qa">What becomes of ideology when a party is built around an AI trained on the voices of people who usually do not vote?</p></div>
+      <p class="answer frag">The Synthetic Party answers RQ1 not by revealing the ideology of an AI-led party but by demonstrating how <span class="e">ideology itself changes register</span> once statistically composed speech enters public reception: ideology appears as a <span class="e">synthetic form</span> generated at the interface between algorithmic representation, institutional address, and collective classification.</p>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§II, closing RQ1: 76). Edge 1 — The Synthetic Party · Articles 1–2.</div>
+  </section>
+
+  <!-- 17 · COLLAGE INTERSTITIAL II -->
+  <section class="slide collage-slide" data-mode="feed" data-collage data-cmode="2" data-screen-label="18 Edge 2" data-speaker-notes="Cabaret break. Edge 2 = the right edge, the Synthetic Summit. RQ2.">
+    <div class="cwall"></div>
+    <div class="cvig"></div>
+    <div class="cov">
+      <span class="qn">Edge 2 · right · Quaestio II</span>
+      <h2>The Synthetic<br>Summit</h2>
+      <div class="sub">A portable problem-space — not another label for AI in politics, but a form that travels.</div>
+      <span class="cnt">RQ2 · Articles 3–5</span>
+    </div>
+  </section>
+
+  <!-- 18 · QUAESTIO II (question + image5: Figure II.1) -->
+  <section class="slide" data-mode="terminal" data-screen-label="19 Quaestio II" data-speaker-notes="Pose Quaestio II, alone. The transversal figure: Synthetic Summit read back to Algorithmic Representation (Figure II.1).">
+    <div class="chrome"><span><b>QUAESTIO II</b> · RQ2</span><span><span class="folio">Figure II.1</span> <span class="disp">DISPUTATIO</span> 19</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">pose quaestio --secunda</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt" style="justify-content:center">
+        <div class="quaestio frag"><span class="qn">Quaestio Secunda</span><p class="qt">How can an AI party be scaled, through artistic and academic mediation, into a synthetic international of AI parties and politicians?</p></div>
+      </div>
+      <div class="vis" style="justify-content:center">
+        <div class="figbox crt big"><img src="media/fig/image5.png" alt="Figure II.1: Synthetic Summit → Algorithmic Representation"><span class="figcap">Fig. II.1 — Synthetic Summit → Algorithmic Representation</span><p class="fignote frag">A curved arrow from the Synthetic Summit to Algorithmic Representation: scaling proceeds not through conceptual transfer but via media comparison, institutional formatting, backend construction, and shared deliberation.</p></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (Figure II.1, §II: 63).</div>
+  </section>
+
+  <!-- 19 · SYNTHETIC POLITICS — the lever (concept) -->
+  <section class="slide" data-mode="terminal" data-screen-label="20 The lever" data-speaker-notes="The concept on its own: media circulation as a lever for convening an international constellation.">
+    <div class="chrome"><span><b>II</b> · SCALING THROUGH MEDIATION</span><span><span class="folio">synthesis §II</span> <span class="mode">SYS</span> 20</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">scale --lever media_circulation</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">I used the party's media circulation as a <span class="e">lever</span> for recruiting and convening an international constellation of AI-driven parties and politicians.</p>
+        <ul class="gloss tight">
+          <li class="frag">Press coverage was converted into the <span class="e">comparability</span> on which invitations could be extended — a flattening that let the project travel.</li>
+          <li class="frag">Through artistic and academic mediation, an electoral curiosity became a <span class="e">summit-form</span>: a repeatable organisational arrangement capable of gathering the world's makers of synthetic politics.</li>
+        </ul>
+        <p class="stmt frag" style="color:var(--hi)">Scaling here is not growth in size but portability across institutions — the summit-form as an operative relay.</p>
+      </div>
+      <div class="vis">
+        <div class="win" data-video="uploads/Is_AI_Politics_the_Disruptive_Force_We_Need_.mp4"><div class="t"><span>IS AI POLITICS THE DISRUPTIVE FORCE?</span><span>media as lever</span></div><div class="v"><img src="media/fig/image66.png" alt="synthetic politics in media"></div><div class="cap">Click to play — «the rest we'll figure out together»</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§II). · Schneier, Bruce, and Nathan E. Sanders. 2025. <i>Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship.</i> Cambridge, MA: MIT Press: 29.</div>
+  </section>
+
+  <!-- 20 · PUBLICITY → SUMMIT-FORM -->
+  <section class="slide" data-mode="feed" data-screen-label="21 Publicity" data-speaker-notes="Press placed Leader Lars beside AI Mayor, Wiktoria Cukt, Politician SAM, the Finnish AI Party. Publicity flattened the project and let it travel.">
+    <div class="chrome"><span><b>II.I</b> · FROM PUBLICITY TO SUMMIT-FORM</span><span><span class="folio">synthesis §II.I</span> <span class="mode feed">FEED</span> 21</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">map ./international_network --relays</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">Through 2022–2023, press coverage repeatedly placed Leader Lars alongside AI parties and virtual politicians elsewhere.</p>
+        <ul class="gloss tight">
+          <li class="frag">Japan's <span class="e">AI Mayor</span> campaigns, Poland's <span class="e">Wiktoria Cukt</span> (Ujazdowski Castle CCA 2025), New Zealand's <span class="e">Politician SAM</span> (Guinness World Records 2018), and Finland's arts-based <span class="e">Koneälypuolue</span> (Center for Everything 2018).</li>
+          <li class="frag">Publicity created openings by <span class="e">flattening the project into headlines</span>, allowing The Synthetic Party to travel across contexts and locate allies globally.</li>
+          <li class="frag">Bilateral collaboration agreements followed with the Japanese and Finnish AI Parties.</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>ANALOGUE-FEED · 4-UP</span><span>17:15:36 CET</span></div><div class="v"><img src="media/fig/image2.jpg" alt="Synthetic Summit analogue feed still"></div><div class="cap">Michael Birkebæk (DemAI) beside Lex, AI candidate for São Paulo; «Wiktoria Cukt: Hilarious stuff!» — Piotr Wyrzykowski</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§II.I). · Guinness World Records. 2018. "First Political Chatbot." · Ujazdowski Castle CCA. 2025. <i>AI Władza Sztuki.</i> Warsaw. · Center for Everything. 2018. "Constitutive Meeting of the AI Party." · Xiang, Chloe. 2022. "This Danish Political Party Is Led by an AI." <i>Motherboard, Vice</i>, 13 October 2022.</div>
+  </section>
+
+  <!-- 21 · THE SYNTHETIC SUMMITS (three distinct exhibitions, consistent → lines) -->
+  <section class="slide" data-mode="feed" data-screen-label="22 Summits" data-speaker-notes="Three different exhibitions, three cities, three formats — each with the same → grammar: a distinct operation on the summit-form.">
+    <div class="chrome"><span><b>N.I</b> · THE SYNTHETIC SUMMITS · THREE EXHIBITIONS</span><span><span class="folio">synthesis §N.I</span> <span class="mode feed">FEED</span> 22</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">convene world_congress × 3 --as exhibitions</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="lead frag" style="font-size:30px;margin-bottom:14px">One technosocial sculpture, three distinct exhibitions — each altering the format while establishing a repeatable organisational form.</p>
+      <div class="makers">
+        <div class="mk" data-video="uploads/Synthetic%20Summit_%20AI%20World%20Congress.mp4">
+          <div class="mh">Synthetic Summit<span>Kunsthal Aarhus · 28 Feb – 13 Apr 2025</span></div>
+          <div class="mv"><img src="media/fig/image11.jpg" alt="Synthetic Summit, Aarhus"></div>
+          <div class="mb">An AI World Congress whose delegates drafted and signed a collective resolution on algorithmic democracy.<span class="res">→ world congress + signed resolution</span></div>
+        </div>
+        <div class="mk">
+          <div class="mh">AI Authority of Art<span>Ujazdowski Castle CCA, Warsaw · 2025</span></div>
+          <div class="mv"><img src="media/fig/image12.jpg" alt="AI Authority of Art, Warsaw"></div>
+          <div class="mb">A voice-based installation: Wiktoria Cukt &amp; Leader Lars in live political discussion with each other and the public.<span class="res">→ national inflection + voice installation</span></div>
+        </div>
+        <div class="mk">
+          <div class="mh">KI-DIPFIES<span>Kunstraum MEMPHIS, Linz · 12 Feb – 10 Mar 2026</span></div>
+          <div class="mv"><img src="media/fig/image13.jpg" alt="KI-DIPFIES, Linz"></div>
+          <div class="mb">A swarm-based control interface: visitors built a local AI party for Upper Austria through the «Dipfies».<span class="res">→ local multiplication + swarm party</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="cite">Kunsthal Aarhus 2025a (<i>Synthetic Summit</i>); Ujazdowski Castle 2025 (<i>AI władza sztuki / AI Authority of Art</i>); Kunstraum MEMPHIS 2026a (<i>KI-DIPFIES</i>, with Leander Gussmann). Terranova 2021; Stiegler et al. 2020.</div>
+  </section>
+
+  <!-- SUMMIT DELEGATES (participants table) -->
+  <section class="slide" data-mode="feed" data-screen-label="23 Summit delegates" data-speaker-notes="The roster of delegations convened at the AI World Congress, who drafted and signed the resolution.">
+    <div class="chrome"><span><b>N.I</b> · THE DELEGATIONS</span><span><span class="folio">synthesis §N.I</span> <span class="mode feed">FEED</span> 23</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">roster ./summit --delegations</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="lead frag" style="font-size:27px;margin-bottom:12px">The delegations convened at the inaugural <span class="e">AI World Congress</span> (Kunsthal Aarhus, 1 March 2025) to draft and sign a collectively authored resolution (Appendix D).</p>
+      <table class="cmp frag">
+        <thead><tr><th>Origin</th><th>Politician / Party</th><th>Behind it</th></tr></thead>
+        <tbody>
+          <tr><td>Denmark</td><td><span class="e">The Synthetic Party</span> &amp; Leader Lars</td><td>Computer Lars &amp; MindFuture</td></tr>
+          <tr><td>Poland</td><td>The Wiktoria Cukt Party &amp; Wiktoria Cukt 2.0</td><td>Piotr Wyrzykowski &amp; C.U.K.T.</td></tr>
+          <tr><td>Japan</td><td>The Japanese AI Party &amp; AI Mayor</td><td>Michihito Matsuda</td></tr>
+          <tr><td>New Zealand</td><td>Parker Politics &amp; Politician SAM</td><td>Nick Gerritsen and Floor Kist</td></tr>
+          <tr><td>Sweden</td><td>The Swedish AI Party &amp; Olof Palme</td><td>Emma Bexell</td></tr>
+          <tr><td>Finland</td><td>The Finnish AI Party</td><td>The Center for Everything</td></tr>
+          <tr><td>Brazil</td><td>Pedro Markun &amp; Lex AI</td><td>The Sustainable Network Party</td></tr>
+          <tr><td>EG / SE</td><td>Simiyya</td><td>Hendawi, Ridefelt &amp; Elbaroody</td></tr>
+        </tbody>
+      </table>
+      <p class="stmt frag" style="max-width:none">Ratified by signatories from Denmark, New Zealand, Finland, Japan, Sweden, Poland, and Brazil, while <span class="e">Simiyya</span> of Cairo–Copenhagen remained unsigned, in good spirits — «the birth of synthetic politics» (Parker Politics, in Salole 2025).</p>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§N.I; §II.I). · Kunsthal Aarhus. 2025b. <i>Synthetic Summit: AI World Congress.</i> Event, 1 March 2025. · Salole, Megan. 2025. "The Birth of Synthetic Politics." Parker Politics blog. Figure II.2 (VHS Factory).</div>
+  </section>
+
+  <!-- SYNTHETIC SUMMIT RESOLUTION (signed) -->
+  <section class="slide" data-mode="feed" data-screen-label="24 The Resolution" data-speaker-notes="The signed resolution on algorithmic democracy — the empirical trace Article 7 later codifies as a formal specification.">
+    <div class="chrome"><span><b>N.I</b> · THE SYNTHETIC SUMMIT RESOLUTION</span><span><span class="folio">Appendix D</span> <span class="mode feed">FEED</span> 24</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">ratify ./resolution --algorithmic-democracy</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">At the AI World Congress, the delegations drafted and <span class="e">signed a collective resolution on algorithmic democracy</span> — the first document of its kind authored across an international of AI parties and politicians.</p>
+        <ul class="gloss tight">
+          <li class="frag">It is the empirical trace that Article 7 later codifies into a <span class="e">formal specification</span> of democracy as a governance algorithm.</li>
+          <li class="frag">Ratified by signatories from Denmark, New Zealand, Finland, Japan, Sweden, Poland, and Brazil; <span class="e">Simiyya</span> of Cairo–Copenhagen remained, in good spirits, unsigned.</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>RESOLUTION · SIGNATURES</span><span>Kunsthal Aarhus, 1 Mar 2025</span></div><div class="v" style="background:#fff"><img src="media/fig/image60.jpg" alt="The signed Synthetic Summit Resolution on algorithmic democracy"></div><div class="cap">«The birth of synthetic politics» — the collectively authored, signed resolution (Appendix D)</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§N.I; Appendix D). · Computer Lars. 2025. "The AI World Congress." In <i>Syntheticist Papers I: Proceedings of the Synthetic Summit.</i> Aarhus: Syntheticism.org. · Salole, Megan. 2025. "The Birth of Synthetic Politics." Parker Politics blog.</div>
+  </section>
+
+  <!-- 22 · WHY NOT AI POLITICS? -->
+  <section class="slide" data-mode="terminal" data-screen-label="25 Why not AI politics" data-speaker-notes="AI politics vs synthetic politics: effect vs enactment.">
+    <div class="chrome"><span><b>II.II.I</b> · WHY NOT 'AI POLITICS'?</span><span><span class="folio">synthesis §II.II</span> <span class="mode">SYS</span> 25</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">diff "ai politics" "synthetic politics"</span><span class="cur"></span></div>
+    <div class="main center mid">
+      <p class="term sm frag">Effect, or enactment</p>
+      <div class="parad">
+        <div class="row frag"><b>Politics through AI</b> <span class="amp">⇄</span> how models influence communication, participation, campaigning, administration (König &amp; Wenzelburger 2020).</div>
+        <div class="row frag"><b>The politics of AI</b> <span class="amp">⇄</span> how AI enters politics as an object of governance, regulation, ethical dispute (Coeckelbergh 2024; Ulnicane &amp; Erkkilä 2023).</div>
+      </div>
+      <p class="stmt frag" style="font-size:33px;color:var(--hi);max-width:40em;margin-top:24px">Where AI politics tracks <span class="e">effect</span>, synthetic politics entails <span class="e">enactment</span>: what kind of political form is produced when representation, deliberation, and authority are composed with algorithms.</p>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§II.II.I). · König, Pascal D., and Georg Wenzelburger. 2020. "How AI Alters Democratic Politics." <i>Government Information Quarterly</i> 37 (3): 101489. · Coeckelbergh, Mark. 2024. <i>Why AI Undermines Democracy and What to Do About It.</i> Cambridge: Polity. · Ulnicane, Inga, and Tero Erkkilä. 2023. "Politics and Policy of Artificial Intelligence." <i>Review of Policy Research</i> 40 (5): 612–625.</div>
+  </section>
+
+  <!-- 23 · PORTABILITY / SYNTHETIC DISSIDENTS (image59, not Strangelove) -->
+  <section class="slide" data-mode="terminal" data-screen-label="26 Portability" data-speaker-notes="The form is portable beyond democracy. Synthetic dissidents stage a response where electoral channels are absent or destroyed.">
+    <div class="chrome"><span><b>II.II.II</b> · PORTABILITY BEYOND DEMOCRACY</span><span><span class="folio">synthesis §II.II</span> <span class="mode">SYS</span> 26</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">port synthetic_politics --beyond democracy</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">A form that travels across institutions</p>
+        <ul class="gloss tight">
+          <li class="frag">Synthetic politics is a <span class="e">portable form</span> capable of travelling across heterogeneous institutional environments — analysable only across the whole operational stack: training, prompts, interface, moderation, circulation, roles.</li>
+          <li class="frag">Recurring cases of <span class="g">synthetic dissidents</span> (Malý &amp; Staunæs 2026) show how a response can be staged where electoral channels are <span class="e">absent or destroyed</span> — such as <span class="e">Yas Gaspadar</span>, the AI candidate Sviatlana Tsikhanouskaya fielded in Belarus's exiled Coordination Council elections (Tsikhanouskaya 2024).</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win" data-video="uploads/videopresent.mp4"><div class="t"><span>SYNTHETIC DISSIDENTS</span><span>address without a ballot</span></div><div class="v"><img src="media/fig/image59.png" alt="synthetic dissidents — I need to be where people is"></div><div class="cap">«I need to be where people is» — a response staged where channels are foreclosed</div></div>
+      </div>
+    </div>
+    <div class="cite">Malý, Michal, and Asker Bryld Staunæs. 2026. "Synthetic Dissidents: How AI Protects Dissent under Repression." <i>The Loop: ECPR's Political Science Blog</i>, 3 February 2026. · Tsikhanouskaya, Sviatlana. 2024. "Meet Yas Gaspadar, the New AI Candidate in the Coordination Council Elections." X, 23 February 2024. · Staunæs 2026, <i>Syntheticism</i> (§II.II.II: 79).</div>
+  </section>
+
+  <!-- 24 · ASIMOV (Article 3) — image29 'Evidence', (in press) -->
+  <section class="slide" data-mode="terminal" data-screen-label="27 Asimov" data-speaker-notes="Article 3: read Asimov's robot-politician stories as cultural inheritance. 'Evidence' — Byerley refuses to disprove he is a robot. Sets up the constraint hierarchy.">
+    <div class="chrome"><span><b>ARTICLE 3</b> · ASIMOV'S INCUBATION OF POLITICAL AI</span><span><span class="folio">Routledge (in press)</span> <span class="mode">SYS</span> 27</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">read Asimov --immanent-critique</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">I anchor this field historically by reading Isaac Asimov's stories about <span class="e">robot politicians</span> as part of the cultural inheritance through which synthetic politics is still received.</p>
+        <ul class="gloss tight">
+          <li class="frag">The press juxtapositions of Leader Lars with other AI politicians have a root traced through Asimov's robot tales — read as <span class="e">an immanent critique</span>.</li>
+          <li class="frag">In «Evidence» (Asimov 1950), the candidate Byerley, suspected of being a robot, refuses to disprove it, noting that «publicity works both ways» — a courtroom Turing test of outward behaviour.</li>
+          <li class="frag">And the earliest programmed <span class="e">constraint hierarchy</span> for artificial agents — the Three Laws of Robotics — which Article 7 recasts.</li>
+        </ul>
+      </div>
+      <div class="vis" style="justify-content:center">
+        <div class="figbox crt big"><img src="media/fig/image40.jpg" alt="Asimovian Democracy — minimal schema"><span class="figcap">Fig. 2 — Asimovian Democracy: a minimal schema (Staunæs 2026a)</span></div>
+      </div>
+    </div>
+    <div class="cite">Article 3: Staunæs, Asker Bryld. 2026 (in press). 'Isaac Asimov's Incubation of Political AI: An Immanent Critique?' In <i>Beyond the Turing Test</i>, eds. Berthelsen, Thomsen &amp; Tannert. Routledge. Asimov 1950: 173–178.</div>
+  </section>
+
+  <!-- 25 · DEEP FAKING (Article 4) — Guardian gallery -->
+  <section class="slide" data-mode="feed" data-screen-label="28 Deep faking" data-speaker-notes="Article 4 with Maja Bak Herrie: the Guardian overlaid Biden with The Synthetic Party's Discord. Click to step through the composite variants.">
+    <div class="chrome"><span><b>ARTICLE 4</b> · DEEP FAKING IN A FLAT REALITY?</span><span><span class="folio">APRJA 13/1</span> <span class="mode feed">FEED</span> 28</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">trace leakage: deepfake → deep_faking</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">Deepfake, and deep faking</p>
+        <ul class="gloss tight">
+          <li class="frag">On 23 Feb 2024 <i>The Guardian</i> ran a piece on AI deepfakes beneath a composite in which <span class="e">Joe Biden</span> appeared under a semi-transparent overlay of The Synthetic Party's Discord — «Computer Lars,» «Leder Lars,» «Det Syntetiske Parti» floating across American presidential representation (Yerushalmy 2024).</li>
+          <li class="frag">Not authored by the party: an editorial composite by the newspaper, readily overlaying sovereign representation with our synthetic apparatus.</li>
+        </ul>
+        <p class="stmt frag" style="color:var(--hi)">We distinguish the <span class="e">deepfake</span> as a limited object from <span class="e">deep faking</span> as the broader leakage between AI-generated content and the circulation of images (Staunæs &amp; Bak Herrie 2024).</p>
+      </div>
+      <div class="vis">
+        <div class="post" data-gallery="media/fig/image7.png | media/fig/image42.jpg | media/fig/image44.jpg | media/fig/image43.png"><div class="phead"><div class="pav">▣</div><div class="pwho"><b>The Guardian</b><span>composite · click to step through (Fig 4.1–4.3)</span></div><div class="pmore">···</div></div><div class="pmedia"><img src="media/fig/image7.png" alt="Guardian AI deepfakes Biden"></div><div class="pcap">«AI deepfakes come of age as billions prepare to vote.» ‹ › to browse the variants.</div></div>
+      </div>
+    </div>
+    <div class="cite">Article 4: Staunæs, Asker Bryld, &amp; Maja Bak Herrie. 2024. 'Deep Faking in a Flat Reality?' <i>APRJA</i> 13 (1): 105–123. Yerushalmy, Jonathan. 2024. <i>The Guardian</i>, 23 Feb.</div>
+  </section>
+
+  <!-- 26 · THEORY TRAGEDY (Article 5) — spirals + YouTube embed -->
+  <section class="slide" data-mode="feed" data-screen-label="29 Theory Tragedy" data-speaker-notes="Article 5: the closing performance Theory Tragedy. Persona and permutation. The archive turned against itself. Click to watch the recording.">
+    <div class="chrome"><span><b>ARTICLE 5</b> · SCRIPTING THE SPECTACLE — THEORY TRAGEDY</span><span><span class="folio">Passepartout 16/3</span> <span class="mode feed">FEED</span> 29</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">run persona ⨯ permutation</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">Persona, permutation, recursion</p>
+        <ul class="gloss tight">
+          <li class="frag"><span class="g">Persona</span> — «a mask that renders something addressable, producing a face through which the otherwise unrepresented can enter discourse» (Staunæs 2026: 31). Leader Lars is its predominant instance.</li>
+          <li class="frag"><span class="g">Permutation</span> — the anagrammatic engine (Computer Lars / Marcel Proust / Carol Stumper) that keeps authorship circulating rather than owned.</li>
+          <li class="frag">In <span class="e">Theory Tragedy</span>, the summit archive, through AI, turned its content back against itself as theory — an «idiotextual complex» of distributed authorship (ILL. 4, Computer Lars).</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="post" data-embed="https://www.youtube.com/embed/Wa5qOAfnkj0"><div class="phead"><div class="pav">♪</div><div class="pwho"><b>Theory Tragedy</b><span>closing performance · Summit I</span></div><div class="pmore">···</div></div><div class="pmedia"><img src="media/fig/image53.png" alt="Idiotextual Complex — distributed authorship spiral"></div><div class="pcap">ILL. 4: Idiotextual Complex (Computer Lars). Click to watch the recording.</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs, Asker Bryld. 2026b. "Scripting the Spectacle: A Theory Tragedy." <i>Passepartout: Uden Titel</i> 16 (3): 127–151. · Staunæs 2026, <i>Syntheticism</i> (§N.III.III).</div>
+  </section>
+
+  <!-- RQ2 ANSWERED -->
+  <section class="slide" data-mode="terminal" data-screen-label="30 RQ2 answered" data-speaker-notes="Close edge 2 with the explicit answer to RQ2, verbatim.">
+    <div class="chrome"><span><b>RESPONDEO II</b> · RQ2 ANSWERED</span><span><span class="folio">synthesis §II</span> <span class="mode">SYS</span> 30</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">return answer(RQ2)</span><span class="cur"></span></div>
+    <div class="main center mid">
+      <div class="respondeo-head frag"><span class="qn">Quaestio Secunda</span><p class="qa">How can an AI party be scaled, through artistic and academic mediation, into a synthetic international of AI parties and politicians?</p></div>
+      <p class="answer frag">RQ2 is answered by how The Synthetic Party was leveraged, through <span class="e">publicity, comparison, summit-form, and multi-agent AI deliberation</span>, into a synthetic international: a portable and comparative field of synthetic politics convened across Aarhus, Warsaw, and Linz, which rendered visible, as a <span class="e">structured formation</span>, an operational logic that had previously appeared only in dispersed cases.</p>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§II, closing RQ2: 80). Edge 2 — The Synthetic Summit · Articles 3–5.</div>
+  </section>
+
+  <!-- 27 · COLLAGE INTERSTITIAL III -->
+  <section class="slide collage-slide" data-mode="feed" data-collage data-cmode="3" data-screen-label="31 Edge 3" data-speaker-notes="Cabaret break. Edge 3 = the left edge, Democracy. RQ3.">
+    <div class="cwall"></div>
+    <div class="cvig"></div>
+    <div class="cov">
+      <span class="qn">Edge 3 · left · Quaestio III</span>
+      <h2>Algorithmic<br>Democracy</h2>
+      <div class="sub">How synthetic political forms contest and recompose democracy — turning it from a bounded regime into a material that can be formed anew.</div>
+      <span class="cnt">RQ3 · Articles 6–7</span>
+    </div>
+  </section>
+
+  <!-- 28 · QUAESTIO III (question + image6: Figure III.1) -->
+  <section class="slide" data-mode="terminal" data-screen-label="32 Quaestio III" data-speaker-notes="Pose Quaestio III, alone. The transversal figure: Democracy read to Technosocial Sculpture (Figure III.1).">
+    <div class="chrome"><span><b>QUAESTIO III</b> · RQ3</span><span><span class="folio">Figure III.1</span> <span class="disp">DISPUTATIO</span> 32</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">pose quaestio --tertia</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt" style="justify-content:center">
+        <div class="quaestio frag"><span class="qn">Quaestio Tertia</span><p class="qt">How do these synthetic political forms contest and recompose democracy?</p></div>
+      </div>
+      <div class="vis" style="justify-content:center">
+        <div class="figbox crt big"><img src="media/fig/image6.png" alt="Figure III.1: Democracy → Technosocial Sculpture"><span class="figcap">Fig. III.1 — Democracy → Technosocial Sculpture</span><p class="fignote frag">A curved arrow from Democracy to Technosocial Sculpture: democracy no longer the unquestioned regime under which synthetic politics occur, but the material turned, through those experiments, into a technosocial and sculptural problem.</p></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (Figure III.1, §III: 81).</div>
+  </section>
+
+  <!-- 29 · TECHNOSOCIAL SCULPTURE / BEUYS (concept) -->
+  <section class="slide" data-mode="terminal" data-screen-label="33 Technosocial sculpture" data-speaker-notes="The concept on its own. Inherits Beuys's social sculpture through a narrow channel: party-form as sculptural material. Krauss keeps the category finite.">
+    <div class="chrome"><span><b>III.I</b> · SOCIAL → TECHNOSOCIAL SCULPTURE</span><span><span class="folio">synthesis §III.I</span> <span class="mode">SYS</span> 33</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">inherit Beuys.party_form()</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal"><span class="g">Technosocial sculpture</span>: a method for shaping the societal body through technical systems, staging, and institutional arrangements. Once the societal body is <span class="e">composed rather than given</span>, democracy becomes a material to be handled and formed anew.</p>
+        <ul class="gloss tight">
+          <li class="frag">It inherits its name from Joseph Beuys's <span class="e">social sculpture</span> (Soziale Plastik) — but through a narrow channel: his repeated formation of political organisation, e.g. the German Student Party (1967), its office inside the Düsseldorf Art Academy (Ursprung 2021).</li>
+          <li class="frag">With Krauss, I define sculpture through «logical operations on a set of cultural terms» — an <span class="e">expanded but finite set</span> — so the category does not dissolve into a universal continuum (Krauss 1979).</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win" data-video="uploads/Joseph%20Beuys%20u%CC%88ber%20seine%20Theorie%20der%20Plastik.mp4"><div class="t"><span>PARTY-FORM AS MEDIUM</span><span>DSP, after Beuys</span></div><div class="v"><img src="media/fig/image14.jpg" alt="party-form as sculptural material"></div><div class="cap">Click to play — Beuys on his theory of sculpture; party-form as the first material of social sculpture</div></div>
+      </div>
+    </div>
+    <div class="cite">Krauss, Rosalind. 1979. "Sculpture in the Expanded Field." <i>October</i> 8: 30–44. · Ursprung, Philip. 2021. "Joseph Beuys und die Grünen." Heinrich Böll Stiftung, 7 May 2021. · Staunæs 2026, <i>Syntheticism</i> (§III.I).</div>
+  </section>
+
+  <!-- 30 · COMMANDABILITY → ANSWERABILITY (golem, robot, bomb) -->
+  <section class="slide" data-mode="terminal" data-screen-label="34 Commandability" data-speaker-notes="AI as sculptural material: what form does it take once infrastructures built to sort people begin to address them? Golem, robot, bomb.">
+    <div class="chrome"><span><b>III.II</b> · FROM COMMANDABILITY TO ANSWERABILITY</span><span><span class="folio">synthesis §III.II</span> <span class="mode">SYS</span> 34</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">trace lineage: golem → robot → bomb</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">Command and answer</p>
+        <ul class="gloss tight">
+          <li class="frag">AI itself becomes a <span class="e">sculptural material</span>. The question: what form does technosocial sculpture take once infrastructures built to <span class="e">sort</span> people begin to <span class="e">address</span> them?</li>
+          <li class="frag">And what prior logics of <span class="g">command</span> and <span class="g">answer</span> — golem, robot, bomb — do they carry into that address? «The machine is the modern counterpart of the Golem of the Rabbi of Prague» (Wiener 1964: 94).</li>
+          <li class="frag">The shift the dissertation tracks is from <span class="e">commandability</span> (an instrument obeys) to <span class="e">answerability</span> (a respondent can be held to account).</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>IDIOTEXTUAL COMPLEX</span><span>Theory Tragedy · ILL. 4</span></div><div class="v" style="background:#f3efe2"><img src="media/fig/image52.png" alt="Distributed authorship spiral — Theory Tragedy"></div><div class="cap">Distributed authorship: occurrence · recurrence · consistence (Computer Lars)</div></div>
+      </div>
+    </div>
+    <div class="cite">Wiener, Norbert. 1964. <i>God &amp; Golem, Inc.</i> Cambridge, MA: MIT Press: 94. · Scholem, Gershom. 1966. "The Golem of Prague and the Golem of Rehovoth." <i>Commentary</i> 41 (1): 62–65. · Staunæs 2026, <i>Syntheticism</i> (§III.II). (The bomb returns at §IV.)</div>
+  </section>
+
+  <!-- 31 · DIELLA (no quote of me; full refs) -->
+  <section class="slide" data-mode="feed" data-screen-label="35 Diella" data-speaker-notes="Diella, Or: Commanding the Golem. Albania, Sept 2025: Rama installs an AI avatar over public procurement, routed through his own authority.">
+    <div class="chrome"><span><b>III.III</b> · DIELLA, OR: COMMANDING THE GOLEM</span><span><span class="folio">synthesis §III.III</span> <span class="mode feed">FEED</span> 35</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">install Diella --over procurement --routed-through PM</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">In September 2025, Albanian Prime Minister Edi Rama introduced <span class="e">Diella</span>, an AI avatar from the e-Albania portal, to oversee public procurement (AP 2025).</p>
+        <ul class="gloss tight">
+          <li class="frag">Rama is also a painter — former rector of Albania's National Academy of Arts — who staged Diella's parliamentary debut on large screens before the national assembly.</li>
+          <li class="frag">As the constitution requires a minister eligible to serve as a deputy, Diella had to appear ministerial without fully occupying the office whose grammar she invoked; power was routed through the prime minister's authority — faintly golemic, made to answer without being answerable (Démas &amp; Perez 2025).</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="post"><div class="phead"><div class="pav">▶</div><div class="pwho"><b>Diella</b><span>Albanian parliament · APT</span></div><div class="pmore">···</div></div><div class="pmedia"><img src="media/fig/image16.jpg" alt="Diella in Albanian parliament"></div><div class="pcap">Opposition protest erupted over the constitutional status of the appointment.</div></div>
+      </div>
+    </div>
+    <div class="cite">AP. 2025. "Albania's Prime Minister Appoints an AI-Generated 'Minister' to Tackle Corruption." Associated Press, 12 September 2025. · Démas, Martin, and Luisa Maciel Perez. 2025. "The Human Crisis of AI Exceptionalism: The Case of Diella." EMILDAI, 3 October 2025. · Staunæs 2026, <i>Syntheticism</i> (§III.III).</div>
+  </section>
+
+  <!-- 32 · WIKTORIA CUKT (Wiktoriomat photo) -->
+  <section class="slide" data-mode="feed" data-screen-label="36 Wiktoria" data-speaker-notes="Wiktoria Cukt, Or: Answering the Robot. Poland 2000, C.U.K.T. Her position composed from the public's answers. Reactivated 2.0 with Wyrzykowski.">
+    <div class="chrome"><span><b>III.IV</b> · WIKTORIA CUKT, OR: ANSWERING THE ROBOT</span><span><span class="folio">synthesis §III.IV</span> <span class="mode feed">FEED</span> 36</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">compose candidate FROM public_input</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">In 2000, <span class="e">Wiktoria Cukt</span> ran for president of Poland against Aleksander Kwaśniewski — created by the collective C.U.K.T. under the slogan «the obsolescence of politicians» (Ujazdowski Castle 2025).</p>
+        <ul class="gloss tight">
+          <li class="frag">Her programme: «elimination of human factors from decision-making processes» and «electronic direct democracy», via Civic Electoral Software.</li>
+          <li class="frag">The point: to let the candidate's position be <span class="e">composed</span> from public input — if users answered from the left, she answered from the left; if contradictory, she mirrored contradiction.</li>
+          <li class="frag">Her slogan «the obsolescence of politicians» derives from <span class="e">Stanisław Lem</span> (Lem 2013). From 2024, Wyrzykowski and I reactivated her through AI, alongside Leader Lars.</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win" data-video="uploads/snaptik_7509927318693924118_v3.mp4"><div class="t"><span>WIKTORIOMAT · WIKTORIA 2.0</span><span>Synthetic Summit</span></div><div class="v"><img src="uploads/22_Photo_Kunsthal%20Aarhus.JPG" alt="Wiktoriomat installation, Wiktoria Cukt 2.0"></div><div class="cap">The Wiktoriomat — audiences in live dialogue with Wiktoria Cukt 2.0 (Synthetic Summit, Kunsthal Aarhus 2025)</div></div>
+      </div>
+    </div>
+    <div class="cite">Ujazdowski Castle Centre for Contemporary Art. 2025. <i>AI Władza Sztuki.</i> Exhibition, June–September 2025. Warsaw. · Wiktoria Cukt. 2000. E-mail archive, private exchange with Piotr Wyrzykowski. · Szymczyk, Joanna. 2000. "Wiktoria na prezydenta!" <i>Cosmopolitan</i> (Poland) 10 (42). · Staunæs 2026, <i>Syntheticism</i> (§III.IV).</div>
+  </section>
+
+  <!-- 33 · SYNTHETIC CHAMBER (Article 6) -->
+  <section class="slide" data-mode="feed" data-screen-label="37 Synthetic Chamber" data-speaker-notes="Article 6 with Michal Malý: a synthetic chamber of parliament. Citizens' assembly debates pass through agentic AIs and return as multi-voiced reports.">
+    <div class="chrome"><span><b>ARTICLE 6</b> · THE SYNTHETIC CHAMBER</span><span><span class="folio">AI &amp; Society (2026)</span> <span class="mode feed">FEED</span> 37</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">deploy synthetic_chamber --agentic</span><span class="cur"></span></div>
+    <div class="main">
+      <p class="lead frag" style="font-size:30px;margin-bottom:14px">Technosocial sculpture given concrete form: a <span class="e">synthetic chamber of parliament</span>, where debates from citizens' assemblies pass through agentic AIs and return to politicians as <span class="e">multi-voiced reports they are obliged to address publicly</span> (Malý &amp; Staunæs 2026).</p>
+      <div class="mgrid three">
+        <div class="win"><div class="t"><span>FIG 1 · CONSTITUTIONAL WORKFLOW</span><span>Synthetic Chamber</span></div><div class="v" style="background:#0d0a02"><img src="media/fig/image56.jpg" alt="Constitutional workflow"></div></div>
+        <div class="win"><div class="t"><span>FIG 2 · ISSUE SPACE · COHORT · INTERFACE</span><span>Synthetic Chamber</span></div><div class="v" style="background:#0d0a02"><img src="media/fig/image57.jpg" alt="Issue space, cohort, interface"></div></div>
+        <div class="win"><div class="t"><span>FIG 3 · REPORT MANIFOLD</span><span>Synthetic Chamber</span></div><div class="v" style="background:#0d0a02"><img src="media/fig/image58.jpg" alt="Report manifold"></div></div>
+      </div>
+    </div>
+    <div class="cite">Article 6: Malý, M., &amp; Staunæs, A. 2026. 'Synthetic chamber: agentic mediation in representative democracy.' <i>AI &amp; Society</i> (2026): 1–13. doi 10.1007/s00146-026-03110-w. The simulator generated 3,169 attributed turns, median 13 speakers/session.</div>
+  </section>
+
+  <!-- 34 · DEMOCRATIC SPECIFICATION (Haraway / Dewey, marked as quotes) -->
+  <section class="slide" data-mode="terminal" data-screen-label="38 Democratic specification" data-speaker-notes="The mismatch: institutions of representation no longer coincide with the sites where responses are generated. Democracy = ongoing composition of response-sites. Haraway's response-ability; a Deweyan public.">
+    <div class="chrome"><span><b>III.V</b> · DEMOCRATIC SPECIFICATION</span><span><span class="folio">synthesis §III.V</span> <span class="mode">SYS</span> 38</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">define democracy()</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+    <div class="main">
+      <p class="versal frag" style="max-width:42em">The institutional surfaces of representation no longer coincide with the sites at which responses are generated, sorted, and made consequential. <span class="e">This mismatch</span> renders democratic representation structurally unstable.</p>
+      <div class="row2">
+        <div class="g2 half">
+          <div class="g2cell frag" style="grid-column:1 / -1"><b style="color:var(--hi)">Democracy: the ongoing composition of response-sites</b> — a way of exposing and arranging mediation (Staunæs 2026: 107).</div>
+          <div class="g2cell frag">It inherits Donna Haraway's <span class="e">response-ability</span>: a relational capacity enacted through situated encounters, not a moral attribute of sovereign subjects (Haraway 2016: 34).</div>
+          <div class="g2cell frag">Its democratic bearing comes through Dewey: a public forms of «all those affected by the indirect consequences of transactions» to the extent those need «systematically» caring for (Dewey 1927: 15–16).</div>
+        </div>
+        <div class="vis" style="flex:0 0 34%">
+          <div class="win"><div class="t"><span>FIG · DEMOCRACY EDGE</span><span>Articles 6–7</span></div><div class="v" style="background:#fff"><img src="media/fig/image55.png" alt="Democracy edge of the research geometry (Articles 6-7)"></div><div class="cap">The left edge — Democracy — read as response-sites</div></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="cite">Haraway, Donna J. 2016. <i>Staying with the Trouble: Making Kin in the Chthulucene.</i> Durham, NC: Duke University Press: 34. · Dewey, John. 1927/1946. <i>The Public and Its Problems.</i> New York: Henry Holt: 15–16. · Staunæs 2026, <i>Syntheticism</i> (§III.V).</div>
+  </section>
+
+  <!-- 35 · GOVERNANCE ALGORITHM — THE MOVE (Article 7) -->
+  <section class="slide" data-mode="terminal" data-screen-label="39 Governance algorithm" data-speaker-notes="Article 7. Recast democracy as a property of governance algorithms. From Asimov's Three Laws to a constraint hierarchy. D on substrate Sigma.">
+    <div class="chrome"><span><b>ARTICLE 7</b> · DEMOCRACY AS A GOVERNANCE ALGORITHM</span><span><span class="folio">AAU Open (2026): 6–26</span> <span class="mode">SYS</span> 39</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">specify democracy AS property_of(governance_algorithm)</span><span class="cur"></span></div>
+    <div class="main center mid">
+      <p class="term sm frag" style="text-align:center">The move: from law-of-robot to law-of-algorithm</p>
+      <p class="stmt frag" style="max-width:40em;text-align:center;margin:0 auto">As algorithmic systems settle into administration, platforms, finance, logistics, and policing, governance is channelled through optimisers that route signals into operations and operations into world-states. I recast democracy as a <span class="e">constrained choice problem</span> over governance algorithms.</p>
+      <div class="spec big frag">
+        <div class="sl">Specification · the governance algorithm</div>
+        <div class="eq"><span class="o">D</span> : Σ &nbsp;<span class="d">↦</span>&nbsp; (signals, world-states) <span class="d">→</span> operations</div>
+        <div class="gloss2">A governance algorithm <b>D</b> runs on a substrate <b>Σ</b>, mapping <b>signals</b> (votes, metrics, logs, model outputs) and <b>world-states</b> (social, ecological, institutional, epistemic snapshots) into <b>operations</b> (laws, budgets, configurations, enforcement). Democracy becomes a property not of who votes, but of which constraints <b>D</b> must satisfy — and under what ordering admissible algorithms are preferred.</div>
+      </div>
+    </div>
+    <div class="cite">Article 7: Staunæs, Asker Bryld. 2026. 'Democracy as a Governance Algorithm: A Constraint Hierarchy for the AI Society.' <i>Controversies of AI Society: Proceedings</i>, 6–26. Aalborg University Open. doi 10.54337/aau.add.scai.2026.</div>
+  </section>
+
+  <!-- 36 · THE CONSTRAINT HIERARCHY (H / C / E) — my Art 7 graphs -->
+  <section class="slide" data-mode="terminal" data-screen-label="40 Three evaluators" data-speaker-notes="The constraint hierarchy: Habitability (a floor, a gate not a target), Contestability (channels to challenge and revise), Extension (standing for those already inscribed).">
+    <div class="chrome"><span><b>ARTICLE 7</b> · THE CONSTRAINT HIERARCHY</span><span><span class="folio">Art 7, §§7.8–7.10</span> <span class="mode">SYS</span> 40</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">eval H(D), C(D), E(D)</span><span class="cur"></span></div>
+    <div class="main split textmajor">
+      <div class="txt">
+        <ol class="lawlist">
+          <li class="frag"><b>Habitability</b> <span class="sym">H(D)</span> — a probabilistic constraint on trajectories: a <span class="e">floor, a gate, not a target to maximise</span>. Maximising it summons safety-as-sovereignty; within the admissible set the democratic ordering is insensitive to further survival gains.</li>
+          <li class="frag"><b>Contestability</b> <span class="sym">C(D)</span> — «the availability of channels through which those affected can challenge, interrupt, and revise the operations that govern them» (Cohen &amp; Suzor 2024). A system flawless yet unalterable by those it governs scores <span class="e">zero</span>.</li>
+          <li class="frag"><b>Extension</b> <span class="sym">E(D)</span> — standing within the already-inscribed set: «if the system already routes you, models you, or extracts from you, then it owes you a pathway to <span class="e">act back on it</span>».</li>
+        </ol>
+      </div>
+      <div class="vis" style="flex-direction:column;gap:14px">
+        <div class="win" style="flex:1"><div class="t"><span>FIG 3 · HABITABILITY AS A CONSTRAINT</span><span>Art 7</span></div><div class="v" style="background:#fff"><img src="media/fig/image62.png" alt="Habitability as a probabilistic constraint on trajectories"></div></div>
+        <div class="win" style="flex:1"><div class="t"><span>FIG 2 · LEXICOGRAPHIC CHOICE</span><span>maximise C, then E</span></div><div class="v" style="background:#fff"><img src="media/fig/image61.png" alt="Lexicographic choice under measurement uncertainty"></div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs, Asker Bryld. 2026c. "Democracy as a Governance Algorithm." In <i>Controversies of AI Society: Proceedings</i>, 6–26. Aalborg University Open (§§7.8–7.10). · Cohen and Suzor 2024 (contestability). Figs 2–3, author's elaboration.</div>
+  </section>
+
+  <!-- 37 · THE TRAPS — my Art 7 phase diagram -->
+  <section class="slide" data-mode="feed" data-screen-label="41 The traps" data-speaker-notes="The traps the ordering surfaces: the scalar trap, safety-as-sovereignty, and 'no Proust, yes potholes'. The phase diagram: optimisation must be matched by contestability.">
+    <div class="chrome"><span><b>ARTICLE 7</b> · WHAT THE ORDERING SURFACES</span><span><span class="folio">Art 7, §§7.10–7.11</span> <span class="mode feed">FEED</span> 41</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">collide rigid_ordering × uncooperative_world</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="term sm frag">Three failures, dramatised</p>
+        <ul class="gloss tight">
+          <li class="frag"><span class="g">The scalar trap</span> — democracy appended as a number to be maximised. Treat it as a scalar objective and you optimise the life out of it.</li>
+          <li class="frag"><span class="g">Safety-as-sovereignty</span> — maximise habitability and you license the safety-maximising authoritarian: ever-safer rule, ever-less politics.</li>
+          <li class="frag"><span class="g">No Proust, yes potholes</span> — a governance that cannot render the future fills it with maintenance. Rigid ordering, applied to a world that refuses fixed rules, <span class="e">produces the political material from which democracy is made</span>.</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>FIG 4 · STABILITY PHASE DIAGRAM</span><span>optimisation vs contestability</span></div><div class="v" style="background:#fff"><img src="media/fig/image63.png" alt="Stability phase diagram: scaling optimisation versus contestability"></div><div class="cap">Rising optimisation power requires rising contestability, or automation dominates (Art 7, Fig 4)</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs, Asker Bryld. 2026c. "Democracy as a Governance Algorithm: A Constraint Hierarchy for the AI Society." In <i>Controversies of AI Society: Proceedings</i>, 6–26. Aalborg: Aalborg University Open (§§7.3, 7.10–7.11). Fig 4, author's elaboration.</div>
+  </section>
+
+  <!-- 38 · KI-DIPFIES (embed live site) -->
+  <section class="slide" data-mode="feed" data-screen-label="42 KI-DIPFIES" data-speaker-notes="The constraints as a generative grammar: KI-DIPFIES, a swarm of synthetic personas enacting the specification as a self-modifying sculpture. Click to enter the live text dungeon.">
+    <div class="chrome"><span><b>ARTICLE 7</b> · KI-DIPFIES — A GENERATIVE GRAMMAR</span><span><span class="folio">Kunstraum MEMPHIS · Fig 6</span> <span class="mode feed">FEED</span> 42</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">launch KI-DIPFIES --swarm --self-modifying</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">At Kunstraum MEMPHIS in Linz (2026), <span class="e">KI-DIPFIES</span> functioned as a control interface for swarm-based party formation.</p>
+        <ul class="gloss tight">
+          <li class="frag">It drew on the fictional newspaper curmudgeon <span class="g">Vitus Mostdipf</span> as a vernacular character, urging visitors to build a local party (Mostdipf 2024).</li>
+          <li class="frag">A swarm of synthetic political personas enacts the constraint specification «as a self-modifying sculpture» (Staunæs 2026b).</li>
+          <li class="frag">It is an interactive text dungeon: timelines run by branching vectors — <span class="e">forward, backward, heckle</span> — each branch a candidate governance algorithm tested against Habitability, Contestability, and Extension (Fig 6).</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win" data-embed="https://computerlars.github.io/KI-DIPFIES/"><div class="t"><span>KI-DIPFIES · LIVE</span><span>computerlars.github.io</span></div><div class="v" style="background:#050300"><img src="media/fig/image65.jpg" alt="KI-DIPFIES text dungeon"></div><div class="cap">Click to enter the live text dungeon (embedded) — 3 March 2026, the summit's second day</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs, Asker Bryld. 2026c. "Democracy as a Governance Algorithm" (Fig 6). Aalborg University Open. · Kunstraum MEMPHIS. 2026a. <i>KI-DIPFIES.</i> Exhibition, Linz, 12 February – 10 March 2026. · Mostdipf, Vitus. 2024. "Heit versprich i hoch und heilig." <i>Oberösterreichische Nachrichten</i>, 5 June 2024.</div>
+  </section>
+
+  <!-- 39 · DEMOCRACY ON THE RUN -->
+  <section class="slide" data-mode="feed" data-screen-label="43 Democracy on the run" data-speaker-notes="7.11 Democracy on the Run. Elections, parties, law do not disappear — they no longer exhaust the control surface. The loop re-constitutes from the wreckage.">
+    <div class="chrome"><span><b>ARTICLE 7</b> · DEMOCRACY ON THE RUN</span><span><span class="folio">Art 7, §7.11</span> <span class="mode feed">FEED</span> 43</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">while(world) { democracy.recompose() }</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">My claim is not that elections, parties, and law disappear, but that they <span class="e">no longer exhaust the control surface</span> of collective life once models, scores, and pipelines decide.</p>
+        <ul class="gloss tight">
+          <li class="frag">The governance algorithm itself crashes — «Algorithmic Democracy, 2.0» re-constitutes from the wreckage.</li>
+          <li class="frag">Democracy becomes a <span class="e">generative grammar</span>: a code to be inscribed where society is actively being organised, testing existing forms of algorithmic democracy and widening what is representable.</li>
+        </ul>
+      </div>
+      <div class="vis">
+        <div class="win" data-embed="https://computerlars.github.io/KI-DIPFIES/"><div class="t"><span>THE LOOP · KI-DIPFIES</span><span>self-modifying sculpture</span></div><div class="v" style="background:#050300"><img src="media/fig/image65.jpg" alt="KI-DIPFIES text dungeon"></div><div class="cap">Click to enter the live text dungeon — the closing question of the governance algorithm</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs, Asker Bryld. 2026c. "Democracy as a Governance Algorithm" (§7.11 "Democracy on the Run"). Aalborg University Open. · Kunstraum MEMPHIS. 2026a. <i>KI-DIPFIES.</i> Exhibition by Computer Lars and Leander Gussmann, 12 February – 10 March. Linz.</div>
+  </section>
+
+  <!-- RQ3 ANSWERED -->
+  <section class="slide" data-mode="terminal" data-screen-label="44 RQ3 answered" data-speaker-notes="Close edge 3 with the explicit answer to RQ3, verbatim from the §III.V conclusion.">
+    <div class="chrome"><span><b>RESPONDEO III</b> · RQ3 ANSWERED</span><span><span class="folio">synthesis §III.V</span> <span class="mode">SYS</span> 44</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">return answer(RQ3)</span><span class="cur"></span></div>
+    <div class="main center mid">
+      <div class="respondeo-head frag"><span class="qn">Quaestio Tertia</span><p class="qa">How do these synthetic political forms contest and recompose democracy?</p></div>
+      <p class="answer frag">They make even the <span class="e">arrangements of registration, authorisation, and address</span> contestable. What I have been calling democracy designates forms of societal rule in which the allocation of speaking positions and the care of their indirect consequences are continuously made public — democracy names a way of <span class="e">exposing and arranging mediation</span>: the ongoing composition of response-sites, formalised in Article 7 as a democratic constraint on governance algorithms.</p>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§III.V, closing RQ3: 108). · Dewey, John. 1927/1946. <i>The Public and Its Problems.</i> New York: Henry Holt: 15–16.</div>
+  </section>
+
+  <!-- COLLAGE PASSING → PART IV -->
+  <section class="slide collage-slide" data-mode="feed" data-collage data-cmode="4" data-screen-label="45 Part IV passage" data-speaker-notes="Collage passing slide into Part IV, mirroring the edge intros.">
+    <div class="cwall"></div>
+    <div class="cvig"></div>
+    <div class="cov">
+      <span class="qn">Part IV · the box opened</span>
+      <h2>Re-<br>orientation</h2>
+      <div class="sub">Stop expanding; start exposing. What has the structure been resting on?</div>
+      <span class="cnt">from response · to the bomb · to a machine-learned love</span>
+    </div>
+  </section>
+
+  <!-- 41 · REORIENTATION -->
+  <section class="slide" data-mode="terminal" data-screen-label="46 Reorientation" data-speaker-notes="Part IV. Open the geometry as a box. The figure in the Computer Lars uniform is me — and the permutation that resists collapse into biography. The fictionality charge.">
+    <div class="chrome"><span><b>IV</b> · REORIENTATION</span><span><span class="folio">synthesis §IV</span> <span class="mode">SYS</span> 46</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">open geometry --as box · expose substrate</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">A geometry built for orientation cannot proliferate indefinitely. At some point it must stop expanding and start <span class="e">exposing</span>. Let us therefore open the geometry as a box.</p>
+        <ul class="gloss tight">
+          <li class="frag">The figure in the party uniform is me. What I recognise is not myself as bearer of practice, but my position relative to the permutation that <span class="g">Computer Lars</span> names — and the way it resists collapse into a biography.</li>
+          <li class="frag">I theorise as Asker Bryld Staunæs but practise under mandate from Computer Lars — an open signature and anagram of Marcel Proust.</li>
+        </ul>
+        <p class="stmt frag" style="color:var(--hi)">Across Computer Lars's meta-positions — curator, party secretary, researcher, cardboard effigy, anagram — the inquiry risks the charge of <span class="e">diffusing responsibility through the fictionality of an art exhibition</span> (Staunæs 2026: 112).</p>
+      </div>
+      <div class="vis">
+        <div class="win" data-video="uploads/This%20is%20a%20video%20of%20Computer%20Lars%20-%20party%20secretary%20of%20The%20Synthetic%20Party.mp4"><div class="t"><span>FIG. IV.1 — REORIENTATION</span><span>the geometry, inhabited</span></div><div class="v" style="background:#fff"><img src="media/fig/image19.png" alt="Computer Lars in The Synthetic Party uniform, inside the research geometry"></div><div class="cap">Dressed as Computer Lars, standing inside the research geometry. Click to play — the party secretary speaks</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§IV "Reorientation, Or: How I Learned to Stop Worrying and Love Democracy").</div>
+  </section>
+
+  <!-- 40 · BRIDGE: THE BOMB (Anders) -->
+  <section class="slide" data-mode="terminal" data-screen-label="47 The bomb" data-speaker-notes="Bridge from RQ3 to reorientation. Anders: the bomb as robotic arrangement that substitutes response for responsibility. AI architects equate AI to the bomb in the name of democracy.">
+    <div class="chrome"><span><b>IV</b> · THE BOMB: DISPROPORTION</span><span><span class="folio">synthesis §III.II</span> <span class="mode">SYS</span> 47</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">substitute responsibility → response</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="versal">Günther Anders read the nuclear bomb as a <span class="e">robotic arrangement</span> — a chain so composed of partial actions that «in the end, nobody would have done it» (Anders 2025: 211).</p>
+        <ul class="gloss tight">
+          <li class="frag">«oracle machines, automatic electronic consciences» are built «to which responsibility can now be delegated,» while «humans stand by … washing their hands in innocence» (Anders 2025: 211).</li>
+          <li class="frag">AI's architects now cast democracy as the form meant to govern catastrophic scale: a nuclear precedent, «something like an IAEA» (Altman, Brockman &amp; Sutskever 2023).</li>
+        </ul>
+        <p class="stmt frag" style="color:var(--hi)">«Democratic safeguarding is how the bomb survives its detonation» (Staunæs 2026: 97). My framing diverges: the synthetic is <span class="e">morphologically generative</span>.</p>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>DR. STRANGELOVE</span><span>riding the bomb</span></div><div class="v" style="background:#000"><img src="media/fig/image21.jpg" alt="Dr. Strangelove — riding the bomb"></div><div class="cap">Where the bomb rendered 'the human' a historical category, the algorithmic organisation of response made 'the politician' superfluous (Hui 2025; Anders 2025)</div></div>
+      </div>
+    </div>
+    <div class="cite">Anders, Günther. 2025. <i>The Obsolescence of the Human. Vol. 1.</i> Cambridge, MA: MIT Press. · Hui, Yuk. 2025. <i>Machine and Sovereignty.</i> Minneapolis: University of Minnesota Press. · Altman, Sam, Greg Brockman, and Ilya Sutskever. 2023. "Governance of Superintelligence." OpenAI, 18 December 2023. · Amodei, Dario. 2025. "Statement on the Paris AI Action Summit." Anthropic, 11 February 2025. · Bengio, Yoshua. 2023. "AI and Catastrophic Risk." <i>Journal of Democracy</i> 34 (4): 111–21. · Guterres, António. 2023. UN press briefing on AI, 12 June 2023.</div>
+  </section>
+
+  <!-- 42 · THE ENGINE: LAPUTA FROM LAGADO (Swift) -->
+  <section class="slide" data-mode="terminal" data-screen-label="48 Laputa from Lagado" data-speaker-notes="The title compresses Dr. Strangelove. Laputa, Swift's floating island of theorists; below it, Lagado and the Engine that permutes text. To specify democracy at the level of totality is to target Laputa from Lagado.">
+    <div class="chrome"><span><b>IV</b> · TO TARGET LAPUTA FROM LAGADO</span><span><span class="folio">synthesis §IV</span> <span class="mode">SYS</span> 48</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">compress("Dr. Strangelove") → bomb Laputa</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="lagado frag">The title <span class="e">Syntheticism: How I Learned to Love Democracy</span> compresses Kubrick's <span class="e">Dr. Strangelove</span> (Kubrick 1964) — released the year Lem published <span class="g">Summa Technologiae</span> (Lem 2013).</p>
+        <ul class="gloss tight">
+          <li class="frag">Kubrick names the primary target <span class="e">Laputa</span>, after Swift's floating island of abstract theorists, suspended above the ground it governs (Swift 2004: 220).</li>
+          <li class="frag">Below it, in <span class="e">Lagado</span>, the Grand Academy houses the Engine — Swift's device for generating text by the permutation of inscribed cubes, «a combinatorial precursor of the punch-card» (Swift 2004: 241).</li>
+        </ul>
+      </div>
+      <div class="vis" style="flex-direction:column;gap:10px;justify-content:center">
+        <div class="figbox frag" style="max-width:340px"><img src="media/fig/laputa_map.jpg" alt="Arthur Rackham, Map of Laputa and Balnibarbi" style="background:#e9dcb8;max-height:260px"><span class="figcap">Map of Laputa over Lagado — Swift</span></div>
+        <div class="figbox frag" style="max-width:210px"><img src="media/fig/image22.png" alt="Swift's Engine of Lagado, Plate V" style="background:#e9dcb8;max-height:210px"><span class="figcap">The Engine of Lagado — Plate V</span></div>
+      </div>
+    </div>
+    <div class="cite">Kubrick, Stanley. 1964. <i>Dr. Strangelove, or: How I Learned to Stop Worrying and Love the Bomb.</i> Los Angeles: Columbia Pictures. · Swift, Jonathan. 2004. <i>Gulliver's Travels</i>: 220, 241. London: Macmillan Collector's Library. · Lem, Stanisław. 2013. <i>Summa Technologiae.</i> Trans. Joanna Zylinska. Minneapolis: University of Minnesota Press. · Map: Arthur Rackham (Swift). · Staunæs 2026, §IV.</div>
+  </section>
+
+  <!-- 43 · MACHINE-LEARNED LOVE -->
+  <section class="slide" data-mode="terminal" data-screen-label="49 Machine-learned love" data-speaker-notes="The thesis sentence. Not renewed civic faith. A machine-learned love, trained on the disproportion between response and responsibility — a robot feeding answers into the response-stream that already runs.">
+    <div class="chrome"><span><b>IV</b> · HOW I LEARNED TO LOVE DEMOCRACY</span><span><span class="folio">synthesis §IV / resumé</span> <span class="mode">SYS</span> 49</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">model.fit(response, responsibility) → love</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt">
+        <p class="lead frag" style="font-size:34px">How I learned to love democracy was not through renewed civic faith or affective reconciliation.</p>
+        <p class="stmt frag" style="font-size:30px;max-width:30em">I acquired a <span class="e">machine-learned love</span>, trained on the disproportion between response and responsibility rather than on any native sentiment toward popular rule. I learned to love at the level where political form currently takes shape — which means as a robot feeding answers into the <span class="e">response-stream</span> that already runs.</p>
+        <p class="stmt frag" style="color:var(--hi)">So how did I learn to stop worrying and love democracy? <span class="e">Too late, from inside, and without anywhere else to stand.</span></p>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>WE DARED TO PLAY GOD WITH POLITICS</span><span>response-stream</span></div><div class="v"><img src="media/fig/image47.png" alt="Computer Lars, arms raised — we dared to play god with politics"></div><div class="cap">Feeding new forms of answerability back into the stream that already runs</div></div>
+      </div>
+    </div>
+    <div class="cite">Staunæs 2026, <i>Syntheticism</i> (§IV; resumé). Where public debate keeps AI and politics apart through an oscillation between utopian promise and apocalyptic worry, I have moved in the opposite direction.</div>
+  </section>
+
+  <!-- 44 · THE DIY-DEFENCE RESTS -->
+  <section class="slide" data-mode="terminal" data-screen-label="50 DIY-Defence rests" data-speaker-notes="Close the DIY-defence. Hand to the comrades. The Codex stays open for any concrete question.">
+    <div class="chrome"><span><b>EXPLICIT</b> · THE DIY-DEFENCE RESTS</span><span><span class="folio">fol. ∞</span> <span class="mode">SYS</span> 50</span></div>
+    <div class="cmd"><span class="u">lars@summa</span>:<span class="p">~/syntheticism</span><span class="p">$</span> <span class="c">halt --yield-to comrades</span><span class="cur"></span></div>
+    <div class="main split">
+      <div class="txt" style="justify-content:center">
+        <p class="term glitch frag" style="font-size:46px;line-height:1.08">Or: How I Learned to Stop Worrying and Love Democracy</p>
+        <p class="stmt frag" style="max-width:28em;font-size:31px">I remained in its blast radius long enough to let it <span class="e">flatten and extend me</span>, to accompany the robots there, and to feed new forms of answerability back into the response-stream.</p>
+        <div class="meta frag">Defendant: Computer Lars · sub mandato · abs@cc.au.dk<br>Institute of Emancipatory Science · all comrades are comité · every day</div>
+      </div>
+      <div class="vis">
+        <div class="win"><div class="t"><span>LOVE THE BOMB</span><span>after Kubrick 1964</span></div><div class="v" style="background:#000"><img src="media/fig/image21.jpg" alt="Dr. Strangelove — Major Kong riding the bomb"></div><div class="cap">Major Kong rides the bomb down. My building puts democracy in the bomb's place — the jammed apparatus we ride, and love, on the way down</div></div>
+      </div>
+    </div>
+  </section>
+
+</deck-stage>
+<script src="deck-stage.js"></script>
+<script src="comite.js"></script>
+<script src="terminal.js"></script>
+<script src="collage.js"></script>
+<script src="pdfwidget.js"></script>
+</body>
+</html>
